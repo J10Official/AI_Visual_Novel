@@ -139,27 +139,27 @@ def save_story_to_file(filepath, story_text, prompt, strategy, temperature, mode
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
     
     with open(filepath, 'w', encoding='utf-8') as f:
-        f.write("="*80 + "\n")
-        f.write(f"GENERATED STORY - {model_type.upper()}\n")
-        f.write("="*80 + "\n\n")
-        f.write(f"Model Type: {model_type}\n")
-        f.write(f"Decoding Strategy: {strategy}\n")
-        if temperature is not None:
-            f.write(f"Temperature: {temperature}\n")
-        if top_k is not None:
-            f.write(f"Top-K: {top_k}\n")
-        if top_p is not None:
-            f.write(f"Top-P: {top_p}\n")
-        f.write(f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-        f.write("\n" + "="*80 + "\n")
-        f.write("PROMPT:\n")
-        f.write("="*80 + "\n")
-        f.write(prompt + "\n")
-        f.write("\n" + "="*80 + "\n")
-        f.write("GENERATED STORY:\n")
-        f.write("="*80 + "\n\n")
+        # f.write("="*80 + "\n")
+        # f.write(f"GENERATED STORY - {model_type.upper()}\n")
+        # f.write("="*80 + "\n\n")
+        # f.write(f"Model Type: {model_type}\n")
+        # f.write(f"Decoding Strategy: {strategy}\n")
+        # if temperature is not None:
+        #     f.write(f"Temperature: {temperature}\n")
+        # if top_k is not None:
+        #     f.write(f"Top-K: {top_k}\n")
+        # if top_p is not None:
+        #     f.write(f"Top-P: {top_p}\n")
+        # f.write(f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+        # f.write("\n" + "="*80 + "\n")
+        # f.write("PROMPT:\n")
+        # f.write("="*80 + "\n")
+        # f.write(prompt + "\n")
+        # f.write("\n" + "="*80 + "\n")
+        # f.write("GENERATED STORY:\n")
+        # f.write("="*80 + "\n\n")
         f.write(story_text)
-        f.write("\n\n" + "="*80 + "\n")
+        # f.write("\n\n" + "="*80 + "\n")
 
 # ============================================
 # MAIN GENERATION FUNCTION
