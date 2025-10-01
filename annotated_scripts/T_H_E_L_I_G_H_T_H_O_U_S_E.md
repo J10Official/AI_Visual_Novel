@@ -1,0 +1,6116 @@
+::SCENE::
+LOCATION: BLACK
+MOOD: Ominous
+CHARACTERS: Narrator
+BACKGROUND_IMAGE: black.png
+BACKGROUND_EDIT: "Solid black screen"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The rumble of a lonely FOGHORN. Low. Faint.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: TITLE: T H E L I G H T H O U S E
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: ATLANTIC OCEAN
+MOOD: Vast, Lonely
+CHARACTERS: Narrator
+BACKGROUND_IMAGE: atlantic_ocean.png
+BACKGROUND_EDIT: "Extremely wide shot, dense fog, a small steam boat emerging"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: EXTREMELY WIDE SHOT: Fog. Nothing else in sight. Slowly, a SMALL STEAM BOAT emerges: A LIGHTHOUSE TENDER. It chugs along, a tiny blip in a vast ocean. Black smoke puffs from its crooked chimney. Its old engine sputters softly.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Hold.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The FOGHORN again, louder now. Closer.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: LIGHTHOUSE TENDER - PROW
+MOOD: Decay, Approaching
+CHARACTERS: Narrator
+BACKGROUND_IMAGE: lighthouse_tender_prow.png
+BACKGROUND_EDIT: "Close on the rotten, rusty prow of a steam boat cutting through waves"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: CLOSE ON: The rotten, rusty prow carves through the waves. The third-rate engine rumbles.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Hold.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: LIGHTHOUSE TENDER - DECK
+MOOD: Foreboding, Ominous
+CHARACTERS: Narrator, Shadows (Men)
+BACKGROUND_IMAGE: lighthouse_tender_deck_sunset.png
+BACKGROUND_EDIT: "Sunset, dense fog, shadows stand on the bow of a boat"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: WIDE: SHADOWS stand on the bow of the boat (back to CAMERA). They might be men, but they could just as easily be ghosts.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: THE FOGHORN BLASTS. It’s close enough to feel.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: A FLASH OF LIGHT breaks through the fog, revealing... The silhouette of a bleak stone island, no bigger than an acre: PILOT ROCK. A few ramshackle outbuildings cling to the surface like barnacles. On the highest point of the island stands a tall, crumbling LIGHTHOUSE TOWER. An ominous flock of SEAGULLS screech and caw around it.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: THE FOGHORN and LIGHT bellow and flash again.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: THE ISLAND itself seems to draw the boat and the men closer.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: PILOT ROCK - SHORE
+MOOD: Challenging, Isolated
+CHARACTERS: Narrator, Two Relief Mates, Two Men in dark uniforms
+BACKGROUND_IMAGE: pilot_rock_shore_sunset.png
+BACKGROUND_EDIT: "Dark in the fog, flashing light above, a transfer boat beached on the shore"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: It’s dark in the fog, even with the flashing light above.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: A TRANSFER BOAT is beached on the shore. TWO RELIEF MATES doll out provisions to TWO MEN in dark uniforms and caps. The hand-over is challenging.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The TWO UNIFORMED MEN come in and out of view, carrying supplies. One lags behind, carrying the heavier load.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: They walk past a small, dilapidated BOATHOUSE with no door. A poorly mended DORY -- THE LIFE BOAT -- is tied up inside, sitting on the twisted runners of the launch that stretch out into the lapping waves.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: PILOT ROCK - NEAR THE LIVING QUARTERS
+MOOD: Weary, Resigned
+CHARACTERS: Narrator, Two Departing Lightouse Keepers, Two New Wickies
+BACKGROUND_IMAGE: pilot_rock_living_quarters_sunset.png
+BACKGROUND_EDIT: "Near a clapboard shack adjoining the lighthouse, breezeway"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: TWO OTHER MEN (late 60s, same uniforms) exit the one-story CLAPBOARD SHACK that adjoins THE LIGHTHOUSE by a remarkably long breezeway. They are the departing LIGHTHOUSE KEEPERS -- “WICKIES,” as they refer to themselves. They lug gunny sacks over their shoulders, and drag their rope-handled ditty boxes by their sides, keeping their heads down. Their bearded faces are craggy and leaden. They reek of tobacco, must, and salt.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: They shuffle toward their relief: THE MEN FROM THE TENDER, carrying their supplies.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The four almost exchange glances. But they don’t bother.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: THE FOGHORN bellows.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: PILOT ROCK - NEAR THE LIVING QUARTERS
+MOOD: Eerie Disquiet, Isolation
+CHARACTERS: Narrator, Young Man, Old Man
+BACKGROUND_IMAGE: pilot_rock_living_quarters_later.png
+BACKGROUND_EDIT: "The new wickies stand still, gazing at the departing tender"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The new wickies stand utterly still, next to each other, their gazes fixed on the same distant spot.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: One man is YOUNG (early 30s). Tall, athletic –- but starved. His deep set eyes are haunted, and his left eye is healing from a week-old shiner. His crooked expression is severe. There’s an eerie disquiet about him. He’s like a dog that’s been beaten and caged too many times. A small mustache shows his vanity.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The other is OLD (Haggard 60? Spry 70?). He’s weathered, feral bearded, and hunched, with hands like vises. His lack of visible lips suggests some missing teeth. He tremors a bit, but he’s lean and sturdy as a lead pipe. His high cheekbones smile even when he grimaces. His wild eyes shine like jewels. He’s an old Pan. A Satyr.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Both of them seem like the kind of man you might find muttering to himself in the corner of an empty bar room with a distant look in his eye.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: They watch THE TENDER depart the island, ever-so-slowly disappearing -- swallowed up again by the fog.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: THE FOGHORN bellows louder than ever, penetrating deep through the bodies of the two men. IT SHAKES THE YOUNG MAN – shocks him – but not the OLD one. He’s used to it.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: OLD puts the stump of an unlit clay PIPE in his mouth (upside down). He lumbers out of frame, limping a bit, and happy to finally be “home again.”
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG stays standing, staring out. A bit of fear strikes him. There’s no turning back now.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: LIVING QUARTERS - GALLEY
+MOOD: Depressing, Sparse
+CHARACTERS: Narrator, Young Man
+BACKGROUND_IMAGE: living_quarters_galley.png
+BACKGROUND_EDIT: "Evening, run-down and spare kitchen, coal range, sink, cupboard, table, chairs"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: YOUNG throws down his heavy supplies. They thud against the warped, mildewed floorboards.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He walks through the kitchen and takes a look around... It’s run-down and spare: A coal range, a farmhouse sink with a water pump by the sole window, a small cupboard, a table and two chairs.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The wind blows. It’s depressing.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He keeps walking.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He hears the sound of dribbling water (O.S.)...
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: LIVING QUARTERS - PARLOR
+MOOD: Quiet, Observant
+CHARACTERS: Narrator, Young Man
+BACKGROUND_IMAGE: living_quarters_parlor.png
+BACKGROUND_EDIT: "Parlor with a rocker, potbelly stove, book chest, and a desk"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Entering the parlor, he sees: A reed splint rocker with a busted seat, a rattling potbelly stove, and a small, very dusty, government issue book chest.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: A CLOCK ticks monotonously.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Then, YOUNG spots a fine DESK with a ship in a bottle on top. It’s rolled shut. He looks around, shifty eyed, to be sure no one is watching him...
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Desk
+MOOD: Frustration
+CHARACTERS: Narrator, Young
+BACKGROUND_IMAGE: desk.png
+BACKGROUND_EDIT: "Close up on a desk with a locked drawer."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Instinctively, he passes his hand along the top of the desk to the lock. He jiggles it. Locked. Damn.
+  EXPRESSION: Frustrated
+
+::PATHS::
+- CHOICE: "Continue to the staircase"
+  TARGET: staircase
+  STATE_CHANGE: frustration = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Living Quarters - Staircase
+MOOD: Ominous
+CHARACTERS: Narrator, Young
+BACKGROUND_IMAGE: staircase.png
+BACKGROUND_EDIT: "Narrow, creaking wooden stairs."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Then, there is that persistent sound of dribbling water (O.S.)...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The sound grows louder as he climbs the narrow stairs, every tread creaking along the way. The dribbling grows louder...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He enters the sleeping quarters...
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Enter the bunkroom"
+  TARGET: bunkroom
+  STATE_CHANGE: curiosity = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Living Quarters - Bunkroom
+MOOD: Discomfort
+CHARACTERS: Narrator, Young, Old
+BACKGROUND_IMAGE: bunkroom.png
+BACKGROUND_EDIT: "Dismal bunkroom with two sagging beds."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Thud! Young bumps his head on the low ceiling...
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: Son-of-a--
+  EXPRESSION: Annoyed
+- CHARACTER: Narrator
+  LINE: He shakes it off...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The bunkroom is also dismal. Not much more than two sagging cast-iron single beds.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Old stands near his bed, pissing into his chamber pot.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Pause. Young absorbs the scene.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Young walks to the unoccupied bed and sits down. As soon as he does, Old farts about three feet away from Young’s face. A deliberate display of power.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Pause.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Old finishes relieving himself. He shakes his member. He buttons up, and kicks the pot under his bed. The piss nearly sloshes out. Mercifully, it doesn’t.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Old limps away whistling (the song “Tis Brasswork”).
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He pauses briefly...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Farts again.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He leaves frame, his uneven gait disappearing: Walk-drag, walk-drag, walk-drag...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Young sits on his bed. Still. Simmering. He’s not pleased.
+  EXPRESSION: Annoyed
+- CHARACTER: Narrator
+  LINE: But he’ll try to keep that to himself. He holds his head.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The clock from downstairs ticks...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Just then, Young feels something strange under him...
+  EXPRESSION: Curious
+- CHARACTER: Narrator
+  LINE: He feels around...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He discovers a hole in the mattress. Something is poking out...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He digs his finger into the hole...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He removes some horsehair stuffing...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He pulls out a small trinket, about six inches long... It’s a mermaid carved from ivory, with scrimshawed scales on her tail. A primitive but pretty effigy. Strange.
+  EXPRESSION: Curious
+- CHARACTER: Narrator
+  LINE: Young looks at it with a hungry curiosity...
+  EXPRESSION: Curious
+- CHARACTER: Narrator
+  LINE: He rubs his thumb over her body... her breasts...
+  EXPRESSION: Lustful
+- CHARACTER: Narrator
+  LINE: He feels a bit guilty and puts her in his pocket.
+  EXPRESSION: Guilty
+- CHARACTER: Narrator
+  LINE: Hold.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Examine the mermaid further"
+  TARGET: fog_signal_house
+  STATE_CHANGE: curiosity = +2, guilt = -1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Fog Signal House
+MOOD: Intense
+CHARACTERS: Narrator, Young
+BACKGROUND_IMAGE: fog_signal_house.png
+BACKGROUND_EDIT: "Interior of a fog signal house with a large steam-powered engine."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Close on: The hulking steam-powered foghorn engine. A piston pumps, gears grind, a huge flywheel spins and spins.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Camera booms down to: The mouth on the hungry furnace glowing with fire.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: A shovel full of coal enters frame and feeds the flames.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Another shovel full.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: And another.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The fog siren blows excruciatingly loudly.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Close, reverse: Young shovels coal into the furnace, dripping with sweat, wincing from the intense heat.
+  EXPRESSION: Strained
+- CHARACTER: Narrator
+  LINE: He shovels again and again.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The fog siren blows: Loud. Close. Painful.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Young braces himself, reeling from the sound.
+  EXPRESSION: Overwhelmed
+
+::PATHS::
+- CHOICE: "Continue shoveling"
+  TARGET: galley_vestibule
+  STATE_CHANGE: exhaustion = +2
+  CONDITION: null
+
+::SCENE::
+LOCATION: Living Quarters - Galley/Vestibule
+MOOD: Tense
+CHARACTERS: Narrator, Old, Young
+BACKGROUND_IMAGE: galley_vestibule.png
+BACKGROUND_EDIT: "Cramped galley area with a kitchen cabinet."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The contents of a kitchen cabinet are strewn about the floor.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Old is inside the built-in cabinet up to his waist, butt out. If he had a tail, it’d wag. He’s looking for something. Something secret.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Young watches from afar in the staircase. Old crawls out with a wooden crate. He grins with relief, pulling out a sea glass liquor bottle. He tremors a bit, it’s been too long.
+  EXPRESSION:null
+- CHARACTER: Narrator
+  LINE: Later. It’s dark.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The two men sit in the cramped galley. A kerosene lamp flickers on the table between them, it is bent to one side, but still works fine. Young looks at their meal, trying to hide his contempt: Lukewarm scrod and potatoes wait on battered mess plates. He rolls a cigarette on the table. His coal-blackened hands stain the paper.
+  EXPRESSION: Disgusted
+- CHARACTER: Narrator
+  LINE: Old sets down two cups. Tin. Chipped china.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: Should pale death with treble dread make the ocean caves our bed, God who hear'st the surges roll, deign to save the suppliant soul.
+  EXPRESSION: Solemn
+- CHARACTER: Narrator
+  LINE: He pours a strange, thick liquid into the cups. Homemade hooch?
+  EXPRESSION:null
+- CHARACTER: Old
+  LINE: To four weeks.
+  EXPRESSION: Hopeful
+- CHARACTER: Narrator
+  LINE: Young pauses. Damn, it looks good. He could use a drink. But he hesitates as if he thinks he is being tested.
+  EXPRESSION: Tempted
+- CHARACTER: Narrator
+  LINE: He decides to stay focused on the cigarette.
+  EXPRESSION:null
+- CHARACTER: Young
+  LINE: No, sir. Thank you.
+  EXPRESSION: Resolute
+- CHARACTER: Old
+  LINE: Bad luck to leave a toast unfinished, lad.
+  EXPRESSION: Stern
+- CHARACTER: Young
+  LINE: Meanin’ no disrespect, sir.
+  EXPRESSION: Polite
+- CHARACTER: Old
+  LINE: A man what don’t drink, best have his reasons.
+  EXPRESSION: Intrigued
+- CHARACTER: Young
+  LINE: Ain’t it--
+  EXPRESSION: Hesitant
+- CHARACTER: Narrator
+  LINE: Young stops himself to rephrase, more respectfully. It’s not easy for him to be well-mannered. He takes his time, so as not to fumble with the multisyllabic words.
+  EXPRESSION:null
+- CHARACTER: Old
+  LINE: Did you?
+  EXPRESSION: Skeptical
+- CHARACTER: Young
+  LINE: Yessir.
+  EXPRESSION: Confident
+- CHARACTER: Narrator
+  LINE: Old won’t budge. His cup is still raised.
+  EXPRESSION:null
+- CHARACTER: Young
+  LINE: From them’s manual.
+  EXPRESSION: Proud
+- CHARACTER: Old
+  LINE: Didn’t picture you was a readin’ man.
+  EXPRESSION: Surprised
+- CHARACTER: Young
+  LINE: Ain’t trying for trouble–-
+  EXPRESSION: Defensive
+- CHARACTER: Old
+  LINE: Then y’do as I say. That’s in yer book, too.
+  EXPRESSION: Authoritative
+- CHARACTER: Narrator
+  LINE: Long pause.
+  EXPRESSION:null
+- CHARACTER: Narrator
+  LINE: Young smiles. His expression seems to say: “This old guy is a piece of work.”
+  EXPRESSION: Amused
+- CHARACTER: Narrator
+  LINE: Young takes his cup very deliberately.
+  EXPRESSION:null
+- CHARACTER: Narrator
+  LINE: He stands up.
+  EXPRESSION:null
+- CHARACTER: Narrator
+  LINE: Pause.
+  EXPRESSION:null
+- CHARACTER: Narrator
+  LINE: He walks to the farmhouse sink and pours out the booze.
+  EXPRESSION:null
+- CHARACTER: Narrator
+  LINE: He pumps some water into his cup.
+  EXPRESSION:null
+- CHARACTER: Narrator
+  LINE: He sits back down.
+  EXPRESSION:null
+- CHARACTER: Narrator
+  LINE: He holds up his cup to toast. He’s proud. He won.
+  EXPRESSION: Triumphant
+- CHARACTER: Young
+  LINE: To four weeks.
+  EXPRESSION: Triumphant
+- CHARACTER: Narrator
+  LINE: Old smiles -– a little too wide. They click cups.
+  EXPRESSION:null
+- CHARACTER: Narrator
+  LINE: They drink...
+  EXPRESSION:null
+- CHARACTER: Narrator
+  LINE: Just as soon as they do: Young retches! A terrible taste. He spits-up into his cup. A bit on the floor.
+  EXPRESSION: Sickened
+
+::PATHS::
+- CHOICE: "React to the taste"
+  TARGET: end
+  STATE_CHANGE: disgust = +3, pride = -2
+  CONDITION: null
+
+::SCENE::
+LOCATION: Lighthouse Quarters
+MOOD: Grudging Compliance
+CHARACTERS: Narrator, OLD, YOUNG
+BACKGROUND_IMAGE: lighthouse_quarters.png
+BACKGROUND_EDIT: "Interior of a rough living space within a lighthouse, dimly lit"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Revels in the mishap.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Aye. The cistern needs a-lookin’ to. One of yer duties, lad. Or didn’t y’read yerself about it? Polishin’, swabbin’. Swabbin’ and polishin’. You’ll clean the brass and the clockwork, and you can tidy the quarters after. There’s well-more to be mended outside.
+  EXPRESSION: Stern
+- CHARACTER: YOUNG
+  LINE: nods yes, his dry heaving subsiding.
+  EXPRESSION: Subdued
+- CHARACTER: OLD
+  LINE: D’y’hear me, lad?
+  EXPRESSION: Stern
+- CHARACTER: YOUNG
+  LINE: Yessir--
+  EXPRESSION: Hesitant
+- CHARACTER: OLD
+  LINE: “Aye, sir!”
+  EXPRESSION: Correcting
+- CHARACTER: YOUNG
+  LINE: Aye, sir.
+  EXPRESSION: Obedient
+- CHARACTER: Narrator
+  LINE: OLD starts eating his supper. Happy. His habits are a bit uncouth.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: When the fog clears, you’ll work through the dog watch--
+  EXPRESSION: Matter-of-fact
+- CHARACTER: YOUNG
+  LINE: Doggin’ it? Was ‘spectin’ I’d git up to the lantern.
+  EXPRESSION: Questioning
+- CHARACTER: OLD
+  LINE: I tend the light.
+  EXPRESSION: Authoritative
+- CHARACTER: YOUNG
+  LINE: The rules is alternatin’ shifts--
+  EXPRESSION: Protesting
+- CHARACTER: Narrator
+  LINE: OLD is startlingly stern. Unblinking. No tremors. A speck of scrod hangs in his beard.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: It’s the mid watch that’s to dread, lad: night to morning. My watch.
+  EXPRESSION: Grim
+- CHARACTER: OLD
+  LINE: Some new junior man I’m fixed with- - Y’act like y’never been to sea a’fore.
+  EXPRESSION: Disdainful
+- CHARACTER: YOUNG
+  LINE: I...
+  EXPRESSION: Hesitant
+- CHARACTER: Narrator
+  LINE: YOUNG hesitates, he hasn’t been at sea before -- clearly. But not worth the trouble getting into it now.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: Aye, sir.
+  EXPRESSION: Resigned
+- CHARACTER: Narrator
+  LINE: OLD looks at him with disgust.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: That uni’form don’t fit ye.
+  EXPRESSION: Scornful
+- CHARACTER: YOUNG
+  LINE: Well, sir, it’s the one them establishment fellers gave me--
+  EXPRESSION: Defensive
+- CHARACTER: OLD
+  LINE: I’m meanin’ y’ain’t fit fer the wearin’ of it. See to yer duties. The light’s mine.
+  EXPRESSION: Dismissive
+
+::SCENE::
+LOCATION: Pilot Rock - Lighthouse Exterior
+MOOD: Ominous
+CHARACTERS: Narrator
+BACKGROUND_IMAGE: lighthouse_exterior.png
+BACKGROUND_EDIT: "Nighttime, extreme wide shot of a lighthouse with its beam flashing, foghorn blaring"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: EXTREME WIDE SHOT: THE LIGHTHOUSE flashes. THE FOGHORN blasts.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Fog Signal House - Interior
+MOOD: Frustration
+CHARACTERS: Narrator, YOUNG
+BACKGROUND_IMAGE: fog_signal_house_interior.png
+BACKGROUND_EDIT: "Nighttime, interior of a building housing a foghorn mechanism, with a furnace and a chair"
+
+::SCRIPT::
+- CHARACTER: YOUNG
+  LINE: shovels more coal into the furnace.
+  EXPRESSION: Angry
+- CHARACTER: Narrator
+  LINE: He casts a mean glance to the BOOK that rests on a chair by the hot, whirring machinery: “Instructions to Light-Keepers, July, 1881.” He curses the manual:
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: Son-of-a-bitch.
+  EXPRESSION: Angry
+- CHARACTER: Narrator
+  LINE: THE FOGHORN BLASTS.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: SON-OF-A-BITCH!
+  EXPRESSION: Furious
+- CHARACTER: Narrator
+  LINE: THE FOGHORN BLASTS AGAIN! YOUNG KICKS THE CHAIR OVER... THE MANUAL FALLS TO THE GROUND.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Lighthouse Tower Stairs
+MOOD: Ethereal
+CHARACTERS: Narrator
+BACKGROUND_IMAGE: lighthouse_tower_stairs.png
+BACKGROUND_EDIT: "Nighttime, interior of a lighthouse tower with spiral stairs and visible clockwork mechanisms"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: MUSIC CUE: Weird, haunting, ancient.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: THE CAMERA BOOMS UP THROUGH: The clinking and clanking gears of the light’s clockwork...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: A heavy lead weight on a chain slowly rises up through the center of the tower’s cast-iron spiral stairs...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Wondrous patterns of swirling light move through the ironwork.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The patterns shift rhythmically -– hypnotically.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Otherworldly.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Lighthouse Lantern Room
+MOOD: Mesmerized
+CHARACTERS: Narrator, OLD
+BACKGROUND_IMAGE: lighthouse_lantern_room.png
+BACKGROUND_EDIT: "Nighttime, interior of a lighthouse lantern room, with a large Fresnel lens and an old man"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: MUSIC CONTINUES.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: OLD sits in a sweat, mesmerized by the LIGHT. The machinery whirs and clicks. THE HEAT from the huge THIRD-ORDER FRESNEL LENS is immense. He is haloed in his pipe smoke. His jacket is off... Not cool enough. He opens his union suit...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: LATER
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Now he’s bare-chested. His alcoholic's gut protrudes from his wiry frame. His strong, sinewy arms shine with sweat. There’s a faded three-masted ship tattooed on his chest, and several crooked stick-and-pokes elsewhere -- all glistening.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He pours grog into his tin cup. He toasts the light. Drinks. His eyes are heavy. He’s not drunk yet. But he wants to be. He pours another drink. Toasts.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: To ye, me beauty!
+  EXPRESSION: Affectionate
+
+::SCENE::
+LOCATION: Fog Signal House - Exterior
+MOOD: Yearning
+CHARACTERS: Narrator, YOUNG
+BACKGROUND_IMAGE: fog_signal_house_exterior.png
+BACKGROUND_EDIT: "Nighttime, exterior of the fog signal building, foghorn trumpet visible, foggy air"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: MUSIC CONTINUES.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG is staring up at the magical light. Eight beams –- a rotating starburst. Weird light patterns dance across the rocks below. It truly is a wonder. He yearns for it. It’s primal.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He’s outside the signal shed. It’s an odd looking building with a huge protruding trumpet, held up by rickety struts.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: tries to light his cigarette. The wind and dampness of the foggy air makes it impossible. His match won’t light.
+  EXPRESSION: Frustrated
+- CHARACTER: Narrator
+  LINE: THE FOGHORN BLASTS.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: strikes the match again. The match is lit... the wind blows it out. Damn!
+  EXPRESSION: Frustrated
+- CHARACTER: Narrator
+  LINE: He strikes the match again...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: THE FOGHORN BLASTS.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Boathouse - Shore
+MOOD: Hypnotic
+CHARACTERS: Narrator, YOUNG
+BACKGROUND_IMAGE: boathouse_shore.png
+BACKGROUND_EDIT: "Nighttime, shore by the boathouse, lighthouse light reflecting on water, waves lapping"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: MUSIC CONTINUES.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG is finally smoking his cigarette. He slowly walks toward the shore... HE IS DRAWN TO THE LIGHT from the lighthouse reflecting on the water.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He pauses, the waves lapping against the rocks.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He starts walking into the tide... He walks further, he doesn't stop... HYPNOTIZED by the water... THE LIGHT... IS THAT A BALL OF LIGHT OUT IN THE SEA...?
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Further... Further...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Seaweed, moss, and slime surround his knees.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Further...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Then, slowly, A HUGE LOG, forty feet long and still sheathed in bark, floats toward him... Another log... Another!
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He looks ahead and THE SEA IS FULL OF LOGS: A RIVER LOG DRIVE. He wants to run, but he can’t... he keeps wading deeper into the ocean of logs...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He is almost up to his neck in water... Suddenly, he sees: THE BODY OF A MAN floating face down in the logs: HE WEARS A WOOL MACKINAW COAT AND LEATHER CAULK BOOTS WITH THICK HOBNAILED SOLES.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Nearby is some kind of tool floating: A WOODEN POLE WITH A SINISTER IRON HOOK at the end of it (a peavey or “CANT HOOK” for moving logs in a log drive).
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: THE LOGS BEGIN TO JAM...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: THE BODY FLOATS TOWARD YOUNG!
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG wants to scream. He is almost totally submerged now... WATER RISES ABOVE HIS MOUTH, HIS SCREAMS TURN TO SALT WA
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Drown"
+  TARGET: end_drowning
+  STATE_CHANGE: Young_Drowned = true
+  CONDITION: null
+- CHOICE: "Struggle"
+  TARGET: struggle_logs
+  STATE_CHANGE: Young_Struggling = true
+  CONDITION: null
+
+::SCENE::
+LOCATION: Underwater
+MOOD: Eerie
+CHARACTERS: Narrator, Mermaid
+BACKGROUND_IMAGE: underwater_mermaid.png
+BACKGROUND_EDIT: "Wide shot of a mermaid swimming menacingly towards the camera"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Gurgles!
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Underwater, A MERMAID swims gracefully -- MENACINGLY -- in the sea toward CAMERA.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Continue"
+  TARGET: bunkroom_morning
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Living Quarters - Bunkroom
+MOOD: Grotesque
+CHARACTERS: Narrator, Young, Old
+BACKGROUND_IMAGE: bunkroom_morning.png
+BACKGROUND_EDIT: "Morning in a cramped bunkroom, water dripping"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Water drips on YOUNG’S FACE
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Drip. Drip. Drip.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He opens his eyes, startled.
+  EXPRESSION: Startled
+- CHARACTER: Narrator
+  LINE: OLD is disrobing in the mirror, carefully –- he’s drunk.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: Shingles.
+  EXPRESSION: Slurred
+- CHARACTER: Narrator
+  LINE: YOUNG looks up. Water gets into his eye.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: OLD waddles to his bed, his pants around his ankles.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: Tend to ‘em after the cistern. And the lamp, she needs oil.
+  EXPRESSION: Slurred
+- CHARACTER: Narrator
+  LINE: He flops down on the sagging mattress. Asleep instantly.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: Aye, sir.
+  EXPRESSION: Resigned
+
+::PATHS::
+- CHOICE: "Go to Pilot Rock"
+  TARGET: pilot_rock_pathway
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Pilot Rock - Pathway
+MOOD: Grueling
+CHARACTERS: Narrator, Young
+BACKGROUND_IMAGE: pilot_rock_pathway.png
+BACKGROUND_EDIT: "Daytime, Young struggling up an incline with a heavy bag"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: YOUNG lugs a heavy BAG OF CHALK up the incline of the island.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: It’s hard work.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The wind blows like hell.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Go to the cistern"
+  TARGET: pilot_rock_cistern
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Pilot Rock - Cistern
+MOOD: Revolting
+CHARACTERS: Narrator, Young
+BACKGROUND_IMAGE: pilot_rock_cistern.png
+BACKGROUND_EDIT: "Daytime, Young opening a foul-smelling water tank"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: YOUNG, cigarette in his mouth, opens the hatch of a porridged brick water tank: It lets out a putrid stench that knocks YOUNG’S face back a few inches.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He tosses away the cigarette and covers his mouth and nose with the handkerchief around his neck.
+  EXPRESSION: Disgusted
+- CHARACTER: Narrator
+  LINE: He looks inside: It’s full of mold and frothy sludge. It’s what he’s been drinking.
+  EXPRESSION: Horrified
+- CHARACTER: Narrator
+  LINE: He pours in the chalk. It slowly sinks.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG drops in the mixing stick and swirls the water around. It looks sort of beautiful.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Go to the roof of the living quarters"
+  TARGET: living_quarters_roof
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Living Quarters - Roof
+MOOD: Dangerous Monotony
+CHARACTERS: Narrator, Young, Old
+BACKGROUND_IMAGE: living_quarters_roof.png
+BACKGROUND_EDIT: "Daytime, Young working on a weathered roof, high winds"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: YOUNG scrapes at old cedar shakes.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Scrape. Scrape. Scrape.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He balances precariously on a rickety rung ladder. The wind blows hard, nearly knocking him off. It’s monotonous work. He takes it seriously, but with a chip on his shoulder.
+  EXPRESSION: Determined
+- CHARACTER: Narrator
+  LINE: He looks up to the lighthouse: Curtains drawn in the lamp room.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He rips out several rotted shingles. The roof boards below are ravaged with rot, too. Yep, here’s that leaky hole.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He leans in... HE CAN SEE THROUGH A HOLE IN THE ROOF: OLD is asleep. But he’s moving...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG leans in closer... OLD is softly HUMPING his sweaty mattress, just gently thrusting his hips. It’s subtle. A reflexive motion.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG watches. Hold.
+  EXPRESSION: Observing
+
+::PATHS::
+- CHOICE: "Go to the supply shed"
+  TARGET: supply_shed
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Supply Shed
+MOOD: Cluttered Abundance
+CHARACTERS: Narrator, Young
+BACKGROUND_IMAGE: supply_shed.png
+BACKGROUND_EDIT: "Daytime, interior of a shed packed with supplies"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: YOUNG opens a wooden door that almost falls off its hinges: The shack is full. Barrels of dried fish, shelves of tools, tapers, paper-wrapped parcels, wooden crates, casks, kegs, rope...
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Go to the coal house"
+  TARGET: coal_house
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Coal House
+MOOD: Dusty Darkness
+CHARACTERS: Narrator, Young
+BACKGROUND_IMAGE: coal_house.png
+BACKGROUND_EDIT: "Daytime, interior of a coal house"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: YOUNG opens the door: COAL. Heaps of it. This door does fall off its hinges.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Load coal and go to Pilot Rock - Pathway"
+  TARGET: pilot_rock_pathway_continuous
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Pilot Rock - Pathway
+MOOD: Precarious Progress
+CHARACTERS: Narrator, Young
+BACKGROUND_IMAGE: pilot_rock_pathway_continuous.png
+BACKGROUND_EDIT: "Daytime, Young pushing a heavily overloaded wheelbarrow down a rocky path"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: He loads up a wheelbarrow overfull with coal. He pushes the wheelbarrow down the rock. (Needless to say, the wheel squeaks.) He keeps pushing. One wrong step could cause the whole pile to tumble off of the wheelbarrow and down the island....
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Go to the fog signal house"
+  TARGET: fog_signal_house
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Fog Signal House
+MOOD: Unsettling Encounter
+CHARACTERS: Narrator, Young, Gull
+BACKGROUND_IMAGE: fog_signal_house.png
+BACKGROUND_EDIT: "Daytime, Young approaching the fog signal house with a wheelbarrow, a seagull stands guard"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: He makes his way to the door with the wheelbarrow... A SEAGULL stands in front of the old door, guarding it.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG flaps his hand, trying to scare it.
+  EXPRESSION: null
+- CHARACTER: Gull
+  LINE: THE GULL SQUAWKS. It turns its head, revealing: A MISSING EYE. The empty socket is gruesome and twisted. A war wound.
+  EXPRESSION: Aggressive
+- CHARACTER: Narrator
+  LINE: YOUNG is motionless, staring at the strange deformity... SUDDENLY, THE GULL YEOWS, LUNGING at him, clicking its beak.
+  EXPRESSION: Frozen
+- CHARACTER: Narrator
+  LINE: Instinctively, YOUNG HURLS a lump of coal at it... He misses...
+  EXPRESSION: Instinctive
+- CHARACTER: Narrator
+  LINE: THE GULL mews this time, looks with its single eye, and flies away.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG watches the bird’s path... It flies past the lighthouse... The OLD man is looking down at him from the TOWER CATWALK (an exterior observation deck), puffing his pipe. Watching.
+  EXPRESSION: Uneasy
+
+::PATHS::
+- CHOICE: "Go to the lighthouse oil room"
+  TARGET: lighthouse_oil_room
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Lighthouse - Oil Room
+MOOD: Foreboding
+CHARACTERS: Narrator, Young
+BACKGROUND_IMAGE: lighthouse_oil_room.png
+BACKGROUND_EDIT: "Daytime, interior of the lighthouse base, oil drums visible"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The double-doors of the breezeway open, revealing: Oil drums at the bottom of the staircase. THE OIL ROOM. YOUNG looks up... That is one tall staircase.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The chains of the light’s clockwork weights look sinister as they dangle down the center of the iron spiral steps and their shadows creep across the stone wall. They clink and clank, echoing ominously...
+  EXPRESSION: Ominous
+- CHARACTER: Narrator
+  LINE: YOUNG looks at the OIL DRUMS hiding beneath the stairs. They are much larger and more imposing than the heavy chalk bag.
+  EXPRESSION: Daunted
+
+::PATHS::
+- CHOICE: "Go up the lighthouse tower stairs"
+  TARGET: lighthouse_tower_stairs
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Lighthouse - Tower Stairs
+MOOD: Laborious Ascent
+CHARACTERS: Narrator, Young
+BACKGROUND_IMAGE: lighthouse_tower_stairs.png
+BACKGROUND_EDIT: "Daytime, Young struggling to carry an oil drum up spiral stairs"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Clunk. YOUNG lugs an immense OIL DRUM up the steps.
+  EXPRESSION:null
+- CHARACTER: Narrator
+  LINE: Clunk.
+  EXPRESSION:null
+- CHARACTER: Narrator
+  LINE: Clunk.
+  EXPRESSION:null
+
+::PATHS::
+- CHOICE: "Reach the machine room"
+  TARGET: lighthouse_machine_room
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Lighthouse - Machine Room
+MOOD: Intense Effort, Curiosity
+CHARACTERS: Narrator, Young, Old
+BACKGROUND_IMAGE: lighthouse_machine_room.png
+BACKGROUND_EDIT: "Daytime, Young reaching the top of the lighthouse stairs, looking at the lantern room hatch"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Finally, YOUNG reaches the top of the stairs. The oil drum SLAMS down. His muscles tremor, sweat drips.
+  EXPRESSION: Exhausted
+- CHARACTER: Narrator
+  LINE: He looks at the hatch to the LANTERN ROOM above... He is drawn to it... what’s in there? Slowly, he reaches toward the handle... He pushes... It’s closed. Stuck. Locked?
+  EXPRESSION: Curious
+- CHARACTER: Old
+  LINE: You don’t go in there!
+  EXPRESSION: Gruff
+- CHARACTER: Narrator
+  LINE: OLD startles YOUNG. Where did he come from?
+  EXPRESSION: Startled
+- CHARACTER: Narrator
+  LINE: OLD emerges from the shadows: walk-drag, walk-drag, walk-drag.
+  EXPRESSION: Shambling
+- CHARACTER: Young
+  LINE: Oil, sir.
+  EXPRESSION: Caught
+- CHARACTER: Narrator
+  LINE: Says YOUNG, feeling somehow caught. He steps away from the drum, showing it to the old man, trying to hide an ounce of pride. He wipes the sweat from his brow, panting.
+  EXPRESSION: Proud
+- CHARACTER: Narrator
+  LINE: OLD limps around him, smoking his pipe. HE BLOWS SMOKE IN YOUNG’S FACE. YOUNG closes his eyes.
+  EXPRESSION: Dominating
+- CHARACTER: Old
+  LINE: Tired?
+  EXPRESSION: Mocking
+- CHARACTER: Young
+  LINE: No, sir.
+  EXPRESSION: Panting
+- CHARACTER: Narrator
+  LINE: Says YOUNG, still panting. OLD throws a small, empty, THREE-GALLON BRASS OIL CANISTE
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Confront Old"
+  TARGET: confrontation_with_old
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Outside the Lantern Room
+MOOD: Tension
+CHARACTERS: OLD, YOUNG
+BACKGROUND_IMAGE: lighthouse_exterior.png
+BACKGROUND_EDIT: "Nighttime, exterior of a lighthouse, focus on the lantern room access"
+
+::SCRIPT::
+- CHARACTER: YOUNG
+  LINE: Catches it awkwardly.
+  EXPRESSION: Awkward
+- CHARACTER: OLD
+  LINE: Use this next time. Save you a helluva lotta trouble.
+  EXPRESSION: Gruff
+- CHARACTER: YOUNG
+  LINE: --
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Continue to taunt him.
+  EXPRESSION: Mocking
+- CHARACTER: OLD
+  LINE: Catch yer breath, lad.
+  EXPRESSION: Taunting
+- CHARACTER: Narrator
+  LINE: Pause.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: I said catch your breath, lad!
+  EXPRESSION: Yelling
+- CHARACTER: YOUNG
+  LINE: Grits his teeth.
+  EXPRESSION: Angry
+- CHARACTER: OLD
+  LINE: Then bring that drum back down the ladderwell where y’found it. ‘Less yer fixin’ to burn the whole light down.
+  EXPRESSION: Threatening
+- CHARACTER: Narrator
+  LINE: OLD climbs the ladder to the LANTERN ROOM. YOUNG watches with spite.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: Aye, sir.
+  EXPRESSION: Sarcastic
+- CHARACTER: OLD
+  LINE: Pulls out a KEY RING attached to his watch chain. A half dozen BRASS KEYS in varying sizes.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Then see to the rest of yer duties. Yer behindhand already.
+  EXPRESSION: Stern
+- CHARACTER: YOUNG
+  LINE: Aye, sir.
+  EXPRESSION: Submissive
+- CHARACTER: Narrator
+  LINE: YOUNG watches him unlock the door with the largest KEY.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Yer too slow. You a dullard?
+  EXPRESSION: Insulting
+- CHARACTER: YOUNG
+  LINE: No, sir.
+  EXPRESSION: Defensive
+- CHARACTER: OLD
+  LINE: Fooled me.
+  EXPRESSION: Mocking
+- CHARACTER: Narrator
+  LINE: HOLD on YOUNG.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Go to the galley"
+  TARGET: galley
+  STATE_CHANGE: frustration = +2
+  CONDITION: null
+
+::SCENE::
+LOCATION: Living Quarters - Galley
+MOOD: Unease
+CHARACTERS: OLD, YOUNG
+BACKGROUND_IMAGE: galley.png
+BACKGROUND_EDIT: "Nighttime, simple galley, scrod and potatoes on the table"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Scrod and potatoes again.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: Has his water.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Pours himself a dram.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Should pale death with treble dread make the ocean caves our bed, God who hear'st the surges roll, deign to save the suppliant soul.
+  EXPRESSION: Reciting
+- CHARACTER: Narrator
+  LINE: They drink. YOUNG winces a little. OLD is satisfied and starts eating.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: (between chewing) Still tastes o’the head?
+  EXPRESSION: Inquisitive
+- CHARACTER: YOUNG
+  LINE: Won’t nod yes.
+  EXPRESSION: Silent
+- CHARACTER: Narrator
+  LINE: They eat in silence.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Looks up at YOUNG... YOUNG ignores him.
+  EXPRESSION:null
+- CHARACTER: OLD
+  LINE: Ah, find some chirk in ye, lad. Now is the time for gab and chatter. Y’best be enjoying it. Come a fortnight and the brace of us’ll be wantin’ to be ever silent as the tomb. Even to clap eyes on each other... It’ll make y’hotter than hell!
+  EXPRESSION: Boisterous
+- CHARACTER: YOUNG
+  LINE: I ain’t much fer talkin’.
+  EXPRESSION: Resigned
+- CHARACTER: OLD
+  LINE: Reckon yer the first?
+  EXPRESSION: Skeptical
+- CHARACTER: YOUNG
+  LINE: No, sir. I don’t.
+  EXPRESSION: Firm
+- CHARACTER: OLD
+  LINE: Y’ain’t. Y’ain’t. Aye, the Chicopee, a fine-un, she were. Clean-built and trig-lookin’! None more fleet in ‘64 than she... We were on the breaks -- a mutiny it were. And why, ask ye? Why? What’s the terrible part of the sailor’s life ask ye, lad? T’ain’t Cap’n, workin’ ‘em double-tide. Nay, no.
+  EXPRESSION: Nostalgic
+- CHARACTER: OLD
+  LINE: ‘Tis when the workin’ stops when yer twixt wind and water. Doldrums. Doldrums. Eviler than the Devil. Boredom makes men to villains... And the water goes quick, lad... vanished. And what’s the answer? What be the cure? The only med’cine is drink. Drink, lad! Keeps them sailors happy, keeps ‘em agreeable, keeps ‘em calm, keeps em–-
+  EXPRESSION: Passionate
+- CHARACTER: YOUNG
+  LINE: Stupid.
+  EXPRESSION: Blunt
+- CHARACTER: Narrator
+  LINE: Pause. The two men stare at each other for a moment.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: ERUPTS INTO A FIT OF LAUGHTER. He laughs so hard that he runs through every conceivable sound. Is he drunk already?
+  EXPRESSION: Hysterical
+- CHARACTER: Narrator
+  LINE: YOUNG smiles in spite of himself, it’s hard not to.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Pours another and toasts. Curse me if there ain’t an old tar spirit somewheres in ye, lad.
+  EXPRESSION: Amused
+- CHARACTER: YOUNG
+  LINE: Starts to say something... but he stops himself.
+  EXPRESSION: Hesitant
+- CHARACTER: Narrator
+  LINE: Pause.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Out with it, lad.
+  EXPRESSION: Encouraging
+- CHARACTER: YOUNG
+  LINE: What... Why’d yer last keeper leave?
+  EXPRESSION: Curious
+- CHARACTER: OLD
+  LINE: Him? My second?
+  EXPRESSION: Questioning
+- CHARACTER: YOUNG
+  LINE: Nods yes, eating.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: A damn fine sea farin’ man, he were.
+  EXPRESSION: Reflective
+- CHARACTER: Narrator
+  LINE: Pause.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Died.
+  EXPRESSION: Somber
+- CHARACTER: YOUNG
+  LINE: --?
+  EXPRESSION: Surprised
+- CHARACTER: OLD
+  LINE: Aye, went mad, he did. First a strangeness. A quietude. Then wild fancies struck him. Ravin’ ‘bout sirens, merfolk, bad omens and the like. In the end, no more sense left in him than a hen’s tooth. He believed there were some enchantment in the light.
+  EXPRESSION: Explaining
+- CHARACTER: YOUNG
+  LINE: --?
+  EXPRESSION: Incredulous
+- CHARACTER: OLD
+  LINE: He notioned St. Elmo did cast his very fire into it. Salvation, said he.
+  EXPRESSION: Explaining
+- CHARACTER: YOUNG
+  LINE: Laughs. Tall tales.
+  EXPRESSION: Dismissive
+- CHARACTER: Narrator
+  LINE: He rolls a cigarette.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Takes another drink. Slowly, his mood becomes somber.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: I seen ye sparrin’ with a gull.
+  EXPRESSION: Observant
+- CHARACTER: YOUNG
+  LINE: Licks the paper.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Best y’leave ‘em be. Bad luck to kill a sea bird.
+  EXPRESSION: Warning
+- CHARACTER: YOUNG
+  LINE: Laughs, dismissively. More tall tales?
+  EXPRESSION: Skeptical
+- CHARACTER: Narrator
+  LINE: As YOUNG starts to put the cigarette to his lips... OLD GETS UP AND SLAPS HIM HARD IN THE FACE, out of nowhere!
+  EXPRESSION: Shocking
+- CHARACTER: YOUNG
+  LINE: Stands in shock, knocking back his chair to the floor... He looks at OLD, stunned... YOUNG raises his fist in defense...
+  EXPRESSION: Shocked
+- CHARACTER: OLD
+  LINE: IS ANGRY. DEAD SERIOUS. Bad luck to kill a sea bird.
+  EXPRESSION: Furious
+- CHARACTER: Narrator
+  LINE: Pause.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Breathes. He calms down a bit. He realizes how strange that was. Pay me no mind, lad. None. Fix us up some coffee. Long night ahead. Drop o’coffee‘ll do us good.
+  EXPRESSION: Regretful
+- CHARACTER: Narrator
+  LINE: OLD doesn’t need to say he’s drunk.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: Aye, sir.
+  EXPRESSION: Subdued
+- CHARACTER: Narrator
+  LINE: YOUNG looks again at OLD: He’s shaken. Terrified. A shell of himself. More frightening than his outburst of anger was.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Make coffee"
+  TARGET: bunkroom
+  STATE_CHANGE: fear = +3, anger = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Living Quarters - Bunkroom
+MOOD: Paranoia
+CHARACTERS: YOUNG
+BACKGROUND_IMAGE: bunkroom.png
+BACKGROUND_EDIT: "Nighttime, cramped bunkroom, dim lighting"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: YOUNG lies in bed, smoking a cigarette. Reading the manual. Can’t get comfortable. Restless. He holds the CARVED MERMAID in his hand, rubbing it reflexively in all the wrong places.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The CLOCK ticks monotonously.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Hold.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: OUT OF FOCUS IN THE BACK GROUND: A SEAGULL lands on the window.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Pause.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: THE GULL starts tapping on the window. Tap. Tap.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: Hears it.
+  EXPRESSION: Alert
+- CHARACTER: Narrator
+  LINE: Tap.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Just as he turns to face it... THE SEAGULL has flown away.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: Feels uneasy. He sits up.
+  EXPRESSION: Uneasy
+- CHARACTER: Narrator
+  LINE: Back to his bed: the MERMAID CARVING is nestled in his sheets. Waiting for him.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Stay awake"
+  TARGET: supply_shed
+  STATE_CHANGE: paranoia = +2
+  CONDITION: null
+
+::SCENE::
+LOCATION: Supply Shed
+MOOD: Fear
+CHARACTERS: YOUNG
+BACKGROUND_IMAGE: supply_shed.png
+BACKGROUND_EDIT: "Nighttime, dark and dusty supply shed"
+
+::SCRIPT::
+- CHARACTER: YOUNG
+  LINE: Head moves up and down, shaking slightly. He is hiding in the shadows o
+  EXPRESSION: Fearful
+
+::SCENE::
+LOCATION: Shed Interior
+MOOD: Disturbing
+CHARACTERS: Narrator, YOUNG
+BACKGROUND_IMAGE: shed_interior.png
+BACKGROUND_EDIT: "Dark interior, rustling cloth, clinking buckle"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The sound of rustling cloth and a clinking belt buckle are heard. CAMERA BOOMS DOWN...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He’s masturbating.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: CAMERA DOLLIES INTO: YOUNG’S head and into ... BLACK.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Fade to Black"
+  TARGET: supply_shed_exterior
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Supply Shed Exterior
+MOOD: Relief
+CHARACTERS: Narrator, YOUNG
+BACKGROUND_IMAGE: supply_shed_exterior.png
+BACKGROUND_EDIT: "Nighttime, dark, illuminated by lighthouse and cigarette"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: YOUNG emerges from the darkness of the shed, smoking. He closes the door behind him and leans against it. He sighs. Soothed. Calm.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The LIGHTHOUSE LIGHT illuminates YOUNG in waves of hot white panels, otherwise, the soft glow of his cigarette indicates his location in the dark.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Suddenly, he notices something odd, a DARK SPOT in the center of the light. The panels of light streaking across him have a MAN’S SILHOUETTE within them. YOUNG looks up to the tower:
+  EXPRESSION: Suspicious
+- CHARACTER: YOUNG'S POV
+  LINE: Is that OLD... hugging the lens?
+  EXPRESSION: Shocked
+- CHARACTER: Narrator
+  LINE: YOUNG is startled, confused. He looks again.
+  EXPRESSION: Confused
+- CHARACTER: YOUNG'S POV
+  LINE: Somehow, OLD is now on the CATWALK. Surveying. He pulls suspenders over his shoulders, as if getting dressed after a night with a woman. A lantern in his other hand helps him look below....
+  EXPRESSION: Confused
+- CHARACTER: Narrator
+  LINE: YOUNG skulks beneath the eaves of the roof, wary of the man above. He puts out his glowing cigarette... Hiding.
+  EXPRESSION: Wary
+
+::PATHS::
+- CHOICE: "Hide"
+  TARGET: pilot_rock_exterior
+  STATE_CHANGE: suspicion = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Pilot Rock Exterior
+MOOD: Oppressive
+CHARACTERS: Narrator, YOUNG, OLD
+BACKGROUND_IMAGE: pilot_rock_exterior.png
+BACKGROUND_EDIT: "Daytime, storm, mud, wheelbarrow with coal covered by tarp"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: EXTREMELY WIDE SHOT: YOUNG pushes the wheelbarrow through a storm, an oilcloth tarp over the coal. (Time has passed, his shiner has healed.) He struggles through the mud...
+  EXPRESSION: Struggling
+- CHARACTER: OLD (V.O.)
+  LINE: You’ve been neglecting yer duties, lad!
+  EXPRESSION: Angry
+- CHARACTER: Narrator
+  LINE: Hold.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Continue struggling"
+  TARGET: machine_room_interior
+  STATE_CHANGE: frustration = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Machine Room Interior
+MOOD: Tense
+CHARACTERS: YOUNG, OLD
+BACKGROUND_IMAGE: machine_room_interior.png
+BACKGROUND_EDIT: "Later, YOUNG polishing brass, rag in hand"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: YOUNG is still, holding a rag against the brass he’s polishing.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: ?
+  EXPRESSION: Confused
+- CHARACTER: OLD
+  LINE: Don’t deny it.
+  EXPRESSION: Angry
+- CHARACTER: YOUNG
+  LINE: Sir?
+  EXPRESSION: Confused
+- CHARACTER: OLD
+  LINE: Fuming.
+  EXPRESSION: Angry
+
+::PATHS::
+- CHOICE: "Ask for clarification"
+  TARGET: living_quarters_galley_interior
+  STATE_CHANGE: frustration = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Living Quarters Galley Interior
+MOOD: Confrontational
+CHARACTERS: OLD, YOUNG
+BACKGROUND_IMAGE: living_quarters_galley_interior.png
+BACKGROUND_EDIT: "Daytime, galley, OLD pointing at the floor in horror"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: OLD stands in the galley, pointing at the floor in horror. It looks like it always does. How could it look any different?
+  EXPRESSION: Horrified
+- CHARACTER: OLD
+  LINE: What d’y’call this?
+  EXPRESSION: Accusatory
+- CHARACTER: YOUNG
+  LINE: Sir?
+  EXPRESSION: Confused
+- CHARACTER: OLD
+  LINE: What?
+  EXPRESSION: Accusatory
+- CHARACTER: YOUNG
+  LINE: I mopped and swept. Twice over, sir.
+  EXPRESSION: Defensive
+- CHARACTER: OLD
+  LINE: Ye lyin’ dog.
+  EXPRESSION: Furious
+- CHARACTER: YOUNG
+  LINE: I swept ‘em–-
+  EXPRESSION: Defensive
+- CHARACTER: OLD
+  LINE: ‘Tis begrimed and bedabbled.
+  EXPRESSION: Furious
+- CHARACTER: YOUNG
+  LINE: I--
+  EXPRESSION: Frustrated
+- CHARACTER: OLD
+  LINE: Unwiped, unwarshed, and distained.
+  EXPRESSION: Furious
+- CHARACTER: YOUNG
+  LINE: (under his breath) You git some kinda peart outta molestin’ me?
+  EXPRESSION: Bitter
+- CHARACTER: OLD
+  LINE: Come now?
+  EXPRESSION: Disbelieving
+- CHARACTER: YOUNG
+  LINE: I already says--
+  EXPRESSION: Frustrated
+- CHARACTER: OLD
+  LINE: How dare y’contree’dict me, y’dog--
+  EXPRESSION: Enraged
+- CHARACTER: Narrator
+  LINE: That sets YOUNG off:
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: Now look here, I ain’t never intended to be no housewife nor slave in takin’ this job. It ain’t right! These lodgings is more ramshackle than any shanty boy’s camp I ever seen. The queen of England’s own fancy housekeeper couldn’t do no better than what I done, ‘cause I tell you, I scrubbed this here place twice over, sir and--
+  EXPRESSION: Outraged
+- CHARACTER: OLD
+  LINE: And I say y’did nothin’ o’the sort.
+  EXPRESSION: Dismissive
+- CHARACTER: OLD
+  LINE: I say, y’swab it again, and y’swab it proper-like this time, and then you’ll be swabbin’ it ten times more after that. And if I tells ye to pull up and apart every floorboard and clapboard of this here house and scour ‘em down with yer bare, bleedin’ knuckles, you’ll do it. If I tells ye to yank out every single nail from every moulderin’ nail-hole and suck off every spec of rust till all them nails sparkle like a sperm whale’s pecker, and then carpenter the whole light station back together from scrap -- and then -- do it all over again -- you’ll do it! And by God and by Golly, you’ll do it smilin’ lad, cause you’ll like it, too. And you’ll like it ‘cause I says you will! Contree’dict me again I dock yer wages. Y’hear me, lad?
+  EXPRESSION: Tyrannical
+- CHARACTER: Narrator
+  LINE: Long, painful pause.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: Aye, sir.
+  EXPRESSION: Resigned
+- CHARACTER: OLD
+  LINE: Now swab, dog. Swab!
+  EXPRESSION: Authoritative
+- CHARACTER: Narrator
+  LINE: YOUNG does as he’s told – he grabs the mop and pail, finally resigned to his fate on this light station.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Now that’s a good lad. That’s what I like to see.
+  EXPRESSION: Smug
+- CHARACTER: Narrator
+  LINE: YOUNG starts to mop.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: (singing) Oh what be the bane of a lightkeeper's life? What cause him to worry, to struggle and strife, What make him use cuss words, and beat at his wife? ‘Tis Brasswork.
+  EXPRESSION: Mocking
+
+::PATHS::
+- CHOICE: "Mop the floor"
+  TARGET: oil_room_interior
+  STATE_CHANGE: resignation = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Oil Room Interior
+MOOD: Oppressive
+CHARACTERS: OLD, YOUNG
+BACKGROUND_IMAGE: oil_room_interior.png
+BACKGROUND_EDIT: "Later, OLD watches YOUNG polishing brasswork"
+
+::SCRIPT::
+- CHARACTER: OLD
+  LINE: (singing) What make him look ghastly, consumptive and thin? What rob him of health, of his vigor and vim? And cause him despair and drives him to sin.' ‘Tis Brasswork.
+  EXPRESSION: Mocking
+- CHARACTER: Narrator
+  LINE: YOUNG keeps polishing... harder... faster... harder...
+  EXPRESSION: Exhausted
+
+::PATHS::
+- CHOICE: "Continue polishing"
+  TARGET: pilot_rock_exterior_return
+  STATE_CHANGE: exhaustion = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Pilot Rock Exterior
+MOOD: Despairing
+CHARACTERS: YOUNG, OLD (V.O.)
+BACKGROUND_IMAGE: pilot_rock_exterior.png
+BACKGROUND_EDIT: "Daytime, storm, wheelbarrow now being pushed in the other direction"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: YOUNG pushes the wheelbarrow through the storm (now in the other direction). It’s more difficult than before...
+  EXPRESSION: Struggling
+- CHARACTER: OLD (V.O.)
+  LINE: The oil containers I polish until, My poor back is broken, aching; and still...
+  EXPRESSION: Singing
+- CHARACTER: Narrator
+  LINE: He’s struggling... The wheelbarrow falls... Coal scatters all over the place. YOUNG stands still. He wants to scream.
+  EXPRESSION: Desperate
+
+::PATHS::
+- CHOICE: "Give up"
+  TARGET: living_quarters_galley_interior_night
+  STATE_CHANGE: despair = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Living Quarters Galley Interior
+MOOD: Tense
+CHARACTERS: YOUNG, OLD
+BACKGROUND_IMAGE: living_quarters_galley_interior.png
+BACKGROUND_EDIT: "Nighttime, YOUNG and OLD eating in silence, rain and wind outside"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: YOUNG and OLD eat their scrod and potatoes in silence. RAIN AND WINDS BLAIR JUST OUTSIDE THEIR FLIMSY WALLS. Tension. Hold. Thunder claps. BLACK.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "End Scene"
+  TARGET: lighthouse_tower_exterior
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Lighthouse Tower Exterior
+MOOD: Foreboding
+CHARACTERS: OLD, YOUNG
+BACKGROUND_IMAGE: lighthouse_tower_exterior.png
+BACKGROUND_EDIT: "Daytime, OLD looking down from the catwalk, sun behind him"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: ANGLE ON: OLD is looking down from CATWALK of the tower, he smokes his pipe. The sun shines behind him.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: CAMERA BOOMS DOWN TO: YOUNG, sitting on a KITCHEN CHAIR held up by ropes, attached to a jerky BLOCK AND TACKLE. One of the wheels is coming off.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Continue observing"
+  TARGET: end
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Light Tower
+MOOD: Tense
+CHARACTERS: Narrator, Old, Young
+BACKGROUND_IMAGE: light_tower.png
+BACKGROUND_EDIT: "Daytime, Young whitewashing tower 50ft up, a bucket on another rope."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Young is whitewashing the tower, some 50 feet above the ground. A bucket of whitewash dangles on another rope.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: Keep ‘em still, lad.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Young can’t. As usual, the wind blows wildly.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: Aye, sir.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: His "paintbrush," a stick with a horsehair brush at the end, shakes in his hands.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: Whitewash must be even, lad. Bright! Shinin’!
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: Like a silver whorehouse token. Give ‘em sailors a proper daymark.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Old lets the rope slip a bit. It truly scares Young.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Whitewash drips onto Young’s face and clothes. He yells:
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: They're not going to see it in a Goddamn storm!
+  EXPRESSION: Angry
+- CHARACTER: Old
+  LINE: They will after! And'll be glad to see it! Keep your temper now, lad. ‘Tis fine work. Yer makin’ high marks in me logbook. Them’s gospel!
+  EXPRESSION: Laughing
+- CHARACTER: Narrator
+  LINE: “Logbook?” thinks Young. He stares at Old... for too long.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: I'll drop y’down a few feet.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Old lowers him some more; Young slips quickly. Suddenly... The pulley whirls too fast... Young and the moving block shift quickly and slam to a halt.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: Easy.
+  EXPRESSION: Nervous
+- CHARACTER: Old
+  LINE: Never been in better hands.
+  EXPRESSION: Confident
+- CHARACTER: Narrator
+  LINE: Another shift: HARD. Is Old struggling? He anchors his good leg to the catwalk.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Shift! Further than the last one. The whitewash splashes.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: Easy!
+  EXPRESSION: Panicked
+- CHARACTER: Narrator
+  LINE: Young thrashes in the wind...
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: Quit yer flailing, lad.
+  EXPRESSION: Annoyed
+- CHARACTER: Young
+  LINE: I ain’t!
+  EXPRESSION: Defensive
+- CHARACTER: Old
+  LINE: Y’are!
+  EXPRESSION: Annoyed
+- CHARACTER: Old
+  LINE: Keep still!
+  EXPRESSION: Commanding
+- CHARACTER: Young
+  LINE: I am--
+  EXPRESSION: Pleading
+- CHARACTER: Narrator
+  LINE: The pulley’s busted wheel flies off... the rope springs backward... Young, the chair, and the block and tackle plunge to the ground!
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Foot of the Light Tower
+MOOD: Somber
+CHARACTERS: Narrator, Young, Old, Gull
+BACKGROUND_IMAGE: tower_foot.png
+BACKGROUND_EDIT: "Later, Young covered in whitewash, kitchen chair shattered, Old nowhere in sight."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Black.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Young comes to... He's covered in whitewash.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: How long was he out? He looks around... The kitchen chair is shattered -- no more than kindling... Old is nowhere to be seen...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: But the seagull with the missing eye is perched on his leg.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: It pecks him, scavenging the fresh meat.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: Shoo.
+  EXPRESSION: Weak
+- CHARACTER: Narrator
+  LINE: It pecks again. Tap. Tap. Tap. On his leg. The gull blurts out a hostile kek.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: You! Git!
+  EXPRESSION: Irritated
+- CHARACTER: Narrator
+  LINE: It persists, pecking with its sharp beak. Young is afraid of the bird. Afraid to harm it...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Tap. Tap. Tap. Damn! It hurts!
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Young kicks it hard!
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The gull flies away, mocking him with mews and yeows.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Living Quarters - Parlor - Vestibule
+MOOD: Suspenseful
+CHARACTERS: Narrator, Old, Young
+BACKGROUND_IMAGE: parlor_vestibule.png
+BACKGROUND_EDIT: "Evening, Old wearing spectacles, writing in logbook."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Old peers through tiny, delicate spectacles worn at a cant. The left temple tip is too high, and not looped round his ear.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He is finishing writing an entry in his log book. He writes the "period" with gusto.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Pen down. Book closed. Glasses off.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He rolls his desk top shut with a slam, and locks it with the littlest key on his key chain.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Camera pushes into the lock.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Reverse: Young is hiding in the shadows of the vestibule... watching.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Living Quarters - Galley
+MOOD: Tense
+CHARACTERS: Narrator, Old, Young
+BACKGROUND_IMAGE: galley.png
+BACKGROUND_EDIT: "Night, Old sitting on a chair, Young on an upturned nail keg."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Old sits on the same chair he’s been sitting in for the past weeks. Young sits on an upturned nail keg.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Young turns hardtack in his hand. He’s debating eating it. He knocks it against the table. The biscuit clangs like metal. Nope.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Young pours Old a drink instead. Passes it to him.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: Thankee, lad.
+  EXPRESSION: Grateful
+- CHARACTER: Young
+  LINE: Winslow.
+  EXPRESSION: Hesitant
+- CHARACTER: Old
+  LINE: --?
+  EXPRESSION: Confused
+- CHARACTER: Narrator
+  LINE: Young musters a little courage.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: Ephraim Winslow. These last two weeks, I’d... well, I’d like it, sir, if you’d call me by my name.
+  EXPRESSION: Nervous
+- CHARACTER: Old
+  LINE: Listen to ye, giving orders, lad.
+  EXPRESSION: Amused
+- CHARACTER: Young
+  LINE: Winslow.
+  EXPRESSION: Firm
+- CHARACTER: Old
+  LINE: Alright, alright... suits me just as fine, Ephraim Winslow. So, what brung such a one as you to this damnèd rock?
+  EXPRESSION: Curious
+- CHARACTER: Young
+  LINE: Such as what?
+  EXPRESSION: Confused
+- CHARACTER: Old
+  LINE: Pretty as a picture.
+  EXPRESSION: Teasing
+- CHARACTER: Young
+  LINE: --
+  EXPRESSION: Taken aback
+- CHARACTER: Old
+  LINE: Only joshing, lad, only josh--
+  EXPRESSION: Laughing
+- CHARACTER: Young
+  LINE: Winslow.
+  EXPRESSION: Exasperated
+- CHARACTER: Old
+  LINE: Winslow -– What brings you to this rock, Ephraim Winslow? What were yer work afore?
+  EXPRESSION: Inquisitive
+- CHARACTER: Young
+  LINE: Timber.
+  EXPRESSION: Resolute
+- CHARACTER: Old
+  LINE: Timber...
+  EXPRESSION: Pensive
+- CHARACTER: Young
+  LINE: Big timber. Up north. Canada ways.
+  EXPRESSION: Proud
+- CHARACTER: Old
+  LINE: Hudson Bay outfit?
+  EXPRESSION: Knowing
+- CHARACTER: Young
+  LINE: The same.
+  EXPRESSION: Affirmative
+- CHARACTER: Old
+  LINE: True what they say? “Forest far as the eye can see.”
+  EXPRESSION: Rhetorical
+- CHARACTER: Young
+  LINE: Yessir. Spruce, tamarack... white pine. “Bush,” them folk up there call it.
+  EXPRESSION: Descriptive
+- CHARACTER: Old
+  LINE: Had enough of trees, that it, then?
+  EXPRESSION: Insightful
+- CHARACTER: Young
+  LINE: Yessir.
+  EXPRESSION: Agreement
+- CHARACTER: Old
+  LINE: Can’t say I blame ye. I hearn tell about that life. Hard goin’. Workin’ one man harder than two hosses, they say. No thankee. The sea, she’s the only situation wantin’ fer me.
+  EXPRESSION: Reflective
+- CHARACTER: Young
+  LINE: Miss it?
+  EXPRESSION: Curious
+- CHARACTER: Old
+  LINE: Miss it? I ain’t never know’d anything but it.
+  EXPRESSION: Resigned
+- CHARACTER: Young
+  LINE: Sailing.
+  EXPRESSION: Acknowledging
+- CHARACTER: Old
+  LINE: Ah... Aye. Aye.
+  EXPRESSION: Nostalgic
+- CHARACTER: Narrator
+  LINE: Old sees the sea life clearly in his eyes. The stories he must have.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: Ain’t nothing what can touch it.
+  EXPRESSION: Admiring
+- CHARACTER: Narrator
+  LINE: He snaps himself out of it:
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: But can’t be draggin’ me old stump about... Nay... not worth the trouble... now I’m a wickie and a wickie I is. I’m damn-well wedded to this here light, and she’s been a finer, truer, quieter wife than any a live-blooded woman.
+  EXPRESSION: Determined
+- CHARACTER: Young
+  LINE: Ever married?
+  EXPRESSION: Inquiring
+- CHARACTER: Old
+  LINE: Thirteen Christmases at sea... little ‘uns at home. She never forgave it.
+  EXPRESSION: Regretful
+- CHARACTER: Narrator
+  LINE: Pause.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: ‘Tis fer the better.
+  EXPRESSION: Resigned
+- CHARACTER: Narrator
+  LINE: Pause.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: It’s clear that Old has regrets. But rather than dwell on a painful past, he changes the subject.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: Since we’re getting too friendly, Ephraim Winslow, tell me, what’s a timber man want with being a wickie? Not
+  EXPRESSION: Curious
+
+::PATHS::
+- CHOICE: "Continue the conversation"
+  TARGET: conversation_continue
+  STATE_CHANGE: relationship_old_young = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Unknown
+MOOD: Suspicious
+CHARACTERS: Narrator, YOUNG, OLD
+BACKGROUND_IMAGE: null
+BACKGROUND_EDIT: "Outdoor setting, possibly a work site"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Enough quiet for ye up north? Sawdust itching yer nethers? Foreman found ye too high-tempered for carrying an axe?
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: That last comment rubs YOUNG the wrong way, but he tries not to give in to the feeling.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: Like you says, just had enough of trees, I guess.
+  EXPRESSION: Neutral
+- CHARACTER: Narrator
+  LINE: OLD looks him over suspiciously as he lights his pipe.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG focuses on his cigarette. Lights. Draws.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: Since I left Dad, well... I done every kind of work can pay a man. Some I ain’t near proud of.
+  EXPRESSION: Somber
+- CHARACTER: OLD
+  LINE: Drifter, eh?
+  EXPRESSION: Neutral
+- CHARACTER: YOUNG
+  LINE: 33.
+  EXPRESSION: Neutral
+- CHARACTER: YOUNG
+  LINE: No sir! Just can’t find a post I can take a real shine to, so I keep movin’ along. And I ain’t the kind to look back at what’s behind him, see.
+  EXPRESSION: Evasive
+- CHARACTER: OLD
+  LINE: On the run?
+  EXPRESSION: Suspicious
+- CHARACTER: Narrator
+  LINE: YOUNG gets defensive. Did he say too much?
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: No sir -- now look here, now -- I mean, nothin’ wrong with a man startin’ fresh, startin’ new, lookin’ to earn a living––
+  EXPRESSION: Defensive
+- CHARACTER: OLD
+  LINE: No...
+  EXPRESSION: Neutral
+- CHARACTER: YOUNG
+  LINE: ...like any man, tryin’ to settle down quiet-like with some earnings... I read a man could earn six hundred and thirty –– I read one thousand dollars a year if he’s willing to tend a light far off shore... the further away, the more he earns. I read that, and hell, I says, yessir. Work. Save my earnings. Soon enough, I’ll raise my own roof, somewheres up country, with no one to tell me “what for”... That’s all.
+  EXPRESSION: Hopeful
+- CHARACTER: Narrator
+  LINE: YOUNG smiles. He thinks he is doing a pretty good job covering up his fear that OLD may sense more than he lets on. The cigarette helps.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Same ol’ borin’ story, eh?
+  EXPRESSION: Cynical
+- CHARACTER: YOUNG
+  LINE: You asked.
+  EXPRESSION: Defiant
+
+::PATHS::
+- CHOICE: "Continue conversation"
+  TARGET: parlor_later_night
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Living Quarters - Parlor
+MOOD: Uneasy
+CHARACTERS: Narrator, OLD, YOUNG
+BACKGROUND_IMAGE: null
+BACKGROUND_EDIT: "Later that night, interior of a cozy but sparsely furnished parlor"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: OLD sits in his rocker, knitting, smoking his pipe. YOUNG sits on the floor by the open stove, warming his hands.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He lights his cigarette with a splinter of kindling and closes the door.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He takes a drag.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: Say, why’s it bad luck to kill a gull?
+  EXPRESSION: Curious
+- CHARACTER: Narrator
+  LINE: OLD puffs his pipe gravely.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: In ‘em’s the souls o’ sailors what met their maker.
+  EXPRESSION: Grave
+- CHARACTER: Narrator
+  LINE: YOUNG tries not to scoff again. OLD senses it.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: You a prayin’ man, Winslow?
+  EXPRESSION: Searching
+- CHARACTER: YOUNG
+  LINE: Not as often as I might. But I’m God fearin’ -– if that’s what yer askin’.
+  EXPRESSION: Earnest
+- CHARACTER: Narrator
+  LINE: YOUNG tries to take another drag of his cigarette. He can't. It’s gone out... but he just lit it...
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Russian Tar once told me: yer cigarette cinder goes out, there be someone somewhere’s a-thinkin’ bad thoughts of ye.
+  EXPRESSION: Foreboding
+- CHARACTER: Narrator
+  LINE: YOUNG looks at OLD. OLD stops rocking.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: They be a-cursing yer name.
+  EXPRESSION: Menacing
+- CHARACTER: Narrator
+  LINE: YOUNG re-lights the cigarette and takes a drag, not knowing what to make of that.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: A toast to Ephraim Winslow, the God fearin’ man. Let ‘im settle down with none to tell ‘em “what for,” that his cinders always stay burnin’, and let fear never abandon ‘im.
+  EXPRESSION: Sarcastic
+- CHARACTER: Narrator
+  LINE: OLD toasts and drinks.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: Amen.
+  EXPRESSION: Uneasy
+- CHARACTER: Narrator
+  LINE: YOUNG feels uneasy.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Proceed to next day's work"
+  TARGET: lighthouse_various_day
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Light Station - Various
+MOOD: Mundane then Suspicious
+CHARACTERS: Narrator, YOUNG, OLD
+BACKGROUND_IMAGE: null
+BACKGROUND_EDIT: "Various vignettes of daily work at a light station"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: YOUNG sweeps the galley.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: ASCENDS THE TOWER STAIRS. He pauses, out of breath.
+  EXPRESSION: Labored
+- CHARACTER: YOUNG
+  LINE: IS INSIDE THE FOG TRUMPET, CLEANING IT.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: SWIFTLY ROLLS HIS DESK CLOSED AND LOCKS IT.
+  EXPRESSION: Secretive
+- CHARACTER: YOUNG
+  LINE: WINDS THE CLOCKWORK MECHANISM.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: CLEANS THE CLOCKWORK. Leaning in a strange position, his TOBACCO POUCH falls to the ground.
+  EXPRESSION: Clumsy
+- CHARACTER: OLD
+  LINE: GOES INTO THE LANTERN ROOM AND LOCKS IT.
+  EXPRESSION: Secretive
+
+::PATHS::
+- CHOICE: "Continue to next scene"
+  TARGET: bunkroom_night
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Living Quarters - Bunkroom
+MOOD: Restless and Anxious
+CHARACTERS: Narrator, YOUNG
+BACKGROUND_IMAGE: null
+BACKGROUND_EDIT: "Nighttime, cramped bunkroom, sounds of the sea"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: YOUNG is tossing and turning in bed. Restless. Hot. Sweaty. The sound of the waves crashing on shore is relentless. The CLOCK ticks monotonously.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He tries to find a cool spot on the bed. He turns his pillow over... kicks off the linens like an angry toddler...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He’s only in his underwear. The MERMAID carving is in bed by his side. (Pinned on the wall behind him are clippings of desired objects from a Sears and Roebuck catalogue, a Tenderloin music hall program, and a few pornographic playing cards.)
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Kicking off the linens doesn’t help. He sits up. He puts his hand behind his ear... no cigarette.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He goes to his shirt pocket hanging on the foot of the bed rail... The TOBACCO POUCH isn’t there.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: Shit.
+  EXPRESSION: Frustrated
+
+::PATHS::
+- CHOICE: "Go to machine room"
+  TARGET: machine_room_night
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Light Station - Machine Room
+MOOD: Eerie and Hypnotic
+CHARACTERS: Narrator, YOUNG, OLD
+BACKGROUND_IMAGE: null
+BACKGROUND_EDIT: "Nighttime, the heart of the lighthouse machinery, eerie music playing"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: MUSIC CUE: The eerie “light” music.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG sees the POUCH resting on top of the spinning clockwork. He grabs it and quickly starts to head down stairs, but... Something stops him. A feeling. A question.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The clockwork spins, the light hums on its brass track, the sea and wind sing their lilting song. He looks up at the LIGHT swirling magically, undulating through the cast-iron lens deck. It is beautiful. Hypnotic. THE LIGHT DRAWS HIM IN...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: But there’s something else... another noise... Whispering. Above. In the LANTERN ROOM.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG tries to look through the iron grates of the lens deck: the bright LIGHT of the lamp makes it hard to see... he needs to get closer... He grabs a chair from the shadows and stands on it.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He listens. The whispering is more audible, though hard to define. He listens, trying to block out the white noise of the light: It’s OLD all right, but YOUNG can only hear bits of whispers.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: (whispered) The ligh
+  EXPRESSION: Whispering
+
+::PATHS::
+- CHOICE: "Try to discern the whispers"
+  TARGET: reveal_whispers
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Unknown Location
+MOOD: Eerie
+CHARACTERS: Narrator, Young, Old
+BACKGROUND_IMAGE: unknown_location.png
+BACKGROUND_EDIT: "Dimly lit, industrial, with grates"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: T... seed...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: There’s another noise, now that his ear is more focused.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: It’s a sticky, sweaty, slapping of flesh. Constant...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: It’s familiar...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He puts his face closer to the iron and through glimpses of the light and shadow above, he sees:
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: PIECES OF OLD, IN AND OUT OF SHADOW. HIS SINEWY TORSO IS VIBRATING. HIS RIGHT ARM IS MOVING. VIGOROUSLY. UP. DOWN. UP. DOWN.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Is he...?
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: JUST THEN, WHITE, VISCOUS FLUID DRIPS FROM THE GRATES...
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: (AVOIDS IT IN DISGUST.)
+  EXPRESSION: Disgusted
+- CHARACTER: Narrator
+  LINE: HE LOOKS UP AGAIN...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: A HUGE, SLIMY, TRANSLUCENT SQUID’S TENTACLE SLITHERS ACROSS THE IRONWORK...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: ....IT DISAPPEARS INTO THE DARKNESS.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: (louder) Veritas...
+  EXPRESSION: Loud
+- CHARACTER: Young
+  LINE: (eyes widen.)
+  EXPRESSION: Surprised
+
+::SCENE::
+LOCATION: Living Quarters - Galley
+MOOD: Unease
+CHARACTERS: Narrator, Young, Old
+BACKGROUND_IMAGE: galley.png
+BACKGROUND_EDIT: "Daytime, spartan galley area"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: YOUNG pumps water into a cup in the sink.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He drinks. Pumps again. Drinks. Goes to pump again, but something stops him...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: At the bottom of the cup is a dark film.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He sweeps it up with a finger and looks: strange.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Then, TAP, TAP, TAP on the window. He doesn’t seem to hear it
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG pumps the water once again... it makes a rusty gurgling sound... the water is more and more tainted, almost black.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Just then, he hears THE PLAINTIVE CRY OF A GULL, outside.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Pilot Rock - Cistern
+MOOD: Horror
+CHARACTERS: Narrator, Young, Old, Gull
+BACKGROUND_IMAGE: cistern.png
+BACKGROUND_EDIT: "Daytime, exterior view of a cistern"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: YOUNG exits the back door of the quarters. He looks out to the cistern.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The CRY continues.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He walks slowly toward the cistern.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: THE CISTERN'S HATCH IS OPEN.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The CRY gets louder as he approaches.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He looks in:
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: DEAD GULLS float in the bloody cistern. ONE SEAGULL is trying to escape –- pathetically, desperately -- crying. Its wing is broken.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: JUST THEN, A LOUD FLUTTER OF WINGS IS HEARD ABOVE... and the sound of a gull landing.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG LOOKS UP...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: THE ONE-EYED GULL STANDS ON TOP OF THE CISTERN... HE RAISES HIS WINGS AND STANDS STRAIGHT UP, STRUTTING AGGRESSIVELY... HE STRETCHES HIS BEAK WIDER THAN EVER AND LETS OUT A LOUD HORRIFYING LONG-CALL TOWARD YOUNG!
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: (is frozen.)
+  EXPRESSION: Frozen
+- CHARACTER: Narrator
+  LINE: Then, THE GULL swoops his beak into the cistern... he grabs the gull in his beak, and begins to eat it.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG tries to intervene...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: ONE-EYE ATTACKS YOUNG’S FACE!
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG TEARS IT AWAY IN WILD RAGE...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: IN ONE SWIFT MOTION, HE GRASPS THE GULL BY THE LEGS AND BEATS IT AGAINST THE EDGE OF THE CISTERN... OVER AND OVER AND OVER AND OVER AND OVER... AND OVER... UNTIL IT IS A BLOODY PULP OF FEATHERS...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: THE ONE-EYED GULL IS DEAD.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: (breathes heavily. Guilty.)
+  EXPRESSION: Guilty
+- CHARACTER: Narrator
+  LINE: Hold.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The wind blows softly.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He makes himself a cigarette, shaking. He looks sheepishly up to the tower to see if OLD is watching.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: CAMERA BOOMS UP THE LIGHTHOUSE TOWER, past the catwalk, past the lamp, past the conical roof to... THE WEATHERVANE: THE ARROW POINTS WEST...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Suddenly, the wind gusts... THE ARROW starts to jiggle a bit...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The wind picks up... THE ARROW spins around, and around, and around... It settles. Jiggling slightly in the wind, THE ARROW POINTS HARD: EAST.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Living Quarters - Bunkroom
+MOOD: Somber
+CHARACTERS: Narrator, Young, Old
+BACKGROUND_IMAGE: bunkroom.png
+BACKGROUND_EDIT: "Later, interior of a bunkroom"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: YOUNG stands in the open doorway of the bunkroom, wiping his face with a handkerchief.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: Cistern was open, sir and...
+  EXPRESSION: Nervous
+- CHARACTER: Narrator
+  LINE: He sees OLD sobbing into his pillow and blankets. He’s asleep -- isn’t he? It's a strangely vulnerable sight.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: (doesn’t know what to do.)
+  EXPRESSION: Uncertain
+- CHARACTER: Narrator
+  LINE: Hold.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Lighthouse - Machine Room
+MOOD: Tense
+CHARACTERS: Narrator, Young, Old
+BACKGROUND_IMAGE: machine_room.png
+BACKGROUND_EDIT: "Daytime, shining brasswork and machinery"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: YOUNG’S face is reflected in the shining brasswork. His expression is still affected by the previous two scenes. He spits on the brass and keeps polishing.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: OLD watches YOUNG work, writing in his logbook.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: Wind’s changed.
+  EXPRESSION: Calm
+- CHARACTER: Young
+  LINE: Good riddance.
+  EXPRESSION: Sarcastic
+- CHARACTER: Old
+  LINE: Don’t be so darn foolish. It’s the calm afore the storm, Winslow. She were a gentle westerly wind yer cursin’. Only feels roughly ‘cause you don’t know nothin’ bout nothin’ and there ain’t no trees on this here rock like your Hudson Bay bush. Nor’Easterly wind’ll come soon a-blowin’ like Gabriel’s horn. Best board up them signal house winders.
+  EXPRESSION: Stern
+- CHARACTER: Young
+  LINE: Aye, sir.
+  EXPRESSION: Obedient
+- CHARACTER: Old
+  LINE: ‘Twill keep steady afore the tender comes in the morn, I ‘spect... but there’s dirty weather knockin’ about.
+  EXPRESSION: Foreboding
+- CHARACTER: Narrator
+  LINE: YOUNG won’t look OLD in the eye.
+  EXPRESSION: Guilty
+- CHARACTER: Old
+  LINE: Somethin’ stirring in ye? Yer gettin’ off this island tomorry Winslow, don’t start grudgen me now.
+  EXPRESSION: Suspicious
+- CHARACTER: Young
+  LINE: No, sir.
+  EXPRESSION: Submissive
+- CHARACTER: Old
+  LINE: Keeping secrets, are ye?
+  EXPRESSION: Suspicious
+- CHARACTER: Young
+  LINE: No, sir.
+  EXPRESSION: Submissive
+- CHARACTER: Narrator
+  LINE: Pause.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Signal House
+MOOD: Collaborative
+CHARACTERS: Narrator, Young, Old
+BACKGROUND_IMAGE: signal_house.png
+BACKGROUND_EDIT: "Daytime, exterior of a signal house"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: YOUNG boards up the windows. OLD helps.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: (V.O.) Now then, I’ve a surprise.
+  EXPRESSION: Secretive
+
+::SCENE::
+LOCATION: Pilot Rock - Shore
+MOOD: Hopeful
+CHARACTERS: Narrator, Young, Old
+BACKGROUND_IMAGE: pilot_rock_shore.png
+BACKGROUND_EDIT: "Daytime, rocky shore with water"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: YOUNG stands precariously on a rock, pulling a ROPE that leads out into the water. OLD watches him.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: Pull, pull, me good lad. Pull, Winslow!
+  EXPRESSION: Encouraging
+- CHARACTER: Narrator
+  LINE: YOUNG pulls a wooden LOBSTER POT out of the water.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: (smiles.)
+  EXPRESSION: Happy
+- CHARACTER: Old
+  LINE: (smiles.)
+  EXPRESSION: Happy
+- CHARACTER: Old
+  LINE: Look at ‘em! Better than fin fishin’!
+  EXPRESSION: Proud
+
+::SCENE::
+LOCATION: Living Quarters - Galley
+MOOD: Content
+CHARACTERS: Narrator, Young, Old
+BACKGROUND_IMAGE: galley_night.png
+BACKGROUND_EDIT: "Nighttime, galley area with food"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Mutilated LOBSTER SHELLS are piled up on the plates. By the look on YOUNG & OLD’S faces, it was a satisfying meal.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: OLD pours two cups of his grog. Passes one to YOUNG.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: ‘Tis no crime to take a snort now. A clear night.
+  EXPRESSION: Relaxed
+- CHARACTER: Old
+  LINE: And bei
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Unknown Location (Implied Bar/Mess Hall)
+MOOD: Camaraderie, Intoxication
+CHARACTERS: Narrator, OLD, YOUNG
+BACKGROUND_IMAGE: unknown_bar.png
+BACKGROUND_EDIT: "Dimly lit, rough interior, suggesting a sailor's haunt"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: n’ our last afore relief, I never know’d an inspector what wouldn’t turn a blind eye, and I won’t take “no” for an answer.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG gives in. He takes the cup.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: Should pale death and treble dread make the... uh...
+  EXPRESSION: Stumbling, trying to recall
+- CHARACTER: Narrator
+  LINE: Pause. He can’t remember the rest.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: Ah hell –– to relief!
+  EXPRESSION: Slurring, determined
+- CHARACTER: Narrator
+  LINE: They clink.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: And how!
+  EXPRESSION: Slurring, agreeing
+- CHARACTER: Narrator
+  LINE: They drink.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG remembers how much he’s been missing the drink.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: Damn! Like comin’ home.
+  EXPRESSION: Revelatory, happy
+- CHARACTER: Narrator
+  LINE: OLD pours another round.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: They drink.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: OLD pours another round.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: They drink.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Continue drinking"
+  TARGET: singing_scene
+  STATE_CHANGE: alcohol_level = +2, camaraderie = +2
+  CONDITION: null
+
+::SCENE::
+LOCATION: Unknown Location (Implied Bar/Mess Hall) - LATER
+MOOD: Boisterous, Drunken Merriment
+CHARACTERS: Narrator, YOUNG, OLD
+BACKGROUND_IMAGE: unknown_bar_later.png
+BACKGROUND_EDIT: "Same as previous scene, but with more disarray and signs of heavy drinking"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: YOUNG AND OLD are singing and pounding on the table.
+  EXPRESSION: null
+- CHARACTER: OLD AND YOUNG
+  LINE: (singing) Hurrah, we're homeward bound, Hurrah, we're homeward bound!
+  EXPRESSION: Singing loudly, off-key
+- CHARACTER: OLD
+  LINE: (singing) When we're arrived on Bedford docks Them bloomers all comin’round in flocks Them pretty girls, we hear 'em say "Here comes Jack with his nine-month pay"
+  EXPRESSION: Singing loudly, with gusto
+- CHARACTER: OLD AND YOUNG
+  LINE: (singing) Hurrah, we're homeward bound, Hurrah, we're homeward bound!
+  EXPRESSION: Singing loudly, off-key
+- CHARACTER: Narrator
+  LINE: OLD smokes a cigarette. YOUNG smokes OLD’S pipe.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Listen to stories"
+  TARGET: parlor_scene
+  STATE_CHANGE: alcohol_level = +1, fatigue = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: PARLOR - LATER
+MOOD: Intimate, Reflective, Still Drunken
+CHARACTERS: Narrator, OLD, YOUNG
+BACKGROUND_IMAGE: parlor.png
+BACKGROUND_EDIT: "A dimly lit parlor, possibly on a ship or isolated dwelling, with signs of smoking"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: They keep drinking.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: ...and a pretty lass, she were, takin’ off her bonnet... but as I says, I’d broke me leg, and banged myself all up. It was to a nuns' hospital... All of them nuns were Catholics, I tell ye...
+  EXPRESSION: Recounting a story, slightly slurring
+- CHARACTER: Narrator
+  LINE: They laugh.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Aye, but I never went to Salem since without hoping that I should see her, for beddin’ down wer’nt the same since. I don't know, but if I was a-goin’ to begin me life over again... well, womenfolk are apt to be dreadful ashamed of it, anyhow.
+  EXPRESSION: Reflective, melancholic
+- CHARACTER: YOUNG
+  LINE: You feel shame when you lie with a woman?
+  EXPRESSION: Curious, slightly probing
+- CHARACTER: OLD
+  LINE: I ain’t ‘shamed of nothing.
+  EXPRESSION: Assertive, perhaps defensive
+- CHARACTER: Narrator
+  LINE: Pause. They laugh.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Well, I’ll say it... I might even miss ye, Ephraim Winslow, yer fastly a true blue wickie in the making, you is. Thought one night you was bound to split me skull in twain, but yer a good-un. Why you’ll be workin’ the lamp in no time –
+  EXPRESSION: Affectionate, slightly patronizing
+- CHARACTER: YOUNG
+  LINE: Why haven’t I?
+  EXPRESSION: Direct, questioning
+- CHARACTER: Narrator
+  LINE: Pause.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: What?
+  EXPRESSION: Feigning ignorance, confused
+- CHARACTER: YOUNG
+  LINE: The light?
+  EXPRESSION: Persistent
+- CHARACTER: OLD
+  LINE: I’m the keeper of this station, lad.
+  EXPRESSION: Authoritative, dismissive
+- CHARACTER: YOUNG
+  LINE: The... I ain’t...
+  EXPRESSION: Confused, trying to articulate
+- CHARACTER: OLD
+  LINE: Some other station y’can tend the light.
+  EXPRESSION: Firm, final
+- CHARACTER: YOUNG
+  LINE: The manual says--
+  EXPRESSION: Frustrated, citing rules
+- CHARACTER: OLD
+  LINE: My log is the only book on this rock--
+  EXPRESSION: Asserting authority, dismissive
+- CHARACTER: YOUNG
+  LINE: I mean, I’m a wickie, you says, but I ain’t trimmed one wick once--
+  EXPRESSION: Accusatory, confused
+- CHARACTER: OLD
+  LINE: ‘Tis Gospel!
+  EXPRESSION: Dogmatic, absolute
+- CHARACTER: OLD
+  LINE: I’m the keeper of the light, lad, I never let no man touch her--
+  EXPRESSION: Protective, possessive
+- CHARACTER: YOUNG
+  LINE: I ain’t –- the book says we alternate-–
+  EXPRESSION: Desperate, pleading
+- CHARACTER: Narrator
+  LINE: OLD pours himself another drink.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Don’t concern yerself with the beacon! Mine, lad!
+  EXPRESSION: Dominating, dismissive
+- CHARACTER: Narrator
+  LINE: YOUNG laughs. The tension goes away.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: Have it yer way... uh... Say, I never... I don’t know yer name.
+  EXPRESSION: Resigned, attempting to restart conversation
+- CHARACTER: OLD
+  LINE: Wake.
+  EXPRESSION: Terse
+- CHARACTER: YOUNG
+  LINE: Yer Christian name?
+  EXPRESSION: Curious, a bit wary
+- CHARACTER: OLD
+  LINE: Thomas.
+  EXPRESSION: Matter-of-fact
+- CHARACTER: YOUNG
+  LINE: Thomas?
+  EXPRESSION: Uncertain, questioning
+- CHARACTER: OLD
+  LINE: Thomas Wake, aye.
+  EXPRESSION: Confirming
+- CHARACTER: Narrator
+  LINE: YOUNG seems a little disturbed.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Call me Tom.
+  EXPRESSION: Friendly, inviting
+- CHARACTER: Narrator
+  LINE: OLD pours them another round.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: To my friend Tom, and to gittin’ off this goddamned rock!
+  EXPRESSION: Toasting, a hint of desperation
+- CHARACTER: Narrator
+  LINE: They drink, spilling a bit of the liquor down their chins.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG snaps out of whatever seemed to be bothering him.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Head to the bunkroom"
+  TARGET: bunkroom_night
+  STATE_CHANGE: alcohol_level = +1, fatigue = +2, suspicion = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: INT. LIVING QUARTERS - BUNKROOM
+MOOD: Drunkenness, Exhaustion
+CHARACTERS: Narrator, YOUNG
+BACKGROUND_IMAGE: bunkroom_night.png
+BACKGROUND_EDIT: "A cramped, dimly lit bunkroom, messy with discarded clothes"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: YOUNG stumbles around, undressing as he makes his way to the bed.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He leaves clothes here and there.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He struggles to get his boots off. He can’t. Too drunk.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He sits and breathes.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He tries again. He gets one off.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He tries the other... no use... He pulls harder, it comes loose, but the force is so great, YOUNG hits his head on a lamp, mounted on the wall...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He and the lamp crash to the floor. He passes out with his pants around his ankles. His hair absorbs the kerosene of the broken lamp.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Fall asleep"
+  TARGET: bunkroom_morning
+  STATE_CHANGE: unconscious = true
+  CONDITION: null
+
+::SCENE::
+LOCATION: INT. LIVING QUARTERS - BUNKROOM – MORNING
+MOOD: Hangover, Discomfort, Regret
+CHARACTERS: Narrator, YOUNG, OLD
+BACKGROUND_IMAGE: bunkroom_morning.png
+BACKGROUND_EDIT: "The same bunkroom, now in morning light, showing signs of the previous night's chaos"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: YOUNG wakes up.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He is so hung over. He wants to die.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He needs water...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The pitcher... the basin... both empty. He knocked them over the night before. When did that happen?
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He looks down the staircase: OLD is asleep, sprawled out on the steps.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG goes to his chamber pot: it’s full of piss and shit.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He goes to Old's: piss and shit.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Deal with the waste"
+  TARGET: pilot_rock_later_morning
+  STATE_CHANGE: disgust = +2, fatigue = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: EXT. PILOT ROCK – LATER THAT MORNING
+MOOD: Grueling, Miserable, Stormy
+CHARACTERS: Narrator, YOUNG
+BACKGROUND_IMAGE: pilot_rock_morning.png
+BACKGROUND_EDIT: "A rocky, windswept shore, with crude structures. Heavy rain and strong winds."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: YOUNG wears his oilskins, smokes a cigarette, and carries the full piss pots. THE WIND FIGHTS HIM. So does the hangover.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: THE GALE HAS ARRIVED. IT'S STRONG. RELENTLESS. IT ALMOST KNOCKS HIM TO THE GROUND.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Go to the cliffs"
+  TARGET: pilot_rock_cliffs_later
+  STATE_CHANGE: physical_exertion = +2, weather_effect = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: EXT. PILOT ROCK - CLIFFS - LATER
+MOOD: Desperate, Angry, Frustrated
+CHARACTERS: Narrator, YOUNG
+BACKGROUND_IMAGE: pilot_rock_cliffs.png
+BACKGROUND_EDIT: "High cliffs overlooking a rough sea, dangerous conditions"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: YOUNG stands over the cliffside.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He tosses the contents of the CHAMBER POTS off the cliffs...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: IT ALL SPLASHES BACK IN HIS FACE.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: Fuck!
+  EXPRESSION: Enraged
+- CHARACTER: Narrator
+  LINE: He drops the chamber pots... they tumble to the rocks.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: FUCK!!
+  EXPRESSION: Utterly furious
+
+::PATHS::
+- CHOICE: "Continue to the pathway"
+  TARGET: pilot_rock_pathway_later
+  STATE_CHANGE: anger = +2, disgust = +2
+  CONDITION: null
+
+::SCENE::
+LOCATION: EXT. PILOT ROCK - PATHWAY – LATER THAT MORNING
+MOOD: Backbreaking, Miserable, Soaked
+CHARACTERS: Narrator, YOUNG
+BACKGROUND_IMAGE: pilot_rock_pathway.png
+BACKGROUND_EDIT: "A narrow, muddy pathway on Pilot Rock, heavily laden with coal. It is raining."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: YOUNG hauls coal, his face covered in shit. It rains.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Go to the Fog Signal House"
+  TARGET: fog_signal_house
+  STATE_CHANGE: physical_exertion = +3, cleanliness = -3
+  CONDITION: null
+
+::SCENE::
+LOCATION: INT. FOG SIGNAL HOUSE – LATER THAT MORNING
+MOOD: Dutiful, Desperate, Loud
+CHARACTERS: Narrator, YOUNG
+BACKGROUND_IMAGE: fog_signal_house.png
+BACKGROUND_EDIT: "The interior of a fog signal house, with a fire and operational siren."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: YOUNG stokes the fire. The siren is up and running.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Return to the rocks"
+  TARGET: pilot_rock_later_morning_2
+  STATE_CHANGE: duty = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: EXT. PILOT ROCK – LATER THAT MORNING
+MOOD: Dreary, Exhausting, Foreboding
+CHARACTERS: Narrator, YOUNG
+BACKGROUND_IMAGE: pilot_rock_rocks.png
+BACKGROUND_EDIT: "Slippery, black rocks along the shore of Pilot Rock. The sea is rough. It is raining heavily."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: YOUNG stumbles around the slippery rocks, pushing an empty wheelbarrow. Rain pissing on him. The hangover beating down upon his head.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: THE FOGHORN blasts relentlessly.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: As he rounds a corner, he sees something WHITE in the black rocks of the shore... He walks a few more paces...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: It is a BODY, lying still. Is it a dead sailor
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Investigate the body"
+  TARGET: body_discovery
+  STATE_CHANGE: fear = +2, curiosity = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: The Shore
+MOOD: Shock and Terror
+CHARACTERS: Narrator, Young, Old
+BACKGROUND_IMAGE: shore.png
+BACKGROUND_EDIT: "Rocky shore, foghorn blast sound effect"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: He gasps... He drops the wheelbarrow and runs toward it!
+  EXPRESSION: Gasp
+- CHARACTER: Narrator
+  LINE: THE FOGHORN blasts.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: As he gets closer, it appears to be a WOMAN... A NUDE WOMAN washed up on the rocks. White legs and arms splayed out.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He calls for Old, but he can’t hear him.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He runs closer.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: THE FOGHORN blasts again.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: THE WOMAN appears to be DEAD, entangled in seaweed.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG has to save her if he can.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG goes to his knees...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Wipes seaweed away from her face...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: SHE IS BEAUTIFUL. The most beautiful woman he has ever seen.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The blood rushes to his head. His heart throbs. He looks her over. He wants to touch her. He hesitates... but he does.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He checks her pulse...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Puts his head to her chest: Dead.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Slowly, he touches her cheek, then her mouth...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He moves his hand down her body, in the horror and grief of her death, but also fascinated by her beauty, her perfect feminine shape... He makes his way past her breasts, to her ribs...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Her ribs seem to have wounds -- deep slices. They aren’t bloody. They look almost like... GILLS.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He moves his hand past her waist, toward her genitals, then he sees:
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: SHE HAS A FISH’S TAIL! SHE IS A MERMAID!!
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He is frozen in terror. Then he looks back at her face...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: She opens her eyes and smiles at him.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: She raises her arms, wanting his embrace...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG opens his mouth to scream in horror...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: THE FOGHORN blasts!
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG runs away, fast as he can, flailing, stumbling over himself. He has almost no control over his body as he hurls himself across the island, his screams drowned out by the FOGHORN.
+  EXPRESSION: Terror
+
+::SCENE::
+LOCATION: Living Quarters - Parlor
+MOOD: Panic and Disorientation
+CHARACTERS: Young, Old
+BACKGROUND_IMAGE: parlor.png
+BACKGROUND_EDIT: "Interior, messy, moments after a traumatic event"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: YOUNG is out of breath from screaming. Wild eyed.
+  EXPRESSION: Terrified
+- CHARACTER: Old
+  LINE: What’r y’splittin’ yer lungs fer?
+  EXPRESSION: Gruff
+- CHARACTER: Young
+  LINE: I--
+  EXPRESSION: Gasping
+- CHARACTER: Old
+  LINE: Y’smell o’ shit. Best swab this mess afore the tender comes.
+  EXPRESSION: Annoyed
+- CHARACTER: Young
+  LINE: I--
+  EXPRESSION: Gasping
+- CHARACTER: Old
+  LINE: Y’do as yer told, lad! The quarters are dire.
+  EXPRESSION: Authoritative
+- CHARACTER: Young
+  LINE: Aye, sir.
+  EXPRESSION: Subdued
+
+::SCENE::
+LOCATION: Living Quarters - Galley
+MOOD: Cleanliness (relative)
+CHARACTERS: Narrator
+BACKGROUND_IMAGE: galley.png
+BACKGROUND_EDIT: "Interior, clean for the conditions"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: THE GALLEY IS CLEAN. Well, as clean as it can be.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Living Quarters - Bunkroom
+MOOD: Orderly
+CHARACTERS: Narrator
+BACKGROUND_IMAGE: bunkroom.png
+BACKGROUND_EDIT: "Interior, tidy, clock ticking"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: THE BUNKROOM is orderly. Mattresses rolled up. Everything is in place. The CLOCK ticks monotonously.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Pilot Rock - Near the Shore
+MOOD: Waiting and Resignation
+CHARACTERS: Old, Young
+BACKGROUND_IMAGE: pilot_rock_shore.png
+BACKGROUND_EDIT: "Exterior, coastal, raining, windy"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: OLD and YOUNG are in their topcoats, their gunny sacks over their shoulders, their ditty boxes by their sides. They look out to sea, waiting for the tender.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: It rains. The wind blows.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Hold.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The rain begins to pour.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Living Quarters - Galley
+MOOD: Despair and Endurance
+CHARACTERS: Young, Old
+BACKGROUND_IMAGE: galley_night.png
+BACKGROUND_EDIT: "Interior, night, drenched, storm outside"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: YOUNG AND OLD sit at the table perfectly still. Drenched.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: A lit cigarette hangs on YOUNG’S bottom lip.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The storm outside is something biblical.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Very, very long pause.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: They didn’t come.
+  EXPRESSION: Resigned
+- CHARACTER: Narrator
+  LINE: Long pause.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Pilot Rock - Sea
+MOOD: Violent and Powerful
+CHARACTERS: Narrator
+BACKGROUND_IMAGE: pilot_rock_sea.png
+BACKGROUND_EDIT: "Exterior, night, massive waves crashing"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: ANGLE ON: Huge waves crash.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Pilot Rock - Cliffs
+MOOD: Violent and Powerful
+CHARACTERS: Narrator
+BACKGROUND_IMAGE: pilot_rock_cliffs.png
+BACKGROUND_EDIT: "Exterior, night, enormous waves crashing against cliffs"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: ANGLE ON: Enormous waves crash.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Pilot Rock - Cliffs
+MOOD: Supernatural and Ritualistic
+CHARACTERS: Old, Young
+BACKGROUND_IMAGE: pilot_rock_cliffs_ritual.png
+BACKGROUND_EDIT: "Exterior, night, heavy rain, strong wind"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Rain pours. A deluge.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: OLD is in his oilskins. He stands like a magician in front of the BOATHOUSE, facing the waves. He holds his right hand over the sea with two fingers extended. He holds his bottle in the other hand.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He counts the waves as they crash onto the shore.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: ...Four ...Five ...Six
+  EXPRESSION: Counting
+- CHARACTER: Narrator
+  LINE: The waves are growing higher!
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: ...Seven ...Eight ...Go down!
+  EXPRESSION: Commanding
+- CHARACTER: Narrator
+  LINE: He makes the sign of the cross (like a Catholic) on the ninth wave, and DOUSES THE SEA with liquor from his bottle.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: THE WAVE FLOUNDERS AND DIES...
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: smiles at himself. I’ve still got it, he thinks. He takes a swig from his bottle...
+  EXPRESSION: Smug
+- CHARACTER: Narrator
+  LINE: Did he really make the wave descend? Or is it a coincidence?
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Regardless, the wind comes back with a vengeance ...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Behind him, the DORY that’s tied up wracks in the wind, beating against the sides of the boat house.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The foghorn calls. The light flashes.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: (singing “Blood Red Roses”) ‘Tis frost and snow and winter storm.
+  EXPRESSION: Singing
+- CHARACTER: Old
+  LINE: (beat) Go down ye blood red roses, go down!
+  EXPRESSION: Singing
+- CHARACTER: Old
+  LINE: (beat) And there’s many a ship lost round Cape Horn.
+  EXPRESSION: Singing
+- CHARACTER: Old
+  LINE: (beat) Go down ye blood red roses, go down!
+  EXPRESSION: Singing
+- CHARACTER: Old
+  LINE: (beat) Oh, ye pinks and posies... EIGHT... Go down!
+  EXPRESSION: Singing
+- CHARACTER: Narrator
+  LINE: NINE! He makes the sign of the cross. Douses the sea.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: ABATE, O YE WAVES OF FATHER NEPTUNE! I BEG OF YE! DRINK OF THIS GIFT, QUENCH THY SPLEEN, AND ABATE!
+  EXPRESSION: Pleading
+- CHARACTER: Narrator
+  LINE: He tosses some more liquor into the sea, and takes another swig himself.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: (singing) Well, the captain he's o’er come with fear. Go down –-
+  EXPRESSION: Singing
+- CHARACTER: Narrator
+  LINE: SUDDENLY, A MASSIVE WAVE CRASHES OVER OLD, KNOCKING HIM OFF HIS FEET.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: HE TRIES TO STAND, TO CATCH HIS BREATH...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: HE IS TERRIFIED...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: ANNAOTHER WAVE HITS HIM...
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Fog Signal House
+MOOD: Intense and Claustrophobic
+CHARACTERS: Young, Old
+BACKGROUND_IMAGE: fog_signal_house.png
+BACKGROUND_EDIT: "Interior, night, storm raging, barometer falling"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: ANGLE ON: THE BAROMETER. The needle is falling. It falls from “RAIN” to “STORM.”
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG has his shirt off, shoveling coal. Sweaty.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He has bits rags shoved in his ears, trying to muffle the sound.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: THE FOGHORN blasts.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: catches his breath. He has one of OLD’S LIQUOR BOTTLES on his chair.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: He uncorks the bottle of liquor. Smells it.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: He thinks hard about drinking it.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: No.
+  EXPRESSION: Decisive
+- CHARACTER: Young
+  LINE: He corks it.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: He lights a cigarette ins
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Doorway
+MOOD: Crazed
+CHARACTERS: Narrator, Young, Old
+BACKGROUND_IMAGE: doorway.png
+BACKGROUND_EDIT: "Young looking at Old in the doorway, Old is soaking wet."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Young turns...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Old is in the doorway soaking wet, and crazed.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Young wants to ask what happened, but decides it’s better not to.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Young somehow feels too exposed without his shirt on.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: The damp’s got to the provisions.
+  EXPRESSION: Yelling
+- CHARACTER: Young
+  LINE: What?
+  EXPRESSION: Yelling
+- CHARACTER: Narrator
+  LINE: Young pulls the scraps of fabric from his ears.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: The damp’s got to the provisions!
+  EXPRESSION: Yelling
+
+::PATHS::
+- CHOICE: "Ask about the provisions"
+  TARGET: pathway_storm
+  STATE_CHANGE: confusion = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Pilot Rock - Pathway
+MOOD: Stormy
+CHARACTERS: Narrator, The Two
+BACKGROUND_IMAGE: pathway_storm.png
+BACKGROUND_EDIT: "The two walking through a storm."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The two walk through the storm.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Continue walking"
+  TARGET: galley_later
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Living Quarters - Galley
+MOOD: Despair
+CHARACTERS: Narrator, Old, Young
+BACKGROUND_IMAGE: galley.png
+BACKGROUND_EDIT: "Old shutting the door, Young shaking off rain."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Old is shutting the door. Young is shaking off the rain.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: The damp’s got to the foodstuffs. The salt cod is out.
+  EXPRESSION: Calm
+- CHARACTER: Young
+  LINE: Out?
+  EXPRESSION: Calm
+- CHARACTER: Old
+  LINE: Blasted. Gone to rot.
+  EXPRESSION: Calm
+- CHARACTER: Young
+  LINE: Praised be.
+  EXPRESSION: Calm
+- CHARACTER: Old
+  LINE: Now will y’hear me?
+  EXPRESSION: Calm
+- CHARACTER: Young
+  LINE: Hear what?
+  EXPRESSION: Calm
+- CHARACTER: Old
+  LINE: That we best be rationing.
+  EXPRESSION: Calm
+- CHARACTER: Young
+  LINE: Rationing?
+  EXPRESSION: Calm
+- CHARACTER: Old
+  LINE: Insubordinate again--
+  EXPRESSION: Angry
+- CHARACTER: Young
+  LINE: It’s only been one day.
+  EXPRESSION: Calm
+- CHARACTER: Old
+  LINE: The Devil’s tail!
+  EXPRESSION: Angry
+- CHARACTER: Narrator
+  LINE: Young can’t figure out Old’s train of thought.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: Look, maybe the tender, maybe she did come. We missed her, is all. I can take the dory out--
+  EXPRESSION: Calm
+- CHARACTER: Old
+  LINE: Weeks, Winslow.
+  EXPRESSION: Calm
+- CHARACTER: Young
+  LINE: What?
+  EXPRESSION: Calm
+- CHARACTER: Old
+  LINE: What d’ye mean, what?
+  EXPRESSION: Calm
+- CHARACTER: Young
+  LINE: Weeks?
+  EXPRESSION: Calm
+- CHARACTER: Narrator
+  LINE: Young is beginning to feel confused, afraid.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: Weeks, aye. Weeks.
+  EXPRESSION: Calm
+- CHARACTER: Young
+  LINE: We slept in. Dead drunk.
+  EXPRESSION: Calm
+- CHARACTER: Old
+  LINE: It’s been weeks ago since we missed her, Winslow. And I’ve been askin’ ye to ration fer weeks now, too, and you’ve kept barking at me like a mad dog, sayin’ you can “take the dory out”--
+  EXPRESSION: Angry
+- CHARACTER: Young
+  LINE: Now look--
+  EXPRESSION: Angry
+- CHARACTER: Old
+  LINE: Don’t be losing yer head now.
+  EXPRESSION: Angry
+- CHARACTER: Young
+  LINE: This ain’t funny.
+  EXPRESSION: Angry
+- CHARACTER: Old
+  LINE: No, it ain’t. And I ain’t wantin’ to be stranded here with some damned lunatic.
+  EXPRESSION: Angry
+- CHARACTER: Young
+  LINE: Stranded?
+  EXPRESSION: Calm
+- CHARACTER: Old
+  LINE: That’s what I said.
+  EXPRESSION: Calm
+- CHARACTER: Young
+  LINE: I thought you said relief was comin’.
+  EXPRESSION: Calm
+- CHARACTER: Old
+  LINE: If we can wait out this storm.
+  EXPRESSION: Calm
+- CHARACTER: Young
+  LINE: The tender is comin’.
+  EXPRESSION: Calm
+- CHARACTER: Narrator
+  LINE: He says, trying to convince himself.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: In ‘75 ‘Ol Striker were marooned here for seven long months, he was. The storm died on the mainland but here, waters were too rageful neither to launch nor land.
+  EXPRESSION: Calm
+- CHARACTER: Young
+  LINE: Yer just tryin’ to scare me.
+  EXPRESSION: Calm
+- CHARACTER: Narrator
+  LINE: Young is worried he is losing his mind. Or is it Old who’s losing it?
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: Look at ye. Pretendin’. But ye well-know yer lot.
+  EXPRESSION: Calm
+
+::PATHS::
+- CHOICE: "Dig"
+  TARGET: pilot_rock_behind
+  STATE_CHANGE: fear = +2
+  CONDITION: null
+
+::SCENE::
+LOCATION: Pilot Rock - Behind the Quarters
+MOOD: Desperate
+CHARACTERS: Narrator, Old, Young
+BACKGROUND_IMAGE: pilot_rock_behind.png
+BACKGROUND_EDIT: "Storm continues, Old throws a shovel at Young."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The storm continues. Old holds two shovels. He throws the shorter one at Young.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: Dig.
+  EXPRESSION: Command
+- CHARACTER: Narrator
+  LINE: Old starts digging like a madman in the wind and rain.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: Dig, says I!
+  EXPRESSION: Yelling
+- CHARACTER: Narrator
+  LINE: Young joins, afraid of what they might be digging up.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Continue digging"
+  TARGET: grave_hole
+  STATE_CHANGE: fear = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Grave Hole
+MOOD: Grim
+CHARACTERS: Narrator, Old, Young
+BACKGROUND_IMAGE: grave_hole.png
+BACKGROUND_EDIT: "They have dug a deep, muddy hole. About the size of a grave."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: They have dug a deep, muddy hole. About the size of a grave.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: Here she lies.
+  EXPRESSION: Grave
+- CHARACTER: Narrator
+  LINE: Old unearths... A wooden crate.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He gives it to Young.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Moments later. They open it...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Inside are ten full bottles of booze.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: Rations.
+  EXPRESSION: Ironic
+
+::PATHS::
+- CHOICE: "Open the crate"
+  TARGET: galley_night
+  STATE_CHANGE: surprise = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Living Quarters - Galley
+MOOD: Drunkenness
+CHARACTERS: Narrator, The Two
+BACKGROUND_IMAGE: galley_night.png
+BACKGROUND_EDIT: "The two drinking while rationing supplies."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The two drink while they ration out supplies. Old is marshalling Young. They are pretty drunk already.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Young eyes a ledger written in the logbook, marked with pounds of coal, number of tins, gallons of oil, etc.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Outside, the rain hammers down. Wind howls.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: ...their gums grew swollen, the color of bone, then to rot. Tarry blood oozed, teeth droppin’ to deck with none to hold on to.
+  EXPRESSION: Storytelling
+- CHARACTER: Narrator
+  LINE: Old proudly shows off his missing front teeth.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: Their legs withered and turned gangree’nous, every shade of the peacock’s tail. The worst of us couldn’t fend ‘gainst the ship rats what gnawed at the soles of our feet.
+  EXPRESSION: Storytelling
+- CHARACTER: Old
+  LINE: “Land ho!” hears I, but only grass and trees on that island. So we drunk upon the sap, and et upon the grass. ‘Twas providence saved us from turnin’ to each other’s flesh, like bare-naked savages. And ‘twas that scurvy what left me locked ever since.
+  EXPRESSION: Storytelling
+- CHARACTER: Narrator
+  LINE: He knocks on his leg again.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Pause.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: Thought you said you broke it.
+  EXPRESSION: Calm
+- CHARACTER: Old
+  LINE: Eh?
+  EXPRESSION: Confused
+- CHARACTER: Young
+  LINE: Yer leg. Catholic nuns, and such like.
+  EXPRESSION: Calm
+- CHARACTER: Old
+  LINE: ...No, y’must’a misheard.
+  EXPRESSION: Calm
+- CHARACTER: Narrator
+  LINE: Young looks at Old suspiciously. Old reciprocates.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Camera reveals: Young is secretly pocketing a dinner knife.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Continue drinking"
+  TARGET: bunkroom_later
+  STATE_CHANGE: drunk = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Living Quarters - Bunkroom
+MOOD: Intoxication
+CHARACTERS: Narrator, Young, Old
+BACKGROUND_IMAGE: bunkroom.png
+BACKGROUND_EDIT: "Young on the floor drinking, Old staring out the window."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Young is on the floor, pouring himself another. Two empty bottles are by him. He takes another swig.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: No, no, no. No! And I says git off me, I says.
+  EXPRESSION: Drunk
+- CHARACTER: Narrator
+  LINE: Old sits on Young’s bed, staring out the window, fixated on the horrible storm which is tearing the outbuildings apart.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He holds a mostly empty bottle.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: Fallin’. Fallin’.
+  EXPRESSION: Calm
+- CHARACTER: Young
+  LINE: But they never listened... they’d never... if I had the chance, they’d never –- none of them Goddamned lily-livered Canadian bastards. Lack-gall cowards. Those bastard didn’t fight no revolution - – never –- and look at em! Cowards and he-women all of ‘em. Goddamn ‘em!
+  EXPRESSION: Angry
+- CHARACTER: Narrator
+  LINE: Old keeps staring out the window.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: The eaves be fallin’ fast.
+  EXPRESSION: Calm
+- CHARACTER: Young
+  LINE: Never! Any day, breaking my back, working a man harder than two horses, but Winslow, Winslow... I told that dumb bastard...
+  EXPRESSION: Angry
+- CHARACTER: Old
+  LINE: Yep. Them eaves is gonners.
+  EXPRESSION: Calm
+- CHARACTER: Young
+  LINE: Give me yer cant hook, I says to him, but foreman Winslow that goddamned Canady son-of-a-bitch fool bastard... always callin’
+  EXPRESSION: Angry
+
+::PATHS::
+- CHOICE: "Continue drinking"
+  TARGET: end_scene
+  STATE_CHANGE: drunk = +2
+  CONDITION: null
+
+::SCENE::
+LOCATION: Unspecified
+MOOD: Tense Dialogue
+CHARACTERS: Narrator, OLD, YOUNG
+BACKGROUND_IMAGE: null
+BACKGROUND_EDIT: "Dialogue-focused scene"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Me a dog. A filthy dog.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Winslow?
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: Yeah, that bastard. “I’ll show you who’s a dog.”
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Winslow?
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: What of him?
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Who, Winslow? The eaves be fallin’-
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: He’s always raggin’ on me, like you. Damn fool nonsense.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Raggin’?
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: How’d you find yourself off that grass island anyhow?
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Raggin’? Who’s raggin’? What island? That’s the trouble with ye, Winslow.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: Yeah, that’s the trouble with Winslow.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: That’s the trouble with ye!
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Pause. YOUNG takes a swig and looks OLD in the eye.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: The trouble with you is eatin’ grass without no teeth.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Come now?
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: Yer sea maties’ teeth was fallen out--
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: What’re ye getting at, Winslow?
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: Just... just, it seems powerful hard to eat grass without no teeth. Goats and sheeps and cows. Well now, they all got teeth, don’t they?
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Y’know how y’eat grass without haven’ yer teeth?
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: Oblige me.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Ye rip it out and ye swallow it.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: You rip it out and you swallow it.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Ye rip it out and--
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: I don’t know ‘bout that.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Y’don’t?
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: I don’t.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: What?
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Pause.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: What?
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Pause.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: What?
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: What?
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: What?
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: What?
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: (quickly, on his heels)
+  What?
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: (faster)
+  What?
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: (even faster)
+  What?
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: (as fast as possible)
+  What?
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: (faster than that)
+  What?
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: What?
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: What?
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: What?
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: What?
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: What?
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: What?
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: What?
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: What?
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: What?
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: What?
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: What?
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: What?
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: What?
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: What?
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: What?
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: That’s what I mean.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: That’s the trouble with you.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: That’s the trouble with ye!
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: With you!!
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: With YE!!!
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: NO!!!!
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Pause.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: (Suddenly)
+  I want a steak! I want a goddamned STEAK!!!!
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Shut it.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: A steak! A steak! A rare, bloody steak. If I had a steak, I could, oh boy, I could fuck it.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: You don’t like my cookin’?
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: Don’t be such an old bitch.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: You’re drunk, you don’t know what yer talkin’--
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: How could I possibly like the horseshit you fix us for supper?
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: Them tin kitchen shanty cooks gave us fried donuts three times a day and country ham bigger than yer fist.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Yer drunk, or ye wouldn’t be saying that! Yer drunk! Yer drunk! Yer drunk!
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: I’m drunk? I’m drunk?
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Ye heard me.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: You’ve been drunk since...
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Damn ye.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: Drunk since I first laid eyes on you.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Yer fond of me lobster, ain’t ye?
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: Yer drunker than a Virginy fence.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: I seen it, yer fond of me lobster.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: --
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Say it.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: --
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Say it.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: --
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: OLD is furious.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Damn ye!
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: I don’t have to say nothin--
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Let Neptune strike ye dead, Winslow!
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: OLD becomes dreadfully serious.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG is afraid. Silent.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: OLD speaks more powerfully and passionately than any Tamburlaine or Lear. He calls out to the gods of the sea -- a man possessed:
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Hark, Triton, Hark!
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Bellow, and bid our father, the sea king, rise up from the depths, full-foul in his fury, black waves teeming with salt-foam, to smother this young mouth with pungent slime...
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: ... to choke ye, engorging yer organs till ye turn blue and bloated with bilge and brine and can scream no more... only when, he, crowned in cockle shells with slithering tentacled tail and steaming beard, takes up his fell, be-finnèd arm -– his coral-tined trident screeches banshee-like in the tempest and runs you through the gullet, bursting ye, a bulging bladder no more, but a blasted bloody film now -- a nothing for the Harpies and the souls of dead sailors to peck and claw and feed upon, only to be lapped up and swallowed by the infinite waters of the dread emperor himself, forgotten to any man, to any time, forgotten to any god or devil, forgotten even to the sea... for any stuff or part of Winslow, even any scantling of your soul, is Winslow no more, but is now itself the sea.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: OLD is shaking like a lunatic. Veins popping in every direction. Exhausted... eyes drilling into YOUNG.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG sweats. What can he do? What can he say? Has he been cursed? Doomed?
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: Alright. Have it your way. I like yer cooking.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Pilot Rock
+MOOD: Cataclysmic
+CHARACTERS: Narrator
+BACKGROUND_IMAGE: pilot_rock_night.png
+BACKGROUND_EDIT: "Cataclysmic storm raging"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The cataclysmic storm continues.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Flash.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The wind.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Flash.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The rain.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Flash.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The waves.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Flash.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The foghorn.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Flash.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Lighthouse Machine Room
+MOOD: Hypnotic, Insane
+CHARACTERS: Narrator, YOUNG
+BACKGROUND_IMAGE: lighthouse_machine_room_night.png
+BACKGROUND_EDIT: "Camera pushing in on YOUNG watching light through lens deck"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: CAMERA PUSHES IN ON: YOUNG watching the light through the lens deck. Hypnotized.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: SMILING. SHAKING. INSANE?
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: WHISPERING ABOVE. Or is it just the spinning lens?
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The sound is familiar and alien. Male and female. Celestial.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He pulls out THE DINNER KNIFE and holds it to the light...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He smiles like a Jack-o'-lantern.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Hold.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Living Quarters - Breezeway
+MOOD: Stealthy
+CHARACTERS: Narrator, YOUNG
+BACKGROUND_IMAGE: living_quarters_breezeway_morning.png
+BACKGROUND_EDIT: "Morning, YOUNG unlacing boots"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: YOUNG unlaces his boots and puts them in his pockets, heels up. He creeps toward the TOWER like a stocking-footed burglar.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Tower Stairs
+MOOD: Stealthy
+CHARACTERS: Narrator, YOUNG
+BACKGROUND_IMAGE: tower_stairs.png
+BACKGROUND_EDIT: "MOMENTS LATER, YOUNG slinking up stairs"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: YOUNG slinks up the stairs.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Machine Room
+MOOD: Unspecified
+CHARACTERS: Narrator
+BACKGROUND_IMAGE: lighthouse_machine_room.png
+BACKGROUND_EDIT: "MOMENTS LATER"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: null
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Lantern Room
+MOOD: Tense
+CHARACTERS: Narrator, Young
+BACKGROUND_IMAGE: lantern_room.png
+BACKGROUND_EDIT: "Dimly lit room, focus on a locked door"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Young is trying to pick the lock of the Lantern Room with the dinner knife.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He is twisting and turning the knife roughly in the lock... Twisting... Jiggling...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Suddenly, the knife blade breaks in two...
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: Son-of-a-bitch.
+  EXPRESSION: Frustrated
+- CHARACTER: Narrator
+  LINE: He looks at the knife. It’s now very thin. Needle-like. An idea!
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Continue with the broken knife"
+  TARGET: living_quarters_parlor
+  STATE_CHANGE: frustration = +2
+  CONDITION: null
+
+::SCENE::
+LOCATION: Living Quarters - Parlor
+MOOD: Stealthy
+CHARACTERS: Narrator, Young, Old
+BACKGROUND_IMAGE: parlor.png
+BACKGROUND_EDIT: "Old desk, sound of snoring from upstairs"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Young tiptoes to Old’s desk with the thin, broken dinner knife...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He can hear Old snoring (O.S.) upstairs.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He brings it to the lock... He jiggles the knife... the top jiggles too... It’s unlocked already!
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He quietly opens the desk...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The log book is gone.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Son-of-a-bitch.
+  EXPRESSION: Frustrated
+- CHARACTER: Narrator
+  LINE: Old keeps snoring (O.S.).
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Go to bunkroom"
+  TARGET: living_quarters_bunkroom
+  STATE_CHANGE: frustration = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Living Quarters - Bunkroom
+MOOD: Tense, Suspenseful
+CHARACTERS: Narrator, Young, Old
+BACKGROUND_IMAGE: bunkroom.png
+BACKGROUND_EDIT: "Daytime, sound of storm and dripping water"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Young watches Old sleep. The logbook and spectacles rise and fall on his belly. His loud snore follows. The brass keys hang on their chain, his watch tucked under his pillow.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Water drips from the ceiling, plinking into a pail.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Young creeps forward toward Old, trying not to make any noise. The sounds of the storm outside help to disguise some of his movements. And the plink... plink... plink...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Old keeps snoring...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Every step is silent... Plink... plink... plink...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He reaches his hand out, unfurling like a lure in slow-motion, fishing for... the brass keys...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Young sees Old’s sweaty throat...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Pause.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Young slowly brings the knife out...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Another step forward...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The floorboards betray Young with a loud groan.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Young stops. Caught! He quickly throws his knife hand behind his back.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: Queer way to wear yer shoes.
+  EXPRESSION: Wry
+- CHARACTER: Young
+  LINE: Didn’t wanna wake you, is all.
+  EXPRESSION: Nervous
+- CHARACTER: Narrator
+  LINE: Pause. Long night. Pause. And such.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: Mm-hm. The sun is over the yardarm. Best find me some winks afore the day draws farther on.
+  EXPRESSION: Wry
+- CHARACTER: Narrator
+  LINE: Old farts.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Pause.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Young stands still.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: Get to yer duties or I’ll give you a real keelhauling.
+  EXPRESSION: Gruff
+- CHARACTER: Narrator
+  LINE: Pause.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Young stands still, thinking.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: You ain’t even human no more. Workin’ apart from folks so long. What’d you lose?
+  EXPRESSION: Accusatory
+- CHARACTER: Narrator
+  LINE: Pause.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: Yer only tol’rable when yer dunk.
+  EXPRESSION: Sarcastic
+- CHARACTER: Old
+  LINE: Get to work, says I!
+  EXPRESSION: Imperious
+- CHARACTER: Narrator
+  LINE: Young stands still, defiantly.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Camera reveals: The knife still hidden in Young’s hand.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: To work!
+  EXPRESSION: Imperious
+- CHARACTER: Narrator
+  LINE: Pause. Old farts.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Young smiles again, a weird, false smile.
+  EXPRESSION: Manipulative
+
+::PATHS::
+- CHOICE: "Continue to your duties"
+  TARGET: pilot_rock_pathway
+  STATE_CHANGE: defiance = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Pilot Rock - Pathway
+MOOD: Oppressive, Stormy
+CHARACTERS: Narrator, Young
+BACKGROUND_IMAGE: pathway.png
+BACKGROUND_EDIT: "Daytime, a tempest, pushing a wheelbarrow"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Young wears his oilskins, pushing the wheelbarrow through the tempest. It’s almost impossible. Is he drunk or hung-over?
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He mutters to himself.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He has a bottle in the barrow, floating in rain water. That’s it. No coal. Young keeps his eye on the bottle. Watching it. Caring for it.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Go to Fog Signal House"
+  TARGET: fog_signal_house
+  STATE_CHANGE: drunkenness = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Fog Signal House
+MOOD: Intense, Grimy
+CHARACTERS: Narrator, Young
+BACKGROUND_IMAGE: fog_signal_house.png
+BACKGROUND_EDIT: "Daytime, a roaring furnace, steam"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The fog machine whirls, pumps and... bellows!
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Young shovels a heap of coal into the furnace. Shirt off. Oilskin hat on.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He takes a swig from the bottle.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The fire roars.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Another big, long swig.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Go to Pilot Rock - Shore"
+  TARGET: pilot_rock_shore
+  STATE_CHANGE: drunkenness = +2
+  CONDITION: null
+
+::SCENE::
+LOCATION: Pilot Rock - Shore
+MOOD: Violent, Surreal
+CHARACTERS: Narrator, Young
+BACKGROUND_IMAGE: shore.png
+BACKGROUND_EDIT: "Daytime, relentless gale, pulling a rope"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The gale is merciless as ever.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Young is pulling up the rope of a lobster pot...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: IMAGE: The mermaid’s breast.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: IMAGE: Her mouth.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Young pulling the rope...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: IMAGE: The lighthouse, at a 45 degree angle, looking like a penis.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Young pulling the rope...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: IMAGE: The mermaid’s slimy vagina.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: IMAGE: Young’s hands tightly grip a cant hook.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: IMAGE: Wet tentacles writhing.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: IMAGE: The mermaid’s face, upside down. Screaming, moaning. Eyes rolled into the back of her head.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Young pulling...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: IMAGE: Close on: The back of a man’s head. Wool mackinaw collar.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: QUICK CUT TO:
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Go to Supply Shed"
+  TARGET: supply_shed
+  STATE_CHANGE: obsession = +3
+  CONDITION: null
+
+::SCENE::
+LOCATION: Supply Shed
+MOOD: Desperate, Chaotic
+CHARACTERS: Narrator, Young
+BACKGROUND_IMAGE: supply_shed.png
+BACKGROUND_EDIT: "Daytime, dark, rain through the roof"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Young is masturbating in the dark. Furious. Angry. Confused.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Shirt off. Oilskin hat on. Shivering. Rain pisses down through the holes in the roof.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He is holding the mermaid carving. Staring at it. It’s not working.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He throws his head back, thinking of someone, something. He does it with a fury... lust...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: It’s taking too long to get anywhere.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Back to the mermaid carving... Beat. Beat. Beat. Beat. Beat.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: His hand is getting tired. Beat. Beat. Beat. Beat. Beat.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He can feel something coming, it’s rising within him, he puts his other hand on the rickety wall... it’s coming... soon...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He’s lost it.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: IMAGE: Wide: Young is straddling the mermaid (the real one, not the carving), his pants half down, fucking her while the sea laps over them.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: IMAGE: Tentacles, fishtails, seaweed all entwined, writhing.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: IMAGE: The mermaid’s hands grab Young’s throat, dragging him into the sea and slime.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: IMAGE: A man’s face (not Young’s), surrounded by a mackinaw collar, gurgles, screaming, submerged in water.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: BACK TO THE SHED: Young howls, an animal in an iron trap!
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: HE THROWS THE MERMAID CARVING... IT BREAKS IN TWO!
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Desire quickly turns to shame.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The foghorn calls. The wind howls. Rain pours into the shed.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Young looks at the broken mermaid and curls into a ball on the wet ground with his pants around his hips...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He seems like he is about to cry...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: But he laughs. He laughs as if a great weight has been lifted.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: I fixe
+  EXPRESSION: Elated
+
+::PATHS::
+- CHOICE: "End Scene"
+  TARGET: end
+  STATE_CHANGE: mental_breakdown = true
+  CONDITION: null
+
+::SCENE::
+LOCATION: Shed
+MOOD: Violent, Frantic
+CHARACTERS: Young, Narrator
+BACKGROUND_IMAGE: shed_interior.png
+BACKGROUND_EDIT: "Dimly lit, broken carving, sharp knife"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: You did. You bastard. You can’t git to me. I’ll get yer gullet!
+  EXPRESSION: Vengeful
+- CHARACTER: Narrator
+  LINE: He crawls to the broken carving and starts wildly stabbing it with the dinner knife!
+  EXPRESSION: Furious
+
+::SCENE::
+LOCATION: Rocks by the Sea
+MOOD: Ominous, Shocking
+CHARACTERS: Young, Narrator
+BACKGROUND_IMAGE: rocks_sea.png
+BACKGROUND_EDIT: "Crashing waves, choppy water, lobster pot"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Young is pulling the rope down by the rocks... He pulls up the lobster pot...
+  EXPRESSION: Straining
+- CHARACTER: Narrator
+  LINE: Inside the pot is the shriveled corpse head of a man with one eye.
+  EXPRESSION: Horrified
+- CHARACTER: Narrator
+  LINE: A seagull flies right by Young, squawking as it goes!
+  EXPRESSION: Startled
+- CHARACTER: Narrator
+  LINE: Young almost falls in the water from terror.
+  EXPRESSION: Terrified
+- CHARACTER: Narrator
+  LINE: Small crabs crawl out of the empty eye socket.
+  EXPRESSION: Disgusted
+
+::SCENE::
+LOCATION: Living Quarters - Galley
+MOOD: Boisterous, Unhinged
+CHARACTERS: Young, Old
+BACKGROUND_IMAGE: galley.png
+BACKGROUND_EDIT: "Night, dim lighting, thunder outside"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Thunder claps.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Young and Old are singing, dancing, do-si-do-ing, swinging each other with linked elbows around the room in circles.
+  EXPRESSION: Joyful
+- CHARACTER: Old
+  LINE: (singing) She swung her hips, she winked her eyes, that sassy little whore, So I took her in, I gave her gin, and danced her on the floor!
+  EXPRESSION: Merry
+- CHARACTER: Young and Old
+  LINE: (singing) Doodle let me go, me girls, doodle let me go, Hurrah, me yaller girls, doodle let me go!
+  EXPRESSION: Jovial
+- CHARACTER: Old
+  LINE: (singing) Oh 'round and 'round the sofa, boys, wasn't it a show She grabbed hold of my bobstay and she wouldn't let it go!
+  EXPRESSION: Merry
+- CHARACTER: Narrator
+  LINE: They laugh, and break away from each other...
+  EXPRESSION: Amused
+- CHARACTER: Narrator
+  LINE: Old begins diddling “Ten Penny Bit” and dancing a jig.
+  EXPRESSION: Energetic
+- CHARACTER: Narrator
+  LINE: Young claps while Old dances. His dancing is pretty impressive, especially with his bad leg. How’s it possible?
+  EXPRESSION: Amazed
+- CHARACTER: Narrator
+  LINE: Young joins the diddling and jigging...
+  EXPRESSION: Enthusiastic
+- CHARACTER: Narrator
+  LINE: Old begins clapping, too. He claps a little faster, Young matches his tempo.
+  EXPRESSION: Competitive
+- CHARACTER: Narrator
+  LINE: It’s competitive. Fierce. Mean.
+  EXPRESSION: Intense
+- CHARACTER: Narrator
+  LINE: They diddle, jig, and clap faster and faster and faster and faster...
+  EXPRESSION: Frenetic
+- CHARACTER: Old
+  LINE: Dance! Dance, Winslow! Dance!
+  EXPRESSION: Demanding
+- CHARACTER: Young
+  LINE: (singing, very, very, very fast) Come all you boys who wish to hear How we got up to the woods last year, Oh, into the sleigh we jacked our boots Our teamster pointed to the big blue spruce Timmy-ran-tin-ah Falla-doo-a-dah Rant-and-roar and drunk-on-the-way! Timmy-ran-tin-ah Falla-doo-a-dah--
+  EXPRESSION: Exhilarated
+- CHARACTER: Narrator
+  LINE: Lightning flashes through the window.
+  EXPRESSION: Sudden
+
+::SCENE::
+LOCATION: Living Quarters - Galley
+MOOD: Intimate, Melancholy
+CHARACTERS: Young, Old
+BACKGROUND_IMAGE: galley.png
+BACKGROUND_EDIT: "Later, softer lighting, slow dancing"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Later, Young and Old are slow dancing. Arms around each others’ shoulders. Tired.
+  EXPRESSION: Weary
+- CHARACTER: Narrator
+  LINE: Young looks at him with anger and suspicion.
+  EXPRESSION: Suspicious
+- CHARACTER: Narrator
+  LINE: Old sings a ballad. His voice isn’t exactly pretty, or always on key, but the ballad is beautiful, with a haunting melody -- and his performance is moving. He’s deep into it, experiencing every moment.
+  EXPRESSION: Emotional
+- CHARACTER: Old
+  LINE: (singing) Oh, where have all the evenings gone? Oh, where is the ale and whisky I’ve tasted? Gone the same way as the pay I done wasted, On a Monday morning. If but the birds were gin, If but the sun was a hearty reveler, If I might give someone else me liver, On a Monday morning. My lover she lies asleep, My lover is warm, and her heart is mellow, I would give the whole world just to share her pillow,
+  EXPRESSION: Heartbroken
+- CHARACTER: Narrator
+  LINE: The song has changed Young’s mood, he has softened...
+  EXPRESSION: Soothed
+- CHARACTER: Narrator
+  LINE: Timidly and quietly, he joins the last line...
+  EXPRESSION: Hesitant
+- CHARACTER: Old and Young
+  LINE: (half-singing) On a Monday morning.
+  EXPRESSION: Melancholy
+- CHARACTER: Narrator
+  LINE: Thunder rumbles...
+  EXPRESSION: Foreboding
+- CHARACTER: Narrator
+  LINE: They lean into each other...
+  EXPRESSION: Tender
+- CHARACTER: Narrator
+  LINE: It is very tense...
+  EXPRESSION: Tense
+- CHARACTER: Narrator
+  LINE: It seems like they might kiss...
+  EXPRESSION: Hopeful
+- CHARACTER: Narrator
+  LINE: No. That’s madness.
+  EXPRESSION: Realistic
+- CHARACTER: Narrator
+  LINE: Pause.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Young pushes Old away. He puts up his fists like an old-timey boxer.
+  EXPRESSION: Aggressive
+- CHARACTER: Narrator
+  LINE: Old does, too.
+  EXPRESSION: Ready
+- CHARACTER: Narrator
+  LINE: They take turns hitting each other, play fighting. Old keeps hitting Young, as Young is more drunk.
+  EXPRESSION: Playful
+- CHARACTER: Young
+  LINE: You bastard.
+  EXPRESSION: Angry
+- CHARACTER: Narrator
+  LINE: The play-fighting escalates... the punches grow harder...
+  EXPRESSION: Escalating
+- CHARACTER: Narrator
+  LINE: Then...
+  EXPRESSION: Dramatic
+
+::SCENE::
+LOCATION: Living Quarters - Galley
+MOOD: Chaotic, Violent
+CHARACTERS: Young, Old
+BACKGROUND_IMAGE: galley.png
+BACKGROUND_EDIT: "Earlier, escalating fight, scattered items"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Young grabs Old and hurls him against the moldy cabinet! Old cackles. They send the whole cabinet of cups and dishes clattering down.
+  EXPRESSION: Frenzied
+- CHARACTER: Narrator
+  LINE: Old throws plates at Young, almost hitting him... dinnerware smashing on the walls.
+  EXPRESSION: Violent
+- CHARACTER: Narrator
+  LINE: They start throwing the scraps of fish bones and potato skins from their plates at each other... laughing.
+  EXPRESSION: Hysterical
+- CHARACTER: Narrator
+  LINE: They’re hysterically drunk. Demented.
+  EXPRESSION: Unhinged
+- CHARACTER: Narrator
+  LINE: Young throws the soapbox... It breaks apart against the range!
+  EXPRESSION: Destructive
+- CHARACTER: Narrator
+  LINE: They get closer to each other, running out of things to throw. Howling laughing...
+  EXPRESSION: Manic
+
+::SCENE::
+LOCATION: Parlor
+MOOD: Drunkenness, Confrontation
+CHARACTERS: Old, Young
+BACKGROUND_IMAGE: parlor.png
+BACKGROUND_EDIT: "Later, messy room, bottle of liquor"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Old pulls out another bottle and slams it down in front of Young.
+  EXPRESSION: Demanding
+- CHARACTER: Old
+  LINE: Drink.
+  EXPRESSION: Authoritative
+- CHARACTER: Young
+  LINE: Aye, aye, sir.
+  EXPRESSION: Obedient
+- CHARACTER: Old
+  LINE: In one draft.
+  EXPRESSION: Insistent
+- CHARACTER: Young
+  LINE: You do it.
+  EXPRESSION: Defiant
+- CHARACTER: Old
+  LINE: GODDAMN YER CALUMNY! The law says ye do as I command! Any word but “aye” be mutiny!
+  EXPRESSION: Enraged
+- CHARACTER: Narrator
+  LINE: Pause.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Young pulls the cork off. He drinks, and drinks, liquor pouring down the sides of his stubbly face.
+  EXPRESSION: Struggling
+- CHARACTER: Old
+  LINE: Atta boy!!
+  EXPRESSION: Appreciative
+- CHARACTER: Young
+  LINE: Aye, aye, AYE, AYE! AYE! AAAAAAYYYYYEEE!!!!!!
+  EXPRESSION: Exultant
+
+::SCENE::
+LOCATION: Living Quarters - Galley
+MOOD: Extreme Intoxication, Revelation
+CHARACTERS: Young, Old
+BACKGROUND_IMAGE: galley.png
+BACKGROUND_EDIT: "Later, both soaked in liquor, thunder and lightning"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Both of them pour booze all over their faces.
+  EXPRESSION: Smeared
+- CHARACTER: Narrator
+  LINE: Thunder claps. Lightning flashes through the window.
+  EXPRESSION: Dramatic
+- CHARACTER: Narrator
+  LINE: Young is so drunk, it’s hard to believe. He is soaked in liquor.
+  EXPRESSION: Inebriated
+- CHARACTER: Narrator
+  LINE: Old has his head on Young’s shoulder. He falls in and out of consciousness.
+  EXPRESSION: Unconscious
+- CHARACTER: Young
+  LINE: Thomas.
+  EXPRESSION: Confused
+- CHARACTER: Old
+  LINE: Aye?
+  EXPRESSION: Drowsy
+- CHARACTER: Young
+  LINE: It’s Thomas.
+  EXPRESSION: Clarifying
+- CHARACTER: Old
+  LINE: Aye.
+  EXPRESSION: Confirming
+- CHARACTER: Young
+  LINE: No, I... I’m Thomas.
+  EXPRESSION: Assertive
+- CHARACTER: Old
+  LINE: I’m Thomas. You’re Ephraim.
+  EXPRESSION: Disbelieving
+- CHARACTER: Young
+  LINE: I lied.
+  EXPRESSION: Confessing
+- CHARACTER: Old
+  LINE: Well, I’ll be scuppered.
+  EXPRESSION: Astonished
+- CHARACTER: Young
+  LINE: I’m Thomas. Tommy.
+  EXPRESSION: Determined
+- CHARACTER: Old
+  LINE: Tommy?
+  EXPRESSION: Puzzled
+- CHARACTER: Old
+  LINE: (laughs) Tommy Winslow.
+  EXPRESSION: Amused
+- CHARACTER: Young
+  LINE: Tom Howard.
+  EXPRESSION: Revealing
+- CHARACTER: Old
+  LINE: What’s Winslow?
+  EXPRESSION: Curious
+- CHARACTER: Young
+  LINE: Nothing.
+  EXPRESSION: Dismissive
+- CHARACTER: Old
+  LINE: Nothing?
+  EXPRESSION: Inquisitive
+- CHARACTER: Young
+  LINE: It ain’t my fault... I...
+  EXPRESSION: Hesitant
+- CHARACTER: Narrator
+  LINE: Pause.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: No.
+  EXPRESSION: Resolute
+- CHARACTER: Narrator
+  LINE: Pause.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: C
+  EXPRESSION: Unfinished
+
+::SCENE::
+LOCATION: Unknown location
+MOOD: Tense
+CHARACTERS: OLD, YOUNG
+BACKGROUND_IMAGE: null
+BACKGROUND_EDIT: "Interior, dark, stormy"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: an I trust you?
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: OLD sits up.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Thunder rumbles.
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Don’t be spilling any of yer beans to me.
+  EXPRESSION: gruff
+- CHARACTER: YOUNG
+  LINE: No... It wasn’t that way, is all...
+  EXPRESSION: pleading
+- CHARACTER: OLD
+  LINE: I ain’t interested.
+  EXPRESSION: dismissive
+- CHARACTER: YOUNG
+  LINE: So I can trust you?
+  EXPRESSION: hopeful
+- CHARACTER: OLD
+  LINE: Never did like being confided to.
+  EXPRESSION: wary
+- CHARACTER: YOUNG
+  LINE: I know what you’re fixin’ to do. Git me all liquored up--
+  EXPRESSION: accusatory
+- CHARACTER: OLD
+  LINE: Yer guilty conscience is ever as tiresom-borin’ as any a guilty conscience.
+  EXPRESSION: taunting
+- CHARACTER: YOUNG
+  LINE: It was a drive, see...
+  EXPRESSION: hesitant
+- CHARACTER: OLD
+  LINE: Worse.
+  EXPRESSION: knowing
+- CHARACTER: YOUNG
+  LINE: A log drive and... he’s raggin’ on me. No –– I see what yer doing...
+  EXPRESSION: frustrated
+- CHARACTER: OLD
+  LINE: Nothing.
+  EXPRESSION: nonchalant
+- CHARACTER: YOUNG
+  LINE: Look, I mean, look, Tom... don’t be working to twist words out of my head.
+  EXPRESSION: desperate
+- CHARACTER: OLD
+  LINE: I ain’t.
+  EXPRESSION: firm
+- CHARACTER: YOUNG
+  LINE: I... look... I can’t, I can’t.
+  EXPRESSION: broken
+- CHARACTER: OLD
+  LINE: Shut up yer own rag box.
+  EXPRESSION: commanding
+- CHARACTER: YOUNG
+  LINE: I can trust you.
+  EXPRESSION: resigned
+- CHARACTER: OLD
+  LINE: No.
+  EXPRESSION: firm
+- CHARACTER: YOUNG
+  LINE: I trust you, Tom.
+  EXPRESSION: defiant
+- CHARACTER: OLD
+  LINE: Y’trust me?
+  EXPRESSION: skeptical
+- CHARACTER: YOUNG
+  LINE: No. I don’t trust you at all.
+  EXPRESSION: honest
+- CHARACTER: Narrator
+  LINE: They laugh. They drink.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Living Quarters - Bunk Room
+MOOD: Confessional, Tense
+CHARACTERS: YOUNG, OLD (absent)
+BACKGROUND_IMAGE: bunk_room.png
+BACKGROUND_EDIT: "Later that same night, storm sounds diminished"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The CLOCK ticks monotonously. Somehow, the sounds of the storm have diminished. The plinking slowly disappears, too.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: CLOSE ON: YOUNG looking feral-eyed. Utterly still.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: And I had ‘im handy and helpless. Alone. Too far downstream. And I wanted to do ‘im in. I admit I did. Seein’ the back of his head. One swipe of the cant hook’d be all. It was... I didn’t... but I didn’t... I did not. The day was long as hell on that drive. I was lead-tired. I admit it. But I saw him slippin’, not me. And we saw the jam comin’. And I stood and he slipped. He shouted up. And I just stood. “Tom, you dog!” And I stood, is all. Just stood and watched ‘im git swallowed down by them logs.
+  EXPRESSION: tormented, regretful
+- CHARACTER: YOUNG
+  LINE: All I thought when he was done is, “I could use me a smoke.” That’s it. So, I packed up his kit and fixins, as if they was mine. And, well, Ephraim Winslow has a spiffy clean slate. Thomas Howard, he don’t. No prospects. How else am I gonna find respectable work?
+  EXPRESSION: cynical, self-justifying
+- CHARACTER: Narrator
+  LINE: Pause.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG turns. OLD is gone... Did he even hear this?
+  EXPRESSION: confused
+- CHARACTER: YOUNG
+  LINE: Tom?
+  EXPRESSION: searching
+- CHARACTER: Narrator
+  LINE: Long pause.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: Tom?!
+  EXPRESSION: desperate
+- CHARACTER: OLD
+  LINE: (far away, whispered, echoing) Why’d y’spill yer beans, Tommy?
+  EXPRESSION: taunting, distant
+
+::SCENE::
+LOCATION: Kitchen - Breezeway Doorway
+MOOD: Eerie, Echoing
+CHARACTERS: OLD (voice)
+BACKGROUND_IMAGE: kitchen_breezeway.png
+BACKGROUND_EDIT: "Continuous from previous scene, OLD's voice echoes"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: OLD’S voice echoes.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Lighthouse - Tower Stairs
+MOOD: Eerie, Escalating
+CHARACTERS: YOUNG, OLD (voice)
+BACKGROUND_IMAGE: lighthouse_stairs.png
+BACKGROUND_EDIT: "Moments later, chains clinking and echoing"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The chains clink, echoing too...
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: (whispered) Why’d y’spill yer beans?
+  EXPRESSION: accusatory, distant
+- CHARACTER: Narrator
+  LINE: YOUNG ascends the stairs...
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Lighthouse - Machine Room
+MOOD: Chaotic, Intrusive
+CHARACTERS: YOUNG, OLD (voice)
+BACKGROUND_IMAGE: lighthouse_machine_room.png
+BACKGROUND_EDIT: "Moments later, door to catwalk flies open, rain blows in"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: THE DOOR to the CATWALK FLIES open...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Rain blows wildly into the machine room.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG goes through the door...
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Lighthouse - Catwalk
+MOOD: Vicious, Terrifying
+CHARACTERS: YOUNG, OLD
+BACKGROUND_IMAGE: lighthouse_catwalk.png
+BACKGROUND_EDIT: "Night, vicious wind and rain, YOUNG carefully makes his way"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: THE WIND AND RAIN ARE VICIOUS ON THE WALKWAY ATOP THE TOWER.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: They push and slap YOUNG as he carefully makes his way to... A BODY.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: It’s face down. Is it the OLD man? NO. But it’s familiar - the MACKINAW COAT... THE HIGH LEATHER BOOTS WITH THICK HOBNAILED SOLES...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: For some reason, known least to YOUNG, he reaches out for the familiar man and turns the wet body over: IT'S YOUNG! HIS DOPPELGANGER. PALE. DEAD.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: AUDIO: WALK-DRAG. WALK-DRAG. WALK-DRAG. THE HULKING FOOTSTEPS ARE LOUD. VIOLENT. RIGHT BEHIND YOUNG!
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: SOMEONE GRABS HIS WRIST FROM BEHIND. A BRUTAL GRIP. IT SPINS YOUNG AROUND... IT'S OLD. NAKED. HE HAS YOUNG WITHIN HIS POWER. HIS WILL. BUT... THE OLD MAN'S EYES ARE CLOSED.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: YOUNG tries to get away. But he can't. The OLD man is too strong. And something starts to happen. Something horrible...
+  EXPRESSION: struggling, terrified
+- CHARACTER: Narrator
+  LINE: THE OLD MAN SLOWLY OPENS HIS EYES.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG's expression tells it all: fascination moves quickly through confusion and deep, unknown terror as ... A LIGHT BRIGHTER THAN ANYTHING BATHES YOUNG'S FACE!
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: OLD’S EYES SHINE LIKE THE LIGHTHOUSE BEACON INTO YOUNG’S FACE.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Pilot Rock
+MOOD: Desperate Flight
+CHARACTERS: YOUNG
+BACKGROUND_IMAGE: pilot_rock.png
+BACKGROUND_EDIT: "Dawn, YOUNG runs through the storm"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: CLOSE ON: YOUNG RUNS THROUGH THE STORM!
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Boathouse
+MOOD: Frantic Struggle
+CHARACTERS: YOUNG, OLD
+BACKGROUND_IMAGE: boathouse.png
+BACKGROUND_EDIT: "Moments later, huge waves crash, YOUNG desperately tries to launch the dory"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: YOUNG tries with utter desperation to launch the DORY out to sea. He throws on a CORK LIFE VEST.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: HUGE WAVES CRASH AGAINST HIM.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: It is a bitter struggle as he drags the DORY along the runners...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG throws the OARS in the boat...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Suddenly...
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: DON’T LEAVE ME!
+  EXPRESSION: desperate
+- CHARACTER: Narrator
+  LINE: OLD SWIPES THROUGH THE AIR WITH A FIRE AXE, SMASHING THE DORY RIGHT BY YOUNG!
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG RUNS...
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Pilot Rock
+MOOD: Pursuit, Danger
+CHARACTERS: OLD, YOUNG
+BACKGROUND_IMAGE: pilot_rock_pursuit.png
+BACKGROUND_EDIT: "Continuous, OLD chases YOUNG with an axe"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: OLD chases YOUNG across the island, wielding the axe...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG runs into the QUARTERS.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Living Quarters - Galley
+MOOD: Violent Confrontation
+CHARACTERS: OLD, YOUNG
+BACKGROUND_IMAGE: galley.png
+BACKGROUND_EDIT: "Continuous, OLD bursts in, swings axe"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: OLD bursts in and swings the AXE at YOUNG, missing...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: OLD buries THE AXE deep in the kitchen table. He falls with exhaustion. They are both soaking wet.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: You crazy son-of-a-bitch! You smashed up the life boat!
+  EXPRESSION: enraged
+- CHARACTER: OLD
+  LINE: Yer abandoning yer post!
+  EXPRESSION: accusatory
+- CHARACTER: Narrator
+  LINE: YOUNG storms into the...
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Parlor
+MOOD: Confrontational, Threatening
+CHARACTERS: YOUNG, OLD
+BACKGROUND_IMAGE: parlor.png
+BACKGROUND_EDIT: "Continuous, water leaking from ceiling"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: WATER is leaking from the ceiling, heavily. It flows down one of the walls.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: What’re you gonna do? Send for the lighthouse establishment?
+  EXPRESSION: taunting
+- CHARACTER: OLD
+  LINE: Certain, says I! I’ll report ye, I’ll bring the inspector up--
+  EXPRESSION: defiant
+- CHARACTER: YOUNG
+  LINE: I’ll report you. I know what you done...
+  EXPRESSION: threatening
+- CHARACTER: OLD
+  LINE: Who’s reportin’ who? Ephraim Winslow? Or Thomas Howard? I know what yo
+  EXPRESSION: threatening, knowing
+
+::SCENE::
+INT. LOCATION: UNKNOWN
+MOOD: Intense
+CHARACTERS: YOUNG, OLD
+BACKGROUND_EDIT: "YOUNG smiles, manic. OLD is in horror."
+
+::SCRIPT::
+- CHARACTER: YOUNG
+  LINE: You killed yer second.
+  EXPRESSION: Sudden, Manic
+- CHARACTER: OLD
+  LINE: --
+  EXPRESSION: Speechless, Horror
+- CHARACTER: YOUNG
+  LINE: I found him. Yer one-eyed junior man. In the lobster pot. He went mad? You made him mad with that charm! That scrimshaw trinket, it’s a sea spell to keep him from yer secret... But I broke it, see. I’m free.
+  EXPRESSION: Gleeful, Manic
+- CHARACTER: YOUNG
+  LINE: Free from yer designs!
+  EXPRESSION: Triumphant
+- CHARACTER: YOUNG
+  LINE: And I got it all figgerd out, ‘cept what’s the secret mischief yer keepin’...
+  EXPRESSION: Inquisitive
+  STAGE_DIRECTION: Points to THE LANTERN ROOM.
+- CHARACTER: YOUNG
+  LINE: ... up there!
+  EXPRESSION: Inquisitive
+  STAGE_DIRECTION: Continues pointing to THE LANTERN ROOM.
+- CHARACTER: OLD
+  LINE: --
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: I figgerd you, old timer. This whole time, I’ve been watchin’ you and I’ve got you figgerd.
+  EXPRESSION: Confident
+- CHARACTER: OLD
+  LINE: Jesus, Mary and Joseph, Tommy. Last night you made a confession ‘twould make a saint swear. I don’t have nothin’ to confess, but you, Tommy, a-spillin’ yer beans... now look what it’s done to ye. It’s made ye mad. I knew ye was mad when y’smashed up the life boat just now, a-chasing me with an axe, tryin’ to kill ‘Ol Tom. Don’t y’trust me, Tommy?
+  EXPRESSION: Pitying
+- CHARACTER: OLD
+  LINE: Better hand me the dinner knife you pocketed. Y’aint safe with it. Them’s government property.
+  EXPRESSION: Stern
+  STAGE_DIRECTION: YOUNG does so, looking like a guilty child.
+- CHARACTER: OLD
+  LINE: There’s a good lad.
+  EXPRESSION: Soothing
+  STAGE_DIRECTION: OLD, stepping on it, breaks it in two and throws it in the stove.
+- CHARACTER: OLD
+  LINE: Look at yer shiverin’. Yer so mad, y’know not up from down. How long have we been on this rock? Five week? Two days? Where are we? Help me to recollect, who are you again, Tommy?
+  EXPRESSION: Concerned
+- CHARACTER: YOUNG
+  LINE: --
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: I’m probably a fig’ment of your ‘magination. This rock is a fig’ment of yer ‘magination, too. Yer probably wand’rin’ through a grove of tag alders, up in north Canady, like a frostbitten maniac a-talkin’ to yerself, knee-deep in the snow, the blizzard overtakin’ ye.
+  EXPRESSION: Hypothetical
+  STAGE_DIRECTION: Pause.
+- CHARACTER: YOUNG
+  LINE: I could use a smoke.
+  EXPRESSION: Casual
+- CHARACTER: OLD
+  LINE: We’re outta drink.
+  EXPRESSION: Casual
+  STAGE_DIRECTION: They smile at each other like old friends.
+
+::SCENE::
+INT. LIGHTHOUSE - OIL ROOM - LATER
+LOCATION: Lighthouse - Oil Room
+MOOD: Strange Camaraderie
+CHARACTERS: YOUNG, OLD
+BACKGROUND_EDIT: "Honey being poured into a canister. YOUNG smokes a cigarette."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Honey dribbles into a brass kerosene canister.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: Thieves’ oil.
+  EXPRESSION: Proud
+  STAGE_DIRECTION: Smells it. He likes it. He pours OLD a cup.
+- CHARACTER: OLD
+  LINE: Oooooh, monkey pump!
+  EXPRESSION: Delighted
+  STAGE_DIRECTION: They both drink... fighting over it like giddy children.
+
+::SCENE::
+INT. FOG SIGNAL HOUSE - NIGHT
+LOCATION: Fog Signal House
+MOOD: Ominous
+CHARACTERS: Narrator
+BACKGROUND_EDIT: "The barometer needle is falling rapidly."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Angle on: The barometer. The needle is falling. It falls from “storm” to a blank space below. Off the chart, so to speak.
+  EXPRESSION: null
+
+::SCENE::
+EXT. THE SEA - NIGHT
+LOCATION: The Sea
+MOOD: Cataclysmic
+CHARACTERS: Narrator
+BACKGROUND_EDIT: "Gigantic waves crash. Thunder and lightning. The end is near."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Wide: Gigantic waves crash. Thunder. Lightning. The end is near.
+  EXPRESSION: null
+
+::SCENE::
+EXT. LIGHTHOUSE - NIGHT
+LOCATION: Lighthouse
+MOOD: Destructive
+CHARACTERS: Narrator
+BACKGROUND_EDIT: "Fierce, 50-foot waves assault the lighthouse. Water rushes over the living quarters' roof."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Wide: The lighthouse is assailed by ferocious, 50-foot waves.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Angle on: The living quarters, water rushing over the roof. Will it survive?
+  EXPRESSION: Uncertain
+
+::SCENE::
+INT. LIVING QUARTERS - GALLEY - NIGHT
+LOCATION: Living Quarters - Galley
+MOOD: Hysterical
+CHARACTERS: YOUNG, OLD
+BACKGROUND_EDIT: "YOUNG and OLD laugh hysterically, holding cups of thieves' oil. Water drips from the ceiling. The axe is in the table."
+
+::SCRIPT::
+- CHARACTER: YOUNG
+  LINE: YOUNG and OLD laugh and laugh and laugh, holding cups of thieves’ oil. YOUNG still wears the life vest. Water drips and pours from the ceiling. The axe in the table top between them.
+  EXPRESSION: Hysterical
+- CHARACTER: Narrator
+  LINE: They keep laughing in a frighteningly hysterical manner... Laughing... Laughing... Laughing... Laughing... Laughing...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Suddenly, the force of a wave crashes through a window... Water floods into the room with rapid speed. But YOUNG & OLD don’t notice. They keep laughing... Laughing... Laughing... Laughing... Laughing...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: HOLD.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: BLACK.
+  EXPRESSION: null
+
+::SCENE::
+INT. LIVING QUARTERS - GALLEY - MORNING
+LOCATION: Living Quarters - Galley
+MOOD: Devastated
+CHARACTERS: YOUNG, OLD (O.S.)
+BACKGROUND_EDIT: "The galley is a disaster zone, wet and messy. The axe is in the table. YOUNG, wearing a life vest, drinks turpentine from a tin."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The kitchen is an absolute catastrophe. However terrible it looked the night before, it is even worse now. Mess is everywhere and every surface is soaking wet. Water drips in a way that suggests the storm is over. The quarters utterly destroyed, and by the looks of it, not just by the storm. The axe still stays buried in the table.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: This place is a sty.
+  EXPRESSION: Disgusted
+  STAGE_DIRECTION: YOUNG is sitting in the SINK, drinking TURPENTINE straight from the tin. He’s in his undershirt and trousers, but still wearing the life vest.
+- CHARACTER: OLD (O.S.)
+  LINE: Mornin’ to you, too.
+  EXPRESSION: Casual
+- CHARACTER: YOUNG
+  LINE: I wish I could go fer a walk.
+  EXPRESSION: Resigned
+- CHARACTER: OLD (O.S.)
+  LINE: Be my guest. You’ll get drowned.
+  EXPRESSION: Grim
+
+::SCENE::
+INT. LIVING QUARTERS - PARLOR - LATER
+LOCATION: Living Quarters - Parlor
+MOOD: Absurdist
+CHARACTERS: YOUNG
+BACKGROUND_EDIT: "The room is half flooded. YOUNG pisses into a floating chamber pot, removing his life vest. He retches."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The clock ticks monotonously. The room is half flooded.
+  EXPRESSION: null
+- CHARACTER: YOUNG
+  LINE: YOUNG stands in ankle deep water, pissing, missing the chamber pot as it floats across the room. As he does this, he is taking off the life vest... Suddenly, he begin to retch... he throws up. He falls to his knees... splash... and sees... OLD’S LOGBOOK... it floats by... OPEN.
+  EXPRESSION: Nauseated
+  STAGE_DIRECTION: YOUNG fumbles around to snatch it up, to bring it to the dim window light. He begins to leaf through t.
+
+::SCENE::
+LOCATION: Unknown
+MOOD: Melancholy
+CHARACTERS: Narrator, Young, Old
+BACKGROUND_IMAGE: unknown.png
+BACKGROUND_EDIT: "Pages of a book with old photographs and newspaper clippings"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: There are beautiful mementos of Old’s past, newspaper clippings, tintypes...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG finds locks of Old’s children’s hair... he touches them gently...
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Continue looking"
+  TARGET: log_entries
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Unknown
+MOOD: Foreboding
+CHARACTERS: Narrator, Young
+BACKGROUND_IMAGE: unknown.png
+BACKGROUND_EDIT: "Close-up on a book containing log entries"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Then... HE FINDS THE LOG ENTRIES... (CAMERA doesn’t see the entries.)
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG almost slams it shut. But he doesn’t. He keeps reading...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG’S face drops. The CLOCK’S ticking seems to grow louder every second.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG looks like a ghost.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Smash the clock"
+  TARGET: smash_clock
+  STATE_CHANGE: anger = +5
+  CONDITION: null
+
+::SCENE::
+LOCATION: Unknown
+MOOD: Violent Outburst
+CHARACTERS: Narrator, Young
+BACKGROUND_IMAGE: unknown.png
+BACKGROUND_EDIT: "Close-up of a fist smashing a clock, shattering glass and drawing blood"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: HE SMASHES THE CLOCK WITH HIS FIST. No more ticking. Glass and blood.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Go to the galley"
+  TARGET: galley
+  STATE_CHANGE: anger = +2
+  CONDITION: null
+
+::SCENE::
+LOCATION: Living Quarters - Galley
+MOOD: Despair
+CHARACTERS: Old, Young
+BACKGROUND_IMAGE: galley.png
+BACKGROUND_EDIT: "A messy galley area, filled with trash. Old sits in the middle."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: OLD sits in a heap of trash. He’s wearing only his sweaty, baggy, mostly unbuttoned union suit, his vest with his watch chain, and his cap.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: He smokes his pipe... It goes out.
+  EXPRESSION: Annoyed
+- CHARACTER: Old
+  LINE: Damn.
+  EXPRESSION: Annoyed
+- CHARACTER: Narrator
+  LINE: He tries to find a match in the chaos.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: Fiery pit! Ain’t there no justice left in this world?
+  EXPRESSION: Angry
+- CHARACTER: Narrator
+  LINE: He roots through the rubbish, throwing it around...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Suddenly, the sound of a MATCH striking (O.S.)!
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: OLD turns around, startled.
+  EXPRESSION: Startled
+- CHARACTER: Narrator
+  LINE: YOUNG is right behind OLD... with a LIT MATCH... utterly still. Eerily still.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He calmly lights OLD’S pipe.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: OLD feels a bit uneasy.
+  EXPRESSION: Uneasy
+- CHARACTER: Old
+  LINE: Thankee.
+  EXPRESSION: Grateful
+- CHARACTER: Old
+  LINE: What’s wrong with yer hand?
+  EXPRESSION: Curious
+- CHARACTER: Narrator
+  LINE: YOUNG looks at the match hand in confusion.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: T’other one.
+  EXPRESSION: Curious
+- CHARACTER: Narrator
+  LINE: YOUNG looks: his left hand leaves blood marks on the table. He slithers his cut hand away.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: Ye hear o’ tetanus?
+  EXPRESSION: Curious
+- CHARACTER: Young
+  LINE: --
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: Tet-a-nus?
+  EXPRESSION: Curious
+- CHARACTER: Young
+  LINE: Yep.
+  EXPRESSION: Quiet
+- CHARACTER: Old
+  LINE: It started as a sliver of a cut is all...
+  EXPRESSION: Explanatory
+- CHARACTER: Narrator
+  LINE: YOUNG is motionless. Boiling.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: I said I heard of it.
+  EXPRESSION: Resentful
+- CHARACTER: Old
+  LINE: ... from the forestaysail when we shoved off...
+  EXPRESSION: Explanatory
+- CHARACTER: Young
+  LINE: Can’t you never shut up.
+  EXPRESSION: Irritated
+- CHARACTER: Old
+  LINE: ... but come a fortnight...
+  EXPRESSION: Explanatory
+- CHARACTER: Young
+  LINE: Stop.
+  EXPRESSION: Demanding
+- CHARACTER: Old
+  LINE: The bosun was a-shakin’...
+  EXPRESSION: Explanatory
+- CHARACTER: Young
+  LINE: Shut up, I says.
+  EXPRESSION: Demanding
+- CHARACTER: Old
+  LINE: ... his chops was locked tighter than an anchor bend--
+  EXPRESSION: Explanatory
+- CHARACTER: Narrator
+  LINE: YOUNG explodes:
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: SHUT IT! I told you I can’t hear no more! Hold yer jaw!
+  EXPRESSION: Furious
+- CHARACTER: Old
+  LINE: What were it yer accused me of? Y’already told me y’had me figgerd-
+  EXPRESSION: Defensive
+- CHARACTER: Young
+  LINE: I’m tired out of listening to your damned-fool yarns and your Cap’n Ahab horseshit -- you sound like a goddamned parody. Givin’ and nagging orders like a spinster schoolmarm... and... and...
+  EXPRESSION: Furious
+- CHARACTER: Old
+  LINE: ‘Nother conniption fit. Yer makin’ a fool of yerelf.
+  EXPRESSION: Dismissive
+- CHARACTER: Young
+  LINE: all-the-while turning this station to the Devil’s own rum hole.
+  EXPRESSION: Furious
+- CHARACTER: Young
+  LINE: Well, it’s all horseshit, yer leg, and yer sea life, all of it. And I’m tired of it. If I hear one more word of horseshit coming from your foul, rotten tooth, smelly old mouth––
+  EXPRESSION: Furious
+- CHARACTER: Old
+  LINE: Ye--
+  EXPRESSION: Interrupted
+- CHARACTER: Young
+  LINE: Shut up yer gum, Goddamn it -- I ain’t finished.
+  EXPRESSION: Furious
+- CHARACTER: Young
+  LINE: I’m sick of lookin’ at you, I’m sick of lookin’ at week-old food in yer beard starin’ me in the face like it ‘spects me of somethin’. You think yer so damned high and mighty cause yer a goddamned lighthouse keeper? Well, you ain’t a captain of no ship and you never was, you ain’t no general, no copper, you ain’t the president, and you ain’t my father -- and I’m sick of you actin’ like you is! I’m sick of yer orders! I’m sick of your laughing, your snoring, and your goddamned farts. Your damned goddamned farts. Goddamn yer farts! You smell like piss, you smell like jism, like rotten dick, like curdled foreskin, like hot onions fucked a farmyard shit-house. And I’m sick of yer smell. I’m sick of it! I’m sick of it, you goddamned drunk. You goddamned, no-account, drunken, son-of-a-bitch-bastard-liar! That’s what you are, you’re a goddamned drunken horse-shitting –- short -- shit liar. A liar!
+  EXPRESSION: Furious
+- CHARACTER: Narrator
+  LINE: Long pause.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: Y’have a way with words, Tommy.
+  EXPRESSION: Amused
+- CHARACTER: Young
+  LINE: Damn you.
+  EXPRESSION: Furious
+- CHARACTER: Old
+  LINE: Yer relieved of yer duties.
+  EXPRESSION: Resolute
+- CHARACTER: Young
+  LINE: No need to tell me, old timer.
+  EXPRESSION: Bitter
+- CHARACTER: Narrator
+  LINE: YOUNG reveals the LOG book. He reads aloud:
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: Assistant slept late. Work below standard.
+  EXPRESSION: Reading
+- CHARACTER: Narrator
+  LINE: Turns the page.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: Attitude Hostile
+  EXPRESSION: Reading
+- CHARACTER: Narrator
+  LINE: Turns several pages.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: Assistant missing. Given to habitual ‘self-abuse’ in the supply shed.
+  EXPRESSION: Reading
+- CHARACTER: Narrator
+  LINE: A few more pages.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: Drunk on duty.
+  EXPRESSION: Reading
+- CHARACTER: Narrator
+  LINE: Turns a page.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: Incoherent speech.
+  EXPRESSION: Reading
+- CHARACTER: Narrator
+  LINE: Another page.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: Attempted to abandon his post. Assault. Theft.
+  EXPRESSION: Reading
+- CHARACTER: Narrator
+  LINE: Another page.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: I do not feel safe with him. Recommend severance without pay.
+  EXPRESSION: Reading
+- CHARACTER: Narrator
+  LINE: SEVERANCE WITHOUT PAY?!
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: Yer trying to ruin me?! I’m a hard worker! I am! I work as hard as any man!
+  EXPRESSION: Desperate
+- CHARACTER: Old
+  LINE: Ye lie, Thomas.
+  EXPRESSION: Firm
+- CHARACTER: Young
+  LINE: Stop it.
+  EXPRESSION: Pleading
+- CHARACTER: Old
+  LINE: Y’lie to yerself, but y’ain’t have the sauce to see it.
+  EXPRESSION: Knowing
+- CHARACTER: Narrator
+  LINE: YOUNG changes his tune:
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: Work as hard as a man and two horses, you said so yerself, I work like I’m a damn foreigner.
+  EXPRESSION: Earnest
+- CHARACTER: Narrator
+  LINE: YOUNG works at getting into the BREEZEWAY toward the TOWER.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: OLD stands in his way.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG begs, desperately:
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: Please, please, let me into the light, old man, and I’ll show you what I can do for -- I can -- I can do better -- I can. I’ve learned so much from you. Another chance. Let me show you. Forgive and forgit, I says -- just let me into that lantern, is all, don’t make me beg- -- I will -- I’ll beg if that’s what
+  EXPRESSION: Pleading
+
+::PATHS::
+- CHOICE: "Continue to beg"
+  TARGET: beg_for_chance
+  STATE_CHANGE: desperation = +5
+  CONDITION: null
+- CHOICE: "Attempt to force past Old"
+  TARGET: force_past
+  STATE_CHANGE: aggression = +5
+  CONDITION: null
+
+::SCENE::
+LOCATION: Not Specified
+MOOD: Confrontational
+CHARACTERS: Old, Young
+BACKGROUND_IMAGE: null
+BACKGROUND_EDIT: null
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: you want, PLEASE--
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: Stand down.
+  EXPRESSION: Stern
+- CHARACTER: Young
+  LINE: SELFISH BASTARD! Keepin’ it all to yerself. Left yer old lady, yer children for what? For what?!
+  EXPRESSION: Angry
+- CHARACTER: Old
+  LINE: Look at ye, handsome lad, with eyes bright as a lady. Come to this rock playin’ the tough, ye make me laugh with yer false grum. Ye pretended to some mystery in yer quietudes, but there ain’t no mystery, yer an open book. A picture, says I. A painted actress screaming in the footlights, a bitch what wants to be coveted for nothin’ but being born, cryin’ bout the silver spoon what should’ve been yers. Now look at ye cryin’.
+  EXPRESSION: Smug
+- CHARACTER: Young
+  LINE: --
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: Boo! Boo! What’re y’to do? Look at ye. Look at ye. Will y’kill me? Will ye? Will y’kill me like y’done that gull?
+  EXPRESSION: Taunting
+- CHARACTER: Young
+  LINE: I didn’t--
+  EXPRESSION: Defiant
+- CHARACTER: Old
+  LINE: LIAR! YE MURDERING DOG! TWAS YE WHAT CHANGED THE WIND ON US!
+  EXPRESSION: Furious
+- CHARACTER: Young
+  LINE: Damn you!
+  EXPRESSION: Angry
+- CHARACTER: Old
+  LINE: ‘TWAS YE WHAT DAMNED US, DOG! ‘TWAS YE! Will y’do what y’wish y’done to ol’ Winslow?
+  EXPRESSION: Furious
+- CHARACTER: Young
+  LINE: --
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: Would ye best me then? If y’break, I win. If I break ye, I still win.
+  EXPRESSION: Smug
+- CHARACTER: Young
+  LINE: --
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: I always win because yer less a man than I -- and them’s the rules of nature. Them’s truth. I am truth. I make the truth as I see fit. Me. And the truth is that yer a nothin’, Tommy-Tom-Tom. A nothing but a dog what thinks he’s the master when he pulls on his master’s leash. Well if you pull on my leash, I’ll choke ye, Thomas Howard, I’ll strangle ye, fer Winslow were right: You’re A DOG, THOMAS! A FILTHY DOG!! A DOG!!!
+  EXPRESSION: Boastful
+- CHARACTER: Narrator
+  LINE: OLD AND YOUNG ATTACK EACH OTHER AT THE SAME TIME -- GOING FOR EACH OTHERS’ THROATS! EYES BULGE.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: OLD GRINS WILDLY... YOUNG GRINS BACK...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG STARTS KICKING OLD IN HIS BAD LEG...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: OLD CRUMBLES TO THE GROUND -- he tries to get up...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG KICKS OLD IN THE SPINE...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: OLD’S FOREHEAD SMACKS AGAINST THE FLOOR. HARD. It bleeds.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG GETS ON TOP OF OLD AND TURNS HIM AROUND. OLD GRABS YOUNG’S SHOULDERS.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: Shut up! Shut up! Shut up!
+  EXPRESSION: Enraged
+- CHARACTER: Narrator
+  LINE: THEY ARE VIOLENTLY WRESTLING... ANIMALISTIC GRUNTING... BREATHING... SWEATING... LEGS ENTWINED... VEINY THROATS... VEINY BICEPS... MOVING BACK AND FORTH, BACK AND FORTH... WRESTLING... BREATHING... GRUNTING... SWEATING...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: SUDDENLY, YOUNG LOOKS DOWN... IT’S NO LONGER OLD... IT’S EPHRAIM WINSLOW in his mackinaw coat... YOUNG IS IN TERROR...
+  EXPRESSION: null
+- CHARACTER: Winslow
+  LINE: SPITS IN YOUNG’S FACE...
+  EXPRESSION: Disgusted
+- CHARACTER: Narrator
+  LINE: YOUNG GOES TO STRANGLE HIM, BUT AS HE DOES... WINSLOW HAS BECOME... THE MERMAID! SHE STRANGLES YOUNG... HER TAIL THRASHES... HE TRIES TO GET AWAY... THEN, THE MERMAID BECOMES... OLD... ONLY IT’S NOT: HE IS NAKED, HIS BEARD IS LONGER, COVERED IN SEAWEED... AND HE HAS ENORMOUS SQUID TENTACLES FOR LEGS...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG PUNCHES OLD, AND SEA WATER FLOWS FROM HIS MOUTH...
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: LAUGHS... TWISTING HIS TENTACLES AROUND YOUNG... WRAPPING AROUND HIS ARMS AND LEGS, SQUEEZING...
+  EXPRESSION: Malevolent
+- CHARACTER: Narrator
+  LINE: YOUNG PUNCHES OLD AGAIN, BRUTALLY! A TENTACLE WRAPS AROUND YOUNG’S THROAT, SQUEEZING...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG PUNCHES AGAIN! TENTACLES SQUEEZING...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG PUNCHES AGAIN! AGAIN!!
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: YER KILLING ME!
+  EXPRESSION: Terrified
+- CHARACTER: Narrator
+  LINE: Suddenly... YOUNG looks down. It’s OLD. Bloody. Whimpering. No mer-person, no Winslow, just an old, weeping man that YOUNG has beat to a pulp.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG stands, breathing heavily. He pulls up his suspenders. He wipes the sweat from his brow. OLD lies motionless, just breathing and letting out his almost inaudible whimper.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG leans on the table. Very, very long pause.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: Bark.
+  EXPRESSION: Demanding
+- CHARACTER: Narrator
+  LINE: Pause.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: Bark boy, bark, laddy.
+  EXPRESSION: Demanding
+- CHARACTER: Narrator
+  LINE: Pause.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: Bark!
+  EXPRESSION: Demanding
+- CHARACTER: Old
+  LINE: Woof.
+  EXPRESSION: Weak
+- CHARACTER: Young
+  LINE: Ain’t you never been to sea before, bark I says, bark!
+  EXPRESSION: Mocking
+- CHARACTER: Old
+  LINE: Arf.
+  EXPRESSION: Weak
+- CHARACTER: Young
+  LINE: Bark, laddy!
+  EXPRESSION: Demanding
+- CHARACTER: Old
+  LINE: Ruff! Ruff!!
+  EXPRESSION: Weak
+- CHARACTER: Young
+  LINE: Now, there’s a good boy. There’s a good dog.
+  EXPRESSION: Patronizing
+- CHARACTER: Narrator
+  LINE: Long pause.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: Now roll over.
+  EXPRESSION: Demanding
+
+::PATHS::
+- CHOICE: "Continue tormenting Old"
+  TARGET: pilot_rock
+  STATE_CHANGE: cruelty = +2
+  CONDITION: null
+
+::SCENE::
+LOCATION: Pilot Rock - Near The Hole
+MOOD: Grim
+CHARACTERS: Young, Old
+BACKGROUND_IMAGE: pilot_rock.png
+BACKGROUND_EDIT: "Aftermath of a storm, debris scattered, a large hole dug"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The storm has indeed ended. Clapboards and shingles have been torn from the quarters. The supply shed is nowhere to be seen.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG walks OLD on a leash, well, a rope around his neck. OLD crawls on all fours.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: Good boy.
+  EXPRESSION: Patronizing
+- CHARACTER: Narrator
+  LINE: YOUNG walks OLD to the GRAVE-SIZED HOLE they dug out.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: Git in there, you old dog. Where you belong.
+  EXPRESSION: Commanding
+- CHARACTER: Narrator
+  LINE: Pause.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: You do as I say, dog!
+  EXPRESSION: Commanding
+- CHARACTER: Narrator
+  LINE: OLD slinks into the wet, muddy grave. He settles down, semi-submerged in a foot or so of water and sludge.
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: That’s my good lad.
+  EXPRESSION: Patronizing
+- CHARACTER: Narrator
+  LINE: YOUNG picks up a shovel... He begins to bury OLD.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: No!
+  EXPRESSION: Pleading
+- CHARACTER: Narrator
+  LINE: YOUNG puts more dirt and mud on him...
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: Y’wish to see what’s in that lantern? So did me last assistant.
+  EXPRESSION: Desperate
+- CHARACTER: Narrator
+  LINE: YOUNG shovels mud onto OLD’S face...
+  EXPRESSION: null
+- CHARACTER: Young
+  LINE: Shut up, dog. Polish yer brasswork.
+  EXPRESSION: Cruel
+- CHARACTER: Narrator
+  LINE: He keeps shoveling... OLD laughs, blood pouring out of his mouth. Dying.
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: Y’said yer a God fearin’ man, Tommy? Them’s truth, Tommy!
+  EXPRESSION: Dying
+- CHARACTER: Narrator
+  LINE: More mud on him...
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: O what Protean forms swim up from men’s minds and melt in hot Promethean plunder scorching eyes with divine shames and horrors
+  EXPRESSION: Dying
+- CHARACTER: Narrator
+  LINE: More mud on him...
+  EXPRESSION: null
+- CHARACTER: Old
+  LINE: and cast them down to Davy Jones. And others, still blind, yet in it see all d
+  EXPRESSION: Dying
+
+::PATHS::
+- CHOICE: "Finish burying Old"
+  TARGET: end
+  STATE_CHANGE: cruelty = +3, murder = true
+  CONDITION: null
+
+::SCENE::
+LOCATION: Graveyard (implied)
+MOOD: Grim
+CHARACTERS: Narrator, OLD, YOUNG
+BACKGROUND_IMAGE: graveyard.png
+BACKGROUND_EDIT: "Dirt and mud everywhere"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Divine graces and to Fiddler’s Green sent, where no man is suffered to want and toil, but is
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Dirt on his face...
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: ancient
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Mud...
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: mutable
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: More mud on his face...
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: and unchanging as the she who girdles ‘round the globe.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: More mud...
+  EXPRESSION: null
+- CHARACTER: OLD
+  LINE: Them’s truth. And you’ll be punished.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: OLD becomes stifled from the dirt and mud.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Long pause.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Is he dead?
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Suddenly, YOUNG panics...
+  EXPRESSION: Panicked
+- CHARACTER: Narrator
+  LINE: He jumps into the grave and starts digging out OLD with his hands...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Digging and digging and sloshing...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He lifts OLD up. He holds him.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Pause. YOUNG catches his breath.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG takes the BRASS KEYS from OLD’S vest...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He lets OLD fall into the mud, still as a stone.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG walks away.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG doesn’t see it, but several GULLS fly into frame behind him.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Lighthouse - Oil Room
+MOOD: Anticipation
+CHARACTERS: Narrator, YOUNG
+BACKGROUND_IMAGE: lighthouse_oil_room.png
+BACKGROUND_EDIT: "Afternoon, long staircase leading up"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: YOUNG slowly approaches the long staircase.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He looks up...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He puts his hands on the railing...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He is ready to go into the lantern room at last.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: But something stops him...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: No, he can’t go on.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He pats his breast pocket... no smokes.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Living Quarters - Galley
+MOOD: Sudden Violence
+CHARACTERS: Narrator, YOUNG, OLD
+BACKGROUND_IMAGE: lighthouse_galley.png
+BACKGROUND_EDIT: "Moments later, a table is present"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: YOUNG walks through the galley. He goes to the table...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: THERE IT IS: HIS POUCH OF TOBACCO.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He begins to roll a cigarette...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He looks down:
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Staring at him is A HOLE IN THE MIDDLE OF THE TABLE -- BUT THE AXE IS GONE...
+  EXPRESSION: null
+- CHARACTER: OLD (O.S.)
+  LINE: THE LIGHT B’LONGS TO ME!
+  EXPRESSION: Menacing
+- CHARACTER: Narrator
+  LINE: OLD, covered in mud, barely alive, swings THE AXE, cutting into YOUNG’S shoulder. Blood gushes from the wound.
+  EXPRESSION: violent
+- CHARACTER: Narrator
+  LINE: YOUNG picks up the IRON KETTLE and swings around, bashing OLD in THE FACE.
+  EXPRESSION: violent
+- CHARACTER: Narrator
+  LINE: OLD falls hard to the ground, groaning...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG PICKS UP THE AXE...
+  EXPRESSION: Determined
+- CHARACTER: Narrator
+  LINE: HE LIFTS IT HIGH...
+  EXPRESSION: Determined
+- CHARACTER: Narrator
+  LINE: OLD tries to guard himself with his hands...
+  EXPRESSION: Fearful
+- CHARACTER: Narrator
+  LINE: YOUNG DRIVES THE AXE INTO OLD’S HEAD WITH A BLOOD CURDLING CRUNCH! (OLD’S head is O.S. but it is clear that this is what happened).
+  EXPRESSION: violent
+- CHARACTER: Narrator
+  LINE: BLOOD SPLATTERS ACROSS THE ROOM. His old limbs seize for a moment and drop back to the floor.
+  EXPRESSION: violent
+- CHARACTER: Narrator
+  LINE: Pause.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG limps, covered in blood, back to the table.
+  EXPRESSION: Injured
+- CHARACTER: Narrator
+  LINE: He rolls the cigarette, his hands shaking.
+  EXPRESSION: Shaking
+- CHARACTER: Narrator
+  LINE: He smokes it.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He pours some turpentine into a nearby cup.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He looks at OLD, the axe handle sticking up from his head.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: YOUNG lifts the cup. Hand shaking. He toasts.
+  EXPRESSION: Determined
+- CHARACTER: YOUNG
+  LINE: Should pale death with treble dread make the ocean caves our bed, God who hear'st the surges roll, deign to save the suppliant soul.
+  EXPRESSION: Somber
+- CHARACTER: Narrator
+  LINE: He drinks.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Hold.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: MUSIC CUE: The eerie “light” music. Continues to the end of the film.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Lighthouse - Breezeway
+MOOD: Desperate Ascent
+CHARACTERS: Narrator, YOUNG
+BACKGROUND_IMAGE: lighthouse_breezeway.png
+BACKGROUND_EDIT: "Night, YOUNG crawling towards the tower"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Crawling, trembling, and bleeding, YOUNG slowly works his way to the tower...
+  EXPRESSION: Injured
+
+::SCENE::
+LOCATION: Lighthouse - Tower Stairs
+MOOD: Slow Ascent
+CHARACTERS: Narrator, YOUNG
+BACKGROUND_IMAGE: lighthouse_tower_stairs.png
+BACKGROUND_EDIT: "Moments later, YOUNG continues his slow ascent"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: YOUNG continues, slowly...
+  EXPRESSION: Determined
+
+::SCENE::
+LOCATION: Lighthouse - Machine Room
+MOOD: Approaching the Light
+CHARACTERS: Narrator, YOUNG
+BACKGROUND_IMAGE: lighthouse_machine_room.png
+BACKGROUND_EDIT: "Moments later, YOUNG ascends a ladder"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: YOUNG ascends the ladder, slowly, and using THE KEY, HE OPENS THE HATCH that leads into the LANTERN ROOM...
+  EXPRESSION: Determined
+- CHARACTER: Narrator
+  LINE: The dazzling LIGHT swirling...
+  EXPRESSION: Awe
+- CHARACTER: Narrator
+  LINE: YOUNG is hypnotized...
+  EXPRESSION: Hypnotized
+
+::SCENE::
+LOCATION: Lighthouse - Lantern Room
+MOOD: Revelation and Madness
+CHARACTERS: Narrator, YOUNG
+BACKGROUND_IMAGE: lighthouse_lantern_room.png
+BACKGROUND_EDIT: "Night, the Fresnel Lens is the focal point"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: YOUNG looks ahead...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: There it is: THE FRESNEL LENS. It is a massive, six-foot-tall jewel of indescribable beauty with eight shimmering brass legs. It seems to sing...
+  EXPRESSION: Awe
+- CHARACTER: Narrator
+  LINE: He walks toward it...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: As if by magic, the LENS’ rotation begins to decelerate...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The LENS stops turning...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He marvels at it.
+  EXPRESSION: Awe
+- CHARACTER: Narrator
+  LINE: Slowly, the doors of the lens open like wings, facing him...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The light grows brighter...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Pause.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He takes it in.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Pause.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: A tear falls from his eye.
+  EXPRESSION: Emotional
+- CHARACTER: Narrator
+  LINE: He smiles.
+  EXPRESSION: Serene
+- CHARACTER: Narrator
+  LINE: Slowly, he puts his hand into the light...
+  EXPRESSION: Brave
+- CHARACTER: Narrator
+  LINE: A deep, bassy, fire-crackling sound is heard as he touches the flames...
+  EXPRESSION: Painful
+- CHARACTER: Narrator
+  LINE: THE LIGHT grows brighter...
+  EXPRESSION: Intense
+- CHARACTER: Narrator
+  LINE: His hand is burning, but he keeps reaching...
+  EXPRESSION: Determined
+- CHARACTER: Narrator
+  LINE: The crackling sound growing louder and more otherworldly...
+  EXPRESSION: Intense
+- CHARACTER: Narrator
+  LINE: YOUNG starts to shake with insanity...
+  EXPRESSION: Insane
+- CHARACTER: Narrator
+  LINE: His face distorts...
+  EXPRESSION: Distorted
+- CHARACTER: Narrator
+  LINE: THE LIGHT GROWS BRIGHTER...
+  EXPRESSION: Intense
+- CHARACTER: Narrator
+  LINE: YOUNG SCREAMS...
+  EXPRESSION: Painful
+- CHARACTER: Narrator
+  LINE: BRIGHTER...
+  EXPRESSION: Intense
+- CHARACTER: Narrator
+  LINE: INCONCEIVABLY BRIGHT...
+  EXPRESSION: Intense
+- CHARACTER: Narrator
+  LINE: YOUNG starts trembling, crying, he’s terrified of what he has seen...
+  EXPRESSION: Terrified
+- CHARACTER: Narrator
+  LINE: He cannot fathom it...
+  EXPRESSION: Distraught
+- CHARACTER: Narrator
+  LINE: He foams at the mouth....
+  EXPRESSION: Mad
+- CHARACTER: Narrator
+  LINE: He teeters...
+  EXPRESSION: Unbalanced
+- CHARACTER: Narrator
+  LINE: He’s loosing his balance... he’s falling...
+  EXPRESSION: Falling
+- CHARACTER: Narrator
+  LINE: He falls backward out of frame...
+  EXPRESSION: Falling
+- CHARACTER: Narrator
+  LINE: OUT OF THE LANTERN ROOM...
+  EXPRESSION: Falling
+- CHARACTER: Narrator
+  LINE: SLAM.
+  EXPRESSION: Impact
+- CHARACTER: Narrator
+  LINE: INTO THE MACHINE ROOM...
+  EXPRESSION: Impact
+- CHARACTER: Narrator
+  LINE: BANG.
+  EXPRESSION: Impact
+- CHARACTER: Narrator
+  LINE: AND DOWN THE STAIRS...
+  EXPRESSION: Falling
+- CHARACTER: Narrator
+  LINE: ...All the way down the long winding staircase, tumbling, tumbling, grunting, twisting, bones breaking, and clanging down four stories of stairs until YOUNG lands with a dull, bloody...
+  EXPRESSION: Violent Fall
+- CHARACTER: Narrator
+  LINE: THUD.
+  EXPRESSION: Impact
+- CHARACTER: Narrator
+  LINE: Is he breathing?
+  EXPRESSION: Uncertain
+- CHARACTER: Narrator
+  LINE: FADE TO WHITE.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Pilot Rock
+MOOD: Macabre End
+CHARACTERS: Narrator, YOUNG, ONE-EYED GULL, other BIRDS
+BACKGROUND_IMAGE: pilot_rock_dawn.png
+BACKGROUND_EDIT: "Dawn, YOUNG lying naked and broken on the rocks"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: YOUNG lies naked, splayed out on the rocks, bones broken.
+  EXPRESSION: Broken
+- CHARACTER: Narrator
+  LINE: He is blind. His eyes are bloody, burnt-out sockets. He can’t move. Seaweed is wrapped around him.
+  EXPRESSION: Helpless
+- CHARACTER: Narrator
+  LINE: A seabird pecks at his abdomen...
+  EXPRESSION: Cruel
+- CHARACTER: Narrator
+  LINE: Peck. Peck. Peck.
+  EXPRESSION: Cruel
+- CHARACTER: Narrator
+  LINE: It is THE ONE-EYED GULL...
+  EXPRESSION: Sinister
+- CHARACTER: Narrator
+  LINE: It pulls at YOUNG’S liver...
+  EXPRESSION: Gruesome
+- CHARACTER: Narrator
+  LINE: YOUNG groans...
+  EXPRESSION: Painful
+- CHARACTER: Narrator
+  LINE: Dozens and dozens of BIRDS fly to YOUNG, overwhelming him. Eating him.
+  EXPRESSION: Gruesome
+- CHARACTER: Narrator
+  LINE: CAMERA pulls back to reveal him alone, on PILOT ROCK. (CAMERA doesn’t pull back far enough to see the lighthouse or outbuildings.)
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Only YOUNG and a swarm of seabirds eating him.
+  EXPRESSION: Gruesome
+- CHARACTER: Narrator
+  LINE: HOLD.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: THE END.
+  EXPRESSION: null
+

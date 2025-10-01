@@ -1,0 +1,8211 @@
+::SCENE::
+LOCATION: Workshop
+MOOD: Creative, Mysterious
+CHARACTERS: Narrator, Peter Graham, Steve Graham, Max
+BACKGROUND_IMAGE: workshop.png
+BACKGROUND_EDIT: "Morning, artist's workshop with dollhouses, miniature craftsman home revealed, bright sun"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: An impressive room serving as an ARTIST’S WORKSHOP. It’s empty, but evidence of frantic creative activity abounds.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: We PAN across the wall, crossing a series of meticulously hand-crafted DOLLHOUSES, mostly works in progress. As we drift past these unfinished dioramas, our trajectory becomes clearer...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: We are moving in on an extraordinary sculpture of a beautiful, rustic CRAFTSMAN HOME, at 1:8 scale. Its front wall has been removed, exposing its rooms in graphic tableaux. This huge miniature is painstakingly detailed. It’s adorned with shrunken props/decorations (flashlights, pill bottles, shoes, etc.) and teensy furniture, all flawlessly rendered and distinguishable ONLY IN SIZE from their full-scale models.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: We continue to pan/track across the miniature, edging CLOSER AND CLOSER as we drift along its tiny rooms. We finally arrive at a miniature replica of a TEENAGE BOY’S BEDROOM on the second floor.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: We push towards this until the ROOM FILLS THE FRAME. The bright morning sun beams in through its window. It becomes apparent that a handsome, skinny BOY is sleeping in the bed. This is PETER GRAHAM (17).
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: We continue pushing gently in, remaining in a wide of the room (whose status as a miniature has now been confused). The door opens and STEVE GRAHAM (47) - tall, broad-shouldered, formal - pops his head in. He wears a black suit.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: All right, Petey. Wake up time.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter stirs awake. Steve drops a folded-up BLACK SUIT AND TIE on the foot of the bed.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: Here’s your suit.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: MAX, the family’s golden retriever, shuffles happily in through the door.
+  EXPRESSION: Happy
+- CHARACTER: Steve
+  LINE: Did your sister sleep in her room last night?
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Proceed to exterior of Graham House"
+  TARGET: graham_house_exterior
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Graham House
+MOOD: Somber, Cold
+CHARACTERS: Narrator, Steve Graham, Annie Graham
+BACKGROUND_IMAGE: graham_house.png
+BACKGROUND_EDIT: "Same time, wide shot of the house identical to miniature, snow-covered landscape, parked car"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Wide on the house, revealing that it is IDENTICAL to the miniature that we saw in the workshop. The surrounding landscape is blanketed with SNOW.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Steve exits a back door to approach a very large TREEHOUSE. It is joined to a sturdy oak and hovers fifteen feet above the ground. We are subtly BOOMING DOWN from this wide view (as Steve begins to climb the tree) to arrive at a parked CAR - one of two family cars - in the foreground.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Sitting in the passenger seat is a bereaved woman (45). She wears all black, and is beautiful in a worn way. This is ANNIE GRAHAM, and she looks emotionally exhausted.
+  EXPRESSION: Exhausted
+- CHARACTER: Narrator
+  LINE: She wears a delicate NECKLACE bearing an ORNATE SIGIL, which she compulsively fingers.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Proceed to treehouse"
+  TARGET: treehouse_exterior
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Treehouse
+MOOD: Urgent, Tense
+CHARACTERS: Narrator, Steve, Charlie
+BACKGROUND_IMAGE: treehouse.png
+BACKGROUND_EDIT: "Same time, interior of a treehouse, Charlie sleeping, drawing pad and shoebox nearby"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Steve pokes his head into the treehouse, where he finds: CHARLIE - a plump, androgynous fourteen year old girl - lying asleep on the floor. She wears a parka and pajama bottoms.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Beside her is a DRAWING PAD and an open SHOEBOX.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: Oh my God, Charlie. Are you crazy?
+  EXPRESSION: Surprised
+- CHARACTER: Narrator
+  LINE: Charlie wakes up, her nose pink and runny. When she notices Steve, she frantically reaches to SHUT the shoebox.
+  EXPRESSION: Surprised
+- CHARACTER: Steve
+  LINE: This is how you get pneumonia!
+  EXPRESSION: Concerned
+- CHARACTER: Charlie
+  LINE: It’s okay.
+  EXPRESSION: Calm
+- CHARACTER: Steve
+  LINE: Your mom’s in the car already, we’re late.
+  EXPRESSION: Urgent
+
+::PATHS::
+- CHOICE: "Proceed to funeral home"
+  TARGET: funeral_home_chapel
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Funeral Home - Chapel
+MOOD: Somber, Eerie, Disturbing
+CHARACTERS: Narrator, Large Woman, Annie Graham, Steve Graham, Charlie Graham, Peter Graham, Mourners, Middle-Aged Blonde Man, Older Woman
+BACKGROUND_IMAGE: funeral_home_chapel.png
+BACKGROUND_EDIT: "Morning, funeral chapel, open casket, large photo of Ellen Leigh, family in front row, other mourners"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: A moderately attended FUNERAL. (A large group of MEN AND WOMEN observe from the back.)
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Before the altar, an OPEN CASKET rests beside a blown up photo of the deceased ELLEN LEIGH, Annie’s 75 year old mother.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie, Steve, Charlie (now wearing an oversized black dress over her pajama bottoms) and Peter sit in the first row of chairs. They listen as a LARGE WOMAN (60s) speaks in remembrance of Ellen.
+  EXPRESSION: null
+- CHARACTER: Large Woman
+  LINE: Ellen was a tough one. She didn't mince words, she abhorred the sentimental, and she was honest. And I know that's how she raised her children, Annie and Charles -
+  EXPRESSION: Speaking
+- CHARACTER: Large Woman
+  LINE: - may he rest in peace... To always be honest...
+  EXPRESSION: Uncomfortable
+- CHARACTER: Narrator
+  LINE: Half-listening (half-wincing), Annie’s attention is drawn to CHARLIE, who makes a quiet CLICKING noise with her tongue. This is a tic.
+  EXPRESSION: Wincing
+- CHARACTER: Narrator
+  LINE: Suddenly, a bird FLAPS out from the rafters, startling the congregation.
+  EXPRESSION: Startled
+- CHARACTER: Narrator
+  LINE: The bird settles on a ceiling perch. It is a WHIPPOORWILL. It looks down, fixing its gaze on Annie. Annie looks very disturbed. Off-screen, the Large Woman continues.
+  EXPRESSION: Disturbed
+- CHARACTER: Narrator
+  LINE: MINUTES LATER Annie is now on the PLATFORM.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: I just wanna say first...it’s very heartening to see so many strange new faces here today. I know my mom would be very touched (and probably a little suspicious) if she could see this turn-out, so...
+  EXPRESSION: Speaking
+- CHARACTER: Narrator
+  LINE: Annie looks down to now read from a heavily edited loose-leaf page. This is her eulogy. (Not used to reading in public, she rarely looks up from the paper.)
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: My mother was an intensely secretive and private woman. She had private rituals, private friends, private anxieties... It honestly feels like a betrayal just to be standing here talking about her...
+  EXPRESSION: Reflective
+- CHARACTER: Narrator
+  LINE: Annie pauses. She looks at the paragraph. It’s very long, and begins with the sentence “My mother was a chameleon.” She decides to skip ahead to the next paragraph.
+  EXPRESSION: Hesitant
+- CHARACTER: Annie
+  LINE: She was a very difficult woman to read. If you ever thought you knew what was going on with her - and God forbid you tried to confront that...! (stops...pauses...skips ahead) ...But when her life was unpolluted, she could easily be the sweetest, warmest, most loving person in the world...
+  EXPRESSION: Pausing
+- CHARACTER: Narrator
+  LINE: Charlie is DRAWING a weepy caricature of Annie at the platform. Steve watches this in the corner of his eye.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: ...She was also incredibly stubborn. Which maybe explains me.
+  EXPRESSION: Speaking
+- CHARACTER: Narrator
+  LINE: Scattered, knowing laughter.
+  EXPRESSION: Amused
+- CHARACTER: Annie
+  LINE: You could always count on her to always have the answer....
+  EXPRESSION: Speaking
+- CHARACTER: Narrator
+  LINE: She stops short, eyes on the paper. The sentence would continue “and if she ever WAS mistaken - well, that was YOUR opinion and you were WRONG.”
+  EXPRESSION: Hesitant
+- CHARACTER: Narrator
+  LINE: Suddenly remorseful, Annie (off-book) asserts:
+  EXPRESSION: Remorseful
+- CHARACTER: Annie
+  LINE: I did love her.
+  EXPRESSION: Assertive
+- CHARACTER: Narrator
+  LINE: Charlie is still drawing. Steve closes the notepad. He points to Annie: “Listen to your mother.” Charlie grudgingly obliges.
+  EXPRESSION: Annoyed
+- CHARACTER: Annie
+  LINE: She was especially strong about food. When I was a girl and I had to eat my veggies...
+  EXPRESSION: Speaking
+- CHARACTER: Narrator
+  LINE: LATER The mourners have been invited up to view the deceased and say goodbye. Organ music plays as Annie, Steve, Peter (who doesn’t look) and Charlie shuffle by.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Charlie peers into the open casket to see her grandmother’s CORPSE. It wears a NECKLACE with a delicate SIGIL ORNAMENT (identical to Annie’s). The seams in the corpse’s make-up are eerily apparent and the lips are slightly twisted.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Unnerved, Charlie looks away. She meets eyes with a smiling MIDDLE-AGED BLONDE MAN standing in the queue behind her. He’s STARING at her - an overly sentimental look in his eyes.
+  EXPRESSION: Unnerved
+- CHARACTER: Narrator
+  LINE: Disturbed, Charlie averts her eyes.
+  EXPRESSION: Disturbed
+- CHARACTER: Charlie
+  LINE: Yeesh.
+  EXPRESSION: Disgusted
+- CHARACTER: Narrator
+  LINE: SECONDS LATER An older WOMAN arrives at the open casket. Her finger is dipped into a small bottle of OIL. She quickly and covertly STREAKS the oil along the corpse’s lips.
+  EXPRESSION: Covert
+- CHARACTER: Narrator
+  LINE: Seeing this, a following mourner squints with bewilderment.
+  EXPRESSION: Bewildered
+
+::PATHS::
+- CHOICE: "Proceed to car"
+  TARGET: car_moving
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Car - Moving
+MOOD: Reflective, Tense
+CHARACTERS: Narrator, Steve, Annie, Peter, Charlie
+BACKGROUND_IMAGE: car_moving.png
+BACKGROUND_EDIT: "Late afternoon, driving home, passing deer, family in car"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Steve is at the wheel, driving back home. Annie sits passenger, and Peter and Charlie sit in the back. They drive past a gathering of DEER.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: How did you keep from screaming during Judy’s speech?
+  EXPRESSION: Annoyed
+- CHARACTER: Steve
+  LINE: Ha. Well, if you could...!
+  EXPRESSION: Amused
+- CHARACTER: Narrator
+  LINE: Peter EYES the back of Annie’s head. She seems to grate on his nerves. Meanwhile, Charlie is back to making clicking noises with her tongue. She does this while unwrapping a CHOCOLATE BAR.
+  EXPRESSION: Annoyed
+- CHARACTER: Annie
+  LINE: How about that bird flying in?
+  EXPRESSION: Curious
+- CHARACTER: Steve
+  LINE: Yeah, that was weird.
+  EXPRESSION: Thoughtful
+- CHARACTER: Annie
+  LINE: That was too weird. The timing? It felt like it was my mom.
+  EXPRESSION: Reflective
+- CHARACTER: Narrator
+  LINE: Steve nods, betraying a look of CONCERN. Annie self-consciously backtracks:
+  EXPRESSION: Concerned
+- CHARACTER: Annie
+  LINE: Not actually, obvi
+  EXPRESSION: Self-conscious
+
+::PATHS::
+- CHOICE: "End of excerpt"
+  TARGET: end
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Car Interior
+MOOD: Tense
+CHARACTERS: Narrator, Annie, Charlie, Steve
+BACKGROUND_IMAGE: car_interior.png
+BACKGROUND_EDIT: "Daytime, inside a car, tense atmosphere"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: ously. Just - it struck me.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie notices Charlie eating the chocolate bar.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Hey! Are there nuts in that?
+  EXPRESSION: Concerned
+- CHARACTER: Charlie
+  LINE: No!
+  EXPRESSION: Defensive
+- CHARACTER: Annie
+  LINE: Better not be.
+  EXPRESSION: Stern
+- CHARACTER: Narrator
+  LINE: Annie returns her attention to the road. Steve lovingly takes her hand. She smiles at him.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Charlie, irritated, looks very tense.
+  EXPRESSION: Angry
+- CHARACTER: Charlie
+  LINE: I don’t like going back without grandma.
+  EXPRESSION: Sad
+- CHARACTER: Steve
+  LINE: Well, sweetie...do you understand why we have to?
+  EXPRESSION: Concerned
+- CHARACTER: Narrator
+  LINE: Charlie just tenses up, eyes narrowing onto the floor.
+  EXPRESSION: Angry
+
+::PATHS::
+- CHOICE: "Arrive home"
+  TARGET: graham_house_foyer
+  STATE_CHANGE: sadness = +1, tension = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Graham House - Foyer
+MOOD: Somber
+CHARACTERS: Narrator, Max, Steve, Charlie, Peter
+BACKGROUND_IMAGE: graham_foyer.png
+BACKGROUND_EDIT: "Evening, unlit house foyer, snow tracked in"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The house is unlit and seemingly vacant.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Off-screen, we hear FEET SCURRYING and a DOOR CLOSING. Max, the golden retriever, BARKS in reaction to this.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: A moment later, the front door opens and the Graham family enters. They stamp the snow off their boots and remove their coats.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Max runs up, desperate to greet them. Steve bends down to happily receive him.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Charlie moves toward the stairs, still wearing her boots.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: Hey hey -- shoes off.
+  EXPRESSION: Stern
+- CHARACTER: Narrator
+  LINE: Charlie pulls off her boots. She and Peter start separately up the stairs. Steve, looking down, notices dried FOOT-PRINTS around the foyer.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: See? What’s with all these footprints? I’m tired of reminding everybody.
+  EXPRESSION: Annoyed
+
+::PATHS::
+- CHOICE: "Go to the workshop"
+  TARGET: workshop_evening
+  STATE_CHANGE: annoyance = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Workshop
+MOOD: Functional
+CHARACTERS: Narrator, Annie, Steve
+BACKGROUND_IMAGE: annie_workshop.png
+BACKGROUND_EDIT: "Evening, cluttered artist's workshop, miniature hospice model"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Annie is at her work desk. It’s a mess of paints, props, wood pieces, etc. She wears magnifying eye-glasses as she carefully paints eyes onto a SMALL DOCTOR FIGURINE for a MINIATURE HOSPICE. A figurine of an old woman - presumably Annie’s mother - lies in a miniature hospital bed.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Steve enters, disrupting Annie’s focus.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: How’s it going?
+  EXPRESSION: Neutral
+- CHARACTER: Annie
+  LINE: Just working.
+  EXPRESSION: Neutral
+- CHARACTER: Narrator
+  LINE: Steve casually rests a glass of water and a PILL on the table. She downs it without question.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: Still toiling on the hospice?
+  EXPRESSION: Neutral
+- CHARACTER: Annie
+  LINE: Between that and the pre-school.
+  EXPRESSION: Neutral
+- CHARACTER: Narrator
+  LINE: There is a half-finished MINIATURE PRE-SCHOOL in the corner.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: How far are we now? Seven months?
+  EXPRESSION: Neutral
+- CHARACTER: Annie
+  LINE: Six and a half.
+  EXPRESSION: Neutral
+- CHARACTER: Steve
+  LINE: Yow. Comin’ up.
+  EXPRESSION: Concerned
+- CHARACTER: Narrator
+  LINE: Her eyes widen with stress.
+  EXPRESSION: Stressed
+- CHARACTER: Steve
+  LINE: Any title ideas yet?
+  EXPRESSION: Neutral
+- CHARACTER: Narrator
+  LINE: Annie grabs her laptop and pulls up a PDF for a poster promoting an upcoming EXHIBITION of her artwork. It features a photo of a magnificent living room miniature. Below this are the words “TITLE HERE” in bold, followed by “The Work of Annie Leigh.”
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: This is the photo they wanna use.
+  EXPRESSION: Neutral
+- CHARACTER: Steve
+  LINE: Ooh, I love that one.
+  EXPRESSION: Happy
+- CHARACTER: Annie
+  LINE: The gallery owner keeps suggesting Your Life in Miniature for the title.
+  EXPRESSION: Annoyed
+- CHARACTER: Steve
+  LINE: What do you think of that?
+  EXPRESSION: Neutral
+- CHARACTER: Narrator
+  LINE: Annie looks at him, incredulous.
+  EXPRESSION: Surprised
+- CHARACTER: Steve
+  LINE: No good?
+  EXPRESSION: Neutral
+- CHARACTER: Annie
+  LINE: It’s horrible!
+  EXPRESSION: Angry
+- CHARACTER: Steve
+  LINE: Yeah. A little trite.
+  EXPRESSION: Conceding
+- CHARACTER: Annie
+  LINE: A lot trite! Are you kidding? She won’t stop suggesting it!
+  EXPRESSION: Angry
+- CHARACTER: Narrator
+  LINE: Steve looks to a stack of LARGE MOVING BOXES in the corner. They’re marked “Mom’s Things” in Annie’s handwriting.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: You want me to put that stuff in the attic?
+  EXPRESSION: Neutral
+- CHARACTER: Annie
+  LINE: ...Yeah. Maybe not just yet.
+  EXPRESSION: Hesitant
+
+::PATHS::
+- CHOICE: "Leave the workshop"
+  TARGET: peters_bedroom
+  STATE_CHANGE: stress = +1, memories = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Peter’s Bedroom
+MOOD: Somber
+CHARACTERS: Narrator, Peter, Steve, Annie
+BACKGROUND_IMAGE: peters_bedroom.png
+BACKGROUND_EDIT: "Nighttime, messy teenager's room, guitar, muted TV"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Peter sits up in bed, holding a guitar. He improvises a clunky tune as a muted TV plays cartoons. His eyes are on the TV.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The door cracks open and Steve pokes his head in.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: Goodnight, kiddo.
+  EXPRESSION: Neutral
+- CHARACTER: Peter
+  LINE: ‘Night, dad.
+  EXPRESSION: Neutral
+- CHARACTER: Steve
+  LINE: ...What you playing?
+  EXPRESSION: Neutral
+- CHARACTER: Peter
+  LINE: Just plucking random strings.
+  EXPRESSION: Neutral
+- CHARACTER: Steve
+  LINE: You feeling okay about everything?
+  EXPRESSION: Concerned
+- CHARACTER: Peter
+  LINE: Yeah. Fine.
+  EXPRESSION: Neutral
+- CHARACTER: Steve
+  LINE: Little sad?
+  EXPRESSION: Concerned
+- CHARACTER: Narrator
+  LINE: Peter shrugs again. He clearly wasn’t fond of Ellen.
+  EXPRESSION: Neutral
+- CHARACTER: Steve
+  LINE: Yeah. I know.
+  EXPRESSION: Sad
+- CHARACTER: Steve
+  LINE: Okay, buddy. Love you.
+  EXPRESSION: Loving
+- CHARACTER: Narrator
+  LINE: Steve KISSES in Peter’s direction. Peter kisses back. Steve walks off, leaving the door open.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: A moment later, Annie walks up to the doorway, still wearing her magnifying eye-glasses. She’s holding a prop in one hand, a fine paintbrush in the other.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: ‘Night sweetheart.
+  EXPRESSION: Neutral
+- CHARACTER: Peter
+  LINE: Goodnight. I’m sorry about your mom.
+  EXPRESSION: Sad
+- CHARACTER: Annie
+  LINE: Thank you. I’m sorry about your grandma.
+  EXPRESSION: Sad
+- CHARACTER: Peter
+  LINE: ...Thank you.
+  EXPRESSION: Sad
+- CHARACTER: Narrator
+  LINE: Annie smiles, hesitates, and walks off. There’s a very loaded tension between these two.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: After Annie is gone, Peter climbs out of bed to shut the door. He LOCKS it.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Go to Charlie's room"
+  TARGET: charlies_bedroom
+  STATE_CHANGE: tension = +1, sadness = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Charlie’s Bedroom
+MOOD: Unsettling
+CHARACTERS: Narrator, Charlie, Annie
+BACKGROUND_IMAGE: charlies_bedroom.png
+BACKGROUND_EDIT: "Nighttime, artist's room, drawings on walls, handmade manikins"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Charlie’s room is that of a young artist. The walls are covered in drawings, and the desks and other surfaces are littered with different HANDMADE HUMAN MANIKINS and SMALL STATUES (all made of disparate parts - mostly found objects).
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie sits on the edge of Charlie’s bed. Charlie is under the covers. Annie has opened Charlie’s drawing pad to see a CARICATURE of Annie’s mother’s corpse in its casket.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: That’s grandma?
+  EXPRESSION: Surprised
+- CHARACTER: Charlie
+  LINE: I dunno.
+  EXPRESSION: Neutral
+- CHARACTER: Annie
+  LINE: You know you were her favorite?
+  EXPRESSION: Neutral
+- CHARACTER: Charlie
+  LINE: No I wasn’t.
+  EXPRESSION: Defensive
+- CHARACTER: Annie
+  LINE: Oh yes you absolutely were! Even when you were a little baby, she wouldn’t let me feed you because she needed to feed you. It drove me crazy.
+  EXPRESSION: Animated
+- CHARACTER: Charlie
+  LINE: She said I was supposed to be a boy.
+  EXPRESSION: Sad
+- CHARACTER: Narrator
+  LINE: Annie knows this. She hesitates, wanting to say the right thing.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: How do you feel about that?
+  EXPRESSION: Concerned
+- CHARACTER: Narrator
+  LINE: Charlie shrugs.
+  EXPRESSION: Neutral
+- CHARACTER: Annie
+  LINE: You know I was a tomboy growing up? I hated dresses and dolls and pink.
+  EXPRESSION: Neutral
+- CHARACTER: Narrator
+  LINE: Charlie’s heard this before. She has tensed up.
+  EXPRESSION: Angry
+- CHARACTER: Charlie
+  LINE: Who’s gonna take care of me?
+  EXPRESSION: Afraid
+- CHARACTER: Annie
+  LINE: Ummm, excuse me? You don’t think I’m gonna take care of you?!
+  EXPRESSION: Mock Offended
+- CHARACTER: Charlie
+  LINE: But when you die...
+  EXPRESSION: Afraid
+- CHARACTER: Annie
+  LINE: ...Then dad will take care of you. Or Peter.
+  EXPRESSION: Reassuring
+- CHARACTER: Narrator
+  LINE: Charlie’s head remains turned. Discouraged, Annie turns back the page of the drawing pad. She now sees the caricature of her, crying at the pulpit.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Who’s this one?
+  EXPRESSION: Neutral
+- CHARACTER: Narrator
+  LINE: No answer. Annie takes it personally, but pretends not to.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: She closes the book with a smile.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: You never even cried as a baby - you know that? Not even when you were born.
+  EXPRESSION: Neutral
+- CHARACTER: Narrator
+  LINE: Charlie ignores this.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Did you feel like you wanted to cry today?
+  EXPRESSION: Concerned
+- CHARACTER: Narrator
+  LINE: Without looking at Annie, Charlie shrugs a tense “I don’t know.”
+  EXPRESSION: Afraid
+- CHARACTER: Annie
+  LINE: Do you think that might feel like a relief?
+  EXPRESSION: Concerned
+- CHARACTER: Narrator
+  LINE: Charlie remains miles away.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie looks up to notice that a difficult-to-read WORD (looks like “Satony”) has been CARVED into the wall behind Charlie’s bed. Annie pauses, lets it go, and then bends down to KISS Charlie’s forehead.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Goodnight, sweetie.
+  EXPRESSION: Loving
+
+::PATHS::
+- CHOICE: "Go to the workshop again"
+  TARGET: workshop_night
+  STATE_CHANGE: unease = +1, curiosity = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Workshop
+MOOD: Mysterious
+CHARACTERS: Narrator, Annie, Ellen
+BACKGROUND_IMAGE: annie_workshop_night.png
+BACKGROUND_EDIT: "Nighttime, peaceful snowfall outside, eerie darkness within"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Annie enters. Outside the window: peaceful snowfall.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie hesitates before walking over to the box labeled “Mom’s Things.” She reluctantly opens it...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The box is filled with bottled oils and herbs. At the top of the box is a PHOTO ALBUM titled “Memories.” Annie opens it to sift through photos of her mother. She lays the album back into the box, and then notices a stack of worn HARDBACKS. She pulls one out. “NOTES ON SPIRITUALISM.”
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: This calls back unwelcome memories. Annie dumps the book back into the box, and PUSHES the box away.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie walks to the door and flips off the light, leaving the room in darkness (save for the moonlight). She’s about to leave, but something makes her FREEZE.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Standing motionless in a dark corner (almost too dark to make out) is ANNIE’S MOTHER, ELLEN - wearing the same outfit as the funeral. She’s staring at Annie. SMILING.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie, nearly paralyzed with fear, reaches for the light switch. Without looking away, she turns the light back ON.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Her mother is gone.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie remains motionless.
+  EXPRESSION: Afraid
+- CHARACTER: Annie
+  LINE: Mom?
+  EXPRESSION: Afraid
+- CHARACTER: Narrator
+  LINE: Annie’s eyes are now drawn to...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: A dusty older MINIATURE in the corner. It's a replica of Annie's bedroom. A figurine of Annie (in her early thirties) BREASTFEEDS a baby. Standing beside her is a figurine of an OLDER WOMAN (Annie’s mother) holding her naked BREAST out of her nightgown. She leans over, offering it to the baby.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Competing with Annie.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Troubled by this, Annie walks briskly to the miniature and TURNS it away. It’s now facing the wall as Annie returns to the door, flicks off the light, and leaves.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Go to bed"
+  TARGET: annie_steve_bedroom
+  STATE_CHANGE: fear = +2, troubled = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Annie & Steve’s Bedroom
+MOOD: Somber
+CHARACTERS: Narrator, Annie
+BACKGROUND_IMAGE: bedroom_night.png
+BACKGROUND_EDIT: "Nighttime, quiet bedroom, Annie climbing into bed"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Annie climbs into bed with Steve.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: I just scared myse
+  EXPRESSION: Afraid
+
+::PATHS::
+- CHOICE: "End of excerpt"
+  TARGET: end
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Bedroom
+MOOD: Affectionate
+CHARACTERS: Steve, Annie, Narrator
+BACKGROUND_IMAGE: bedroom.png
+BACKGROUND_EDIT: "Nighttime, cozy bedroom, bedside lamp"
+
+::SCRIPT::
+- CHARACTER: Steve
+  LINE: Oh no. With what?
+  EXPRESSION: Worried
+- CHARACTER: Narrator
+  LINE: Annie pauses. Thinks about telling him. Steve looks interested/slightly worried. Annie thinks better of it.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: ...No?
+  EXPRESSION: Curious
+- CHARACTER: Narrator
+  LINE: She smiles “nah.”
+  EXPRESSION: Happy
+- CHARACTER: Annie
+  LINE: Goodnight.
+  EXPRESSION: Happy
+- CHARACTER: Narrator
+  LINE: Annie turns off the bedside lamp and gives Steve a blunt kiss.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: Mm, mm - no you don’t.
+  EXPRESSION: Happy
+- CHARACTER: Narrator
+  LINE: He extends the kiss, making it last. Then:
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: Goodnight.
+  EXPRESSION: Happy
+
+::PATHS::
+- CHOICE: "End conversation"
+  TARGET: high_school_classroom_charlie
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: High School Classroom (Charlie)
+MOOD: Tense
+CHARACTERS: Narrator, Teacher, Charlie
+BACKGROUND_IMAGE: classroom_special_needs.png
+BACKGROUND_EDIT: "Next morning, blackboard with rules, students taking quiz"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Charlie’s “special needs” class.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Scrawled on the blackboard are the words “Quiet means Silence!” and all the students are indeed silent as they take a quiz.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The Teacher (40s) walks along the rows of desks, overlooking the quiz-takers. He comes to Charlie, whose quiz is upside-down. In her lap, she is assembling a small manikin’s body with disparate found objects (wood, metal, cardboard, etc).
+  EXPRESSION: null
+- CHARACTER: Teacher
+  LINE: Are you done?
+  EXPRESSION: Neutral
+- CHARACTER: Charlie
+  LINE: What? ...Almost.
+  EXPRESSION: Surprised
+- CHARACTER: Teacher
+  LINE: So maybe we finish the toy after the quiz? What do you think?
+  EXPRESSION: Happy
+- CHARACTER: Charlie
+  LINE: ...Okay.
+  EXPRESSION: Neutral
+- CHARACTER: Narrator
+  LINE: The teacher gently turns the quiz right-side-up. Charlie is extremely tense through this.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Suddenly a pigeon flies into the window, slamming its head. The impact breaks its neck.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The classroom erupts with excitement - “Oh my God!” “Did you see that?!” - but not Charlie. She stares tensely at her desk, still disturbed by the teacher’s interference.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Charlie’s eyes scan up. They alight on a pair of scissors on the Teacher’s desk.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Continue class"
+  TARGET: high_school_classroom_peter
+  STATE_CHANGE: charlie_disturbed = true
+  CONDITION: null
+
+::SCENE::
+LOCATION: High School Classroom (Peter)
+MOOD: Humorous, Distracted
+CHARACTERS: Narrator, Mr. Davies, Smart-Ass Student, Bridget, Peter, Student #2, Student #3, Brendan
+BACKGROUND_IMAGE: classroom_english.png
+BACKGROUND_EDIT: "Daytime, chalkboard with Greek tragedy themes, students discussing"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Peter’s English class. The chalkboard reads: "Themes - Escaping Fate. - Relationship between knowledge and responsibility. - 'No man considered fortunate until he is dead.'"
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The teacher, Mr. Davies (30s), tries to facilitate a group discussion. He holds a copy of Sophocles’ The Women of Trachis.
+  EXPRESSION: null
+- CHARACTER: Mr. Davies
+  LINE: So if we're going by the rule that a hero is undone by his fatal flaw, what was Heracles’ flaw?
+  EXPRESSION: Neutral
+- CHARACTER: Smart-Ass Student
+  LINE: Fucking his mom.
+  EXPRESSION: Happy
+- CHARACTER: Narrator
+  LINE: Some laughter from the class.
+  EXPRESSION: null
+- CHARACTER: Mr. Davies
+  LINE: Wrong play, Sam. And watch your language.
+  EXPRESSION: Angry
+- CHARACTER: Narrator
+  LINE: Meanwhile, Peter is being hypnotized by Bridget (17), the attractive girl sitting in front of him. Peter’s rapt attention is glued to the butt of her jeans.
+  EXPRESSION: null
+- CHARACTER: Mr. Davies
+  LINE: Come on, guys: What was Heracles’ flaw?
+  EXPRESSION: Neutral
+- CHARACTER: Bridget
+  LINE: Arrogance.
+  EXPRESSION: Neutral
+- CHARACTER: Narrator
+  LINE: This piques Peter’s interest.
+  EXPRESSION: null
+- CHARACTER: Mr. Davies
+  LINE: Okay - why?
+  EXPRESSION: Neutral
+- CHARACTER: Bridget
+  LINE: Because he literally refuses to look at all the signs that are being literally handed to him the entire play.
+  EXPRESSION: Neutral
+- CHARACTER: Narrator
+  LINE: Peter’s in love.
+  EXPRESSION: null
+- CHARACTER: Mr. Davies
+  LINE: Okay, interesting! So he thinks he has control.
+  EXPRESSION: Neutral
+- CHARACTER: Smart-Ass Student
+  LINE: Plus he fucked his mom.
+  EXPRESSION: Happy
+- CHARACTER: Narrator
+  LINE: More laughs.
+  EXPRESSION: null
+- CHARACTER: Mr. Davies
+  LINE: That’s two strikes, Sam. But also, don’t forget: Sophocles writes it so the oracle is unconditional. Meaning Heracles never had any choice. Right?
+  EXPRESSION: Angry
+- CHARACTER: Narrator
+  LINE: Peter’s smartphone vibrates with a text.
+  EXPRESSION: null
+- CHARACTER: Mr. Davies
+  LINE: So, does this make it more tragic or less tragic than if he did have a choice?
+  EXPRESSION: Neutral
+- CHARACTER: Student #2
+  LINE: Less!
+  EXPRESSION: Neutral
+- CHARACTER: Narrator
+  LINE: Peter checks his text. It’s from Brendan. It reads: “Wanna smoke a bowl at break?” This came from the Boy behind him.
+  EXPRESSION: null
+- CHARACTER: Mr. Davies
+  LINE: Okay: Why?
+  EXPRESSION: Neutral
+- CHARACTER: Student #2
+  LINE: Because!
+  EXPRESSION: Annoyed
+- CHARACTER: Narrator
+  LINE: Mr. Davies turns to Peter, who’s now composing a text in his lap.
+  EXPRESSION: null
+- CHARACTER: Mr. Davies
+  LINE: Care to weigh in, Peter?
+  EXPRESSION: Neutral
+- CHARACTER: Narrator
+  LINE: Peter looks up, a deer in headlights.
+  EXPRESSION: Surprised
+- CHARACTER: Peter
+  LINE: About which part?
+  EXPRESSION: Surprised
+- CHARACTER: Mr. Davies
+  LINE: Is it more tragic if it’s inevitable than if the characters had agency?
+  EXPRESSION: Neutral
+- CHARACTER: Narrator
+  LINE: Peter is not following.
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: Yes?
+  EXPRESSION: Neutral
+- CHARACTER: Mr. Davies
+  LINE: Why?
+  EXPRESSION: Neutral
+- CHARACTER: Peter
+  LINE: ...Because he had sex with his mom?
+  EXPRESSION: Confused
+- CHARACTER: Narrator
+  LINE: Dead air. Mr. Davies gives Peter an unencouraging look.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Another student picks up the slack:
+  EXPRESSION: null
+- CHARACTER: Student #3
+  LINE: I think it's more tragic - because if it’s all just inevitable, that means the characters have no hope and that they never had hope, because they’re just like pawns in this horrible, hopeless machine.
+  EXPRESSION: Neutral
+- CHARACTER: Narrator
+  LINE: Peter has now noticed Bridget looking at him. She gives him a sardonic “nice try” smile. Peter smiles back, embarrassed. She turns away. Peter’s smile turns to a longing stare.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Go to recess"
+  TARGET: schoolyard
+  STATE_CHANGE: peter_embarrassed = true
+  CONDITION: null
+
+::SCENE::
+LOCATION: Schoolyard
+MOOD: Disturbing
+CHARACTERS: Narrator, Charlie, Older Woman, Peter, Brendan
+BACKGROUND_IMAGE: schoolyard.png
+BACKGROUND_EDIT: "Daytime, recess, dead pigeon in bushes"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Recess.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The dead pigeon lies pathetically in the bushes below Charlie’s classroom window.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Charlie stands nearby, staring at the pigeon. After some time, she fishes a pair of scissors from her parka pocket. (These are the scissors from her teacher’s desk.) Charlie extends the scissors, fits the blades around the pigeon’s neck, and snips off its head.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Charlie quickly pockets the pigeon head, and looks up to notice:
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: An Older Woman (60s) sitting on a bench, just beyond the schoolyard fence. She is gazing at Charlie, sentimental.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Charlie gawks at the woman, unnerved. Without breaking eye contact, she pulls a chocolate bar from her pocket.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: In the b.g., Peter walks past, joined by Brendan. Seeing the chocolate, Peter casually asserts:
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: No nuts, Charlie.
+  EXPRESSION: Neutral
+- CHARACTER: Narrator
+  LINE: This makes Charlie freeze up with tension.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "End recess"
+  TARGET: psychiatrist_office
+  STATE_CHANGE: charlie_disturbed = true
+  CONDITION: null
+
+::SCENE::
+LOCATION: Psychiatrist’s Office
+MOOD: Somber
+CHARACTERS: Narrator, Steve, Patient
+BACKGROUND_IMAGE: therapist_office.png
+BACKGROUND_EDIT: "Afternoon, sparsely decorated office, Steve and patient in chairs"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Steve’s office is large and sparsely decorated.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Steve sits in a leather chair with a notepad resting on his lap. Sitting opposite him is an extremely agitated, depressed female Patient (40s). Steve studies her non-judgmentally.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: And how’s the anger?
+  EXPRESSION: Neutral
+- CHARACTER: Patient
+  LINE: Same. I just don’t care as much.
+  EXPRESSION: Angry
+- CHARACTER: Steve
+  LINE: So not as consuming?
+  EXPRESSION: Happy
+- CHARACTER: Patient
+  LINE: It’s just as consuming, I just don’t care as much.
+  EXPRESSION: Angry
+- CHARACTER: Narrator
+  LINE: Steve, stifling frustration, affects superhuman patience.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: And how’s your appetite been? With the Serafem...versus the Lexapro.
+  EXPRESSION: Neutral
+
+::PATHS::
+- CHOICE: "End session"
+  TARGET: annie_workshop
+  STATE_CHANGE: steve_frustrated = true
+  CONDITION: null
+
+::SCENE::
+LOCATION: Annie’s Workshop
+MOOD: Focused
+CHARACTERS: Narrator, Annie
+BACKGROUND_IMAGE: annie_workshop.png
+BACKGROUND_EDIT: "Daytime, Annie at Graham house model, laptop open"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Annie’s laptop is open to a website: “Discernment of Presumed Apparitions.”
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie, sitting at the Graham house model, is carefully painting a miniature laptop, featuring the very same website.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Continue work"
+  TARGET: annie_mother_bedroom
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Annie’s Mother’s Bedroom
+MOOD: Unsettling
+CHARACTERS: Narrator, Steve, Annie
+BACKGROUND_IMAGE: mothers_bedroom.png
+BACKGROUND_EDIT: "Daytime, open door to hallway, mostly empty room with bed and photos"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: We are looking through the open door into the hall.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: Hello!
+  EXPRESSION: Happy
+- CHARACTER: Annie
+  LINE: Hi!
+  EXPRESSION: Happy
+- CHARACTER: Narrator
+  LINE: Annie steps out into the hall and walks past the doorway. A moment later, we hear her footsteps freeze. She soon returns into view, now looking very unsettled. She stares past us, into the room...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie’s POV: The room is mostly empty, save for the bed (stripped of sheets), a bookshelf, and various framed photos featuring members of the family. One photo: a portrait of Annie and her mother, standing side by side. There is also a large triangle (pointed northwest) that has been carved violently into the floorboards.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie doesn’t react to the triangle. It was clearly already there.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie leaves.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Leave room"
+  TARGET: tv_room
+  STATE_CHANGE: annie_unsettled = true
+  CONDITION: null
+
+::SCENE::
+LOCATION: TV Room
+MOOD: Tense
+CHARACTERS: Narrator, Steve, Annie, Peter, Charlie
+BACKGROUND_IMAGE: tv_room.png
+BACKGROUND_EDIT: "Moments later, Steve on couch watching news, Annie enters"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Steve sits on the couch, having just turned on the news. He’s still wearing his coat.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie enters.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Were you in my mom’s room?
+  EXPRESSION: Angry
+- CHARACTER: Steve
+  LINE: What? No.
+  EXPRESSION: Surprised
+- CHARACTER: Annie
+  LINE: The door was open.
+  EXPRESSION: Angry
+- CHARACTER: Narrator
+  LINE: Steve makes a “hmm” face.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The front door is heard opening, and Annie goes to the foyer, where Peter and Charlie are entering.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Hey guys. How was school?
+  EXPRESSION: Happy
+- CHARACTER: Peter
+  LINE: Okay.
+  EXPRESSION: Neutral
+- CHARACTER: Annie
+  LINE: Did either of you go into Grandma’s room recently?
+  EXPRESSION: Neutral
+- CHARACTER: Narrator
+  LINE: They both squint. “Why would we go in there?”
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: I don’t think you need to worry about me ever being in that room.
+  EXPRESSION: Neutral
+
+::PATHS::
+- CHOICE: "End discussion"
+  TARGET: hallway_mother_room
+  STATE_CHANGE: annie_suspicious = true
+  CONDITION: null
+
+::SCENE::
+LOCATION: Hallway
+MOOD: Anxious
+CHARACTERS: Narrator, Steve, Annie, Peter
+BACKGROUND_IMAGE: house_hallway.png
+BACKGROUND_EDIT: "Evening, dark hallway, door to mother's room"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Steve is at Annie’s Mother’s door. He locks it (by key) from the outside.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Sorry. I know it’s irrational.
+  EXPRESSION: Apologetic
+- CHARACTER: Steve
+  LINE: Not at all.
+  EXPRESSION: Neutral
+- CHARACTER: Narrator
+  LINE: Illustrating that it’s locked, Steve tries turning the knob.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Thank you.
+  EXPRESSION: Happy
+- CHARACTER: Narrator
+  LINE: She kisses Steve, feeling dopey.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter walks up to them, holding the phone.
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: Dad? It’s the cemetery.
+  EXPRESSION: Neutral
+- CHARACTER: Annie
+  LINE: About what?
+  EXPRESSION: Curious
+- CHARACTER: Steve
+  LINE: I’ll see. Hi... Yeah...
+  EXPRESSION: Neutral
+- CHARACTER: Narrator
+  LINE: Steve walks down the hall to create distance between him and Annie. Now irked, Annie walks off.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: Okay.... And what does “desecrated” mean? What? It's only been a week.
+  EXPRESSION: Surprised
+
+::PATHS::
+- CHOICE: "Handle cemetery call"
+  TARGET: end
+  STATE_CHANGE: steve_shocked = true
+  CONDITION: null
+
+::SCENE::
+LOCATION: Graham House - Interior
+MOOD: Tense, Frustrated
+CHARACTERS: Steve, Annie, (Charlie mentioned)
+BACKGROUND_IMAGE: house_hallway.png
+BACKGROUND_EDIT: "Nighttime, interior of a home, slightly dim"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The hall, now wearing a coat.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Steve nervously accelerates:
+  EXPRESSION: Nervous
+- CHARACTER: Steve
+  LINE: Okay. All right. Can I actually call you back?... Okay, fine.
+  EXPRESSION: Nervous
+- CHARACTER: Narrator
+  LINE: Steve hangs up.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: I’m gonna go see a movie.
+  EXPRESSION: Determined
+- CHARACTER: Steve
+  LINE: Okay. Right now?
+  EXPRESSION: Concerned
+- CHARACTER: Annie
+  LINE: I think I just need to get out of the house for a second.
+  EXPRESSION: Tense
+- CHARACTER: Steve
+  LINE: ...Want me to join?
+  EXPRESSION: Concerned
+- CHARACTER: Annie
+  LINE: I think I might just need like an hour to myself. I’m really tense.
+  EXPRESSION: Tense
+- CHARACTER: Steve
+  LINE: Okay...great. I think you should.
+  EXPRESSION: Reassuring
+- CHARACTER: Narrator
+  LINE: Annie smiles “thanks.”
+  EXPRESSION: Grateful
+- CHARACTER: Annie
+  LINE: Do you know where Charlie is?
+  EXPRESSION: Concerned
+- CHARACTER: Steve
+  LINE: Where else?
+  EXPRESSION: Resigned
+- CHARACTER: Narrator
+  LINE: Annie knows what that means. She immediately looks frustrated.
+  EXPRESSION: Frustrated
+- CHARACTER: Steve
+  LINE: Let it go. It’s wasted energy.
+  EXPRESSION: Dismissive
+- CHARACTER: Annie
+  LINE: It’s below 30 outside! So let her catch a cold.
+  EXPRESSION: Angry
+- CHARACTER: Steve
+  LINE: Maybe she needs one.
+  EXPRESSION: Cold
+
+::PATHS::
+- CHOICE: "Annie leaves for movie"
+  TARGET: treehouse_evening
+  STATE_CHANGE: annie_mood = "tense", steve_mood = "resigned"
+  CONDITION: null
+
+::SCENE::
+LOCATION: Treehouse
+MOOD: Eerie, Unsettling
+CHARACTERS: Charlie, Annie (O.S.)
+BACKGROUND_IMAGE: treehouse_interior.png
+BACKGROUND_EDIT: "Evening, interior of a treehouse, gruesome animal heads, flies buzzing"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Charlie sits in her treehouse. She lays the severed pigeon head into her SHOEBOX. Inside this box are three other SEVERED ANIMAL HEADS. One belongs to a rabbit, one to a rat, one to a squirrel. (The heads are in different stages of decomposition; flies buzz about.)
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Down below, Annie is heard:
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Charlie?
+  EXPRESSION: Calling (O.S.)
+- CHARACTER: Narrator
+  LINE: Charlie shuts the box, SHOVES it into a corner, and peers down to see ANNIE at the tree’s base.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Come on, sweetie. It’s freezing out here.
+  EXPRESSION: Concerned
+- CHARACTER: Narrator
+  LINE: No response from Charlie. Annie doesn’t push it.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Okay, well, I’m running out for a sec. Is there anything I can bring you back?
+  EXPRESSION: Gentle
+- CHARACTER: Charlie
+  LINE: Why??
+  EXPRESSION: Defensive
+
+::PATHS::
+- CHOICE: "Annie drives to support group"
+  TARGET: car_moving_night
+  STATE_CHANGE: charlie_mood = "defensive", annie_mood = "resigned"
+  CONDITION: null
+
+::SCENE::
+LOCATION: Car (Parking Lot)
+MOOD: Anxious, Preparatory
+CHARACTERS: Annie
+BACKGROUND_IMAGE: car_interior_night.png
+BACKGROUND_EDIT: "Nighttime, inside a car, parked in a high school lot"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Annie idles into the parking lot of a Catholic high school.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: She parks, turns off the engine, and sits in silence for a moment. Bracing herself.
+  EXPRESSION: Anxious
+
+::PATHS::
+- CHOICE: "Enter the support group"
+  TARGET: catholic_school_gymnasium
+  STATE_CHANGE: annie_mood = "anxious"
+  CONDITION: null
+
+::SCENE::
+LOCATION: Catholic School Gymnasium
+MOOD: Somber, Confessional, Tense
+CHARACTERS: Annie, Young Man, Group Leader, The Group, Mexican Woman (O.S.)
+BACKGROUND_IMAGE: gymnasium_support_group.png
+BACKGROUND_EDIT: "Nighttime, high school gym, chairs in a circle, various mourners"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: A SUPPORT GROUP held in the high school’s gymnasium. A sign on an easel reads “LOSING A LOVED ONE, Grief Recovery.” The session hasn’t yet started. Twenty empty chairs form a CIRCLE in the space’s center.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Mourners of varying affect are scattered about, mingling.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie ENTERS, very ill-at-ease.
+  EXPRESSION: Ill-at-ease
+- CHARACTER: Narrator
+  LINE: THIRTY MINUTES LATER
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: All the chairs are now filled. A middle-aged MEXICAN WOMAN speaks (in Spanish) through coursing tears. A YOUNG MAN translates for her as the rest of the group listens.
+  EXPRESSION: null
+- CHARACTER: Young Man
+  LINE: Sometimes I even get so relieved... Because he was in so much pain, and by the end he just hated himself. Always saying “I’m a burden, I’m a burden, I’m a burden”...
+  EXPRESSION: Empathic (translating)
+- CHARACTER: Narrator
+  LINE: Annie’s eyes are wide. She’s empathizing with this, but it seems to also be agitating her.
+  EXPRESSION: Empathetic/Agitated
+- CHARACTER: Narrator
+  LINE: FIVE MINUTES LATER
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The GROUP LEADER addresses the group.
+  EXPRESSION: null
+- CHARACTER: Leader
+  LINE: We’ve set aside some time for any newcomers who might like to speak...
+  EXPRESSION: Encouraging
+- CHARACTER: Narrator
+  LINE: Silence.
+  EXPRESSION: null
+- CHARACTER: Leader
+  LINE: So, anybody new - if it’s your first or second time with us: the floor is open.
+  EXPRESSION: Inviting
+- CHARACTER: Narrator
+  LINE: Annie looks very torn. She starts to lift up her hand, but stops short.
+  EXPRESSION: Hesitant
+- CHARACTER: Leader
+  LINE: Yes?
+  EXPRESSION: Questioning
+- CHARACTER: Narrator
+  LINE: Annie looks panicked.
+  EXPRESSION: Panicked
+- CHARACTER: Leader
+  LINE: Would you like to...?
+  EXPRESSION: Gentle
+- CHARACTER: Annie
+  LINE: ...Maybe not.
+  EXPRESSION: Hesitant
+- CHARACTER: Leader
+  LINE: Okay. No pressure.
+  EXPRESSION: Reassuring
+- CHARACTER: Narrator
+  LINE: Annie nods, takes a long moment, and then forces herself:
+  EXPRESSION: Resolute
+- CHARACTER: Annie
+  LINE: My name’s Annie.
+  EXPRESSION: Tense
+- CHARACTER: The Group
+  LINE: Hi Annie.
+  EXPRESSION: Welcoming
+- CHARACTER: Narrator
+  LINE: Annie strains a smile. She continues tensely, as if against her will:
+  EXPRESSION: Tense
+- CHARACTER: Annie
+  LINE: My mom died a week ago, so I’m just here for - trying it. I have a lot of resistance to things like this, but I went to these a couple years ago - I was pressured to come - but it did help, so... My mom was old and she wasn’t all together at the end - and we were pretty much estranged before that - so it wasn’t a huge blow. But I did love her. And she didn’t have an easy life... She had D.I.D., which became extreme in the last year, and dementia...! My dad died of starvation when I was a baby. He had psychotic depression and he starved himself. Which I’m sure was as pleasant as it sounds. And then my older brother - he was schizophrenic - and when he was sixteen, he hanged himself in my mom’s bedroom.
+  EXPRESSION: Confessional
+- CHARACTER: Annie
+  LINE: Of course his suicide note blamed her. Accusing her of putting people inside of him. So that was my mom’s life!
+  EXPRESSION: Frustrated
+- CHARACTER: Narrator
+  LINE: Annie looks to the group. They allow her time to continue. She reluctantly proceeds.
+  EXPRESSION: Reluctant
+- CHARACTER: Annie
+  LINE: ...She finally lived in our house at the end. Before hospice. We weren’t talking before that -- or we were and then we weren’t and then we were - she was completely manipulative - until finally my husband enforced a No Contact rule, which lasted until I was pregnant with my daughter. I didn't let her near me when I had my first - my son - which is why I gave her my daughter, who she immediately stabbed her hooks into. And of course I felt guilty again when she got sick... Not that she was even my mom at the end. And not that she ever felt guilty. About anything.
+  EXPRESSION: Bitter
+- CHARACTER: Narrator
+  LINE: Annie has worked herself up. A charged pause as she calms back down.
+  EXPRESSION: Agitated (then calming)
+- CHARACTER: Annie
+  LINE: And I don’t wanna put any more stress on my family. Not even sure if they could give me that support.
+  EXPRESSION: Distressed
+- CHARACTER: Narrator
+  LINE: She gets stuck here. Tears begin to well. She struggles to squeeze out the following:
+  EXPRESSION: Crying/Struggling
+- CHARACTER: Annie
+  LINE: It just all sometimes feels ruined. And then I realize I'm to blame. Or not that I'm to blame, but that I'm...blamed.
+  EXPRESSION: Guilty
+- CHARACTER: Narrator
+  LINE: Beat.
+  EXPRESSION: null
+- CHARACTER: Leader
+  LINE: And what do you think you feel blamed for?
+  EXPRESSION: Understanding
+- CHARACTER: Narrator
+  LINE: Annie looks to the leader. Pauses.
+  EXPRESSION: Thoughtful
+- CHARACTER: Annie
+  LINE: I apparently acted a certain way - according to them - I did things, in my sleep, a couple years ago. Or almost did them...
+  EXPRESSION: Evasive
+- CHARACTER: Narrator
+  LINE: Annie looks like she’s going to continue, but then she abruptly cuts herself off. That’s it.
+  EXPRESSION: Abrupt
+- CHARACTER: Narrator
+  LINE: We reveal the mystified GROUP. They struggle to remain sympathetic, despite their confusion.
+  EXPRESSION: Confused/Sympathetic
+- CHARACTER: Annie
+  LINE: So anyway. Everything’s disappointing. So here I am.
+  EXPRESSION: Resigned/Sarcastic
+- CHARACTER: Narrator
+  LINE: She forces a laugh, but also cries a bit. She wipes away the tears and makes an embarrassed “bah” face. She then motions to the group: “Who’s next?”
+  EXPRESSION: Embarrassed/Relieved
+
+::PATHS::
+- CHOICE: "Annie returns home"
+  TARGET: graham_house_hallway_night
+  STATE_CHANGE: annie_mood = "depleted"
+  CONDITION: null
+
+::SCENE::
+LOCATION: Graham House - Hallway
+MOOD: Exhausted, Quiet
+CHARACTERS: Annie, (Peter implied)
+BACKGROUND_IMAGE: house_hallway_night.png
+BACKGROUND_EDIT: "Nighttime, interior, dimly lit hallway, stairs, Annie looking depleted"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: At the end of the hall, a very depleted Annie has just finished scaling the stairs.
+  EXPRESSION: Depleted
+- CHARACTER: Narrator
+  LINE: In the f.g., Peter’s door eases shut.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Focus on Peter"
+  TARGET: peter_bedroom_same_time
+  STATE_CHANGE: annie_mood = "sleeping", peter_present = true
+  CONDITION: null
+
+::SCENE::
+LOCATION: Peter’s Bedroom
+MOOD: Teenager's Private Moment, Rebellious
+CHARACTERS: Peter
+BACKGROUND_IMAGE: peter_bedroom_night.png
+BACKGROUND_EDIT: "Nighttime, teenager's messy room, laptop open, dim lighting"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Peter’s laptop is open. The browser displays BRIDGET’S FACEBOOK PAGE. (Peter has been going through her photos.) Behind that, another page displays “POPULAR CAREER INTERESTS.”
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter walks from the door (which he just closed) to his desk.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He grabs a small water pipe, packed with marijuana, and walks to the window.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: As Peter takes a hit from his pipe, his smartphone vibrates with a TEXT. He checks it.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: From “Brendan”: Holy shit. Huge party tomorrow at Aaron’s house. Bring your dick!
+  EXPRESSION: Excited (text message)
+
+::PATHS::
+- CHOICE: "Observe house exterior"
+  TARGET: graham_house_exterior_continuous
+  STATE_CHANGE: peter_smoking = true
+  CONDITION: null
+
+::SCENE::
+LOCATION: Graham House - Exterior
+MOOD: Observational, Slightly Ominous
+CHARACTERS: Narrator (Peter implied)
+BACKGROUND_IMAGE: house_exterior_night.png
+BACKGROUND_EDIT: "Nighttime, wide shot of a house, subtle smoke from a window"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: A WIDE of the house. In the foreground seems to be someone’s SHOULDER.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Pot smoke is blown out of Peter’s window, followed by a brief fit of COUGHING.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Next day, Charlie's room"
+  TARGET: charlie_bedroom_next_day
+  STATE_CHANGE: time_passing = "next day"
+  CONDITION: null
+
+::SCENE::
+LOCATION: Charlie’s Bedroom
+MOOD: Eerie, Mysterious, Unsettling
+CHARACTERS: Charlie
+BACKGROUND_IMAGE: charlie_bedroom_day.png
+BACKGROUND_EDIT: "Daytime, interior, snowing outside, disturbing art supplies, manikin, pigeon head"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Charlie, dressed in her pajamas and munching on M&Ms, sits at her desk. She’s is finishing the torso for another small human manikin. The limbs are made of different scraps.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: To the side of Charlie’s sculpture-in-progress is the SEVERED PIGEON HEAD. Beside that is Charlie’s drawing pad, open to an unfinished STILL LIFE of the pigeon head. And on the far side of the desk: a crude, bare stage for an unfinished DIORAMA.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: As she works, Charlie makes the CLICKING SOUND with her tongue.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Suddenly, a GLINT of light sweeps the room in a quick FLASH.
+  EXPRESSION: Startling
+- CHARACTER: Narrator
+  LINE: Charlie ceases drawing. Her clicking STOPS. Disturbed by the flash, she raises her head and HOLDS. Listening for something?
+  EXPRESSION: Disturbed/Curious
+- CHARACTER: Narrator
+  LINE: After a beat, Charlie rises from her seat and walks to the WINDOW. It’s snowing outside. She stands there for a long time, her back to us. She’s STARING at something...
+  EXPRESSION: Mysterious
+
+::PATHS::
+- CHOICE: "Focus on Annie in kitchen"
+  TARGET: kitchen_same_time
+  STATE_CHANGE: charlie_mood = "intrigued", annie_present = true
+  CONDITION: null
+
+::SCENE::
+LOCATION: Kitchen
+MOOD: Domestic, Busy
+CHARACTERS: Annie
+BACKGROUND_IMAGE: kitchen_day.png
+BACKGROUND_EDIT: "Daytime, interior, modern kitchen, Annie preparing dinner"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Annie is preparing dinner. Her smartphone DINGS with an INCOMING EMAIL. It’s from The Asher Gallery. She opens it. It reads:
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Hi Annie! Don't want to bother you, but we’d love to see where we are (progress-wise). Could you possibly send us pics of
+  EXPRESSION: Neutral (email content)
+
+::PATHS::
+- CHOICE: "Continue story"
+  TARGET: end
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Woods
+MOOD: Eerie
+CHARACTERS: Narrator, Charlie, Max
+BACKGROUND_IMAGE: woods.png
+BACKGROUND_EDIT: "Vast wooded area, still snowing, distant fire crackling"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The vast WOODED AREA behind the Graham house. It is still snowing.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Charlie, wearing regular shoes and no coat (and still dressed in her pajamas), takes wide steps as she slogs through the snow.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: She gazes listlessly ahead, as if in a TRANCE. She’s being drawn toward something. Like she’s sleepwalking with open eyes.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Max, the family dog, follows happily behind. A FIRE is heard crackling in the distance. Is this what she’s walking toward?
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: We cut to an EXTREME HIGH ANGLE - almost bird’s eye. This reveals that Charlie seems to be following a FRESH PATH OF FOOTPRINTS (source unknown) leading off-screen.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Continue following the footprints"
+  TARGET: annie_workshop
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Annie’s Workshop
+MOOD: Tense
+CHARACTERS: Narrator, Annie, Peter
+BACKGROUND_IMAGE: annie_workshop.png
+BACKGROUND_EDIT: "Annie working intensely on miniatures, anxious"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Annie is now WORKING INTENSELY on one of her miniatures. She looks very anxious.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter appears at the door.
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: Hey, uh...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie looks up, visibly annoyed by the disturbance.
+  EXPRESSION: Angry
+- CHARACTER: Peter
+  LINE: ...do you think I could borrow one of the cars tonight?
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Why? Where are you going?
+  EXPRESSION: Curious
+- CHARACTER: Peter
+  LINE: Oh, just like a school BBQ thing.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie continue working on the miniature, breaking intermittently as they speak:
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Does that mean you’re not having dinner with us?
+  EXPRESSION: Curious
+- CHARACTER: Peter
+  LINE: Oh, no, I was still gonna eat here.
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: Well - you can eat there if you want.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: No, I’ll eat here.
+  EXPRESSION: Neutral
+- CHARACTER: Narrator
+  LINE: Annie pauses. Her mind is not quite on this right now. She takes a moment (pulling herself from her work) to assess the questions that need to be asked.
+  EXPRESSION: Thoughtful
+- CHARACTER: Annie
+  LINE: No drinking?
+  EXPRESSION: Concerned
+- CHARACTER: Peter
+  LINE: Nobody’s old enough to even get drinks if they wanted to.
+  EXPRESSION: Dismissive
+- CHARACTER: Annie
+  LINE: Well, that’s a crock. I’m just asking if you’re drinking.
+  EXPRESSION: Annoyed
+- CHARACTER: Peter
+  LINE: Well, I just answered no.
+  EXPRESSION: Defiant
+- CHARACTER: Narrator
+  LINE: Annie looks him hard in the eye before accepting that.
+  EXPRESSION: Intense
+- CHARACTER: Annie
+  LINE: ...You gonna take your sister?
+  EXPRESSION: Curious
+- CHARACTER: Peter
+  LINE: Uh - does she want to go?
+  EXPRESSION: Uncertain
+- CHARACTER: Annie
+  LINE: Uh - have you asked her?
+  EXPRESSION: Mimicking
+
+::PATHS::
+- CHOICE: "Peter leaves to find Charlie"
+  TARGET: hallway
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Hallway
+MOOD: Concerned
+CHARACTERS: Narrator, Peter
+BACKGROUND_IMAGE: hallway.png
+BACKGROUND_EDIT: "Inside the Graham house, Peter checking Charlie's room"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Peter goes to Charlie’s room. She’s not there.
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: Charlie?!
+  EXPRESSION: Concerned
+
+::PATHS::
+- CHOICE: "Peter returns to the workshop"
+  TARGET: workshop
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Workshop
+MOOD: Frustrated
+CHARACTERS: Narrator, Peter, Annie
+BACKGROUND_IMAGE: annie_workshop.png
+BACKGROUND_EDIT: "Annie's workshop, Annie frustrated"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Peter returns to the workshop.
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: She’s not in the house.
+  EXPRESSION: Concerned
+- CHARACTER: Narrator
+  LINE: Frustrated, Annie throws down her paintbrush:
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: What? Yes she is.
+  EXPRESSION: Frustrated
+
+::PATHS::
+- CHOICE: "Annie goes to find Charlie"
+  TARGET: woods_same_time
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Woods
+MOOD: Urgent
+CHARACTERS: Narrator, Charlie, Annie
+BACKGROUND_IMAGE: woods.png
+BACKGROUND_EDIT: "Snowy woods, distant burning torches and a mysterious figure"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Charlie is still walking through the snow. She sees in the DISTANCE, almost too far away to distinguish...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: A ring of BURNING TORCHES has been set up. Within this ring, an OLD WOMAN’S INANIMATE BODY (dead?) stands erect - tied to a pole, with her arms strapped to outstretched planks. The body is dressed in FINE WHITE SILK. It looks like Ellen Leigh (Charlie’s grandmother), but it’s too far away to quite tell.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Charlie squints at this, barely reacting, when--
+  EXPRESSION: null
+- CHARACTER: Annie (O.S.)
+  LINE: CHARLIE!
+  EXPRESSION: Urgent
+- CHARACTER: Narrator
+  LINE: Charlie looks to ANNIE, who is running in her direction.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Charlie steps toward Annie.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: What are you doing?! It’s below freezing out here!
+  EXPRESSION: Angry
+- CHARACTER: Narrator
+  LINE: Annie arrives at Charlie, not seeing the distant torches. She seizes Charlie’s arm and starts leading her back to the house.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Are you an idiot? You can’t just roam around - no coat, no boots!
+  EXPRESSION: Angry
+- CHARACTER: Narrator
+  LINE: Charlie YANKS her arm away from Annie.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Oh - what? You’re angry with me?
+  EXPRESSION: Annoyed
+- CHARACTER: Narrator
+  LINE: Annie GRABS Charlie’s arm and PULLS her back toward the house.
+  EXPRESSION: null
+- CHARACTER: Charlie
+  LINE: I want grandma.
+  EXPRESSION: Sad
+- CHARACTER: Annie
+  LINE: Yeah. That makes one of us.
+  EXPRESSION: Sarcastic
+
+::PATHS::
+- CHOICE: "Annie takes Charlie back to the house"
+  TARGET: foyer
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Foyer
+MOOD: Tense
+CHARACTERS: Narrator, Annie, Charlie, Peter
+BACKGROUND_IMAGE: foyer.png
+BACKGROUND_EDIT: "Inside the house, Annie stamping snow off boots"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Annie and Charlie return. Annie aggressively stamps the snow off her boots.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: You’re going to this party with your brother.
+  EXPRESSION: Assertive
+- CHARACTER: Charlie
+  LINE: What party?
+  EXPRESSION: Confused
+- CHARACTER: Annie
+  LINE: A school hang-out with other kids.
+  EXPRESSION: Soft
+- CHARACTER: Charlie
+  LINE: That’s okay.
+  EXPRESSION: Evasive
+- CHARACTER: Annie
+  LINE: No, it’s not okay. You’re going.
+  EXPRESSION: Firm
+- CHARACTER: Charlie
+  LINE: Why?
+  EXPRESSION: Questioning
+- CHARACTER: Annie
+  LINE: Because it’ll be fun. You can hang out.
+  EXPRESSION: Persuasive
+- CHARACTER: Charlie
+  LINE: With who?
+  EXPRESSION: Questioning
+- CHARACTER: Annie
+  LINE: With your brother! With other kids!
+  EXPRESSION: Exasperated
+- CHARACTER: Narrator
+  LINE: Peter has stepped into the hall. He nods, as if to say “yeah, come along,” but his eyes are very uninviting.
+  EXPRESSION: null
+- CHARACTER: Charlie
+  LINE: ...Fine.
+  EXPRESSION: Challenging
+- CHARACTER: Annie
+  LINE: Great. You’re going.
+  EXPRESSION: Pleased
+- CHARACTER: Annie
+  LINE: She’s going with you.
+  EXPRESSION: Instructing
+- CHARACTER: Peter
+  LINE: Great.
+  EXPRESSION: Resigned
+- CHARACTER: Annie
+  LINE: And that really means no drinking.
+  EXPRESSION: Warning
+- CHARACTER: Peter
+  LINE: Yeah: I really wasn’t going to.
+  EXPRESSION: Assuring
+
+::PATHS::
+- CHOICE: "The siblings prepare to leave for the party"
+  TARGET: highway
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Highway
+MOOD: Ominous
+CHARACTERS: Narrator
+BACKGROUND_IMAGE: highway.png
+BACKGROUND_EDIT: "Evening, full moon glowing pale-blue over a lonely highway"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The sun has set. A FULL MOON glows pale-blue over a lonely highway.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The Graham family car (the green one) FLASHES past.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "The car continues its journey"
+  TARGET: graham_family_car
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Graham Family Car
+MOOD: Tense
+CHARACTERS: Narrator, Peter, Charlie
+BACKGROUND_IMAGE: car_interior.png
+BACKGROUND_EDIT: "Nighttime, Peter driving, Charlie in back, passing a telephone pole"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Peter is tense at the wheel. He drives the speed limit.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter’s eyes drift to the REAR VIEW MIRROR... Charlie, sitting in the back, CLICKS her tongue.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter’s eyes narrow resentfully back onto the road.
+  EXPRESSION: Resentful
+- CHARACTER: Narrator
+  LINE: The car passes a TELEPHONE POLE. Just an average telephone pole. But we HOLD on it for a second longer than feels necessary. Hyper-attentive viewers might notice that a small SIGIL has been carved into it.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Arrive at the party house"
+  TARGET: party_house_ext
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Party House Exterior
+MOOD: Nervous
+CHARACTERS: Narrator, Peter, Charlie
+BACKGROUND_IMAGE: party_house_ext.png
+BACKGROUND_EDIT: "Large, modern house, windows glimpsing a big party"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: A large, modern house. The windows feature glimpses of a big party, filled with circulating kids.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter and Charlie walk up the driveway. Charlie, suddenly very nervous, starts slowing down.
+  EXPRESSION: null
+- CHARACTER: Charlie
+  LINE: Maybe I don’t have to go in...
+  EXPRESSION: Nervous
+- CHARACTER: Narrator
+  LINE: Peter stops.
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: Why? What’s wrong?
+  EXPRESSION: Concerned
+- CHARACTER: Charlie
+  LINE: It’s okay. I can just stay out here.
+  EXPRESSION: Evasive
+- CHARACTER: Peter
+  LINE: Charlie, you’re the one who wanted to come.
+  EXPRESSION: Reminding
+- CHARACTER: Charlie
+  LINE: So you just go. I’ll be out here.
+  EXPRESSION: Firm
+- CHARACTER: Peter
+  LINE: Charlie: If you don’t come in, I have to take you back home, and that’ll take an hour.
+  EXPRESSION: Persuading
+
+::PATHS::
+- CHOICE: "Peter convinces Charlie to enter the party"
+  TARGET: party_house_int
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Party House Interior
+MOOD: Awkward
+CHARACTERS: Narrator, Peter, Charlie, Aaron, Bridget
+BACKGROUND_IMAGE: party_house_int.png
+BACKGROUND_EDIT: "Bustling house, kitchen with girls, living room with Peter and Charlie"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The house is bustling. In the KITCHEN, two girls pull a CAKE from the oven. Another girl (working on the frosting) CHOPS up loads of WALNUTS on a chopping board.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: ECU of the nuts being brutalized.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: In the LIVING ROOM, Peter stands awkwardly with Charlie.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Charlie grips her drawing pad.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: AARON (17), a preppy-looking kid, walks suspiciously over to Peter. This is Aaron’s house.
+  EXPRESSION: null
+- CHARACTER: Aaron
+  LINE: Hey.
+  EXPRESSION: Casual
+- CHARACTER: Peter
+  LINE: Hey. Nice house.
+  EXPRESSION: Neutral
+- CHARACTER: Aaron
+  LINE: How did you hear about this?
+  EXPRESSION: Suspicious
+- CHARACTER: Peter
+  LINE: Text.
+  EXPRESSION: Casual
+- CHARACTER: Narrator
+  LINE: Aaron nods, annoyed. He takes an aggressive sip of his drink.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter is uncomfortable.
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: Your parents are out of town?
+  EXPRESSION: Forcing conversation
+- CHARACTER: Narrator
+  LINE: Peter suddenly spots BRIDGET across the room. She sits on the COUCH, obviously inebriated, nursing a beer. Completely alone.
+  EXPRESSION: null
+- CHARACTER: Aaron
+  LINE: You didn’t bring beers or anything, did you?
+  EXPRESSION: Suspicious
+- CHARACTER: Narrator
+  LINE: Peter turns back to Aaron, very impatient now.
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: What? No. I actually have to go to the bathroom.
+  EXPRESSION: Lying
+- CHARACTER: Narrator
+  LINE: Aaron nods “yeah, whatever.” Peter, already backing away, turns to Charlie.
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: Stay here one second, okay? I’m just going to the bathroom.
+  EXPRESSION: Instructing
+- CHARACTER: Narrator
+  LINE: Peter starts walking. Charlie immediately follows. Peter feigns a trajectory toward the bathroom just behind Bridget.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: As he walks, he pretends to notice her. He affects a surprised face.
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: Whoa, hey! What’s up?
+  EXPRESSION: Surprised
+- CHARACTER: Bridget
+  LINE: Oh. Hey.
+  EXPRESSION: Casual
+- CHARACTER: Narrator
+  LINE: Peter steps toward her. A brief pause.
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: How’s the party?
+  EXPRESSION: Casual
+- CHARACTER: Bridget
+  LINE: Why? You wanna know if you should come?
+  EXPRESSION: Sarcastic
+- CHARACTER: Peter
+  LINE: Uh - yeah. What do you think?
+  EXPRESSION: Questioning
+- CHARACTER: Bridget
+  LINE: Whatever.
+  EXPRESSION: Indifferent
+- CHARACTER: Peter
+  LINE: Okay, maybe I will.
+  EXPRESSION: Casual
+- CHARACTER: Bridget
+  LINE: Okay, I’ll see you here.
+  EXPRESSION: Casual
+- CHARACTER: Narrator
+  LINE: Another awkward pause.
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: Do you happen to smoke at all?
+  EXPRESSION: Inquiring
+- CHARACTER: Bridget
+  LINE: Smoke what?
+  EXPRESSION: Confused
+- CHARACTER: Narrator
+  LINE: Peter pinches into his pocket. He reveals the top of a rolled-up BAG OF MARIJUANA.
+  EXPRESSION: null
+- CHARACTER: Bridget
+  LINE: Is that tobacco or weed?
+  EXPRESSION: Curious
+- CHARACTER: Peter
+  LINE: Really awesome weed.
+  EXPRESSION: Confident
+- CHARACTER: Narrator
+  LINE: Bridget considers, and then:
+  EXPRESSION: null
+- CHARACTER: Bridget
+  LINE: I could get more high.
+  EXPRESSION: Accepting
+- CHARACTER: Narrator
+  LINE: She stands up.
+  EXPRESSION: null
+- CHARACTER: Bridget
+  LINE: The other room has a bong.
+  EXPRESSION: Informative
+- CHARACTER: Narrator
+  LINE: Bridget gestures for him to follow her. Peter starts to walk, but then notices Charlie following him.
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: Hey. You wanna stay out here for a second?
+  EXPRESSION: Annoyed
+- CHARACTER: Charlie
+  LINE: Nope.
+  EXPRESSION: Defiant
+- CHARACTER: Peter
+  LINE: Charlie: please: Only for two minutes and then we can hang out. You can draw.
+  EXPRESSION: Pleading
+- CHARACTER: Narrator
+  LINE: Bridget is already at the DOOR to the other room. She looks expectantly at Peter, who turns again (desperately) to Charlie.
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: Please Charlie, I promise. I just need to do something really quick.
+  EXPRESSION: Desperate
+- CHARACTER: Narrator
+  LINE: Peter then SEES something.
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: Oh shit. Look:
+  EXPRESSION: Alarmed
+- CHARACTER: Narrator
+  LINE: He’s pointing at the KITCHEN. The t
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Peter reacts to something in the kitchen"
+  TARGET: end
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Party House - Living Room
+MOOD: Social, Awkward
+CHARACTERS: Narrator, Peter, Charlie, Girls
+BACKGROUND_IMAGE: party_living_room.png
+BACKGROUND_EDIT: "Teenage party, chocolate cake being served, casual setting"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: teen girls are now cutting into a fresh CHOCOLATE CAKE. They hand slices around.
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: They’re giving out chocolate cake.
+  EXPRESSION: Observant
+- CHARACTER: Charlie
+  LINE: Not to everyone.
+  EXPRESSION: Hesitant
+- CHARACTER: Peter
+  LINE: Yes they are. It’s a party.
+  EXPRESSION: Encouraging
+- CHARACTER: Charlie
+  LINE: I don’t know anyone.
+  EXPRESSION: Shy
+- CHARACTER: Peter
+  LINE: Nobody does. Just walk over, stand there, and they’ll give you one.
+  EXPRESSION: Encouraging
+- CHARACTER: Narrator
+  LINE: Peter starts walking off, still facing Charlie:
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: You should hurry, they’re gonna run out, I’ll be right back! Hurry!
+  EXPRESSION: Urgent
+- CHARACTER: Narrator
+  LINE: Peter rushes over to Bridget as she OPENS the door to the other room. Charlie looks nervously to the kitchen.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Peter goes to the other room, Charlie considers cake"
+  TARGET: party_house_other_room_weed_offer
+  STATE_CHANGE: charlie_shyness = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Party House - Other Room
+MOOD: Casual, Revealing
+CHARACTERS: Narrator, Bridget, Hispanic Boy, Blonde Boy, Peter
+BACKGROUND_IMAGE: party_other_room.png
+BACKGROUND_EDIT: "Boys watching videos on a tablet, Bridget enters"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Two BOYS - one Hispanic and one blonde - are in the room, watching videos on a tablet. Bridget enters, addressing them:
+  EXPRESSION: null
+- CHARACTER: Bridget
+  LINE: Hey guys, Peter has weed.
+  EXPRESSION: Mischievous
+- CHARACTER: Narrator
+  LINE: The boys turn to Peter. Peter immediately deflates.
+  EXPRESSION: Surprised
+- CHARACTER: Hispanic Boy
+  LINE: Sativa or indica?
+  EXPRESSION: Eager
+
+::PATHS::
+- CHOICE: "Peter faces questions about weed"
+  TARGET: party_house_kitchen_charlie_cake
+  STATE_CHANGE: peter_embarrassment = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Party House - Kitchen
+MOOD: Shy, Tempted
+CHARACTERS: Narrator, Charlie, Girl
+BACKGROUND_IMAGE: party_kitchen.png
+BACKGROUND_EDIT: "Girls handing out slices of chocolate cake"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Charlie steps into the doorway. Extremely shy. Her eyes are magnetized to the CHOCOLATE CAKE as the girls continue handing out slices.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: One GIRL notices Charlie’s fixed eyes. She warmly offers Charlie a slice. Charlie accepts without looking her in the eye.
+  EXPRESSION: null
+- CHARACTER: Charlie
+  LINE: Thanks.
+  EXPRESSION: Shy
+- CHARACTER: Narrator
+  LINE: Charlie turns, digging into the cake. (Nuts are visibly a key ingredient.)
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Charlie eats the cake"
+  TARGET: party_house_other_room_peter_phone
+  STATE_CHANGE: charlie_eats_cake = true
+
+::SCENE::
+LOCATION: Party House - Other Room
+MOOD: Tense, Distracted
+CHARACTERS: Narrator, Peter, Bridget, Hispanic Boy, Annie (V.O.)
+BACKGROUND_IMAGE: party_other_room_bong.png
+BACKGROUND_EDIT: "Peter sitting on bed, packing a bong, cell phone vibrating"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Peter sits on the bed, beside Bridget. He packs marijuana into the bowl of a large bong.
+  EXPRESSION: null
+- CHARACTER: Bridget
+  LINE: That was your sister, right?
+  EXPRESSION: Curious
+- CHARACTER: Peter
+  LINE: Yeah. Charlie.
+  EXPRESSION: Neutral
+- CHARACTER: Narrator
+  LINE: Peter’s cell phone VIBRATES.
+  EXPRESSION: null
+- CHARACTER: Hispanic Boy
+  LINE: Is your sister hot?
+  EXPRESSION: Playful
+- CHARACTER: Narrator
+  LINE: Peter checks the cell. It’s ANNIE calling. Tense, he tucks the phone back into his pocket.
+  EXPRESSION: Tense
+- CHARACTER: Bridget
+  LINE: I actually saw her drawing me last week.
+  EXPRESSION: Casual
+- CHARACTER: Peter
+  LINE: Oh yeah?
+  EXPRESSION: Curious
+- CHARACTER: Bridget
+  LINE: Yeah, she made me look crazy.
+  EXPRESSION: Amused
+- CHARACTER: Peter
+  LINE: That’s Charlie.
+  EXPRESSION: Resigned
+- CHARACTER: Narrator
+  LINE: Peter’s phone VIBRATES again. A yellow “Message Waiting” light blinks. Annie has left a VOICEMAIL.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Peter continues to ignore Annie's calls"
+  TARGET: party_house_living_room_charlie_symptoms
+  STATE_CHANGE: peter_anxiety = +1
+
+::SCENE::
+LOCATION: Party House - Living Room
+MOOD: Unwell, Concerned
+CHARACTERS: Narrator, Charlie
+BACKGROUND_IMAGE: party_living_room_charlie.png
+BACKGROUND_EDIT: "Charlie looking concerned, holding an empty plate, seeking water"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Charlie walks around, holding an empty plate, her lips covered in chocolate. She stops for a moment to SWALLOW. She pauses, then swallows again. She looks slightly concerned.
+  EXPRESSION: Concerned
+- CHARACTER: Narrator
+  LINE: Charlie goes to a stack of RED CUPS and pulls one. She goes to the kitchen faucet and draws herself a cup of water.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Charlie's symptoms begin"
+  TARGET: annies_workshop_night
+  STATE_CHANGE: charlie_symptoms = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Annie’s Workshop
+MOOD: Eerie, Obsessive
+CHARACTERS: Narrator, Annie (implied)
+BACKGROUND_IMAGE: annies_workshop.png
+BACKGROUND_EDIT: "Miniature of Graham house, Annie's mother figurine placed"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Annie is working on the miniature of the Graham house. She plants a freshly-painted FIGURINE of a ghostly old woman in a bathrobe (clearly Annie’s MOTHER) in the upstairs hall. The figurine looms outside the open door of the master bedroom replica, where figurines of Annie and Steve are asleep in bed.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Annie continues her meticulous work"
+  TARGET: party_house_living_room_charlie_worsens
+  STATE_CHANGE: annie_obsession = +1
+
+::SCENE::
+LOCATION: Party House - Living Room
+MOOD: Urgent, Worsening
+CHARACTERS: Narrator, Charlie, Concerned Boy
+BACKGROUND_IMAGE: party_living_room_couch.png
+BACKGROUND_EDIT: "Party in full swing, Charlie on couch, pink and inflamed cheeks"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The party is still in full swing.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Charlie has found her way onto the COUCH and is now assembling a small manikin from disparate parts (from her pocket). Her cheeks look pink and slightly INFLAMED. An allergic reaction to the cake? It looks like she’s on the verge of throwing up, but she keeps her concentration on the manikin.
+  EXPRESSION: Unwell
+- CHARACTER: Narrator
+  LINE: A concerned BOY (16) approaches Charlie. Not recognizing that she’s a girl:
+  EXPRESSION: null
+- CHARACTER: Concerned Boy
+  LINE: Hey dude, you okay? You want some water?
+  EXPRESSION: Concerned
+- CHARACTER: Narrator
+  LINE: Charlie doesn’t even look up.
+  EXPRESSION: null
+- CHARACTER: Charlie
+  LINE: I’m okay.
+  EXPRESSION: Distant
+- CHARACTER: Concerned Boy
+  LINE: You sure?
+  EXPRESSION: Concerned
+- CHARACTER: Charlie
+  LINE: Mm-hmm.
+  EXPRESSION: Unwell
+- CHARACTER: Narrator
+  LINE: The Boy hesitantly walks off. Charlie does NOT look good.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Charlie's condition deteriorates further"
+  TARGET: party_house_other_room_charlie_emergency
+  STATE_CHANGE: charlie_illness_severe = true
+
+::SCENE::
+LOCATION: Party House - Other Room
+MOOD: Alarming, Desperate
+CHARACTERS: Narrator, Peter, Charlie
+BACKGROUND_IMAGE: party_other_room_interruption.png
+BACKGROUND_EDIT: "Peter taking a bong hit, Charlie opening the door, looking scared"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Peter is drawing an impressive bong hit.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The door is OPENED by Charlie.
+  EXPRESSION: null
+- CHARACTER: Charlie
+  LINE: Peter?
+  EXPRESSION: Scared
+- CHARACTER: Narrator
+  LINE: This is just as Peter finishes inhaling. He COUGHS up smoke.
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: Charlie!
+  EXPRESSION: Surprised
+- CHARACTER: Narrator
+  LINE: Peter immediately hides the bong behind his legs and looks to Charlie, affecting casualness.
+  EXPRESSION: Feigned Casualness
+- CHARACTER: Peter
+  LINE: What’s up?
+  EXPRESSION: Feigned Casualness
+- CHARACTER: Narrator
+  LINE: Charlie looks scared.
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: Are you okay?
+  EXPRESSION: Concerned
+- CHARACTER: Charlie
+  LINE: It’s hard to breathe.
+  EXPRESSION: Scared
+- CHARACTER: Narrator
+  LINE: Charlie’s voice is cracked and strange.
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: What do you mean?
+  EXPRESSION: Concerned
+- CHARACTER: Charlie
+  LINE: My tongue is getting bigger.
+  EXPRESSION: Scared
+
+::PATHS::
+- CHOICE: "Charlie's allergic reaction becomes life-threatening"
+  TARGET: car_ext_night
+  STATE_CHANGE: charlie_anaphylaxis = +1, peter_panic = +1
+
+::SCENE::
+LOCATION: Car - Exterior
+MOOD: Desperate, Urgent
+CHARACTERS: Narrator, Peter, Charlie
+BACKGROUND_IMAGE: car_ext_night.png
+BACKGROUND_EDIT: "Nighttime, distraught Peter pulling red-faced, bulging-eyed Charlie to car"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: A distraught Peter pulls Charlie to the car. Charlie’s eyes bulge and her face is pitch-red. She seems UNABLE TO BREATHE.
+  EXPRESSION: Distraught
+- CHARACTER: Narrator
+  LINE: Peter desperately opens the back door, guides Charlie in, slams the door, and runs to the driver side of the car.
+  EXPRESSION: Desperate
+
+::PATHS::
+- CHOICE: "Peter drives Charlie to the hospital"
+  TARGET: car_moving_night
+  STATE_CHANGE: peter_desperation = +1
+
+::SCENE::
+LOCATION: Car - Moving
+MOOD: Horrific, Tragic
+CHARACTERS: Narrator, Peter, Charlie
+BACKGROUND_IMAGE: car_int_moving_night.png
+BACKGROUND_EDIT: "Speeding car on empty highway, Charlie gasping and gurgling in backseat"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Peter speeds down the empty HIGHWAY. In the back seat, Charlie GASPS and gurgles for breath. She KICKS at the door and GRASPS at her throat. Tears of pain stream down her face.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter ACCELERATES. Speeding from 60 MPH to 65.
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: You’re okay, Charlie! We’re going to the hospital!
+  EXPRESSION: Desperate
+- CHARACTER: Narrator
+  LINE: Charlie frantically rolls down her window. Desperate for air.
+  EXPRESSION: Desperate
+- CHARACTER: Narrator
+  LINE: Peter continues accelerating. 70 MPH.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Charlie forces her head through the BACK PASSENGER WINDOW. She GASPS for breath, but her throat is swollen shut. She can’t even scream.
+  EXPRESSION: Desperate
+- CHARACTER: Narrator
+  LINE: Peter continues accelerating. 75 MPH.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Charlie sticks her squealing head even farther out the window.
+  EXPRESSION: Desperate
+- CHARACTER: Narrator
+  LINE: Peter continues accelerating. 80... 85... But THEN--
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: A grisly DEER CARCASS, smeared across the road, appears in the car’s headlights.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter SWERVES out of the way.
+  EXPRESSION: Startled
+- CHARACTER: Narrator
+  LINE: CHARLIE’S HEAD, flailing out of the window, COLLIDES FACE-FIRST WITH A TELEPHONE POLE. The impact is so great that Charlie’s head is RIPPED OFF its shoulders.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The decapitated head SAILS silently in the car’s wake.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter STOMPS on the brakes. The car SQUEALS to an ear-splitting halt.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The frozen car chugs quietly. Suspended in time.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter sits motionless. Paralyzed. His eyes are fixed on the road in front of him.
+  EXPRESSION: Paralyzed
+- CHARACTER: Narrator
+  LINE: In the SIDE-VEW MIRROR, the dead deer (thirty feet back) is faintly visible in the car’s brake lights. Bathed in red.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter doesn’t dare look back. His foot is jammed into the brake.
+  EXPRESSION: Terrified
+- CHARACTER: Narrator
+  LINE: In the back seat, Charlie sits headless. A torso.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter’s EYES begin to stray toward the REAR-VIEW MIRROR, but they STOP before they get there. Peter can’t look.
+  EXPRESSION: Terrified
+- CHARACTER: Narrator
+  LINE: Peter reaches for the rear-view mirror and subtly turns it AWAY.
+  EXPRESSION: Avoidant
+- CHARACTER: Narrator
+  LINE: The “Voicemail Waiting” light (from Peter’s cell) blinks through the fabric of his jeans pocket.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: A long moment of silence, and then...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter’s foot slowly eases OFF the brake pedal.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The car begins to slowly idle forward.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter, eyes locked on the road ahead, allows the car to slowly pick up speed. His demeanor suggests that he’s in great denial. As if he’s saying to himself “it’s okay, nothing happened.”
+  EXPRESSION: Denial
+- CHARACTER: Narrator
+  LINE: The car drives onward. The headless torso rattles gently in the back seat.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Peter drives home in a state of denial"
+  TARGET: graham_house_ext_night
+  STATE_CHANGE: charlie_dead = true, peter_traumatized = +10, peter_denial = +1
+
+::SCENE::
+LOCATION: Graham House - Exterior
+MOOD: Somber, Eerie
+CHARACTERS: Narrator, Peter
+BACKGROUND_IMAGE: graham_house_ext_night.png
+BACKGROUND_EDIT: "Nighttime, car idling quietly into driveway, Peter exits in a dream state"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The car idles quietly into the driveway. It PARKS beside the other family car, but the engine continues humming.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The driver door opens, setting off the dull DING-DING-DING of the “door open/engine on” alarm. After a long pause, the engine is turned off. Peter steps out, as if in a dream state.
+  EXPRESSION: Disassociated
+- CHARACTER: Narrator
+  LINE: He walks stiffly away from the car and into the house.
+  EXPRESSION: Disassociated
+
+::PATHS::
+- CHOICE: "Peter enters the house"
+  TARGET: graham_house_hallway_continuous
+  STATE_CHANGE: peter_shock = +1
+
+::SCENE::
+LOCATION: Graham House - Hallway
+MOOD: Ghostly, Detached
+CHARACTERS: Narrator, Peter
+BACKGROUND_IMAGE: graham_house_hallway.png
+BACKGROUND_EDIT: "Peter walking woodenly through the hall"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Peter stalks woodenly through the hall. He walks into his bedroom, leaving Annie and Steve to their sleep.
+  EXPRESSION: Disassociated
+- CHARACTER: Narrator
+  LINE: Peter climbs into bed, his door left open.
+  EXPRESSION: Disassociated
+
+::PATHS::
+- CHOICE: "Peter goes to bed, leaving the door open"
+  TARGET: graham_house_bedroom_next_morning
+  STATE_CHANGE: peter_sleepless = true, peter_traumatized = +1
+
+::SCENE::
+LOCATION: Graham House - Peter's Bedroom
+MOOD: Tense, Impending Horror
+CHARACTERS: Narrator, Peter, Annie (V.O.), Steve (V.O.)
+BACKGROUND_IMAGE: peters_bedroom_morning.png
+BACKGROUND_EDIT: "Morning, close-up on Peter's wide-open eyes, sounds from downstairs"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The next morning. CLOSE-UP on Peter’s face, turned halfway into his pillow. His eyes are wide open.
+  EXPRESSION: Terrified
+- CHARACTER: Narrator
+  LINE: Downstairs, we hear Annie pulling on her coat.
+  EXPRESSION: null
+- CHARACTER: Annie (V.O.)
+  LINE: I’m running out for some balsa wood. You want anything?
+  EXPRESSION: Neutral
+- CHARACTER: Steve (V.O.)
+  LINE: I’m good, baby. Drive safe.
+  EXPRESSION: Neutral
+- CHARACTER: Annie (V.O.)
+  LINE: Okay! Back in twenty!
+  EXPRESSION: Neutral
+- CHARACTER: Narrator
+  LINE: The front door is heard opening and shutting. We then hear: Annie walking to the car... The car door opening... Annie beginning to climb in. And then... Silence. Followed by... A horrible SCREAM, shrill and almost inhuman-sounding, issues from outside. Peter’s eyes WIDEN.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie is heard staggering backwards and falling down, muttering (almost inaudibly) “No, no, no, no...” Downstairs (in the house) Steve is heard reacting and running to the front door. Before he makes it outside, Annie lets out another blood-curdling SHRIEK, which prompts a HARD CUT TO:
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Annie discovers Charlie's head"
+  TARGET: highway_morning
+  STATE_CHANGE: annie_horror = +10, peter_terror = +10
+
+::SCENE::
+LOCATION: Highway
+MOOD: Gruesome, Final
+CHARACTERS: Narrator
+BACKGROUND_IMAGE: highway_charlies_head.png
+BACKGROUND_EDIT: "Morning, Charlie's decapitated head resting by the side of the road"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: CHARLIE’S HEAD rests by the side of the road. The nose is comple
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "End of narrative"
+  TARGET: end
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Graham Hallway
+MOOD: Despair, Grief
+CHARACTERS: Annie, Steve, Peter, Narrator
+BACKGROUND_IMAGE: graham_hallway.png
+BACKGROUND_EDIT: "Nighttime, storm raging outside, bedroom door cracked open"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The sound of THUNDER bridges our cut to:
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: A STORM rages outside.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie and Steve’s bedroom door is cracked open. We barely see ANNIE lying in bed, WEEPING and MOANING. Steve, sitting on the bed, consoles her. He tries to feed her a pill.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: NO! I can't! I can't! I just wanna die!... I can't.
+  EXPRESSION: Sad
+- CHARACTER: Narrator
+  LINE: Steve rubs her head as she sinks into a more placid despair.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: ...It hurts too much. I just need to die.
+  EXPRESSION: Sad
+- CHARACTER: Narrator
+  LINE: And then more feelings come SURGING up. She MOANS an anguished moan.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: We reveal PETER, standing paralyzed on the stairs, LISTENING. His mother’s cries shred at his nerves.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: CHARLIE!!!
+  EXPRESSION: Sad
+
+::PATHS::
+- CHOICE: "Continue"
+  TARGET: cemetery
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Cemetery
+MOOD: Somber, Mournful
+CHARACTERS: Annie, Peter, Steve, Narrator
+BACKGROUND_IMAGE: cemetery.png
+BACKGROUND_EDIT: "Daytime, overcast, sad gathering of mourners"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: An overcast day. A sad gathering of mourners. Annie, Peter and Steve stand lost among them.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: We are at a distance. The COFFIN (in profile) is being lowered into the ground. We are booming down to FOLLOW the sinking casket (keeping it centered), and as the coffin descends into the earth, so do we. We slowly creep down, losing sight of the cemetery and the mourners. We continue tracking down along the DIRT and the EARTHWORMS and the WEEDS, sinking deeper and deeper into the dark, wet soil. Soon we are swallowed up again in BLACK.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Continue"
+  TARGET: house_living_room_late_afternoon
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: House Living Room
+MOOD: Stifled Grief
+CHARACTERS: Steve, Narrator
+BACKGROUND_IMAGE: house_living_room.png
+BACKGROUND_EDIT: "Late afternoon, during the wake, slightly opaque view"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: THE WAKE. Everything seems slightly opaque, as if seen through glass. Glossed over by grief.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: People stand uneasily and talk in hushed tones.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: STEVE stands in a daze, politely (but absently) accepting condolences.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Continue"
+  TARGET: annie_steve_bedroom_same_time
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Annie & Steve's Bedroom
+MOOD: Isolated Despair
+CHARACTERS: Annie, Narrator
+BACKGROUND_IMAGE: annie_steve_bedroom.png
+BACKGROUND_EDIT: "Same time as wake, Annie in bed facing wall"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Annie lies in bed, facing the wall. Her back is to us.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Continue"
+  TARGET: library_same_time
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Library
+MOOD: Anxious, Awkward
+CHARACTERS: Peter, Man, Narrator
+BACKGROUND_IMAGE: library.png
+BACKGROUND_EDIT: "Same time as wake, Peter hiding, distorted view of living room"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Peter stands (hiding?) in the family library, anxiously massaging his CELL PHONE with his thumb. He looks completely battered by trauma and self-loathing.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He observes the wake in the adjacent living room through the distortion of the library’s textured glass door. He watches Steve shake someone’s hand.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: A MAN (40s) steps into the library, not expecting to find Peter.
+  EXPRESSION: null
+- CHARACTER: Man
+  LINE: Peter. How are you?
+  EXPRESSION: Surprised
+- CHARACTER: Narrator
+  LINE: Peter smiles politely, but can’t answer. His eyes look almost deranged.
+  EXPRESSION: null
+- CHARACTER: Man
+  LINE: Can I get you anything?
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: I’m just gonna use the bathroom.
+  EXPRESSION: Neutral
+- CHARACTER: Man
+  LINE: Okay.
+  EXPRESSION: Neutral
+- CHARACTER: Narrator
+  LINE: As Peter walks stiffly past, smiling his forced smile, the Man awkwardly adds:
+  EXPRESSION: null
+- CHARACTER: Man
+  LINE: I’m so sorry for your loss.
+  EXPRESSION: Neutral
+- CHARACTER: Peter
+  LINE: Thank you.
+  EXPRESSION: Neutral
+
+::PATHS::
+- CHOICE: "Enter bathroom"
+  TARGET: bathroom_continuous
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Bathroom
+MOOD: Panic, Anxiety
+CHARACTERS: Peter, Narrator
+BACKGROUND_IMAGE: bathroom.png
+BACKGROUND_EDIT: "Continuous, Peter locks door, sounds of wake faintly heard"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Peter hastily enters the bathroom and LOCKS the door.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He stands frozen for a moment, battling panic. The sounds of the wake persist in the other room.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter turns on the SINK to create white noise.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Wait in bathroom"
+  TARGET: living_room_evening
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Living Room
+MOOD: Emptiness, Lost
+CHARACTERS: Steve, Narrator
+BACKGROUND_IMAGE: living_room.png
+BACKGROUND_EDIT: "Evening, remaining mourners filtering out, Steve alone"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The remaining mourners are slowly filtering out. Steve politely ushers them, thanking them for coming.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Soon, everyone’s gone. Steve just stands there, in the middle of the room. Lost.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Continue"
+  TARGET: hallway_moments_later
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Hallway
+MOOD: Concern, Quiet
+CHARACTERS: Steve, Narrator
+BACKGROUND_IMAGE: hallway.png
+BACKGROUND_EDIT: "Moments later, Steve at bathroom door, running sink faintly heard"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Steve goes to the bathroom door. Tries to open it. It’s LOCKED. The running sink is faintly heard.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Steve pauses, then knocks gently.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: Peter?
+  EXPRESSION: Neutral
+- CHARACTER: Narrator
+  LINE: No answer.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Continue"
+  TARGET: bathroom_same_time
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Bathroom
+MOOD: Despair, Remorse
+CHARACTERS: Peter, Robotic Female Voice (V.O.), Annie (V.O.), Narrator
+BACKGROUND_IMAGE: bathroom.png
+BACKGROUND_EDIT: "Same time, Peter on tub, sink running, listening to voicemail"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Peter sits on the edge of the tub. The sink is still running.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He holds his cell to his ear, listening to VOICEMAIL.
+  EXPRESSION: null
+- CHARACTER: Robotic Female Voice (V.O.)
+  LINE: You have one saved message. First saved message:
+  EXPRESSION: Neutral
+- CHARACTER: Annie (V.O.)
+  LINE: Hi sweetheart, it’s mom. Just calling to make sure that you and Charlie are okay and having a good time at the BBQ. All right. Have lots of fun and be safe. Love you both!
+  EXPRESSION: Happy
+- CHARACTER: Narrator
+  LINE: Click.
+  EXPRESSION: null
+- CHARACTER: Robotic Female Voice (V.O.)
+  LINE: To listen to this message again, press four.
+  EXPRESSION: Neutral
+
+::PATHS::
+- CHOICE: "Continue"
+  TARGET: annie_steve_bedroom_moments_later
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Annie & Steve's Bedroom
+MOOD: Unsettling, Concern
+CHARACTERS: Steve, Narrator
+BACKGROUND_IMAGE: annie_steve_bedroom.png
+BACKGROUND_EDIT: "Moments later, Steve at open door, bed empty, sheets disheveled"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Steve approaches his bedroom, but STOPS at the open door.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie is no longer in bed. The sheets have been dragged halfway off the mattress (presumably by Annie’s feet when she left).
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Continue"
+  TARGET: charlie_bedroom_moments_later
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Charlie's Bedroom
+MOOD: Sadness, Discovery, Emotional
+CHARACTERS: Steve, Narrator
+BACKGROUND_IMAGE: charlie_bedroom.png
+BACKGROUND_EDIT: "Moments later, lonely room, Steve enters"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Charlie’s lonely bedroom. Everything is as it was.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The door OPENS. It’s Steve. He stands at the door, taking the room in. After a moment, he steps inside.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: MOMENTS LATER.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Steve sits on Charlie’s bed. He has pulled up Charlie’s DRAWING PAD.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Steve opens the pad. He flips slowly through the pages. He takes care to really look at the drawings. As if appreciating them for the first time.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Steve passes several drawings of severed animal heads (including those of the rabbit, the rat and the cat, which we saw in Charlie’s shoebox). Steve then comes to Charlie’s half-finished drawing of the pigeon head (which now dons a CROWN).
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Steve studies it, and then turns the page to discover...a BLANK PAGE. There are no more drawings.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The floodgates open. Steve WEEPS.
+  EXPRESSION: Sad
+
+::PATHS::
+- CHOICE: "Continue"
+  TARGET: charlie_bedroom_night
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Charlie's Bedroom
+MOOD: Eerie, Avoidant
+CHARACTERS: Peter, Narrator
+BACKGROUND_IMAGE: charlie_bedroom.png
+BACKGROUND_EDIT: "Nighttime, empty room, snowing outside, hallway lights off"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Charlie’s bedroom is EMPTY again. It’s snowing outside.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The door is open, and the hallway’s lights are off.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Framed by the doorway, Peter walks past, determinedly not looking into the room.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Continue"
+  TARGET: peter_bedroom_night
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Peter's Bedroom
+MOOD: Restless, Anxious
+CHARACTERS: Peter, Narrator
+BACKGROUND_IMAGE: peter_bedroom.png
+BACKGROUND_EDIT: "Nighttime, Peter in bed, alarm clock, treehouse visible"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Peter enters. Without changing out of his clothes, he climbs into bed. The ALARM CLOCK reads 10:10 PM.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He turns to his side and gazes out the WINDOW. The imposing TREEHOUSE looms just outside. He stares at it.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: LATER
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter rolls huffily from his stomach to his back, unable to sleep. He turns to the ALARM CLOCK. It now reads 1:32 AM.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: A beat, and then Peter climbs out of bed, gathers his blanket and pillow, and leaves the room.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Leave bedroom"
+  TARGET: graham_house_exterior_moments_later
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Graham House Exterior
+MOOD: Eerie, Foreboding
+CHARACTERS: Peter, Narrator
+BACKGROUND_IMAGE: graham_house_exterior.png
+BACKGROUND_EDIT: "Moments later, light snowfall, Peter heading for treehouse"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Peter, wearing his parka and an Elmer Fudd hat, emerges from the back door of the house. He carries his blanket and pillow through the light snowfall, heading for the TREEHOUSE.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He notes Charlie’s SHOEBOX near the base of the tree (having been dropped from the treehouse?). Flies are audible inside.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter grips the tree’s climbing handles and scales the tree.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Climb into treehouse"
+  TARGET: treehouse_interior_continuous
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Treehouse
+MOOD: Shock, Terror
+CHARACTERS: Peter, Annie, Narrator
+BACKGROUND_IMAGE: treehouse_interior.png
+BACKGROUND_EDIT: "Continuous, Peter lays out blanket, Annie sleeping in corner"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Peter climbs in. He lays out his blanket and lies down, positioning his pillow under his head. Now situated, he begins to close his eyes, but before they can shut, he SENSES something behind him. He slowly look back to SEE: ANNIE IS SLEEPING IN THE CORNER, bundled up in blankets.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Startled, Peter STAGGERS out of his blanket, GRABS his things, and rushes frantically out of the treehouse. In his haste, his foot SLIPS OFF one of the wet climbing handles. He falls to land HARD on his back.
+  EXPRESSION: Surprised
+- CHARACTER: Narrator
+  LINE: In pain, Peter rises and limps back toward the house.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: WE SLOWLY DISSOLVE FROM THIS TO...
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Return to house"
+  TARGET: classroom_day
+  STATE_CHANGE: fear = +3, pain = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Classroom
+MOOD: Disconnected, Obsessive
+CHARACTERS: Peter, Bridget, Teacher, Narrator
+BACKGROUND_IMAGE: classroom.png
+BACKGROUND_EDIT: "Daytime, Peter at back of class, distant teacher, blurry flashback"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Peter sits in the back of class as a teacher drones on at the blackboard. The teacher’s voice is distant and vague, as if heard from UNDER WATER.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter’s EYES are busy with nagging, obsessive thoughts. They narrow upward to his right.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: We flash briefly to an INSERT of the family car’s REAR VIEW MIRROR (from Peter’s POV) on the night of the accident. The mirror is in focus, but whatever’s in the BACK SEAT (Charlie’s headless body) is blurry and just out of the mirror’s view.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: We return to the CLASS. Peter snaps out of his reverie to see BRIDGET looking at him. Their eyes briefly MEET before she quickly turns back to the teacher.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter’s eyes HARDEN.
+  EXPRESSION: Angry
+
+::PATHS::
+- CHOICE: "Continue"
+  TARGET: graham_house_exterior_day
+  STATE_CHANGE: guilt = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Graham House Exterior
+MOOD: Suspicion, Paranoia
+CHARACTERS: Annie, Narrator
+BACKGROUND_IMAGE: graham_house_exterior.png
+BACKGROUND_EDIT: "Daytime, Annie at mailbox, finding seance brochure"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Annie draws the MAIL out of the mailbox. Among the letters is a BROCHURE. It reads “Calling All Skeptics!” Below that: “A PUBLIC SEANCE to be conducted by famed spiritual medium, Suzanne Marlowe!”
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie goes PALE at the sight of this. She looks around, suddenly paranoid - as if nervous that she’s being watched.
+  EXPRESSION: Afraid
+
+::PATHS::
+- CHOICE: "Continue"
+  TARGET: workshop_day
+  STATE_CHANGE: fear = +1, paranoia = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Workshop
+MOOD: Exhaustion, Numbness
+CHARACTERS: Annie, Narrator
+BACKGROUND_IMAGE: workshop.png
+BACKGROUND_EDIT: "Daytime, Annie working on hospice miniature, exhausted"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Annie is at work, trying to make progress on the HOSPICE MINIATURE. Her eyes are numb. She looks exhausted. She turns in her swivel-chair
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "End scene"
+  TARGET: end
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Foyer
+MOOD: Tension
+CHARACTERS: Annie, Steve, Max, Narrator
+BACKGROUND_IMAGE: foyer.png
+BACKGROUND_EDIT: "Daytime, front door unlocking, dog"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Off-screen, the front door is heard UNLOCKING. Annie looks in the direction of the noise.
+  EXPRESSION: Alert
+- CHARACTER: Narrator
+  LINE: The front door opens and Steve enters.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: Annie?!
+  EXPRESSION: Surprised
+- CHARACTER: Narrator
+  LINE: Max runs up to greet Steve, his tail wagging excitedly.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Observe Annie's actions"
+  TARGET: workshop_same_time
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Workshop
+MOOD: Secretive
+CHARACTERS: Annie, Steve (heard), Narrator
+BACKGROUND_IMAGE: workshop.png
+BACKGROUND_EDIT: "Daytime, Annie going to door, closing it"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Annie goes to the door. Steve is heard scaling the stairs.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Before he can reach the top, Annie silently eases the door shut.
+  EXPRESSION: Secretive
+
+::PATHS::
+- CHOICE: "Continue following Steve"
+  TARGET: hallway_continuous
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Hallway
+MOOD: Misunderstanding
+CHARACTERS: Annie, Steve, Narrator
+BACKGROUND_IMAGE: hallway.png
+BACKGROUND_EDIT: "Daytime, workshop door, Steve at top of stairs"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The workshop door quietly CLOSES just before Steve appears at the top of the stairs. He approaches the workshop.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He knocks on the door.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: No answer.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He eases the door open. Annie “works” with her back to the door. She’s now wearing HEADPHONES, “listening” to classical music.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Steve smiles sadly and closes the door, leaving Annie to her work.
+  EXPRESSION: Sad
+
+::PATHS::
+- CHOICE: "Move to the kitchen"
+  TARGET: kitchen_moments_later
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Kitchen
+MOOD: Suspense
+CHARACTERS: Steve, Annie, Narrator
+BACKGROUND_IMAGE: kitchen.png
+BACKGROUND_EDIT: "Daytime, kitchen island with mail, trash can"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Steve enters the kitchen. Mail waits on the kitchen island.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He finds the BROCHURE for the public seance, and DUMPS it in the trash.
+  EXPRESSION: Determined
+- CHARACTER: Narrator
+  LINE: In the b.g., Annie CROSSES the doorway. Steve doesn’t see.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Observe Annie"
+  TARGET: graham_house_late_afternoon
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Graham House Driveway
+MOOD: Anxiety
+CHARACTERS: Annie, Peter, Narrator
+BACKGROUND_IMAGE: graham_house_driveway.png
+BACKGROUND_EDIT: "Late afternoon, blue family car, Peter on bicycle"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Annie sits in the blue family car, parked in the driveway. (The green car - the “accident” car - is now permanently gone.) Annie is trying to work up the nerve to start the engine. Then, in the SIDE-VIEW MIRROR, she sees: Peter rides his BICYCLE up the driveway. He arrives at the front porch, but stays on the bike. He doesn’t see Annie.
+  EXPRESSION: Anxious
+- CHARACTER: Narrator
+  LINE: Annie has TENSED UP. She sits motionless for fear of being seen, eyes LOCKED on Peter. He stands for a long time at the front door, preparing to face his family.
+  EXPRESSION: Tense
+- CHARACTER: Narrator
+  LINE: Annie watches as Peter continues to gather himself. He finally takes a decisive breath, gets off the bike, and quietly enters the house.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie remains tense. She turns on the car’s IGNITION.
+  EXPRESSION: Tense
+
+::PATHS::
+- CHOICE: "Drive away"
+  TARGET: high_school_gymnasium_evening
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Catholic High School Gymnasium Parking Lot
+MOOD: Reluctance, Confrontation
+CHARACTERS: Annie, Older Woman (Joan), Narrator
+BACKGROUND_IMAGE: high_school_gym_parking.png
+BACKGROUND_EDIT: "Evening, support group gathering, Annie in car"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Annie idles into the parking lot of the HIGH SCHOOL GYMNASIUM (from earlier). Outside, the same SUPPORT GROUP is gathering.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie pulls into a spot. Turns off the ignition. She stares at the gymnasium door. Watches tensely as people solemnly enter. She doesn’t move.
+  EXPRESSION: Tense
+- CHARACTER: Narrator
+  LINE: After a long internal debate, Annie finally STARTS the car back up, and begins to drive off. As she approaches the exit, an OLDER WOMAN (late 60s) runs suddenly - and merrily - into the HEADLIGHTS, flagging Annie down. Annie BRAKES.
+  EXPRESSION: Startled
+- CHARACTER: Narrator
+  LINE: The woman circles over to Annie’s window. Annie hesitantly rolls it down.
+  EXPRESSION: Hesitant
+- CHARACTER: Older Woman
+  LINE: Hi! Hello. Sorry to chase you down. Were you not coming in?
+  EXPRESSION: Friendly
+- CHARACTER: Annie
+  LINE: I, no, I just - forgot something.
+  EXPRESSION: Cornered
+- CHARACTER: Older Woman
+  LINE: Okay, sorry, I just - I recognized you from a few months ago. You were here because your mother?
+  EXPRESSION: Curious
+- CHARACTER: Annie
+  LINE: Oh...
+  EXPRESSION: Surprised
+- CHARACTER: Older Woman
+  LINE: I feel crazy now. Sorry! I’m Joan.
+  EXPRESSION: Apologetic
+- CHARACTER: Annie
+  LINE: Hi.
+  EXPRESSION: Trapped
+- CHARACTER: Joan
+  LINE: Are you doing any better?
+  EXPRESSION: Concerned
+- CHARACTER: Annie
+  LINE: What?
+  EXPRESSION: Confused
+- CHARACTER: Joan
+  LINE: With your mother...?
+  EXPRESSION: Concerned
+- CHARACTER: Annie
+  LINE: What? No. That’s not... My daughter was killed.
+  EXPRESSION: Pained
+- CHARACTER: Joan
+  LINE: Oh. My God. I’m so, so sorry.
+  EXPRESSION: Apologetic
+- CHARACTER: Narrator
+  LINE: Brief, heavy silence. Joan stammeringly offers:
+  EXPRESSION: null
+- CHARACTER: Joan
+  LINE: Would you like to come in with me? Or we can even just get a coffee. There’s a place down the street.
+  EXPRESSION: Empathetic
+- CHARACTER: Annie
+  LINE: I’m sorry. Really. Thank you. I really did forget something.
+  EXPRESSION: Dismissive
+- CHARACTER: Narrator
+  LINE: Joan bluntly offers:
+  EXPRESSION: null
+- CHARACTER: Older Woman
+  LINE: My son died.
+  EXPRESSION: Sad
+- CHARACTER: Annie
+  LINE: Oh...! I’m so sorry.
+  EXPRESSION: Horrified
+- CHARACTER: Narrator
+  LINE: Joan smiles tightly, heartbroken.
+  EXPRESSION: Heartbroken
+- CHARACTER: Joan
+  LINE: How old was yours?
+  EXPRESSION: Gentle
+- CHARACTER: Narrator
+  LINE: Annie looks like she’s being held hostage.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Fourteen.
+  EXPRESSION: Pained
+- CHARACTER: Joan
+  LINE: Oh God, that’s awful! My son and my grandson drowned. Four months ago. The little one was seven.
+  EXPRESSION: Matter-of-fact
+- CHARACTER: Annie
+  LINE: Oh my God.
+  EXPRESSION: Horrified
+- CHARACTER: Joan
+  LINE: I’ve been coming here for a month now and it has helped. I just wanted to say. It has. It doesn’t make it easier - obviously. But sometimes it just, makes it less lonely.
+  EXPRESSION: Hopeful
+- CHARACTER: Annie
+  LINE: Okay...
+  EXPRESSION: Awkward
+- CHARACTER: Joan
+  LINE: And I’m gonna embarrass myself now, but if you ever need someone to talk to...
+  EXPRESSION: Sincere
+- CHARACTER: Narrator
+  LINE: Joan writes her PHONE NUMBER onto a piece of paper.
+  EXPRESSION: null
+- CHARACTER: Joan
+  LINE: ’Cause we all do.
+  EXPRESSION: Empathetic
+- CHARACTER: Narrator
+  LINE: She hands Annie the phone number.
+  EXPRESSION: null
+- CHARACTER: Joan
+  LINE: Just if you need it.
+  EXPRESSION: Kind
+- CHARACTER: Annie
+  LINE: Okay. Thank you. Really.
+  EXPRESSION: Moved
+- CHARACTER: Narrator
+  LINE: Annie is moved, despite her discomfort. Joan walks off, giving Annie a warm little wave.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Go home"
+  TARGET: foyer_night
+  STATE_CHANGE: annie_has_joans_number = true
+  CONDITION: null
+
+::SCENE::
+LOCATION: Foyer
+MOOD: Weariness
+CHARACTERS: Annie, Narrator
+BACKGROUND_IMAGE: foyer_night.png
+BACKGROUND_EDIT: "Nighttime, Annie removing snow boots"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Annie lumbers in. She pulls off her snow boots.
+  EXPRESSION: Tired
+
+::PATHS::
+- CHOICE: "Go to the living room"
+  TARGET: living_room_moments_later
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Living Room
+MOOD: Distant, Tense
+CHARACTERS: Annie, Steve, Narrator
+BACKGROUND_IMAGE: living_room_night.png
+BACKGROUND_EDIT: "Nighttime, Steve asleep in armchair, muted TV glow"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Steve is asleep in an armchair, bathed in the dim glow of the muted TV. Annie appears in the doorway.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Hey.
+  EXPRESSION: Neutral
+- CHARACTER: Steve
+  LINE: Oh! Hey.
+  EXPRESSION: Waking up
+- CHARACTER: Annie
+  LINE: I’m going to bed.
+  EXPRESSION: Detached
+- CHARACTER: Steve
+  LINE: Where were you?
+  EXPRESSION: Concerned
+- CHARACTER: Annie
+  LINE: At the movies. I’m going to bed.
+  EXPRESSION: Evasive
+- CHARACTER: Steve
+  LINE: I’ll come with you.
+  EXPRESSION: Seeking connection
+- CHARACTER: Annie
+  LINE: ...Okay.
+  EXPRESSION: Put off
+- CHARACTER: Narrator
+  LINE: Annie leaves the doorway.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: And can you please let me know when you’re going to the movies? I was worried.
+  EXPRESSION: Concerned
+
+::PATHS::
+- CHOICE: "Go to bed"
+  TARGET: annie_steve_bedroom_night
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Annie & Steve’s Bedroom
+MOOD: Estrangement, Conflict
+CHARACTERS: Annie, Steve, Narrator
+BACKGROUND_IMAGE: bedroom_night.png
+BACKGROUND_EDIT: "Nighttime, couple in bed, tense atmosphere"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Annie and Steve are in bed. Annie’s back is to Steve. Neither is asleep.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Steve gently SNUGGLES UP to Annie, but she is like stone. He self-consciously touches her hip. She recoils.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Steve backs off. There is a long moment of tension, and then Annie RISES from bed.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: I’m gonna be right back.
+  EXPRESSION: Evasive
+- CHARACTER: Narrator
+  LINE: She gathers a blanket, which is bundled on the room’s armchair.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: You’re not coming right back. You’re taking the blanket.
+  EXPRESSION: Disappointed
+- CHARACTER: Annie
+  LINE: I can’t sleep.
+  EXPRESSION: Distressed
+- CHARACTER: Steve
+  LINE: Annie: it’s freezing outside.
+  EXPRESSION: Concerned
+- CHARACTER: Annie
+  LINE: The heater’s up there.
+  EXPRESSION: Determined
+- CHARACTER: Narrator
+  LINE: Steve wants to fight this, but Annie is clearly anxious to avoid a conversation.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: ...Okay.
+  EXPRESSION: Resigned
+- CHARACTER: Annie
+  LINE: Is that okay?
+  EXPRESSION: Uncertain
+- CHARACTER: Steve
+  LINE: Yeah. Fine. Come back if you get cold.
+  EXPRESSION: Resigned
+- CHARACTER: Annie
+  LINE: I just need to sleep.
+  EXPRESSION: Desperate
+- CHARACTER: Narrator
+  LINE: Annie leaves.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Follow Annie"
+  TARGET: treehouse_night
+  STATE_CHANGE: annie_isolated = true
+  CONDITION: null
+
+::SCENE::
+LOCATION: Treehouse
+MOOD: Ominous, Isolation
+CHARACTERS: Annie, Narrator
+BACKGROUND_IMAGE: treehouse_night.png
+BACKGROUND_EDIT: "Nighttime, ominous wide shot, Annie asleep, bright orange heaters"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: We push in on an ominous WIDE of Annie lying asleep in Charlie’s treehouse. Two LARGE HEATERS have been set up on either side of her. They burn a BRIGHT ORANGE.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Observe Peter"
+  TARGET: peter_bedroom_same_time
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Peter’s Bedroom
+MOOD: Eerie, Paranormal Fear
+CHARACTERS: Peter, Narrator
+BACKGROUND_IMAGE: peter_bedroom_night.png
+BACKGROUND_EDIT: "Nighttime, Peter awake in bed, orange glow from outside, dark corner"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Peter lies in bed, awake. Outside his window, Charlie’s treehouse emits an orange glow.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: A CLICKING SOUND (like Charlie’s tongue-clicking) is suddenly heard in the room. Peter FREEZES, now listening for it. After a moment, there’s another CLICK.
+  EXPRESSION: Terrified
+- CHARACTER: Narrator
+  LINE: Peter BOLTS up in bed. His eyes frenziedly scan the room. He fixes on a DARK CORNER. A HOODIE SWEATSHIRT hangs on the wall, and for a brief moment, it looks almost like a standing person.
+  EXPRESSION: Panicked
+- CHARACTER: Narrator
+  LINE: Peter continues listening intently for another click... Silence. It has stopped.
+  EXPRESSION: Relieved
+
+::PATHS::
+- CHOICE: "Continue to next day"
+  TARGET: workshop_next_day
+  STATE_CHANGE: peter_disturbed = true
+  CONDITION: null
+
+::SCENE::
+LOCATION: Workshop
+MOOD: Obsessive, Foreshadowing
+CHARACTERS: Annie, Narrator
+BACKGROUND_IMAGE: workshop_day.png
+BACKGROUND_EDIT: "Beautiful day, Annie intently working on replica bedroom, paint spill"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Outside, a beautiful day.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Inside, Annie is hard at work. Her eyes are intense - furious even - as she carefully works on the replica of Charlie’s bedroom. She scratches a tiny replica of the word-carving she saw earlier (”Satony”) into the wall behind the bed. As she does this, her attention is drawn to a looming POST-IT NOTE, which reads: Call gallery about extending?
+  EXPRESSION: Obsessed
+- CHARACTER: Narrator
+  LINE: Annie disregards this. She goes for a new bottle of paint, but as she reaches, an open paint bottle is KNOCKED over.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Shit.
+  EXPRESSION: Annoyed
+- CHARACTER: Narrator
+  LINE: It tipped over near Annie’s extending hand, but it didn’t look like Annie actually touched it.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie grabs paper towels and quickly mops up the mess. She pulls a few drenched items out of the widening paint puddle.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Among them: JOAN’S PHONE NUMBER. She looks at it.
+  EXPRESSION: Thoughtful
+
+::PATHS::
+- CHOICE: "Switch to Peter's day"
+  TARGET: high_school_hallway_day
+  STATE_CHANGE: annie_considers_joan = true
+  CONDITION: null
+
+::SCENE::
+LOCATION: High School Hallway
+MOOD: Social, Peer Pressure
+CHARACTERS: Peter, Brendan, Stoner Boys, Narrator
+BACKGROUND_IMAGE: high_school_hallway.png
+BACKGROUND_EDIT: "Daytime, students in hallway, Peter walking"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Peter walks absent-mindedly down the hall. THREE STONER BOYS (including Brendan) are walking toward him, huddled and giggling. They notice Peter.
+  EXPRESSION: null
+- CHARACTER: Brendan
+  LINE: Yo, Pete.
+  EXPRESSION: Casual
+- CHARACTER: Peter
+  LINE: Hey.
+  EXPRESSION: Neutral
+- CHARACTER: Brendan
+  LINE: You wanna join us for a walk?
+  EXPRESSION: Inviting
+- CHARACTER: Narrator
+  LINE: On “walk,” he mimes pinching a joint with his thumb and forefinger.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Join the stoners"
+  TARGET: soccer_field_day
+  STATE_CHANGE: peter_peers = true
+  CONDITION: null
+
+::SCENE::
+LOCATION: High School Soccer Field Bleachers
+MOOD: Casual, Escapism
+CHARACTERS: Peter, Brendan, Stoner #2, Narrator
+BACKGROUND_IMAGE: soccer_field_bleachers.png
+BACKGROUND_EDIT: "Daytime, Peter and stoners under bleachers, passing pipe"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Peter sits under the BLEACHERS with the three stoners. They pass around a PIPE packed with weed. Brendan takes a hit.
+  EXPRESSION: null
+- CHARACTER: Brendan
+  LINE: Am I the only one who’s Facebook friends with Becky?
+  EXPRESSION: Casual
+- CHARACTER: Narrator
+  LINE: Brendan passes the pipe to Peter.
+  EXPRESSION: null
+- CHARACTER: Stoner #2
+  LINE: You’re friends with Be
+  EXPRESSION: Casual
+
+::PATHS::
+- CHOICE: "End scene"
+  TARGET: end
+  STATE_CHANGE: peter_high = true
+  CONDITION: null
+
+::SCENE::
+LOCATION: Hang Out Spot
+MOOD: Anxious
+CHARACTERS: Peter, Stoner #3, Brendan, Stoner #2, Narrator
+BACKGROUND_IMAGE: hang_out_spot.png
+BACKGROUND_EDIT: "Messy room, day, smoking pot"
+
+::SCRIPT::
+- CHARACTER: Stoner #3
+  LINE: Facebook friends, bitch! Oh my God, her statuses...
+  EXPRESSION: Annoyed
+- CHARACTER: Brendan
+  LINE: Oh my God, dude, I know.
+  EXPRESSION: Annoyed
+- CHARACTER: Brendan
+  LINE: Every ten seconds!
+  EXPRESSION: Annoyed
+- CHARACTER: Narrator
+  LINE: Peter LIGHTS the bowl and takes a reluctant hit.
+  EXPRESSION: null
+- CHARACTER: Brendan
+  LINE: “I’m going to the bathroom now.” 5:45. “Just got back from the bathroom!” 5:46.
+  EXPRESSION: Annoyed
+- CHARACTER: Narrator
+  LINE: Peter COUGHS OUT a lungful of pot smoke. He immediately looks regretful.
+  EXPRESSION: Regretful
+- CHARACTER: Brendan
+  LINE: What about Brian with his girlfriend?
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Stoner #2 nods his head, choking on laughter. Peter’s eyes are wide with a burgeoning panic. He does not look well.
+  EXPRESSION: Panicked
+- CHARACTER: Stoner #2
+  LINE: Ha! His “princess”?!
+  EXPRESSION: Amused
+- CHARACTER: Stoner #2
+  LINE: “Going to pick up my princess from the airport!” “Eating cous-cous with my princess!”
+  EXPRESSION: Amused
+- CHARACTER: Narrator
+  LINE: Peter looks like he’s starting to have an ATTACK. The Stoners are oblivious.
+  EXPRESSION: Panicked
+- CHARACTER: Stoner #3
+  LINE: Who’s his girlfriend?
+  EXPRESSION: Curious
+- CHARACTER: Stoner #2
+  LINE: Some fuckin’ stupid college chick.
+  EXPRESSION: Casual
+- CHARACTER: Stoner #3
+  LINE: What the fuck?! I want some stupid college princess chick.
+  EXPRESSION: Annoyed
+- CHARACTER: Narrator
+  LINE: Stoner #2 notices that Peter is freaking out.
+  EXPRESSION: null
+- CHARACTER: Stoner #2
+  LINE: Dude. Are you okay?
+  EXPRESSION: Concerned
+- CHARACTER: Peter
+  LINE: I feel like I can’t breathe.
+  EXPRESSION: Panicked
+- CHARACTER: Stoner #2
+  LINE: What?
+  EXPRESSION: Concerned
+- CHARACTER: Peter
+  LINE: I feel like I’m having a reaction.
+  EXPRESSION: Panicked
+- CHARACTER: Stoner #2
+  LINE: No, man, don’t freak out. You just smoked too much.
+  EXPRESSION: Reassuring
+- CHARACTER: Peter
+  LINE: No, I think I need a doctor. My tongue is getting bigger.
+  EXPRESSION: Panicked
+- CHARACTER: Narrator
+  LINE: Peter is crying now.
+  EXPRESSION: Crying
+- CHARACTER: Stoner #2
+  LINE: Should we take you to the nurse??
+  EXPRESSION: Concerned
+- CHARACTER: Peter
+  LINE: I dunno.
+  EXPRESSION: Scared
+- CHARACTER: Brendan
+  LINE: Look, dude: you’re breathing. See? You’re just really high.
+  EXPRESSION: Reassuring
+- CHARACTER: Narrator
+  LINE: Peter is trying to calm down.
+  EXPRESSION: Calming
+- CHARACTER: Brendan
+  LINE: See? You’re okay. You just got too high. You’re okay, dude. You’re breathing.
+  EXPRESSION: Reassuring
+- CHARACTER: Narrator
+  LINE: Stoner #2 and Stoner #3 exchange “holy shit” looks.
+  EXPRESSION: Surprised
+
+::PATHS::
+- CHOICE: "Continue to next scene"
+  TARGET: street_day
+  STATE_CHANGE: Peter_anxiety = +5
+
+::SCENE::
+LOCATION: Street
+MOOD: Purposeful
+CHARACTERS: Narrator, Annie
+BACKGROUND_IMAGE: urban_street.png
+BACKGROUND_EDIT: "Daytime, urban street, busy"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Annie walks down an urban street, looking for an address. She pinches the paper with Joan’s number. On its other side is an ADDRESS in Annie’s handwriting.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie finds the address. A large, red-brick APARTMENT BUILDING.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Enter the apartment building"
+  TARGET: apartment_building_hallway_day
+  STATE_CHANGE: null
+
+::SCENE::
+LOCATION: Apartment Building - Third Floor Hallway
+MOOD: Anticipatory
+CHARACTERS: Narrator, Annie, Joan
+BACKGROUND_IMAGE: apartment_hallway.png
+BACKGROUND_EDIT: "Daytime, well-lit apartment hallway"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The elevator opens, depositing Annie onto the THIRD FLOOR.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie proceeds down the well-lit hall, arriving at APARTMENT 316. She knocks.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: While waiting, Annie looks down. She’s standing on a HAND-MADE WELCOME MAT. The word “JOANIE” has been embroidered into it.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: After a moment, the door is opened by JOAN.
+  EXPRESSION: null
+- CHARACTER: Joan
+  LINE: Annie! You came!
+  EXPRESSION: Happy
+- CHARACTER: Annie
+  LINE: It’s a little earlier than we said.
+  EXPRESSION: Apologetic
+- CHARACTER: Joan
+  LINE: Ah, you’re perfect. Come in.
+  EXPRESSION: Welcoming
+
+::PATHS::
+- CHOICE: "Enter Joan's apartment"
+  TARGET: joans_apartment_continuous
+  STATE_CHANGE: null
+
+::SCENE::
+LOCATION: Joan’s Apartment
+MOOD: Comforting, then Heavy
+CHARACTERS: Narrator, Annie, Joan
+BACKGROUND_IMAGE: joans_apartment.png
+BACKGROUND_EDIT: "Daytime, cheerfully decorated, homey colors"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Annie follows Joan in. Joan closes the door behind them. The apartment is cheerfully decorated in bright, homey colors.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Joan rushes off to the KITCHEN, where a TEA KETTLE is whistling. Annie stays by the door.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Your welcome mat...
+  EXPRESSION: Curious
+- CHARACTER: Joan
+  LINE: Oh - it’s cute, right?
+  EXPRESSION: Proud
+- CHARACTER: Narrator
+  LINE: Joan pulls the kettle off the stove and pours two cups.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: My mother used to embroider ones just like that.
+  EXPRESSION: Thoughtful
+- CHARACTER: Joan
+  LINE: Oh really? How funny!
+  EXPRESSION: Surprised
+- CHARACTER: Narrator
+  LINE: Joan sets the tea on the KITCHEN table.
+  EXPRESSION: null
+- CHARACTER: Joan
+  LINE: Please. Sit.
+  EXPRESSION: Welcoming
+- CHARACTER: Narrator
+  LINE: MINUTES LATER Joan and Annie sit at the table, nursing their tea. The conversation has become very heavy, and the spotlight is currently on a very fragile Annie. She speaks steadily, in fragments, as if to hold herself together. Her eyes are fixed on the floor.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: He left her in the back seat. Went straight to bed.
+  EXPRESSION: Distressed
+- CHARACTER: Narrator
+  LINE: Joan nods sympathetically. Her eyes locked attentively on Annie.
+  EXPRESSION: Sympathetic
+- CHARACTER: Annie
+  LINE: And then I wake up. Went to my workshop. Needed some supplies. I go down to the car. Step inside. First the smell of something wrong. Then the - body. Slumped. Covered in black, blood, like tar... And her head wasn’t there, so I couldn’t see her face. But they were her clothes. And her hands... her fingernails...
+  EXPRESSION: Fighting tears
+- CHARACTER: Narrator
+  LINE: Joan is pale as she listens. Annie is trembling, locked on the memory.
+  EXPRESSION: Pale, trembling
+- CHARACTER: Narrator
+  LINE: Joan gently lays her hand over Annie’s. Beat.
+  EXPRESSION: Comforting
+- CHARACTER: Joan
+  LINE: When they dragged up my son and grandson, they needed me to identify the bodies. But they didn’t warn me what bodies look like after they’ve been in the ocean. You can probably imagine - they swell up, get distended, turn grey. I didn’t know that. My son’s eyes were eaten out of his head by fish. And my grandson’s face - like a balloon.
+  EXPRESSION: Somber
+- CHARACTER: Narrator
+  LINE: Annie is looking up at Joan now. They share in this. The grisly details are somehow (in their morbid way) comforting.
+  EXPRESSION: Comforted
+- CHARACTER: Narrator
+  LINE: Breaking the spell, Annie pulls a PILL from her purse. She downs it with a gulp of TEA. She catches something on her tongue, and pulls a BLACK HERB from her mouth. She pays it no mind.
+  EXPRESSION: null
+- CHARACTER: Joan
+  LINE: I can sometimes swear I feel them in the room... Do you ever have that?
+  EXPRESSION: Reflective
+- CHARACTER: Annie
+  LINE: ...Small moments maybe.
+  EXPRESSION: Thoughtful
+- CHARACTER: Narrator
+  LINE: This hangs for a moment.
+  EXPRESSION: null
+- CHARACTER: Joan
+  LINE: How’s your relationship with your son?
+  EXPRESSION: Concerned
+- CHARACTER: Annie
+  LINE: ...Peter?
+  EXPRESSION: Puzzled
+- CHARACTER: Narrator
+  LINE: Joan brightens: “That’s his name?” Annie thinks about Joan’s question.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Oh God...
+  EXPRESSION: Darkening face
+- CHARACTER: Narrator
+  LINE: Her face DARKENS and she chuckles. She brushes it off, but then PAUSES. She decides to actually answer.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: I sleepwalk. I haven't in a long time, but two years ago I woke up - and I really don’t remember this because I was asleep - but I woke up standing next to Peter and Charlie’s bed (when they shared a room), and they were completely covered in paint thinner... And so was I. From head to toe... And I was standing there, and I was holding a box of matches. And I woke myself up by striking one. Which also woke up Peter. And he started screaming. And I immediately put out the match, immediately, but my husband came in... and I was just as shocked as he was, but I was the one with the matches.
+  EXPRESSION: Conflicted
+- CHARACTER: Narrator
+  LINE: Joan is listening with no judgment. Annie, frustrated by the memory, takes a deep breath.
+  EXPRESSION: Frustrated
+- CHARACTER: Annie
+  LINE: And it was impossible to convince them that it was just sleepwalking - which of course it was - but the timing was awful, Peter and I had already fallen into this stupid quarrelling phase - arguing forever about nothing - such frivolous things - but that’s when the incident happened, so...! Over time, everyone affected casualness, “moving on.” But they never forgot and Peter’s always held it against me and there's nothing I can say and there’s nothing I can do because it happened. While I was asleep.
+  EXPRESSION: Frustrated
+- CHARACTER: Joan
+  LINE: Did your daughter hold it against you?
+  EXPRESSION: Curious
+- CHARACTER: Annie
+  LINE: Oh, she was off in the clouds somewhere. Probably didn’t even notice.
+  EXPRESSION: Dismissive
+- CHARACTER: Narrator
+  LINE: Beat.
+  EXPRESSION: null
+- CHARACTER: Joan
+  LINE: It’s impossible being a mother.
+  EXPRESSION: Empathic
+- CHARACTER: Narrator
+  LINE: Annie looks at Joan. “Yes it is.”
+  EXPRESSION: Agreeing
+
+::PATHS::
+- CHOICE: "Continue to next scene"
+  TARGET: graham_house_kitchen_moments_later
+  STATE_CHANGE: annie_mood = sad, peter_mood = upset
+
+::SCENE::
+LOCATION: Graham House - Kitchen
+MOOD: Tense, Awkward
+CHARACTERS: Narrator, Steve, Peter
+BACKGROUND_IMAGE: graham_kitchen.png
+BACKGROUND_EDIT: "Daytime, modern kitchen, chopping carrots"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Steve is chopping carrots at the kitchen island. Peter is heard ENTERING in the foyer.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: Hey, that was fast. Did you bike all the way here?
+  EXPRESSION: Casual
+- CHARACTER: Peter
+  LINE: My friend dropped me.
+  EXPRESSION: Voice cracked
+- CHARACTER: Steve
+  LINE: Oh - you should’ve invited him in.
+  EXPRESSION: Friendly
+- CHARACTER: Narrator
+  LINE: But Peter’s already going for the stairs. Steve tries to catch up with him.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: Did you remember to sign up for that SAT prep course?
+  EXPRESSION: Concerned
+- CHARACTER: Narrator
+  LINE: Peter has made it to the top of stairs. Hiding his wrought face:
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: I will tomorrow.
+  EXPRESSION: Deflecting
+- CHARACTER: Steve
+  LINE: You need to, Peter! That’s coming up!
+  EXPRESSION: Firm
+
+::PATHS::
+- CHOICE: "Peter goes to his room"
+  TARGET: peters_room_day
+  STATE_CHANGE: peter_mood = more_upset
+
+::SCENE::
+LOCATION: Peter’s Room
+MOOD: Melancholy, Concerned
+CHARACTERS: Narrator, Peter, Steve
+BACKGROUND_IMAGE: peters_room.png
+BACKGROUND_EDIT: "Daytime, messy teenager's room"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Peter lies in bed, on his side. He looks ready to burst back into tears.
+  EXPRESSION: Ready to cry
+- CHARACTER: Narrator
+  LINE: Steve knocks on the door. Pokes his head in.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: Peter?
+  EXPRESSION: Concerned
+- CHARACTER: Narrator
+  LINE: Peter turns to him, stifling tears.
+  EXPRESSION: Stifling tears
+- CHARACTER: Steve
+  LINE: Are you okay?
+  EXPRESSION: Concerned
+- CHARACTER: Peter
+  LINE: Are you?
+  EXPRESSION: Deflecting
+- CHARACTER: Narrator
+  LINE: Pause.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: Is there anything we can talk about, Peter?
+  EXPRESSION: Gentle
+- CHARACTER: Peter
+  LINE: Like what?
+  EXPRESSION: Guarded
+- CHARACTER: Steve
+  LINE: Like anything. What’s going on? What are you feeling?
+  EXPRESSION: Open
+- CHARACTER: Peter
+  LINE: What are you feeling?
+  EXPRESSION: Deflecting
+- CHARACTER: Steve
+  LINE: I’m worried about you.
+  EXPRESSION: Worried
+- CHARACTER: Narrator
+  LINE: Peter stares at Steve, eyes wide. Unable to communicate.
+  EXPRESSION: Unable to communicate
+- CHARACTER: Steve
+  LINE: It doesn’t have to be with me, either. Maybe you’d like to talk with somebody else...
+  EXPRESSION: Careful
+- CHARACTER: Peter
+  LINE: About what?
+  EXPRESSION: Resistant
+- CHARACTER: Steve
+  LINE: About everything. You’re going through a lot, Peter.
+  EXPRESSION: Concerned
+- CHARACTER: Peter
+  LINE: So are you!
+  EXPRESSION: Defensive
+- CHARACTER: Steve
+  LINE: Well - we all are. I think we could all use someone to talk to.
+  EXPRESSION: Reflective
+- CHARACTER: Peter
+  LINE: So why aren’t you, then?
+  EXPRESSION: Challenging
+- CHARACTER: Steve
+  LINE: I probably will. I probably need to.
+  EXPRESSION: Contemplative
+- CHARACTER: Narrator
+  LINE: A long, fraught pause.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: You don’t have to choose
+  EXPRESSION: Gentle
+
+::PATHS::
+- CHOICE: "End of excerpt"
+  TARGET: end
+  STATE_CHANGE: null
+
+::SCENE::
+LOCATION: Family Home - Common Area
+MOOD: Tense
+CHARACTERS: Peter, Steve, Narrator
+BACKGROUND_IMAGE: common_area.png
+BACKGROUND_EDIT: "Interior of a family home, a bit somber, late afternoon"
+
+::SCRIPT::
+- CHARACTER: Steve
+  LINE: now. I’m just letting you know that it’s there.
+  EXPRESSION: Neutral
+- CHARACTER: Steve
+  LINE: You could even see one of the guys in my building. I know a few guys.
+  EXPRESSION: Persuasive
+- CHARACTER: Peter
+  LINE: ...And you think I need to go?
+  EXPRESSION: Curious
+- CHARACTER: Steve
+  LINE: Well, that’s for you to say. I can’t tell you your experience.
+  EXPRESSION: Neutral
+- CHARACTER: Narrator
+  LINE: Peter suddenly deflates. Not the answer he needed. He chills over.
+  EXPRESSION: Sad
+- CHARACTER: Peter
+  LINE: Maybe later.
+  EXPRESSION: Sad
+- CHARACTER: Steve
+  LINE: ...Okay. Let me know.
+  EXPRESSION: Neutral
+- CHARACTER: Peter
+  LINE: Okay.
+  EXPRESSION: Neutral
+- CHARACTER: Narrator
+  LINE: Steve nods for a long time. Trying to think of anything else.
+  EXPRESSION: Thoughtful
+- CHARACTER: Steve
+  LINE: All right. Dinner in a bit.
+  EXPRESSION: Forced_Smile
+- CHARACTER: Narrator
+  LINE: Steve smiles sensitively. Too sensitive. He leaves.
+  EXPRESSION: Forced_Smile
+
+::PATHS::
+- CHOICE: "End conversation with Steve"
+  TARGET: workshop_confrontation
+  STATE_CHANGE: peter_mood = 'deflated', steve_mood = 'frustrated'
+  CONDITION: null
+
+::SCENE::
+LOCATION: Workshop
+MOOD: Confrontational
+CHARACTERS: Annie, Steve, Narrator
+BACKGROUND_IMAGE: workshop.png
+BACKGROUND_EDIT: "Interior, cluttered workshop, with miniature models and tools, dim lighting"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Annie is at work. Behind her, the door opens and Steve enters. He approaches to see...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie is working on a new piece: a NEW MINIATURE of the HIGHWAY of Charlie’s accident, including the TELEPHONE POLE that took her head. This also features a tiny figurine of Charlie’s decapitated head and a figurine of Peter in the family car.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: Oh Jesus... Are you planning on letting him see that?
+  EXPRESSION: Shocked
+- CHARACTER: Annie
+  LINE: Who?
+  EXPRESSION: Confused
+- CHARACTER: Steve
+  LINE: How do you think Peter’s gonna feel about that?
+  EXPRESSION: Angry
+- CHARACTER: Annie
+  LINE: What? It’s not about him.
+  EXPRESSION: Defensive
+- CHARACTER: Steve
+  LINE: Oh no?
+  EXPRESSION: Skeptical
+- CHARACTER: Annie
+  LINE: ...It’s an objective view of the accident!
+  EXPRESSION: Defensive
+- CHARACTER: Narrator
+  LINE: Steve just eyes her.
+  EXPRESSION: Disgusted
+- CHARACTER: Annie
+  LINE: Okay, so what is it, then?
+  EXPRESSION: Defensive
+- CHARACTER: Steve
+  LINE: It’s cruel, Annie. And unforgiving...
+  EXPRESSION: Angry
+- CHARACTER: Annie
+  LINE: Oh my God!
+  EXPRESSION: Shocked
+- CHARACTER: Steve
+  LINE: And useless.
+  EXPRESSION: Angry
+- CHARACTER: Annie
+  LINE: What do you think I’m trying to say with this?! You think I’d ever want to hurt my own son?! Are you crazy?!
+  EXPRESSION: Incredulous_Angry
+- CHARACTER: Narrator
+  LINE: Steve almost responds, but bites his tongue.
+  EXPRESSION: Restrained_Anger
+- CHARACTER: Annie
+  LINE: Oh Jesus you’re sanctimonious. I get it: you’re a good father, you’re a good husband - get off the stage.
+  EXPRESSION: Angry
+- CHARACTER: Narrator
+  LINE: Steve boils.
+  EXPRESSION: Angry
+- CHARACTER: Steve
+  LINE: Are you coming to dinner?
+  EXPRESSION: Angry
+- CHARACTER: Annie
+  LINE: I’m making dinner!
+  EXPRESSION: Angry
+- CHARACTER: Steve
+  LINE: I made dinner! I’m GETTING you for dinner! Come down or stay here, I don’t give a shit.
+  EXPRESSION: Enraged
+- CHARACTER: Narrator
+  LINE: On “give”, he SLAMS the door behind him.
+  EXPRESSION: Enraged
+
+::PATHS::
+- CHOICE: "Proceed to dinner"
+  TARGET: dining_room_argument
+  STATE_CHANGE: annie_anger = +2, steve_fury = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Dining Room
+MOOD: Hostile
+CHARACTERS: Annie, Steve, Peter, Narrator
+BACKGROUND_IMAGE: dining_room.png
+BACKGROUND_EDIT: "Interior, dinner table set for three, tense atmosphere, unswallowed pill by a glass"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Annie, Steve and Peter sit at the dinner table. A fourth chair divides Annie and Peter. Annie is fuming from her last interaction with Steve. Beside her glass: an unswallowed pill.
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: This is really good, dad.
+  EXPRESSION: Neutral
+- CHARACTER: Narrator
+  LINE: Annie balks to herself. Peter tenses.
+  EXPRESSION: Annoyed
+- CHARACTER: Steve
+  LINE: Thanks buddy.
+  EXPRESSION: Neutral
+- CHARACTER: Narrator
+  LINE: Annie mouths the word “buddy” to herself, incredulous. Peter catches this.
+  EXPRESSION: Annoyed
+- CHARACTER: Peter
+  LINE: You okay, mom?
+  EXPRESSION: Concerned
+- CHARACTER: Annie
+  LINE: What?
+  EXPRESSION: Defensive
+- CHARACTER: Peter
+  LINE: Is there something on your mind?
+  EXPRESSION: Questioning
+- CHARACTER: Narrator
+  LINE: Annie can’t believe this.
+  EXPRESSION: Disbelief
+- CHARACTER: Annie
+  LINE: Is there something on your mind?
+  EXPRESSION: Defensive
+- CHARACTER: Peter
+  LINE: It just looks like you might want to say something.
+  EXPRESSION: Challenging
+- CHARACTER: Steve
+  LINE: Peter...
+  EXPRESSION: Warning
+- CHARACTER: Annie
+  LINE: Like what? Why would I want to say something? So I can watch you can roll your eyes at me?
+  EXPRESSION: Angry
+- CHARACTER: Peter
+  LINE: I have never rolled my eyes to. You get the point across.
+  EXPRESSION: Defensive
+- CHARACTER: Annie
+  LINE: Oh sweetie - you don’t have at you.
+  EXPRESSION: Dismissive
+- CHARACTER: Peter
+  LINE: Okay. So say what you wanna say, then.
+  EXPRESSION: Defiant
+- CHARACTER: Steve
+  LINE: Peter--
+  EXPRESSION: Warning
+- CHARACTER: Annie
+  LINE: I don’t want to say anything. I’ve tried saying things.
+  EXPRESSION: Angry
+- CHARACTER: Peter
+  LINE: So try again. Release yourself.
+  EXPRESSION: Provocative
+- CHARACTER: Annie
+  LINE: Release you, you mean!
+  EXPRESSION: Angry
+- CHARACTER: Peter
+  LINE: So fine, so release me! What do you wanna say? Fuckin’ say it!
+  EXPRESSION: Enraged
+- CHARACTER: Narrator
+  LINE: Annie explodes out of her seat.
+  EXPRESSION: Enraged
+- CHARACTER: Annie
+  LINE: Don't you swear at me - you little shit! You don’t EVER raise your voice at me! I'm your Mother, you understand? I've given everything to you! All I ever DO is worry and slave and defend you, and all I get back is that fucking face on your face! So full of disdain and resentment and always so annoyed. Well, now your sister’s dead! And I know you miss her and I know it was an “accident” and I know you're in pain - and I wish I could take it all away! I wish I could shield you from the knowledge that you did what you did - but your sister is dead. She's gone forever. And what a waste. If it could’ve maybe brought us together - something! - if you could have just said “I’m sorry” or faced up to what happened: maybe then we could do something with this! But you can’t take responsibility for anything, so now I can’t accept. And I can’t forgive. Because nobody admits what they’ve done!
+  EXPRESSION: Exploding_Anger
+- CHARACTER: Narrator
+  LINE: She sits down. A heavy silence.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter is looking away, fighting tears. But then, after a long silence...
+  EXPRESSION: Sad
+- CHARACTER: Peter
+  LINE: And what about you, mom? I didn’t want to take her...and she didn’t want to go... So why was she there?
+  EXPRESSION: Accusatory
+- CHARACTER: Narrator
+  LINE: Annie looks at him. Incredulous. She is boiling with rage, but...this has also hit her somewhere deep. She’s desperately avoided facing this question since the accident.
+  EXPRESSION: Shocked_Anger
+- CHARACTER: Steve
+  LINE: Okay, we’re stopping this.
+  EXPRESSION: Stern
+- CHARACTER: Narrator
+  LINE: He looks at Annie, who looks like she’s about to lose her mind.
+  EXPRESSION: Enraged
+- CHARACTER: Steve
+  LINE: We’re stopping this right now.
+  EXPRESSION: Stern
+- CHARACTER: Narrator
+  LINE: Annie glowers at him. Adversarial. She finally relents.
+  EXPRESSION: Resigned
+- CHARACTER: Annie
+  LINE: Fine.
+  EXPRESSION: Resigned
+- CHARACTER: Narrator
+  LINE: She tensely RISES hesitates, but then hesitates, about to say something else. But then:
+  EXPRESSION: Tense
+- CHARACTER: Annie
+  LINE: Fine.
+  EXPRESSION: Resigned
+- CHARACTER: Narrator
+  LINE: She leaves.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Steve turns to Peter: he’s doing everything in his power to keep from exploding into tears. Steve looks powerless to help.
+  EXPRESSION: Helpless_Sad
+
+::PATHS::
+- CHOICE: "End of dinner"
+  TARGET: parents_bedroom_argument
+  STATE_CHANGE: annie_rage = +2, peter_hurt = +2, steve_distress = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Annie and Steve’s Bedroom
+MOOD: Intense
+CHARACTERS: Annie, Steve, Narrator
+BACKGROUND_IMAGE: parents_bedroom.png
+BACKGROUND_EDIT: "Interior, bedroom, tense atmosphere, dimly lit"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Steve enters the bedroom, furious. Annie is sitting on the bed, a hardness in her eyes.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: What the hell are you doing?
+  EXPRESSION: Angry
+- CHARACTER: Annie
+  LINE: What am I doing?!
+  EXPRESSION: Defensive
+- CHARACTER: Steve
+  LINE: Try to stop and see what’s happening, Annie. For one second. Try to see where this could go. It’s not the right choice.
+  EXPRESSION: Frustrated
+- CHARACTER: Annie
+  LINE: These are your choices, too! You choose to not see how he is. How cold he is with me. How dimissive.
+  EXPRESSION: Accusatory
+- CHARACTER: Steve
+  LINE: So we’ll deal with that! We can go to family therapy, whatever - but don’t make it about Charlie!
+  EXPRESSION: Angry
+- CHARACTER: Annie
+  LINE: Oh, family therapy! Right!
+  EXPRESSION: Scornful
+- CHARACTER: Annie
+  LINE: So what, then? We just chalk it up to an act of God?
+  EXPRESSION: Challenging
+- CHARACTER: Steve
+  LINE: Yes.
+  EXPRESSION: Firm
+- CHARACTER: Annie
+  LINE: He just left her in the car! Went straight to bed! Not a word!
+  EXPRESSION: Angry
+- CHARACTER: Steve
+  LINE: You can’t even imagine he was in shock?
+  EXPRESSION: Reasoning
+- CHARACTER: Annie
+  LINE: He left us to be in shock, too!
+  EXPRESSION: Accusatory
+- CHARACTER: Steve
+  LINE: There was no way around that. You need to stop this. If he had warned us, we still would have run out there to find her in the same way.
+  EXPRESSION: Reasoning
+- CHARACTER: Annie
+  LINE: And it wasn’t a fucking BBQ either. He lied to us, through his teeth. He took her to some sleazy high school house party!
+  EXPRESSION: Angry
+- CHARACTER: Steve
+  LINE: You knew it wasn’t a BBQ!
+  EXPRESSION: Angry
+- CHARACTER: Annie
+  LINE: He just left her head in the road and kept driving. He went to sleep!
+  EXPRESSION: Horrified_Angry
+- CHARACTER: Steve
+  LINE: Goddamn it -- He was in shock. He’s still in shock.
+  EXPRESSION: Frustrated
+- CHARACTER: Annie
+  LINE: He looks pretty gathered to me.
+  EXPRESSION: Sarcastic
+- CHARACTER: Steve
+  LINE: Gathered?!
+  EXPRESSION: Shocked
+- CHARACTER: Annie
+  LINE: You’re holding yourself together awfully well, too!
+  EXPRESSION: Accusatory
+- CHARACTER: Steve
+  LINE: Excuse me? And what the hell does that mean? Someone has to keep things from unraveling completely, Annie.
+  EXPRESSION: Defensive
+- CHARACTER: Annie
+  LINE: It HAS unraveled completely!
+  EXPRESSION: Exploding_Anger
+- CHARACTER: Narrator
+  LINE: Silence. Steve is frozen.
+  EXPRESSION: Shocked
+- CHARACTER: Annie
+  LINE: ...Don’t worry. I blame myself, too.
+  EXPRESSION: Sad
+- CHARACTER: Steve
+  LINE: That’s worthless.
+  EXPRESSION: Dismissive
+- CHARACTER: Annie
+  LINE: I’m the one who made her go to the party.
+  EXPRESSION: Guilty
+- CHARACTER: Steve
+  LINE: Oh, stop it!
+  EXPRESSION: Frustrated
+- CHARACTER: Annie
+  LINE: No! Don’t you dare! He’s right! I made Peter take her! She begged me not to go!
+  EXPRESSION: Guilty_Angry
+- CHARACTER: Steve
+  LINE: I was happy she was going! Be around other kids instead of that fuckin’ treehouse for a change! I would have pushed her if you hadn't!
+  EXPRESSION: Angry
+- CHARACTER: Annie
+  LINE: But you didn’t push her. I did.
+  EXPRESSION: Guilty
+- CHARACTER: Steve
+  LINE: ...We have no control over anything, Annie. The ceiling could collapse on us right now and who would we blame?
+  EXPRESSION: Resigned
+- CHARACTER: Narrator
+  LINE: Brief pause.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: You don’t understand anything, do you?
+  EXPRESSION: Disappointed
+
+::PATHS::
+- CHOICE: "End of bedroom argument"
+  TARGET: peter_bedroom_night
+  STATE_CHANGE: annie_guilt = +1, steve_helplessness = +1, marriage_tension = +2
+  CONDITION: null
+
+::SCENE::
+LOCATION: Peter’s Bedroom
+MOOD: Sad
+CHARACTERS: Peter, Steve, Narrator
+BACKGROUND_IMAGE: peter_bedroom.png
+BACKGROUND_EDIT: "Interior, teenager's bedroom, dimly lit, Peter lying in bed staring out the window"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Peter boils in bed, staring out the window.
+  EXPRESSION: Angry
+- CHARACTER: Narrator
+  LINE: A gentle knock at the door. It cracks open and Steve sticks his head in.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: Goodnight, Petey.
+  EXPRESSION: Tender
+- CHARACTER: Narrator
+  LINE: Peter looks at Steve.
+  EXPRESSION: Questioning
+- CHARACTER: Peter
+  LINE: Do you blame me, too?
+  EXPRESSION: Sad
+- CHARACTER: Steve
+  LINE: Goddamn it -
+  EXPRESSION: Distressed
+- CHARACTER: Narrator
+  LINE: Steve opens the door all the way.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: - of course not. No one blames you.
+  EXPRESSION: Reassuring
+- CHARACTER: Narrator
+  LINE: Steve approaches Peter.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: I don’t for one second imagine that you’re not going through the exact same thing we are.
+  EXPRESSION: Empathetic
+- CHARACTER: Peter
+  LINE: Mom doesn’t think so.
+  EXPRESSION: Sad
+- CHARACTER: Steve
+  LINE: Stop it with mom. She’s blaming everyone. It’s part of grieving. She blames herself.
+  EXPRESSION: Protective
+- CHARACTER: Narrator
+  LINE: Peter has started to cry.
+  EXPRESSION: Crying
+- CHARACTER: Peter
+  LINE: She wasn’t driving the car.
+  EXPRESSION: Sad
+
+::PATHS::
+- CHOICE: "End of scene"
+  TARGET: end_of_excerpt
+  STATE_CHANGE: peter_grief = +1, steve_concern = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Peter & Steve's Bedroom
+MOOD: Anguish
+CHARACTERS: Peter, Steve, Narrator
+BACKGROUND_IMAGE: bedroom.png
+BACKGROUND_EDIT: "Dimly lit, somber, emotional atmosphere"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: She could have. Anyone could have.
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: I didn’t even care about her...! That’s how it happened...!
+  EXPRESSION: Sad
+- CHARACTER: Narrator
+  LINE: Steve is momentarily overwhelmed.
+  EXPRESSION: Sad
+- CHARACTER: Steve
+  LINE: You love your sister.
+  EXPRESSION: Sad
+- CHARACTER: Peter
+  LINE: I should be dead. At least she could draw. She made things. I don’t do anything.
+  EXPRESSION: Angry
+- CHARACTER: Steve
+  LINE: Yes you do. Don’t ever say that.
+  EXPRESSION: Sad
+- CHARACTER: Peter
+  LINE: I’m nothing. I do nothing.
+  EXPRESSION: Sad
+- CHARACTER: Narrator
+  LINE: Steve, looking helpless, rests his hand on Peter’s head. Peter WEEPS. Steve is also crying now.
+  EXPRESSION: Sad
+- CHARACTER: Peter
+  LINE: I’m sorry!
+  EXPRESSION: Sad
+- CHARACTER: Steve
+  LINE: Shhh! I’m sorry.
+  EXPRESSION: Sad
+
+::PATHS::
+- CHOICE: "Continue"
+  TARGET: annie_steve_bedroom
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Annie & Steve’s Bedroom
+MOOD: Grief
+CHARACTERS: Annie, Narrator
+BACKGROUND_IMAGE: bedroom_annie.png
+BACKGROUND_EDIT: "Nighttime, dark, sounds muffled, deep sadness"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Annie lies on the bed, her back to us. We hear Peter’s weeping, muffled through the walls. We then hear:
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: I’m sorry.
+  EXPRESSION: Sad
+- CHARACTER: Narrator
+  LINE: Annie’s back begins to rise and fall in a fit of sobs.
+  EXPRESSION: Sad
+- CHARACTER: Narrator
+  LINE: FADE TO BLACK
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Continue"
+  TARGET: workshop_day
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Workshop
+MOOD: Lethargy
+CHARACTERS: Annie, Narrator
+BACKGROUND_IMAGE: workshop.png
+BACKGROUND_EDIT: "Daytime, messy workshop, unfinished miniatures, motivational note"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: CLOSE-UP of Annie’s face. Lethargic. She’s lost a few pounds since we last saw her, and is wearing an old T-shirt and pajama bottoms.
+  EXPRESSION: Depressed
+- CHARACTER: Narrator
+  LINE: She stares at her unfinished miniatures. Her eyes then drift to a Post-It note above her desk. It reads “KEEP WORKING!”
+  EXPRESSION: Depressed
+
+::PATHS::
+- CHOICE: "Continue"
+  TARGET: art_supply_store
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Art Supply Store
+MOOD: Surprised
+CHARACTERS: Annie, Joan, Narrator
+BACKGROUND_IMAGE: art_supply_store.png
+BACKGROUND_EDIT: "Daytime, bright, aisles of art supplies, miniatures section"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Annie pushes a cart down an aisle of miniature building materials. She looks farther down the aisle, and suddenly STOPS, having noticed...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: JOAN is pushing a cart toward Annie. She hasn’t yet noticed Annie. She wears an ECSTATIC SMILE as she giddily scans the chalk section.
+  EXPRESSION: Happy
+- CHARACTER: Narrator
+  LINE: Confused by Joan’s demeanor (and her presence), Annie warily begins to push her cart toward her.
+  EXPRESSION: Concerned
+- CHARACTER: Annie
+  LINE: Joan?
+  EXPRESSION: Surprised
+- CHARACTER: Narrator
+  LINE: Joan looks up to see Annie.
+  EXPRESSION: null
+- CHARACTER: Joan
+  LINE: Oh my -- Annie?!
+  EXPRESSION: Happy
+- CHARACTER: Annie
+  LINE: Hi...!
+  EXPRESSION: Neutral
+- CHARACTER: Narrator
+  LINE: Joan circles the carts to give Annie a big, warm, very sustained HUG.
+  EXPRESSION: Happy
+- CHARACTER: Annie
+  LINE: Are you okay?
+  EXPRESSION: Concerned
+- CHARACTER: Joan
+  LINE: Oh Annie. Yes. I’m really good. I’m really really...
+  EXPRESSION: Happy
+- CHARACTER: Narrator
+  LINE: Annie nods, forcing a smile. She looks concerned for Joan’s sanity.
+  EXPRESSION: Concerned
+- CHARACTER: Joan
+  LINE: Something happened, Annie. I feel completely - turned around.
+  EXPRESSION: Happy
+- CHARACTER: Annie
+  LINE: What happened?
+  EXPRESSION: Curious
+- CHARACTER: Joan
+  LINE: I don’t know if I should even say!
+  EXPRESSION: Happy
+- CHARACTER: Annie
+  LINE: What do you mean?
+  EXPRESSION: Curious
+- CHARACTER: Joan
+  LINE: You’re gonna think I’m crazy!
+  EXPRESSION: Happy
+- CHARACTER: Annie
+  LINE: Not at all...!
+  EXPRESSION: Reassuring
+- CHARACTER: Joan
+  LINE: I... Oh God. I... ...met a spiritual medium.
+  EXPRESSION: Confident
+- CHARACTER: Narrator
+  LINE: Annie affects a patronizing “Oh Wow” expression.
+  EXPRESSION: Sarcastic
+- CHARACTER: Joan
+  LINE: They were performing an open seance -- and I know: I know what you’re thinking, but they asked me to attend. They were bringing in skeptics and scientists so they wouldn’t be accused of fraud. But I went, fully skeptical, and what I experienced there was truly...
+  EXPRESSION: Excited
+- CHARACTER: Narrator
+  LINE: Joan tries to think of a suitably ecstatic adjective.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: An “open seance”?
+  EXPRESSION: Skeptical
+- CHARACTER: Joan
+  LINE: They brought back the spirit of a man from the 19th century! And not like as a smoke and mirrors thing. The man next to me was a deadly cynical neurologist, and he looked permanently changed by the end of it.
+  EXPRESSION: Excited
+- CHARACTER: Narrator
+  LINE: Annie makes another “wow” face.
+  EXPRESSION: Sarcastic
+- CHARACTER: Joan
+  LINE: And I do know what you’re thinking, Annie - of course - but I approached the medium and I asked her about my son and grandson, and she came to my apartment and she ended up performing a, uh - well - she...conjured my grandson!
+  EXPRESSION: Excited
+- CHARACTER: Narrator
+  LINE: Annie, still forcing a smile, now looks frightened.
+  EXPRESSION: Afraid
+- CHARACTER: Joan
+  LINE: I know what you’re smiling at. I wouldn’t believe it myself. I didn’t! But I heard his voice, I felt him in the room. It’s real.
+  EXPRESSION: Confident
+- CHARACTER: Narrator
+  LINE: Annie’s warped smile is plastered appeasingly to her face.
+  EXPRESSION: Appeasing
+- CHARACTER: Joan
+  LINE: What are you doing right now?
+  EXPRESSION: Curious
+- CHARACTER: Annie
+  LINE: I’m just - here, shopping.
+  EXPRESSION: Neutral
+- CHARACTER: Joan
+  LINE: You wanna come over?
+  EXPRESSION: Hopeful
+- CHARACTER: Narrator
+  LINE: Annie doesn’t know what to say.
+  EXPRESSION: Hesitant
+- CHARACTER: Joan
+  LINE: I really think you should. Please. It would be everything if you came.
+  EXPRESSION: Persuasive
+
+::PATHS::
+- CHOICE: "Go to Joan's apartment"
+  TARGET: joans_apartment
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Joan’s Apartment
+MOOD: Suspense
+CHARACTERS: Annie, Joan, Narrator, Louie (implied)
+BACKGROUND_IMAGE: joans_apartment.png
+BACKGROUND_EDIT: "Daytime, dark interior, blacked-out window, mystical setup"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The front door opens and Joan enters, followed uneasily by Annie. Joan smiles widely.
+  EXPRESSION: null
+- CHARACTER: Joan
+  LINE: Hello!
+  EXPRESSION: Happy
+- CHARACTER: Narrator
+  LINE: This “hello” was seemingly directed at the room in general.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Joan hustles to the KITCHEN. She takes SWEETGRASS and smears it across the surface of the kitchen table. Also on the table is an UPTURNED DRINKING GLASS.
+  EXPRESSION: null
+- CHARACTER: Joan
+  LINE: This is part of it.
+  EXPRESSION: Explaining
+- CHARACTER: Narrator
+  LINE: Annie is hovering outside the kitchen.
+  EXPRESSION: Hesitant
+- CHARACTER: Joan
+  LINE: Come in. Come in.
+  EXPRESSION: Encouraging
+- CHARACTER: Narrator
+  LINE: Annie hesitantly enters. The WINDOW has been blacked out with duvateen.
+  EXPRESSION: Hesitant
+- CHARACTER: Joan
+  LINE: Okay: a few things. First: you shouldn’t do this without a medium unless you are a medium. That’s what she told me.
+  EXPRESSION: Explaining
+- CHARACTER: Annie
+  LINE: Okay.
+  EXPRESSION: Neutral
+- CHARACTER: Joan
+  LINE: But I told you: I’d been experiencing these...sensations a long time before the medium. I just didn’t know how to explain them! So I tried this last night. This was after the medium was here.
+  EXPRESSION: Explaining
+- CHARACTER: Annie
+  LINE: What’s “this”?
+  EXPRESSION: Curious
+- CHARACTER: Joan
+  LINE: Sit down.
+  EXPRESSION: Instructing
+- CHARACTER: Narrator
+  LINE: Annie is skeptical.
+  EXPRESSION: Skeptical
+- CHARACTER: Joan
+  LINE: Trust me.
+  EXPRESSION: Reassuring
+- CHARACTER: Narrator
+  LINE: Annie sits down.
+  EXPRESSION: null
+- CHARACTER: Joan
+  LINE: I’m turning off the light.
+  EXPRESSION: Instructing
+- CHARACTER: Narrator
+  LINE: JOAN TURNS OFF THE LIGHTS.
+  EXPRESSION: null
+- CHARACTER: Joan
+  LINE: You okay?
+  EXPRESSION: Concerned
+- CHARACTER: Annie
+  LINE: ...Yes.
+  EXPRESSION: Neutral
+- CHARACTER: Narrator
+  LINE: Joan lights a BLACK CANDLE.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Nice mood setter.
+  EXPRESSION: Sarcastic
+- CHARACTER: Joan
+  LINE: Okay. Put your hand on the glass, but don’t add pressure.
+  EXPRESSION: Instructing
+- CHARACTER: Narrator
+  LINE: Annie lays her hand on the overturned glass. Joan does the same.
+  EXPRESSION: null
+- CHARACTER: Joan
+  LINE: I won’t add pressure, either.
+  EXPRESSION: Reassuring
+- CHARACTER: Annie
+  LINE: What am I doing?
+  EXPRESSION: Confused
+- CHARACTER: Narrator
+  LINE: After a moment of silence, Joan speaks to the room.
+  EXPRESSION: null
+- CHARACTER: Joan
+  LINE: Louie?
+  EXPRESSION: Hopeful
+- CHARACTER: Narrator
+  LINE: Beat.
+  EXPRESSION: null
+- CHARACTER: Joan
+  LINE: Louie, are you here? It’s grandma.
+  EXPRESSION: Hopeful
+- CHARACTER: Narrator
+  LINE: A COLD DRAFT crosses the room. Annie gets a tingle. But the window is shut, as is the door.
+  EXPRESSION: Surprised
+- CHARACTER: Joan
+  LINE: Louie, if you’re here with us, please just try to slide the glass. Louie, if you’re here--
+  EXPRESSION: Asking
+- CHARACTER: Narrator
+  LINE: The glass SLIDES, barely. Annie jumps, retracting her hand.
+  EXPRESSION: Afraid
+- CHARACTER: Joan
+  LINE: Hi Louie!
+  EXPRESSION: Happy
+- CHARACTER: Annie
+  LINE: How did you do that?
+  EXPRESSION: Surprised
+- CHARACTER: Narrator
+  LINE: Annie looks under the table. There’s nothing there.
+  EXPRESSION: null
+- CHARACTER: Joan
+  LINE: Louie, I’m gonna ask you some questions - okay, sweetie? If the answer’s yes, just slide the glass to the right. If it’s no, slide it this way - - to the left. Do you understand?
+  EXPRESSION: Explaining
+- CHARACTER: Narrator
+  LINE: The glass SLIDES again, slightly to the right.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Oh my God.
+  EXPRESSION: Shocked
+- CHARACTER: Joan
+  LINE: Louie, are you okay?
+  EXPRESSION: Concerned
+- CHARACTER: Narrator
+  LINE: The glass slides right again.
+  EXPRESSION: null
+- CHARACTER: Joan
+  LINE: Are you in pain?
+  EXPRESSION: Concerned
+- CHARACTER: Narrator
+  LINE: The glass slides to the left.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie is gripping her chair. She stares unblinkingly at the glass.
+  EXPRESSION: Afraid
+- CHARACTER: Narrator
+  LINE: Suddenly ANNIE’S HAIR IS BRUSHED TO THE SIDE, as if by an invisible hand. She JUMPS. Joan calmly takes Annie’s hand.
+  EXPRESSION: Afraid
+- CHARACTER: Joan
+  LINE: It’s okay.
+  EXPRESSION: Reassuring
+- CHARACTER: Annie
+  LINE: What is?
+  EXPRESSION: Afraid
+- CHARACTER: Narrator
+  LINE: Joan pulls up a small CHALKBOARD from below the table. It’s unmarked. A tiny piece of chalk rests on the surface.
+  EXPRESSION: null
+- CHARACTER: Joan
+  LINE: Louie, I brought your chalkboard. Remember your chalkboard?
+  EXPRESSION: Happy
+- CHARACTER: Narrator
+  LINE: The glass budges slightly to the right.
+  EXPRESSION: null
+- CHARACTER: Joan
+  LINE: Can you write something?
+  EXPRESSION: Asking
+- CHARACTER: Narrator
+  LINE: A long moment of inactivity, and THEN... The piece of chalk MOVES (as if by invisible fingers) to scrawl the words “I LOV YU GRANMA” in a young child’s handwriting!
+  EXPRESSION: null
+- CHARACTER: Joan
+  LINE: Oh Louie, I love you, sweetheart!
+  EXPRESSION: Happy
+- CHARACTER: Narrator
+  LINE: Joan is crying tears of joy.
+  EXPRESSION: Happy
+- CHARACTER: Annie
+  LINE: I’m sorry, can we stop?
+  EXPRESSION: Afraid
+- CHARACTER: Joan
+  LINE: What?
+  EXPRESSION: Surprised
+- CHARACTER: Annie
+  LINE: I’m sorry. Please.
+  EXPRESSION: Afraid
+- CHARACTER: Joan
+  LINE: Louie, we’re gonna stop for a second, but I’m coming right back!
+  EXPRESSION: Reassuring
+- CHARACTER: Narrator
+  LINE: Joan jumps up and turns on the lights. Annie looks rattled.
+  EXPRESSION: Afraid
+- CHARACTER: Joan
+  LINE: Are you okay?
+  EXPRESSION: Concerned
+- CHARACTER: Annie
+  LINE: I’m sorry, I’m really...
+  EXPRESSION: Shaken
+- CHARACTER: Joan
+  LINE: I understand. That’s how I reacted at first.
+  EXPRESSION: Understanding
+- CHARACTER: Annie
+  LINE: I think I need to go.
+  EXPRESSION: Afraid
+- CHARACTER: Joan
+  LINE: That’s okay.
+  EXPRESSION: Understanding
+- CHARACTER: Annie
+  LINE: Thank you. I’m sorry.
+  EXPRESSION: Apologetic
+- CHARACTER: Narrator
+  LINE: Annie RISES. Joan blows out the candle, grabs it, and shuffles to the kitchen to fetch a sheet of paper. It features a Sanskrit prayer transcribed in carefully handwritten English.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Joan returns to Annie with the paper and the black candle.
+  EXPRESSION: null
+- CHARACTER: Joan
+  LINE: Here: If you wanna try this yourself, light the candle and choose one item that belonged to your daughter - that’ll be your link to her. Mine was the chalkboard. That’s my link. And then, when you’re ready - - read this out loud - every syllable - very carefully.
+  EXPRESSION: Serious
+- CHARACTER: Annie
+  LINE: Why? What is it?
+  EXPRESSION: Overwhelmed
+- CHARACTER: Joan
+  LINE: I don’t know what language it is. The medium had me read it, too. It’s to make it start. But your whole family - everyone needs to be in the room. Your son. Everyone.
+  EXPRESSION: Serious
+- CHARACTER: Narrator
+  LINE: Annie unea
+  EXPRESSION: Uneasy
+
+::PATHS::
+- CHOICE: "End of excerpt"
+  TARGET: end
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Joan's House
+MOOD: Tense, Emotional
+CHARACTERS: Annie, Joan, Narrator
+BACKGROUND_IMAGE: null
+BACKGROUND_EDIT: "Interior, Joan's house, Annie about to leave"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Annie accepts the articles and then turns to leave. As she walks toward the door:
+  EXPRESSION: null
+- CHARACTER: Joan
+  LINE: You didn’t kill her, Annie.
+  EXPRESSION: Calm
+- CHARACTER: Narrator
+  LINE: Annie turns sharply to Joan.
+  EXPRESSION: Surprised
+- CHARACTER: Annie
+  LINE: What?
+  EXPRESSION: Surprised
+- CHARACTER: Joan
+  LINE: She isn’t gone.
+  EXPRESSION: Knowing
+- CHARACTER: Annie
+  LINE: I didn’t kill her!
+  EXPRESSION: Defensive
+- CHARACTER: Narrator
+  LINE: Joan smiles warmly.
+  EXPRESSION: null
+- CHARACTER: Joan
+  LINE: I know.
+  EXPRESSION: Happy
+- CHARACTER: Annie
+  LINE: Okay. Thank you.
+  EXPRESSION: Relieved
+- CHARACTER: Narrator
+  LINE: Annie leaves, trembling.
+  EXPRESSION: Afraid
+
+::PATHS::
+- CHOICE: "Leave Joan's house"
+  TARGET: car_moving
+  STATE_CHANGE: emotional_state = "trembling"
+  CONDITION: null
+
+::SCENE::
+LOCATION: Car - Moving
+MOOD: Disoriented, Paranoid
+CHARACTERS: Annie, Narrator
+BACKGROUND_IMAGE: null
+BACKGROUND_EDIT: "Interior of a car, evening, at a red light"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: A discombobulated Annie drives back home. Her eyes are buzzing and her movements are jerky and ill-possessed.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: She slows to a stop at a red light.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: As she sits waiting for the light to change, Annie hears a CLICKING SOUND in the back seat. She goes white. She slowly turns to look at the empty back seat. The clicking has ceased.
+  EXPRESSION: Afraid
+- CHARACTER: Narrator
+  LINE: Annie’s eyes are crazed.
+  EXPRESSION: Afraid
+
+::PATHS::
+- CHOICE: "Continue driving home"
+  TARGET: graham_house_exterior
+  STATE_CHANGE: mental_state = "crazed"
+  CONDITION: null
+
+::SCENE::
+LOCATION: Graham House Exterior
+MOOD: Ominous, Eerie
+CHARACTERS: Narrator
+BACKGROUND_IMAGE: null
+BACKGROUND_EDIT: "Nighttime, pale moonlight on the house, one window lit"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: A wide shot of the house. Bathed in the pale moonlight, it almost looks like one of Annie’s miniatures. All the lights are off, save for ONE window.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Enter the house"
+  TARGET: annie_steve_bedroom
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Annie & Steve's Bedroom
+MOOD: Mysterious, Tense
+CHARACTERS: Annie (O.S.), Steve, Narrator
+BACKGROUND_IMAGE: null
+BACKGROUND_EDIT: "Interior of a bedroom at night, light beneath bathroom door"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Steve is fast asleep. Annie’s side of the bed is EMPTY.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The door to the MASTER BATHROOM is closed, but a band of light is visible beneath the door. Behind the door, Annie is heard WHISPERING intensely - presumably on the phone.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Can it be anything?... Like her clothes?
+  EXPRESSION: Worried
+
+::PATHS::
+- CHOICE: "Continue to Peter's room"
+  TARGET: peter_bedroom_initial
+  STATE_CHANGE: annie_activity = "whispering_on_phone"
+  CONDITION: null
+
+::SCENE::
+LOCATION: Peter's Bedroom
+MOOD: Tender, Urgent
+CHARACTERS: Annie, Peter, Narrator
+BACKGROUND_IMAGE: null
+BACKGROUND_EDIT: "Interior of Peter's bedroom at night, Peter asleep"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: CLOSE UP on Peter’s profile. He’s asleep.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Off-screen, the door is heard CREAKING OPEN. After a moment, Annie leans into frame, hovering over Peter.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Peter.
+  EXPRESSION: Calm
+- CHARACTER: Narrator
+  LINE: Peter doesn’t stir.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Sweetheart. Peter. Wake up.
+  EXPRESSION: Urgent
+- CHARACTER: Narrator
+  LINE: Peter inhales sharply. He wakes with a start.
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: What?
+  EXPRESSION: Surprised
+- CHARACTER: Annie
+  LINE: It’s okay, honey, it’s me.
+  EXPRESSION: Calm
+- CHARACTER: Narrator
+  LINE: Peter is still getting oriented. Annie looks strangely hopeful.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: I’m so, so sorry for everything. Please, please forgive me. I can’t stand the things I said.
+  EXPRESSION: Sad
+- CHARACTER: Peter
+  LINE: It’s okay.
+  EXPRESSION: Accepting
+- CHARACTER: Narrator
+  LINE: Annie bends over to envelop him in a hug.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Can you get up, sweetheart? We’re gonna try something.
+  EXPRESSION: Hopeful
+- CHARACTER: Peter
+  LINE: I was just having a nightmare.
+  EXPRESSION: Tired
+- CHARACTER: Annie
+  LINE: That’s okay, baby. We can do something.
+  EXPRESSION: Reassuring
+- CHARACTER: Peter
+  LINE: Do what?
+  EXPRESSION: Curious
+- CHARACTER: Annie
+  LINE: I’ve figured it out.
+  EXPRESSION: Determined
+
+::PATHS::
+- CHOICE: "Wake Steve"
+  TARGET: annie_steve_bedroom_wake_steve
+  STATE_CHANGE: peter_awake = true, annie_plan_revealed = true
+  CONDITION: null
+
+::SCENE::
+LOCATION: Annie & Steve's Bedroom
+MOOD: Urgent, Confused
+CHARACTERS: Annie, Steve, Peter, Narrator
+BACKGROUND_IMAGE: null
+BACKGROUND_EDIT: "Interior of bedroom, Steve asleep in bed"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Annie stands over Steve, who’s asleep in bed.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Steve. Baby.
+  EXPRESSION: Calm
+- CHARACTER: Narrator
+  LINE: She nudges him gently.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Steve. Wake up.
+  EXPRESSION: Urgent
+- CHARACTER: Narrator
+  LINE: Steve jolts awake.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: What’s going on?
+  EXPRESSION: Surprised
+- CHARACTER: Annie
+  LINE: Come downstairs with us. We’re gonna do something together.
+  EXPRESSION: Determined
+- CHARACTER: Narrator
+  LINE: Steve looks to the door. Peter is standing nervously in the unlit hallway.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Go downstairs"
+  TARGET: stairway
+  STATE_CHANGE: family_gathers = true
+  CONDITION: null
+
+::SCENE::
+LOCATION: Stairway
+MOOD: Tense, Apprehensive
+CHARACTERS: Annie, Steve, Peter, Narrator
+BACKGROUND_IMAGE: null
+BACKGROUND_EDIT: "Dark hallway and stairway"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Annie walks down the hall. Steve and Peter follow warily behind.
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: Dad?
+  EXPRESSION: Afraid
+- CHARACTER: Steve
+  LINE: It’s okay.
+  EXPRESSION: Reassuring
+- CHARACTER: Narrator
+  LINE: Annie leads them to the unlit DINING ROOM...
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Enter dining room"
+  TARGET: dining_room_seance
+  STATE_CHANGE: family_moves_to_dining_room = true
+  CONDITION: null
+
+::SCENE::
+LOCATION: Dining Room
+MOOD: Superstitious, Tense, Paranormal
+CHARACTERS: Annie, Steve, Peter, Narrator, Max (O.S.)
+BACKGROUND_IMAGE: null
+BACKGROUND_EDIT: "Dining room, oval table set for a séance, dim candle light, open window, cold"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The oval dining table has been set with an upturned DRINKING GLASS. Beside it is CHARLIE’S DRAWING PAD and one of Charlie’s hoodies. The BLACK CANDLE that Joan gave Annie is dimly illuminating the table. The WINDOW is open, and it is COLD. Peter hugs himself; Steve rubs his arms.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: It’s freezing.
+  EXPRESSION: Cold
+- CHARACTER: Narrator
+  LINE: Steve goes for the window.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: No: Don’t change anything. I don’t want to mess it up.
+  EXPRESSION: Urgent
+- CHARACTER: Narrator
+  LINE: Annie sits down. There is a chair on either side of her.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Everyone sit.
+  EXPRESSION: Demanding
+- CHARACTER: Narrator
+  LINE: They don’t.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: My friend Joan taught me how to do this.
+  EXPRESSION: Explaining
+- CHARACTER: Steve
+  LINE: What friend Joan? And what’s “this”?
+  EXPRESSION: Confused
+- CHARACTER: Annie
+  LINE: Please sit. We need our palms on the table and our fingers to touch.
+  EXPRESSION: Insistent
+- CHARACTER: Steve
+  LINE: What are we doing, Annie?
+  EXPRESSION: Demanding
+- CHARACTER: Annie
+  LINE: Please. You’ll see.
+  EXPRESSION: Evasive
+- CHARACTER: Narrator
+  LINE: Steve just looks at her.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Please just trust me.
+  EXPRESSION: Pleading
+- CHARACTER: Narrator
+  LINE: Steve doesn’t budge.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Fine!
+  EXPRESSION: Angry
+- CHARACTER: Narrator
+  LINE: Annie stands up, DRAGS the table halfway towards Steve and Peter, and GRABS their hands.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: We can do it here, then.
+  EXPRESSION: Determined
+- CHARACTER: Narrator
+  LINE: She SQUEEZES their hands.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: I need you both to concentrate.
+  EXPRESSION: Urgent
+- CHARACTER: Peter
+  LINE: On what?
+  EXPRESSION: Confused
+- CHARACTER: Annie
+  LINE: Think about Charlie if you can.
+  EXPRESSION: Suggestive
+- CHARACTER: Steve
+  LINE: Annie!
+  EXPRESSION: Angry
+- CHARACTER: Narrator
+  LINE: Steve pulls his hand away from Annie.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Sweetheart, please. Please. I tried this twenty minutes ago and it worked. I wouldn’t be bringing you down here if it didn’t.
+  EXPRESSION: Urgent
+- CHARACTER: Steve
+  LINE: What worked?
+  EXPRESSION: Skeptical
+- CHARACTER: Annie
+  LINE: I wanna just show you.
+  EXPRESSION: Evasive
+- CHARACTER: Steve
+  LINE: Show us what?!
+  EXPRESSION: Angry
+- CHARACTER: Annie
+  LINE: Fuck! I’m a - medium!
+  EXPRESSION: Frustrated
+- CHARACTER: Annie
+  LINE: I was seeing apparitions earlier. I just shook them off, but I shouldn’t have.
+  EXPRESSION: Explaining
+- CHARACTER: Annie
+  LINE: Please: I know how it sounds. There’s no way to talk about it, I need to just show you. Okay? Please. You’ll see. I’m completely lucid.
+  EXPRESSION: Pleading
+- CHARACTER: Narrator
+  LINE: Steve just stares at her. She looks pleadingly at him.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: You can go to bed, Peter. I’ll stay.
+  EXPRESSION: Protective
+- CHARACTER: Annie
+  LINE: What? No. What are you doing?
+  EXPRESSION: Angry
+- CHARACTER: Annie
+  LINE: Peter: please. This needs all of our energies. We need to do this as a family. Together.
+  EXPRESSION: Insistent
+- CHARACTER: Peter
+  LINE: It’s okay, Dad. I’ll stay.
+  EXPRESSION: Resigned
+- CHARACTER: Annie
+  LINE: Please Steve. I need you to be open. Both of you. I promise.
+  EXPRESSION: Pleading
+- CHARACTER: Narrator
+  LINE: She holds out her hand, pleading for Steve’s. He reluctantly obliges. Again, she SQUEEZES both of their hands.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Okay, good. So I already read that earlier...
+  EXPRESSION: Calm
+- CHARACTER: Narrator
+  LINE: Annie nods to the prayer sheet that Joan gave her.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: I don’t think I need to read it again.
+  EXPRESSION: Calm
+- CHARACTER: Narrator
+  LINE: Steve squints as he looks it over.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: What language is that?
+  EXPRESSION: Curious
+- CHARACTER: Annie
+  LINE: Okay: Try to concentrate.
+  EXPRESSION: Determined
+- CHARACTER: Narrator
+  LINE: Annie now addresses the room.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Charlie?... Charlie, are you here?
+  EXPRESSION: Questioning
+- CHARACTER: Narrator
+  LINE: Steve looks ready to put an immediate stop to this, but he sees Annie’s total determination. He holds off.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: In the other room, a door is heard CREAKING. Peter looks in that direction.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Charlie? It’s mommy. And daddy. And Peter.
+  EXPRESSION: Reassuring
+- CHARACTER: Narrator
+  LINE: Silence. Peter and Steve are very uneasy.
+  EXPRESSION: Afraid
+- CHARACTER: Annie
+  LINE: Charlie, if you’re in this room with us -- I’m going to have us all touch this glass.
+  EXPRESSION: Direct
+- CHARACTER: Narrator
+  LINE: Annie has PULLED Steve and Peter to the table. She rests her palm on top of the glass. She takes Steve’s hand and Peter’s hand. She lays them on top of hers.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Don’t add pressure.
+  EXPRESSION: Instructing
+- CHARACTER: Annie
+  LINE: Now if you’re here, Charlie, I just want you to move the glass for us. Even if it’s just a tiny little bit.
+  EXPRESSION: Direct
+- CHARACTER: Steve
+  LINE: Annie.
+  EXPRESSION: Warning
+- CHARACTER: Annie
+  LINE: Even if it’s just the tiniest little movement, Charlie!
+  EXPRESSION: Insistent
+- CHARACTER: Narrator
+  LINE: A long stretch of nothing. Annie’s determination has not waned. Peter suddenly TENSES UP.
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: What the hell?
+  EXPRESSION: Surprised
+- CHARACTER: Steve
+  LINE: What’s wrong?
+  EXPRESSION: Concerned
+- CHARACTER: Narrator
+  LINE: Max BARKS in the other room.
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: You don’t feel that?
+  EXPRESSION: Surprised
+- CHARACTER: Steve
+  LINE: What??
+  EXPRESSION: Confused
+- CHARACTER: Peter
+  LINE: Like a - flexing. In the air.
+  EXPRESSION: Afraid
+- CHARACTER: Narrator
+  LINE: THE DRINKING GLASS SUDDENLY MOVES.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter and Steve retract their hands.
+  EXPRESSION: Afraid
+- CHARACTER: Steve
+  LINE: What the hell?
+  EXPRESSION: Shocked
+- CHARACTER: Annie
+  LINE: Wow! Yes! Thank you, Charlie! That was so good!
+  EXPRESSION: Happy
+- CHARACTER: Narrator
+  LINE: The color has drained from Peter’s face.
+  EXPRESSION: Afraid
+- CHARACTER: Annie
+  LINE: Now Charlie, what I’d like for you to do is I’d like for you to...
+  EXPRESSION: Direct
+- CHARACTER: Narrator
+  LINE: Annie opens the DRAWING PAD. She flips it to a blank page, and lays a small piece of PENCIL LEAD on top.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: ...show them what you were doing earlier.
+  EXPRESSION: Direct
+- CHARACTER: Narrator
+  LINE: Pause.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Can you show them what you just did for me?
+  EXPRESSION: Direct
+- CHARACTER: Peter
+  LINE: Mom.
+  EXPRESSION: Afraid
+- CHARACTER: Narrator
+  LINE: Intensely focused, Annie points to the pad.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Look: She’s gonna do it.
+  EXPRESSION: Hopeful
+- CHARACTER: Narrator
+  LINE: Peter looks to the pad, terrified. Steve SEES Peter’s fear.
+  EXPRESSION: Afraid
+- CHARACTER: Narrator
+  LINE: Steve SHUTS the drawing pad.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: That’s enough.
+  EXPRESSION: Firm
+- CHARACTER: Annie
+  LINE: What? No!
+  EXPRESSION: Angry
+- CHARACTER: Narrator
+  LINE: Annie grabs the pad and flips to a PAGE near the back. It is a simple DRAWING - in Charlie’s style - of a CAR. She holds it up for Steve.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: When I did this earlier, this materialized on the page! I saw this draw itself! I saw it!
+  EXPRESSION: Excited
+- CHARACTER: Peter
+  LINE: Mom, what is this?
+  EXPRESSION: Confused
+- CHARACTER: Annie
+  LINE: IT’S CHARLIE!
+  EXPRESSION: Excited
+- CHARACTER: Steve
+  LINE: ANNIE--
+  EXPRESSION: Warning
+- CHARACTER: Narrator
+  LINE: Cutting Steve off, Annie continues addressing the room.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Did you finish, Charlie?! Did you want to draw more?
+  EXPRESSION: Excited
+- CHARACTER: Narrator
+  LINE: She returns the drawing pad (now open to the car drawing) to the center of the table.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: You can keep going if you weren’t finished!
+  EXPRESSION: Encouraging
+- CHARACTER: Narrator
+  LINE: Annie GRABS Steve’s and Peter’s hand, and presses them against the table again. She pushes her hands on top of theirs.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: We need to keep our fingers touching. We need to give good energy.
+  EXPRESSION: Insistent
+- CHARACTER: Narrator
+  LINE: Steve PULLS his hand away. Peter does, too. Annie SEIZES Peter’s wrist.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: This is S
+  EXPRESSION: Angry
+
+::PATHS::
+- CHOICE: "Confront Annie"
+  TARGET: end_of_excerpt
+  STATE_CHANGE: steve_intervenes = true, tension = +3
+  CONDITION: null
+
+::SCENE::
+LOCATION: Dining Room
+MOOD: Terrifying
+CHARACTERS: Annie, Peter, Steve, Narrator, Max (off-screen), Charlie (mentioned)
+BACKGROUND_IMAGE: dining_room.png
+BACKGROUND_EDIT: "Nighttime, candle-lit, tense atmosphere"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: him, Annie!
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: No it’s NOT!
+  EXPRESSION: Angry
+- CHARACTER: Annie
+  LINE: Don’t be scared, Peter. This is your sister. Charlie? Are you finished with the drawing?
+  EXPRESSION: Caring
+- CHARACTER: Narrator
+  LINE: Silence. Suddenly an intense GUST OF AIR sweeps the room (from the open window?) and the DOOR SLAMS SHUT. Max is now BARKING like crazy in the other room.
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: Mom?!
+  EXPRESSION: Scared
+- CHARACTER: Annie
+  LINE: Charlie? What’s wrong?
+  EXPRESSION: Scared
+- CHARACTER: Narrator
+  LINE: The air seems to be sucked out of the room for a moment. The family is suspended in frightened anticipation. And then -- THE CANDLE’S FLAME BELCHES, as if fueled (for an instant) by propane. Everyone GASPS! The flame is immediately extinguished.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Silence now - save for Max, still barking in the other room.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: We are left for a moment in darkness, and then... The candle’s wick quietly RE-IGNITES on its own. The flame now burns normally. Peter and Steve stare open-mouthed at this.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Steve looks under the table. Nothing is there. He warily lifts the candle to see if there’s anything attached to the bottom. There is not. Before Steve can react -- A FAINT GROANING SOUND is ushered. Peter and Steve, frozen for a moment, look nervously to the source. It’s coming from... ANNIE. Her head is down. She’s moaning, as if trying to vomit. She’s in some sort of TRANCE. Finally, she lets out a LONG, PAINED GROAN. Guttural and almost inhuman-sounding. It drags out longer than wanted. And then...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie stops. Her eyes are WIDE. Like a child’s. She then says:
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Hello?
+  EXPRESSION: Scared
+- CHARACTER: Narrator
+  LINE: But her voice sounds different. It will now remind us - in inflection, in quality - of CHARLIE’S VOICE.
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: Mom?
+  EXPRESSION: Horrified
+- CHARACTER: Annie
+  LINE: Mom?
+  EXPRESSION: Scared
+- CHARACTER: Narrator
+  LINE: Annie looks around, as if looking for “Mom.” She looks very scared now (but she’s still squeezing Peter’s wrist).
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Mom?!
+  EXPRESSION: Scared
+- CHARACTER: Peter
+  LINE: I don’t like this.
+  EXPRESSION: Scared
+- CHARACTER: Annie
+  LINE: What’s happening?!
+  EXPRESSION: Scared
+- CHARACTER: Peter
+  LINE: Dad! I don’t like this!
+  EXPRESSION: Scared
+- CHARACTER: Steve
+  LINE: Annie...
+  EXPRESSION: Afraid
+- CHARACTER: Annie
+  LINE: What’s going on?!
+  EXPRESSION: Scared
+- CHARACTER: Narrator
+  LINE: Annie is still looking around, as if she can’t see. As if she’s BLIND.
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: Mommy?!
+  EXPRESSION: Crying
+- CHARACTER: Narrator
+  LINE: Annie is crying now, too.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Mom??
+  EXPRESSION: Crying
+- CHARACTER: Narrator
+  LINE: Mortified, Peter tugs on Steve’s arm.
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: Please, dad!
+  EXPRESSION: Scared
+- CHARACTER: Steve
+  LINE: ANNIE! STOP IT!
+  EXPRESSION: Helpless
+- CHARACTER: Annie
+  LINE: What’s happening?! Why is everyone scared?!
+  EXPRESSION: Scared
+- CHARACTER: Narrator
+  LINE: Terrified silence.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: WHY ARE YOU SCARING ME?!
+  EXPRESSION: Scared
+- CHARACTER: Narrator
+  LINE: More terrified silence.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Dad! Peter! I’m scared! Where’s mom?!
+  EXPRESSION: Scared
+- CHARACTER: Peter
+  LINE: DAD!
+  EXPRESSION: Scared
+- CHARACTER: Narrator
+  LINE: Steve runs to TURN ON THE LIGHTS. Annie is still possessed, looking blindly about the room.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Steve runs out of the room to go to the KITCHEN.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: We stay with Annie and Peter.
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: Peter, what’s going on? Where’s mom? Stop it!
+  EXPRESSION: Scared
+- CHARACTER: Annie
+  LINE: Why are you trying to scare me?!
+  EXPRESSION: Scared
+- CHARACTER: Narrator
+  LINE: Steve re-enters the room, holding a GLASS OF WATER. He TOSSES it in Annie’s face. She GASPS - roused from her trance.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: What the hell! What are you doing?!
+  EXPRESSION: Surprised
+- CHARACTER: Narrator
+  LINE: Annie is frozen. She takes in her drenched body. Max has stopped barking in the other room.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: What just happened?
+  EXPRESSION: Confused
+- CHARACTER: Narrator
+  LINE: Peter and Steve are traumatized.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Leave the room"
+  TARGET: house_exterior_night
+  STATE_CHANGE: fear = +3
+  CONDITION: null
+
+::SCENE::
+LOCATION: House Exterior
+MOOD: Confrontational
+CHARACTERS: Steve, Annie, Narrator, Peter (in background)
+BACKGROUND_IMAGE: house_exterior.png
+BACKGROUND_EDIT: "Nighttime, dark house, Peter watching from window"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Steve has pulled Annie outside. He’s very aggressive. Annie has wiped the water off her face with a towel. In the b.g., Peter watches from a window.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: What the fuck did you just do?
+  EXPRESSION: Angry
+- CHARACTER: Annie
+  LINE: I didn’t do anything!
+  EXPRESSION: Defensive
+- CHARACTER: Steve
+  LINE: I swear to God, Annie--
+  EXPRESSION: Angry
+- CHARACTER: Annie
+  LINE: You were there. You saw what happened. That wasn’t me.
+  EXPRESSION: Defensive
+- CHARACTER: Narrator
+  LINE: A fraught beat. Steve stares daggers.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: What was that, Annie?
+  EXPRESSION: Angry
+- CHARACTER: Annie
+  LINE: We communicated with Charlie.
+  EXPRESSION: Resigned
+- CHARACTER: Steve
+  LINE: Stop it.
+  EXPRESSION: Angry
+- CHARACTER: Annie
+  LINE: You saw that we did!
+  EXPRESSION: Defensive
+- CHARACTER: Steve
+  LINE: Did you happen to see your son in there? Did you even notice that he’s absolutely terrified?!
+  EXPRESSION: Angry
+- CHARACTER: Annie
+  LINE: Are you sure you’re not terrified?
+  EXPRESSION: Sarcastic
+- CHARACTER: Steve
+  LINE: I am terrified! I’m fuckin’ scared of you. Tomorrow. We’re going to see Dr. Stetson.
+  EXPRESSION: Angry
+- CHARACTER: Narrator
+  LINE: Annie’s eyes go cold with recognition.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: I don’t wanna see Dr. Stetson.
+  EXPRESSION: Angry
+- CHARACTER: Steve
+  LINE: Well, I don’t wanna be conducting seances in my fucking dining room!
+  EXPRESSION: Angry
+- CHARACTER: Narrator
+  LINE: Steve storms inside. Annie follows him. She boils.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Goddamn it! Denial can be a crazy thing, too, Steve! To be so rigid!
+  EXPRESSION: Angry
+- CHARACTER: Narrator
+  LINE: But Steve keeps walking off.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: HEY!
+  EXPRESSION: Angry
+- CHARACTER: Narrator
+  LINE: Steve pauses, also boiling.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: What happened when I blacked out? Did something happen?
+  EXPRESSION: Demanding
+- CHARACTER: Narrator
+  LINE: Steve just looks at her.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Go to bed"
+  TARGET: annie_steve_bedroom
+  STATE_CHANGE: tension = +2
+  CONDITION: null
+
+::SCENE::
+LOCATION: Annie and Steve’s Bedroom
+MOOD: Anxious
+CHARACTERS: Annie, Steve, Narrator
+BACKGROUND_IMAGE: annie_steve_bedroom.png
+BACKGROUND_EDIT: "Nighttime, icy blue moonlight, dim"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The moonlight is an icy blue.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie and Steve are in bed. Steve is asleep with his back to Annie. Annie is too anxious to sleep.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: She turns her face into her pillow, only to notice TWO ANTS crawling on the pillowcase. She looks down to see THREE MORE ANTS on the bed. She then pulls ONE ANT off of her shoulder.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie sits up. She looks down to see a TRAIL OF ANTS on the floor, leading into the hallway. The trail is coming from the WINDOW.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie gets out of bed and checks the window. It’s locked. But the trail seems to be COMING IN through a small gap in the corner of the sill.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie follows the trail of black ants out of the room and into the hallway...
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Follow the ants into the hallway"
+  TARGET: hallway_ants
+  STATE_CHANGE: fear = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Hallway
+MOOD: Suspenseful
+CHARACTERS: Annie, Narrator, Max (distant)
+BACKGROUND_IMAGE: hallway.png
+BACKGROUND_EDIT: "Nighttime, dim, trail of ants visible"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The trail of ants is leading clearly to PETER’S BEDROOM. His door is open. (There is the faint sound of Max’s barking, as if heard from a great distance.)
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Enter Peter's bedroom"
+  TARGET: peter_bedroom_dream
+  STATE_CHANGE: fear = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Peter’s Bedroom
+MOOD: Nightmarish
+CHARACTERS: Annie, Peter, Narrator, Max (off-screen)
+BACKGROUND_IMAGE: peter_bedroom.png
+BACKGROUND_EDIT: "Nighttime, dark room, eerie atmosphere"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Annie enters Peter’s bedroom. The queue of ants continues toward Peter’s bed.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: They crawl up the bed post and onto the mattress, continuing up Peter’s leg and across his body - all the way up to his neck.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie draws closer. As she approaches, it becomes horribly apparent... THE BLACK ANTS HAVE COMPLETELY ENVELOPED PETER’S HEAD AND FACE.
+  EXPRESSION: null
+- CHARACTER: Peter (V.O.)
+  LINE: Mom! What are you doing?!
+  EXPRESSION: Confused
+- CHARACTER: Narrator
+  LINE: CLOSE-UP OF ANNIE’S FACE. Her expression goes from horrified to confused. She looks up, unnerved, and takes in her surroundings. We cut WIDE to reveal:
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie is standing in Peter’s dark room, but Peter is now sitting up in bed. There are no ants. It was all a dream?
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: There is no audible room tone and the dialogue is strangely CRISP, as though being spoken in a dreamy vacuum. The only other sound is Max’s distant BARKING.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie looks extremely confused and afraid.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: What’s going on?
+  EXPRESSION: Confused
+- CHARACTER: Peter
+  LINE: You were sleepwalking.
+  EXPRESSION: Calm
+- CHARACTER: Annie
+  LINE: I’m sorry...
+  EXPRESSION: Apologetic
+- CHARACTER: Annie
+  LINE: Is Charlie here?
+  EXPRESSION: Scared
+- CHARACTER: Peter
+  LINE: Why are you scared of me?
+  EXPRESSION: Accusatory
+- CHARACTER: Annie
+  LINE: What?
+  EXPRESSION: Confused
+- CHARACTER: Narrator
+  LINE: Annie’s expression pleads “How could you ask me that?” But Peter just stares back at her. Annie’s attitude suddenly TURNS - from defensive to confessional. She admits:
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: I never wanted to be your mother.
+  EXPRESSION: Confessional
+- CHARACTER: Narrator
+  LINE: Annie covers her mouth, as if in shock at her own words. She looks to Peter like a child who just accidentally broke something.
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: Why not?
+  EXPRESSION: Emotional
+- CHARACTER: Annie
+  LINE: I was scared. I didn’t feel like a mother. But she pressured me.
+  EXPRESSION: Confessional
+- CHARACTER: Peter
+  LINE: Then why did you have me?
+  EXPRESSION: Emotional
+- CHARACTER: Annie
+  LINE: It’s not my fault...! I tried to stop it.
+  EXPRESSION: Defensive
+- CHARACTER: Peter
+  LINE: How?
+  EXPRESSION: Demanding
+- CHARACTER: Annie
+  LINE: ...I tried to have a miscarriage.
+  EXPRESSION: Pained
+- CHARACTER: Narrator
+  LINE: Peter starts tearing up.
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: How?
+  EXPRESSION: Emotional
+- CHARACTER: Annie
+  LINE: However I could...! I did everything they told me not to. But it didn't work. I’m happy it didn’t work!
+  EXPRESSION: Crying
+- CHARACTER: Narrator
+  LINE: Max’s muffled barking has become faintly more distinct. Peter is crying hard now.
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: You tried to kill me?
+  EXPRESSION: Crying
+- CHARACTER: Narrator
+  LINE: Annie, also crying, shakes her head.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: I love you.
+  EXPRESSION: Crying
+- CHARACTER: Narrator
+  LINE: We cut back to Peter, but his hair and face are now inexplicably DRENCHED in liquid (presumably paint thinner).
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: Why did you try to kill me?
+  EXPRESSION: Accusatory
+- CHARACTER: Narrator
+  LINE: We cut back to Annie, revealing that she's now drenched in paint thinner, too.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: I didn’t. I was trying to save you.
+  EXPRESSION: Desperate
+- CHARACTER: Narrator
+  LINE: An OFF-SCREEN FIRE IGNITES, illuminating Annie’s face in hellish orange.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: MAX’S OFF-SCREEN BARKING HAS NOW BECOME VERY LOUD, VERY PRESENT. It reaches an almost unbearable pitch
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "End of excerpt"
+  TARGET: end
+  STATE_CHANGE: fear = +5, trauma = true
+  CONDITION: null
+
+::SCENE::
+LOCATION: Annie & Steve’s Bedroom
+MOOD: Startled, Unsettling
+CHARACTERS: Annie, Max (O.S.), Steve (absence noted)
+BACKGROUND_IMAGE: bedroom_night.png
+BACKGROUND_EDIT: "Dark bedroom, Annie waking up, empty side of bed"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Annie wakes up with a start. It was all a dream.
+  EXPRESSION: Startled
+- CHARACTER: Narrator
+  LINE: Max is barking wildly in the hallway.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: A fly lands on Annie’s face. Brushing it away, she notices that Steve’s side of the bed is empty. His pillow is also gone.
+  EXPRESSION: Concerned
+
+::PATHS::
+- CHOICE: "Cut to Peter's bedroom"
+  TARGET: peters_bedroom
+  STATE_CHANGE: annie_sleepwalked = true
+  CONDITION: null
+
+::SCENE::
+LOCATION: Peter’s Bedroom
+MOOD: Traumatized, Unsettling
+CHARACTERS: Peter, Max (O.S.)
+BACKGROUND_IMAGE: peters_bedroom_night.png
+BACKGROUND_EDIT: "Dark bedroom, lights on, Peter traumatized on bed"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Max’s barking persists in the b.g.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The lights are on. Peter, dressed in his pajamas, sits traumatized on the edge of his bed.
+  EXPRESSION: Traumatized
+- CHARACTER: Narrator
+  LINE: The composition of this shot (wide, high-angle) is matched eerily on the cut to:
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Cut to classroom"
+  TARGET: classroom
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Classroom
+MOOD: Tense, Anxious, Supernatural
+CHARACTERS: Peter, Teacher, Narrator
+BACKGROUND_IMAGE: classroom_day.png
+BACKGROUND_EDIT: "Daytime classroom, Peter in back, normal lesson"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Peter sits tensely in the back corner of his classroom.
+  EXPRESSION: Tense
+- CHARACTER: Narrator
+  LINE: The teacher stands at the blackboard, leading the class through an algebra lesson.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter’s mind is a storm. He’s brought fiercely into the present, however, when a strange, barely perceptible glint of light (we’ve seen this before) flashes across the room. The light ends at the window next to Peter.
+  EXPRESSION: Anxious
+- CHARACTER: Narrator
+  LINE: Peter looks around. Nobody else noticed it. Peter blinks a few times, concerned that he might be seeing things. He turns back to the window to see...
+  EXPRESSION: Concerned
+- CHARACTER: Narrator
+  LINE: Peter’s reflection is staring pointedly back at him.
+  EXPRESSION: Surprised
+- CHARACTER: Narrator
+  LINE: The color drains from Peter’s face. He looks weakly back at his own reflection, whose eyes harden bitterly against him.
+  EXPRESSION: Afraid
+- CHARACTER: Narrator
+  LINE: Overwhelmed, Peter abruptly stands up, distracting the teacher.
+  EXPRESSION: Overwhelmed
+- CHARACTER: Teacher
+  LINE: Yes, Peter?
+  EXPRESSION: Questioning
+- CHARACTER: Peter
+  LINE: I - have to go to the bathroom.
+  EXPRESSION: Confused
+- CHARACTER: Narrator
+  LINE: Aware of Peter’s recent trauma, the Teacher is careful to be extra-sensitive.
+  EXPRESSION: null
+- CHARACTER: Teacher
+  LINE: That’s fine. Just take the pass.
+  EXPRESSION: Understanding
+- CHARACTER: Narrator
+  LINE: Peter leaves, tears in his eyes.
+  EXPRESSION: Sad
+
+::PATHS::
+- CHOICE: "Cut to Steve's office"
+  TARGET: steves_office
+  STATE_CHANGE: peter_trauma = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Steve’s Office
+MOOD: Worried, Concerned, Tense
+CHARACTERS: Steve, Peter (V.O.), Narrator
+BACKGROUND_IMAGE: steves_office_day.png
+BACKGROUND_EDIT: "Daytime office, Steve at computer, professional but stressed"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Steve sits stiffly at the computer in his office. He has typed into his search engine “Paranormal evidence, voice channeling,” but he pauses and then deletes this. He instead writes “Symptomatology and management of grief hallucinations.” He presses send.
+  EXPRESSION: Concerned
+- CHARACTER: Narrator
+  LINE: Steve looks over the results, and then clicks on a separate tab. It’s a half-composed email to a fellow psychiatrist. The email reads... Hi Bob, I hesitate to write, but I’m worried that Annie might be on the verge of (or in the middle of)
+  EXPRESSION: Worried
+- CHARACTER: Narrator
+  LINE: He’s stuck on how to continue.
+  EXPRESSION: Frustrated
+- CHARACTER: Narrator
+  LINE: Steve’s cell phone rings. It’s an unknown number. He hesitates before answering it.
+  EXPRESSION: Hesitant
+- CHARACTER: Steve
+  LINE: Hello?
+  EXPRESSION: Neutral
+- CHARACTER: Narrator
+  LINE: There’s a strange wave of static and then...
+  EXPRESSION: null
+- CHARACTER: Peter (V.O.)
+  LINE: Dad?
+  EXPRESSION: Afraid
+- CHARACTER: Steve
+  LINE: Peter?
+  EXPRESSION: Concerned
+- CHARACTER: Narrator
+  LINE: We can hear that Peter is crying, near hysteria.
+  EXPRESSION: null
+- CHARACTER: Peter (V.O.)
+  LINE: Something’s at the school.
+  EXPRESSION: Hysterical
+- CHARACTER: Steve
+  LINE: What is?
+  EXPRESSION: Concerned
+- CHARACTER: Peter (V.O.)
+  LINE: It followed me here!
+  EXPRESSION: Hysterical
+
+::PATHS::
+- CHOICE: "Cut to Annie's workshop"
+  TARGET: annies_workshop
+  STATE_CHANGE: steve_worried_annie = true
+  CONDITION: null
+
+::SCENE::
+LOCATION: Annie’s Workshop
+MOOD: Anxious, Frustrated, Destructive
+CHARACTERS: Annie, Steve (V.O.), Woman (V.O.), Narrator
+BACKGROUND_IMAGE: annies_workshop_day.png
+BACKGROUND_EDIT: "Daytime workshop, art supplies, miniatures, flies"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The cordless phone is ringing. Two flies crawl across it.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie, still wearing her nightgown, nervously works on a funeral home model. The ringing stops, but then starts again.
+  EXPRESSION: Nervous
+- CHARACTER: Narrator
+  LINE: Annie now turns to answer the phone.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Hello?
+  EXPRESSION: Neutral
+- CHARACTER: Narrator
+  LINE: Steve is on the other end. We can hear that he is driving.
+  EXPRESSION: null
+- CHARACTER: Steve (V.O.)
+  LINE: Can you guess who just called me from school in complete hysterics?
+  EXPRESSION: Furious
+- CHARACTER: Narrator
+  LINE: Annie goes pale.
+  EXPRESSION: Afraid
+- CHARACTER: Annie
+  LINE: Charlie?
+  EXPRESSION: Gravely
+- CHARACTER: Steve (V.O.)
+  LINE: ...What?
+  EXPRESSION: Confused
+- CHARACTER: Annie
+  LINE: I -- nothing. What happened?
+  EXPRESSION: Nervous
+- CHARACTER: Steve (V.O.)
+  LINE: Peter just called me, Annie. Terrified. Crying in the halls. He’s convinced he’s being threatened by some vengeful spirit.
+  EXPRESSION: Angry
+- CHARACTER: Annie
+  LINE: Why does he think he’s being threatened?
+  EXPRESSION: Concerned
+- CHARACTER: Steve (V.O.)
+  LINE: Listen to me, Annie: I have a son to protect.
+  EXPRESSION: Impatient
+- CHARACTER: Annie
+  LINE: What does that mean?
+  EXPRESSION: Confused
+- CHARACTER: Steve (V.O.)
+  LINE: It means that’s what I’m worried about right now. That’s how I’m proceeding.
+  EXPRESSION: Firm
+- CHARACTER: Annie
+  LINE: Don’t talk to me like this. He’s my son, too.
+  EXPRESSION: Angry
+- CHARACTER: Narrator
+  LINE: Click. He’s hung up.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Infuriated, Annie calls Steve back. He answers.
+  EXPRESSION: Furious
+- CHARACTER: Annie
+  LINE: Don’t hang up on me again. I’m not sleepwalking anymore, you understand?
+  EXPRESSION: Defiant
+- CHARACTER: Narrator
+  LINE: She hangs up.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie returns to the miniature funeral home. She carefully (but tensely) presses a freshly glued piece of balsa wood against the beautifully rendered wall. She holds it in place.
+  EXPRESSION: Tense
+- CHARACTER: Narrator
+  LINE: The phone rings. Annie doesn’t care. It rings until the answering machine gets it. After the outgoing message, the machine beeps and a woman leaves a message.
+  EXPRESSION: null
+- CHARACTER: Woman (V.O.)
+  LINE: Hi Annie! It’s Margaret at the Asher Gallery. I’m just calling to see how things are with you and your family - I hope everything’s okay - and also, just wondering, uh, how the progress is going. Not that you need reminding - haha - but we are a little less than nine weeks away, so it would just be nice to get the vaguest sense of where we are. So yeah, call me back whenever, and again, I really hope everything’s okay and our thoughts are all very much with your family, so - Okay. Thanks so much.
+  EXPRESSION: Pleasant
+- CHARACTER: Narrator
+  LINE: Click. Beep.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie has grown extremely tense over the course of that message. Still applying pressure to the glued-on piece, she pushes a little too hard, and her thumb breaks through the miniature’s wall.
+  EXPRESSION: Extremely Tense
+- CHARACTER: Narrator
+  LINE: Annie freezes for a moment, shocked. Then, overcome by sheer frustration, she raises her fist and smashes it down into the funeral home’s floor, snapping it.
+  EXPRESSION: Frustrated
+- CHARACTER: Narrator
+  LINE: Taken by a surge of destructive rage, she sweeps the miniature off the table and rises to stomp her foot through its roof. Destroying it.
+  EXPRESSION: Enraged
+- CHARACTER: Narrator
+  LINE: Without missing a beat, she grabs a hammer and proceeds to smash apart the rest of her miniatures. It’s a woeful, devastating fit. By the time Annie gets a grip on herself, it’s too late. All of the pieces have been destroyed. All except for one... The miniature of the Graham House.
+  EXPRESSION: Destructive
+- CHARACTER: Narrator
+  LINE: Annie drops the hammer.
+  EXPRESSION: Resigned
+
+::PATHS::
+- CHOICE: "Cut to foyer"
+  TARGET: foyer_moments_later
+  STATE_CHANGE: annie_breakdown = true
+  CONDITION: null
+
+::SCENE::
+LOCATION: Foyer
+MOOD: Tense, Unsettling
+CHARACTERS: Steve, Peter, Narrator
+BACKGROUND_IMAGE: foyer_day.png
+BACKGROUND_EDIT: "Daytime foyer, front door, stairs, bad smell"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Steve and Peter enter through the front door. A bad smell immediately hits them.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: Whoa. Jesus.
+  EXPRESSION: Disgusted
+- CHARACTER: Narrator
+  LINE: They proceed up the stairs. Steve swipes away a fly.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: Did something die in here?
+  EXPRESSION: Disgusted
+
+::PATHS::
+- CHOICE: "Proceed to hallway"
+  TARGET: hallway_continuous
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Hallway
+MOOD: Shocking, Confrontational
+CHARACTERS: Peter, Steve, Annie, Narrator
+BACKGROUND_IMAGE: hallway_day.png
+BACKGROUND_EDIT: "Upstairs hallway, workshop door, Peter's room"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Peter goes to his room, closing the door behind him.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Steve walks up to the workshop’s door. He opens it without knocking.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: Annie, what is that smell--
+  EXPRESSION: Concerned
+- CHARACTER: Narrator
+  LINE: But he freezes when he sees the state of the demolished room.
+  EXPRESSION: Shocked
+- CHARACTER: Narrator
+  LINE: Annie sits in her chair, completely surrounded by smashed and splintered wood.
+  EXPRESSION: Resigned
+- CHARACTER: Steve
+  LINE: ...What happened?
+  EXPRESSION: Stunned
+- CHARACTER: Narrator
+  LINE: He looks at Annie and almost immediately understands. She did this. His heart breaks.
+  EXPRESSION: Sad
+- CHARACTER: Annie
+  LINE: I didn’t wanna look at it anymore.
+  EXPRESSION: Resigned
+- CHARACTER: Narrator
+  LINE: Steve stares at her for a very long time. He then grabs the phone and storms into the hallway, dialing a number.
+  EXPRESSION: Determined
+- CHARACTER: Annie
+  LINE: Hey! Who are you calling?!
+  EXPRESSION: Alarmed
+
+::PATHS::
+- CHOICE: "Cut to hallway later"
+  TARGET: hallway_later
+  STATE_CHANGE: steve_calls_stetson = true
+  CONDITION: null
+
+::SCENE::
+LOCATION: Hallway / Foyer
+MOOD: Tense, Clinical, Confrontational
+CHARACTERS: Steve, Annie, Dr. Stetson, Narrator
+BACKGROUND_IMAGE: hallway_foyer_day.png
+BACKGROUND_EDIT: "Upstairs hallway window, car arriving, downstairs foyer"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Through the upstairs hallway window, a car pulls up to park behind Steve’s car. A pleasant, well scrubbed man (50s) emerges to walk toward the house. This is Dr. Stetson.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: There is a knock at the door. It is heard opening.
+  EXPRESSION: null
+- CHARACTER: Dr. Stetson (O.S.)
+  LINE: Hi Steve.
+  EXPRESSION: Pleasant
+- CHARACTER: Steve (O.S.)
+  LINE: Thanks for coming, Bob. Yeah: forgive the smell. I think something died in the walls.
+  EXPRESSION: Embarrassed
+- CHARACTER: Narrator
+  LINE: Annie is standing in the upstairs hallway, listening.
+  EXPRESSION: Tense
+- CHARACTER: Steve (O.S.)
+  LINE: She’s upstairs right now.
+  EXPRESSION: Resigned
+- CHARACTER: Narrator
+  LINE: Annie takes this as her cue. She walks defiantly down the stairs. She arrives at the bottom, in the foyer. Dr. Stetson acknowledges her with a big smile.
+  EXPRESSION: Defiant
+- CHARACTER: Dr. Stetson
+  LINE: Hi Annie.
+  EXPRESSION: Warm
+- CHARACTER: Annie
+  LINE: Dr. Stetson.
+  EXPRESSION: Cold
+- CHARACTER: Dr. Stetson
+  LINE: Can we all sit somewhere and talk?
+  EXPRESSION: Calm
+- CHARACTER: Annie
+  LINE: Yeah, let’s make ourselves at home.
+  EXPRESSION: Disdainful
+- CHARACTER: Narrator
+  LINE: Annie sits in a chair in the corner. Dr. Stetson takes a chair and brings it nearer. Stetson sits across from Annie, without crowding her. (A couple flies will be buzzing around throughout.)
+  EXPRESSION: Tense
+- CHARACTER: Dr. Stetson
+  LINE: How’s it going?
+  EXPRESSION: Calm
+- CHARACTER: Annie
+  LINE: Not amazing.
+  EXPRESSION: Blunt
+- CHARACTER: Dr. Stetson
+  LINE: Can you talk about why?
+  EXPRESSION: Probing
+- CHARACTER: Annie
+  LINE: Uh - because my daughter was killed and now my psychiatrist husband is calling over his peers to investigate me.
+  EXPRESSION: Angry
+- CHARACTER: Narrator
+  LINE: Steve glowers.
+  EXPRESSION: Angry
+- CHARACTER: Dr. Stetson
+  LINE: Nobody’s investigating you, Annie.
+  EXPRESSION: Reassuring
+- CHARACTER: Narrator
+  LINE: Annie just stares at him.
+  EXPRESSION: Defiant
+- CHARACTER: Dr. Stetson
+  LINE: Can I ask how you are?
+  EXPRESSION: Calm
+- CHARACTER: Annie
+  LINE: I’m fine. I’m lucid. I’m in mourning and I’m trying to cope, and he’s supposed to be my partner, so forgive me if I’m not bouncing off the walls to se
+  EXPRESSION: Frustrated
+
+::PATHS::
+- CHOICE: "Continue conversation"
+  TARGET: end_of_excerpt
+  STATE_CHANGE: annie_confronts_therapy = true
+  CONDITION: null
+
+::SCENE::
+LOCATION: Therapist's Office
+MOOD: Tense
+CHARACTERS: Dr. Stetson, Annie
+BACKGROUND_IMAGE: therapist_office.png
+BACKGROUND_EDIT: "Daytime, formal but comfortable setting"
+
+::SCRIPT::
+- CHARACTER: Dr. Stetson
+  LINE: Nobody’s trying to do anything against you right now, Annie. I promise you.
+  EXPRESSION: Reassuring
+- CHARACTER: Annie
+  LINE: Then stop patronizing me please.
+  EXPRESSION: Angry
+- CHARACTER: Narrator
+  LINE: Stetson takes a long pause. He levels with her:
+  EXPRESSION: null
+- CHARACTER: Dr. Stetson
+  LINE: What’s all this about ghosts? And seances?
+  EXPRESSION: Curious
+- CHARACTER: Annie
+  LINE: I thought I felt a presence. I was hopeful, as you can imagine. It was fleeting, and now I’m back to grieving.
+  EXPRESSION: Sad
+- CHARACTER: Dr. Stetson
+  LINE: Okay... All right.
+  EXPRESSION: Thoughtful
+- CHARACTER: Dr. Stetson
+  LINE: And why did you destroy your work?
+  EXPRESSION: Questioning
+- CHARACTER: Annie
+  LINE: Because it’s my work.
+  EXPRESSION: Determined
+- CHARACTER: Narrator
+  LINE: Annie’s eyes are stone. Brief pause.
+  EXPRESSION: null
+- CHARACTER: Dr. Stetson
+  LINE: Fair enough. So I’m gonna ask you some annoying questions now, Annie.
+  EXPRESSION: Reluctant
+- CHARACTER: Dr. Stetson
+  LINE: I can see that you’re lucid. This is just simply what I have to do. Okay?
+  EXPRESSION: Explaining
+- CHARACTER: Dr. Stetson
+  LINE: What day is it?
+  EXPRESSION: Questioning
+- CHARACTER: Annie
+  LINE: Tuesday.
+  EXPRESSION: Neutral
+- CHARACTER: Dr. Stetson
+  LINE: When in the month?
+  EXPRESSION: Questioning
+
+::PATHS::
+- CHOICE: "End the session"
+  TARGET: outside_foyer
+  STATE_CHANGE: annie_status = evaluated
+  CONDITION: null
+
+::SCENE::
+LOCATION: Foyer / Outside House
+MOOD: Frustration, Disappointment
+CHARACTERS: Steve, Dr. Stetson, Annie (observing)
+BACKGROUND_IMAGE: foyer_window.png
+BACKGROUND_EDIT: "Daytime, view through window, Dr. Stetson and Steve talking"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Through the foyer window, we see Steve and Dr. Stetson outside. This is from Annie’s POV.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Dr. Stetson seems to be explaining something to Steve. Steve nods, frustrated.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: We see Dr. Stetson say “I’m sorry, I can’t” and then he walks off to his car. Steve sulks back toward the house.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Steve enters. He looks at Annie.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: What were you hoping? That I'd tell your psychiatrist friend that we brought back our dead daughter? You think I don’t know how that sounds?
+  EXPRESSION: Angry
+- CHARACTER: Narrator
+  LINE: Steve nods, numb. He walks past her, toward the stairs. Annie pauses before following him up.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Follow Steve into the workshop"
+  TARGET: annies_workshop
+  STATE_CHANGE: steve_frustration = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Annie’s Workshop
+MOOD: Confrontational, Despairing
+CHARACTERS: Steve, Annie
+BACKGROUND_IMAGE: annies_workshop.png
+BACKGROUND_EDIT: "Nighttime, workshop in ruins, artistic debris"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Steve has entered the workshop. He walks heavily around the ruins.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie steps in. Watches him.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: You worked so hard for this show.
+  EXPRESSION: Sad
+- CHARACTER: Annie
+  LINE: Jesus Christ - Fuck the show. You’re ignoring this!
+  EXPRESSION: Angry
+- CHARACTER: Steve
+  LINE: I’m not ignoring anything - believe me.
+  EXPRESSION: Frustrated
+- CHARACTER: Annie
+  LINE: You ignore everything! If you can’t find it in one of your books!
+  EXPRESSION: Angry
+- CHARACTER: Narrator
+  LINE: Long pause.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: I won’t indulge this behavior anymore.
+  EXPRESSION: Tense
+- CHARACTER: Annie
+  LINE: “Indulge”?
+  EXPRESSION: Disbelieving
+- CHARACTER: Steve
+  LINE: I won’t. I can't allow it
+  EXPRESSION: Determined
+- CHARACTER: Annie
+  LINE: “Allow” now! Jesus! Listen to how you’re just clinging!
+  EXPRESSION: Angry
+- CHARACTER: Annie
+  LINE: You’re the one who’s gonna go crazy, Steve. If you keep just denying what’s in front of you.
+  EXPRESSION: Accusing
+- CHARACTER: Narrator
+  LINE: Steve stares at her, overwhelmed. He looks down to notice at his feet: the figurine of Annie’s Mother, holding out her breast. Steve lets out a defeated sigh.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: You know, Annie...
+  EXPRESSION: Sad
+- CHARACTER: Steve
+  LINE: You can still build a shrine to the terrible stuff. Doesn’t mean you have to destroy anything good.
+  EXPRESSION: Sad
+- CHARACTER: Annie
+  LINE: Well, it’s not anything good. It’s nothing. It means nothing. This - is what I cared about.
+  EXPRESSION: Defeated
+- CHARACTER: Steve
+  LINE: Except for that one.
+  EXPRESSION: Noticing
+- CHARACTER: Narrator
+  LINE: Steve is pointing out the pristine Graham House replica. He looks it over. Something makes him chuckle bitterly to himself.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: Nice touch.
+  EXPRESSION: Bitter
+- CHARACTER: Narrator
+  LINE: Annie looks at Steve, not understanding. She walks over to the miniature.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: She sees that something has been ADDED to Peter’s bedroom. A headless figurine (now wearing Peter’s clothes) is lying in Peter’s bed. The color drains from Annie’s face.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: I was wondering when Peter would get switched with Charlie.
+  EXPRESSION: Revealing
+- CHARACTER: Narrator
+  LINE: Annie is covering her mouth with her hands. She is having a horrible revelation. Her eyes then SCAN UP to notice something else...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The figurine of Annie (on her knees, face in her hands) is now in the ATTIC replica. The figurine is dressed in a NIGHTGOWN (the same one that Annie is wearing now), except its front is covered in blood.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Defeated, Steve leaves the room.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Where are you going?
+  EXPRESSION: Upset
+- CHARACTER: Steve
+  LINE: I didn’t sleep at all last night. If you can believe it.
+  EXPRESSION: Bitter
+
+::PATHS::
+- CHOICE: "Let Steve leave"
+  TARGET: living_room_steve
+  STATE_CHANGE: annie_shock = +1, steve_exhaustion = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Living Room
+MOOD: Anxious, Exhausted
+CHARACTERS: Steve
+BACKGROUND_IMAGE: living_room.png
+BACKGROUND_EDIT: "Nighttime, couch with blanket and pillow, dim lighting"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Rattled and extremely tense, Steve sits at the couch, which is dressed with a blanket and pillow. He uncaps a prescription bottle (sleeping pills).
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: Always you - right Steve? You hold it all together.
+  EXPRESSION: Mumbling
+- CHARACTER: Narrator
+  LINE: He draws out two pills and knocks them back. He then hesitates before pulling out one more. He downs it.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Fall asleep"
+  TARGET: workshop_hallway_charlies_bedroom
+  STATE_CHANGE: steve_asleep = true
+  CONDITION: null
+
+::SCENE::
+LOCATION: Workshop / Hallway / Charlie’s Bedroom
+MOOD: Eerie, Suspenseful, Horrifying
+CHARACTERS: Peter (seen from POV), Annie, Charlie (drawing pad)
+BACKGROUND_IMAGE: dark_hallway.png
+BACKGROUND_EDIT: "Later night, workshop door open, dark hallway, flies on walls, attic door on ceiling"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Through the open door of the workshop (whose lights are now off), Peter is seen turning off the lights in his bedroom. He looks out into the hall, paranoid, and then shuts the door.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Several flies adorn the hallway walls.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: This was seen from Annie’s POV. She’s sitting in the dark, among the wreckage of her work. She’s still in shock over the inexplicable additions to the Graham replica.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Suddenly she hears the faint sound of a pencil vigorously scratching paper. It’s coming from down the hall. She hesitates before rising and entering the HALLWAY... More and more flies have collected. They seem especially prominent around the ATTIC DOOR on the ceiling.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Noting this, Annie continues to follow the sound of drawing to arrive at...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The door is open. The lights are off. The sound of PENCIL FEVERISHLY SCRATCHING PAPER is heard, although the room is completely empty.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie stands at the door. She hesitates before turning on the light.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Charlie’s drawing pad rests on Charlie’s bed. It’s open to a mostly blank page, but a DRAWING IS MATERIALIZING on it. It is then FLIPPED (as if by wind) to the next page, where a new drawing begins. We can’t yet see the content of the drawings.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie approaches the drawing pad to investigate. Her eyes, already buzzing with fear, now widen with HORROR.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Investigate the drawing pad further"
+  TARGET: peter_bedroom_night_attack
+  STATE_CHANGE: annie_horror = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Peter’s Bedroom
+MOOD: Terrifying, Panic
+CHARACTERS: Peter, Charlie (apparition), Max (dog), Phantom
+BACKGROUND_IMAGE: peter_bedroom.png
+BACKGROUND_EDIT: "Nighttime, dark room, moonlight from window, corner shadow"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The door is closed and the lights are off. Peter is in bed, trying to sleep. Silence, save for a buzzing fly. Then... A CLICKING of the tongue. Peter’s eyes OPEN. He slowly looks up, scanning past the bed, to SEE...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Charlie is standing in the dark corner of the room (where Peter mistook his hoodie for a person). Charlie stares at Peter with unblinking eyes. It’s almost too dark to make her out. Another CLICK.
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: Charlie?
+  EXPRESSION: Questioning
+- CHARACTER: Narrator
+  LINE: A long silence. Charlie slowly opens her MOUTH, but then her head DROOPS forward and rolls OFF her shoulders. It tumbles to the floor and rolls toward Peter, but when it rolls into a block of moonlight (cast from the window), it’s revealed to be a Nerf basketball.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter glares at the ball. A quiet GROWLING is heard from the door. Peter looks up.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The door is now OPEN and Max stands in the doorway. He seems to be disturbed by Peter - or rather, by something standing behind Peter.
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: What is it, Max?
+  EXPRESSION: Terrified
+- CHARACTER: Narrator
+  LINE: Suddenly TWO HANDS materialize from behind Peter’s head. They grab his face, grasping under his chin. They TUG BACK on his head, as if trying to yank it off. Peter SCREAMS.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Max runs in to attack, but the DOOR SLAMS IN HIS FACE.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Scream for help"
+  TARGET: hallway_max_attack
+  STATE_CHANGE: peter_trauma = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Hallway / Foyer
+MOOD: Violent, Terrifying
+CHARACTERS: Max
+BACKGROUND_IMAGE: hallway_foyer.png
+BACKGROUND_EDIT: "Nighttime, hallway, stairs, front door"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Max paws aggressively at the door, barking wildly.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Suddenly, Max’s HIND LEGS are lifted, as if by invisible hands, and TUGGED back by a great, vacuuming force. He is SUCKED across the hall and down the stairs. We FOLLOW the mortified dog as it’s pulled all the way down to the FOYER.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The FRONT DOOR IS OPEN and Max is deposited violently out of the house. The door SLAMS SHUT.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Check on Max"
+  TARGET: living_room_steve_unaware
+  STATE_CHANGE: max_gone = true
+  CONDITION: null
+
+::SCENE::
+LOCATION: Living Room
+MOOD: Unaware, Urgent (O.S.)
+CHARACTERS: Steve, Annie (O.S.)
+BACKGROUND_IMAGE: living_room.png
+BACKGROUND_EDIT: "Nighttime, Steve asleep on couch"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Steve is fast asleep on the couch.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Peter! Peter!
+  EXPRESSION: Screaming (O.S.)
+
+::PATHS::
+- CHOICE: "Investigate Annie's scream"
+  TARGET: peter_bedroom_annie_arrival
+  STATE_CHANGE: steve_still_asleep = true
+  CONDITION: null
+
+::SCENE::
+LOCATION: Peter’s Bedroom
+MOOD: Frantic, Confused, Terrified
+CHARACTERS: Peter, Annie
+BACKGROUND_IMAGE: peter_bedroom.png
+BACKGROUND_EDIT: "Nighttime, Peter frantic, Annie distraught"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Peter has just been released by the phantom hands. He’s frantic. Annie is now standing in the room.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: What’s wrong, baby?! What happened?!
+  EXPRESSION: Concerned
+- CHARACTER: Peter
+  LINE: What are you doing?!
+  EXPRESSION: Terrified
+- CHARACTER: Annie
+  LINE: What do you mean?!
+  EXPRESSION: Confused
+- CHARACTER: Peter
+  LINE: You were pulling on my head!
+  EXPRESSION: Accusing
+- CHARACTER: Annie
+  LINE: What?!
+  EXPRESSION: Shocked
+- CHARACTER: Narrator
+  LINE: Peter looks terrified of her.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: No I wasn’t! I just came in! You were screaming!
+  EXPRESSION: Defensive
+- CHARACTER: Narrator
+  LINE: Peter is crying.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: What happened?
+  EXPRESSION: Concerned
+- CHARACTER: Peter
+  LINE: I saw Charlie in the corner and then you started pulling on my head.
+  EXPRESSION: Crying
+- CHARACTER: Annie
+  LINE: Peter! I would never do that to you! Are you crazy? I would never hurt you. How could you even think that?
+  EXPRESSION: Upset
+- CHARACTER: Narrator
+  LINE: Peter just stares at her through frightened tears.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Try to comfort Peter"
+  TARGET: end_of_excerpt
+  STATE_CHANGE: annie_misunderstood = true, peter_trauma = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Unspecified Indoor Location
+MOOD: Desperate, Tense
+CHARACTERS: Peter, Annie
+BACKGROUND_IMAGE: interior.png
+BACKGROUND_EDIT: "Dimly lit, tense atmosphere"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Peter can’t answer. He’s horrified.
+  EXPRESSION: Afraid
+- CHARACTER: Annie
+  LINE: Listen to me, Peter. I don’t know what’s happening or what you just saw, but I’m stopping this. Do NOT tell dad what you just said to me. Please. It’s NOT true. Something’s going on, and I’m the only one who can stop this. Do you understand? I’m the only one who can fix it.
+  EXPRESSION: Afraid
+- CHARACTER: Narrator
+  LINE: Peter stares unblinkingly at her.
+  EXPRESSION: Afraid
+
+::PATHS::
+- CHOICE: "Continue to next event"
+  TARGET: charlies_bedroom
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Charlie’s Bedroom
+MOOD: Ominous
+CHARACTERS: Narrator, Annie
+BACKGROUND_IMAGE: charlies_bedroom.png
+BACKGROUND_EDIT: "Messy, child's bedroom, ominous drawings"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Charlie’s DRAWING PAD is open. We track slowly in, revealing the CONTENT of two of the drawings...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Both are crude, violently drawn sketches of PETER’S FACE, but the EYES are replaced with X’s. The faces are framed by furiously sketched TRIANGLES.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: A BREEZE blows in from the window, flipping to the NEXT PAGE - more of the same - and then the next page - still more of the same - and then the next page, etc...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie’s HAND enters to seize the drawing pad. She leaves the room.
+  EXPRESSION: Determined
+- CHARACTER: Narrator
+  LINE: Max’s barking persists in the b.g.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Follow Annie"
+  TARGET: living_room
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Living Room
+MOOD: Horrifying
+CHARACTERS: Annie, Narrator, Steve
+BACKGROUND_IMAGE: living_room.png
+BACKGROUND_EDIT: "Nighttime, fireplace burning, Steve asleep"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Annie has started a FIRE in the fireplace. (In the b.g., Steve is still asleep on the couch.)
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie clutches Charlie’s drawing pad, gazing into the fire.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: She inhales deeply, holds her breath, and then THROWS the pad in. At first it resists the flames, but then, the EDGE of one sheet begins to BURN.
+  EXPRESSION: Determined
+- CHARACTER: Narrator
+  LINE: Annie watches this, eyes glued to the fire. But the shoulder of her SHIRT has sprouted the tiny beginning of a FLAME. It is the same size as the burgeoning flame at the drawing pad’s edge. Annie doesn’t even notice.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The flame spreads slowly along the drawing pad’s edge. As this happens, the flame on Annie’s shoulder SPREADS ALONG HER ARM. Annie notices this and panics. She desperately tries to stamp out the fire, but it’s no use.
+  EXPRESSION: Afraid
+- CHARACTER: Narrator
+  LINE: The fireplace-fire starts to CONSUME the edges of the drawing pad. Simultaneously, ANNIE’S ARM IS ENGULFED FOR A MOMENT IN FLAMES. The fire on her arm is mimicking the fire that’s eating the book.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: SCREAMS
+  EXPRESSION: Afraid
+- CHARACTER: Narrator
+  LINE: pulls the drawing pad out of the fire, and STAMPS OUT the flames. As she stamps it out, the fire on her arm is duly EXTINGUISHED.
+  EXPRESSION: Afraid
+- CHARACTER: Narrator
+  LINE: Annie understands now. She’s tied to the book.
+  EXPRESSION: Realization
+
+::PATHS::
+- CHOICE: "Observe the house"
+  TARGET: graham_house_exterior
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Graham House
+MOOD: Uneasy Transition
+CHARACTERS: Narrator
+BACKGROUND_IMAGE: graham_house_exterior.png
+BACKGROUND_EDIT: "Nighttime, then slam cut to shrill morning sun"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The MOON hangs large over the house. We then SLAM CUT to MORNING. The moon has been replaced by a shrill SUN.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Enter the hallway"
+  TARGET: hallway_morning
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Hallway
+MOOD: Anxious
+CHARACTERS: Peter, Annie, Narrator
+BACKGROUND_IMAGE: hallway.png
+BACKGROUND_EDIT: "Morning, dimly lit, a crack of light from a door"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Peter steps out of his bedroom, backpack slung over his shoulder. He clearly didn’t sleep last night and his eyes are buzzing with anxiety. He looks down the hall at the workshop’s DOOR, which is open by the faintest CRACK. He hesitates and walks off.
+  EXPRESSION: Anxious
+- CHARACTER: Narrator
+  LINE: Behind the workshop door: ANNIE stares through the crack, making sure that Peter leaves.
+  EXPRESSION: Determined
+
+::PATHS::
+- CHOICE: "Follow Annie to Joan's"
+  TARGET: joans_building
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Joan’s Apartment Building - Third Floor
+MOOD: Desperate, Urgent
+CHARACTERS: Annie, Narrator
+BACKGROUND_IMAGE: apartment_building_hallway.png
+BACKGROUND_EDIT: "Apartment building hallway, generic"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Annie, looking frighteningly determined, emerges from the elevator of JOAN’S BUILDING. She’s still wearing her nightgown under a coat. She rushes to JOAN’S DOOR and knocks.
+  EXPRESSION: Determined
+- CHARACTER: Narrator
+  LINE: No answer.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie knocks again, more urgently.
+  EXPRESSION: Anxious
+
+::PATHS::
+- CHOICE: "Look inside Joan's apartment"
+  TARGET: joans_apartment_interior
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Joan’s Apartment
+MOOD: Occult, Disturbing
+CHARACTERS: Narrator, Annie
+BACKGROUND_IMAGE: joans_apartment.png
+BACKGROUND_EDIT: "Apartment adorned with occult symbols, ritualistic setup"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Nobody’s home. We are pulling back from the DOOR (as Annie’s knocking persists) to REVEAL the apartment...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: It looks mostly the same, but it’s now adorned in cloths and drapes that feature various SYMBOLS. One of these is an ORNATE SIGIL (which we recognize as the one on Annie’s necklace). This is the Sigil of PAIMON, and it can now be found all over the room.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The TABLE at which Annie and Joan performed the seance (which was then covered in a table-cloth) is now bare, revealing that the tabletop has a LARGE TRIANGLE carved into it (pointing to the northwest). Resting in the middle of the triangle is a PHOTO OF PETER. Beside this is an ATHAME (ritual dagger), a scattering of herbs, and finally... A primitive DIORAMA (the same that we saw earlier on Charlie’s desk, but now finished). Standing center stage is a crude manikin of a human torso whose head is an actual SEVERED RAVEN HEAD. Atop the head is an aluminum-foil CROWN.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Three other sculptures BOW ON THEIR KNEES to the raven-headed figure. Their heads are the severed PIGEON HEAD (now decomposing), a severed RAT HEAD and a severed SQUIRREL HEAD.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie’s knocking continues.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Return to the hallway"
+  TARGET: joans_hallway
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Hallway (outside Joan's Apartment)
+MOOD: Realization
+CHARACTERS: Annie, Narrator
+BACKGROUND_IMAGE: apartment_building_hallway.png
+BACKGROUND_EDIT: "Apartment building hallway, welcome mat visible"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Annie ceases knocking. She looks DOWN to notice that she’s standing on...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The WELCOME MAT. “JOANIE.”
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie’s mind starts racing. She thinks for a moment and then - it hits her! Annie RACES back to the elevator.
+  EXPRESSION: Realization
+
+::PATHS::
+- CHOICE: "Transition to high school"
+  TARGET: high_school
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: High School
+MOOD: Threatening, Surreal
+CHARACTERS: Peter, Joan, Narrator, Woman's Voice
+BACKGROUND_IMAGE: high_school_exterior.png
+BACKGROUND_EDIT: "Overcast, dark and windy high school, heavy traffic"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: A SCHOOL BELL RINGS, bridging our CUT TO:
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: LUNCH TIME. It’s overcast, dark and windy. Students mill about in flapping clothes.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Just beyond the high school fence is a ROAD with heavy traffic. PETER is seated at an empty table near the fence, eating (or rather, not eating) the cafeteria food.
+  EXPRESSION: Anxious
+- CHARACTER: Narrator
+  LINE: The TRAFFIC NOISE is loud and imposing. Peter LISTENS to it, losing himself in the white noise. But there’s something looming underneath the traffic noise...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: It’s like a distant YELLING, but too distant to make out.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Slowly it becomes clearer, more distinct. It’s a WOMAN’S VOICE and it’s yelling “Peter.”
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter looks up. Where is it coming from?
+  EXPRESSION: Surprised
+- CHARACTER: Woman's Voice
+  LINE: ...I expel you...!
+  EXPRESSION: Angry
+- CHARACTER: Narrator
+  LINE: Peter looks around. Soon his eyes settle on something... Across the road, on a far sidewalk, JOAN is standing. She looks raving mad. She’s staring directly at Peter and she’s screaming like a lunatic.
+  EXPRESSION: Surprised
+- CHARACTER: Joan
+  LINE: SATONY, DEGONY, EPARIGON!
+  EXPRESSION: Angry
+- CHARACTER: Narrator
+  LINE: Terrified, Peter rises from his seat. He looks around to see if anyone else is noticing this. Nobody is.
+  EXPRESSION: Afraid
+- CHARACTER: Joan
+  LINE: PETER!
+  EXPRESSION: Angry
+- CHARACTER: Narrator
+  LINE: Peter looks back at her. They MEET EYES.
+  EXPRESSION: Afraid
+- CHARACTER: Joan
+  LINE: GET OUT, PETER!
+  EXPRESSION: Angry
+- CHARACTER: Narrator
+  LINE: Peter breaks the gaze. He looks around, appealing to any/all of the circulating kids. It’s clear that none of them see or hear this. How is that possible?
+  EXPRESSION: Confused
+- CHARACTER: Joan (O.S.)
+  LINE: PETER!!!
+  EXPRESSION: Angry
+
+::PATHS::
+- CHOICE: "Cut to Annie"
+  TARGET: annies_workshop
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Annie’s Workshop
+MOOD: Revelation, Dread
+CHARACTERS: Annie, Narrator
+BACKGROUND_IMAGE: annies_workshop.png
+BACKGROUND_EDIT: "Daytime, messy workshop, boxes of belongings"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Annie runs in from the hallway.
+  EXPRESSION: Determined
+- CHARACTER: Narrator
+  LINE: She rushes to the BOXES marked “Mom’s Things.” She opens the first box and finds a HAND-EMBROIDERED WELCOME MAT. It’s the exact same style as Joan’s. Embroidered into it is the name “ANNIE”. Under that is another mat, bearing the name “CHARLES” and featuring the now-familiar sigil of PAIMON.
+  EXPRESSION: Realization
+- CHARACTER: Narrator
+  LINE: Annie goes to the next box. She dig through a collection of herbs and oils, and beneath those, she finds a familiar hardback: NOTES ON SPIRITUALISM. Below this, a couple other hardbacks: one that appears to be a GRIMOIRE (book of spells) and the other titled INVOCATIONS.
+  EXPRESSION: Curious
+- CHARACTER: Narrator
+  LINE: INVOCATIONS’ cover features an esoteric sigil. Annie opens the book to find that it’s filled with vivid etchings of DEMONIC POSSESSION RITUALS.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie goes to a MARKED PAGE. It features an illustration of a beastly man with a hulking body and a strangely effeminate face. He rides a dromedary and wears a crown. Tied to his hip is a collection of SEVERED HEADS. Behind him is a queue of frolicking ghouls, all headless and all playing instruments.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: A title reads “King Paimon (God of Mischief).” Annie finds a HIGHLIGHTED PARAGRAPH: "When successfully invoked, Paimon will possess the most vulnerable host. Only when the ritual is complete will Paimon be locked into his ordained host. Once locked in, a new ritual is required to unlock the possession."
+  EXPRESSION: Realization
+- CHARACTER: Narrator
+  LINE: A sentence underlined in pencil reads: "Paimon is Male, thus covetous of a male human body."
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The next page features an etching of a man sitting atop a mountain of treasure. A caption reads: “The riches to the conjurer.”
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie comes to the TITLE PAGE of the book. There is a handwritten NOTE. It reads:
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: My darling, dear, beautiful Annie, Forgive me all the things I could not tell you, as I truly could not. Please don’t hate me and try not to despair your losses. You will see in the end that they were wort
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "End of excerpt"
+  TARGET: end
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Graham House - Workshop
+MOOD: Shock, Discovery, Dread
+CHARACTERS: Narrator, Annie
+BACKGROUND_IMAGE: workshop_box.png
+BACKGROUND_EDIT: "Annie sifting through old boxes, discovering photo albums"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Our sacrifice will pale next to the rewards. Love, Mommy
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Mortified, Annie throws the book into the box, and digs deeper to find TWO PHOTO ALBUMS, familiarly titled “Memories.”
+  EXPRESSION: Angry
+- CHARACTER: Narrator
+  LINE: Annie flips through one of the albums. For a while, nothing of note. But then she FINDS something...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: A PHOTO of ANNIE’S MOTHER, 20 years younger, standing with JOAN, also 20 years younger. They both wear replicas of Annie’s NECKLACE - the one bearing the now-familiar sigil of Paimon.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Stunned, Annie continues through the photo album. She finds SEVERAL MORE PHOTOS FEATURING JOAN, who’s often standing in the background. Always wearing the necklace. She and Annie’s Mother were evidently close friends.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Another photo: Annie’s mother guides a baby bottle into BABY CHARLIE’s mouth. The bottle’s milk is polluted with black herbs.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Finally, Annie comes to a particularly bizarre photo. It features Joan pouring gold/silver coins over Annie’s Mother’s head. Annie’s Mother, wearing a tiara, is weeping/laughing tears of joy. They are surrounded by an intimate, APPLAUDING audience.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Continue investigating"
+  TARGET: high_school_hallway
+  STATE_CHANGE: terror = +2
+  CONDITION: null
+
+::SCENE::
+LOCATION: High School Hallway
+MOOD: Apprehension, Tension
+CHARACTERS: Narrator, Peter, Mr. Davies
+BACKGROUND_IMAGE: high_school_hallway.png
+BACKGROUND_EDIT: "Daytime, students dispersing, Peter walking nervously"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Students are returning to class.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter walks trembling down the hall. Any lingering kids disperse to enter their classrooms. Peter approaches his classroom, a gnawing apprehension taking him over.
+  EXPRESSION: Afraid
+- CHARACTER: Narrator
+  LINE: Suddenly, from behind Peter, a FLASH of light STREAKS across the length of the hall. It sweeps past Peter. He FREEZES.
+  EXPRESSION: Surprised
+- CHARACTER: Narrator
+  LINE: The light seems to disappear at Peter’s CLASSROOM. Peter stares at the door.
+  EXPRESSION: Afraid
+- CHARACTER: Narrator
+  LINE: Through the door’s window, MR. DAVIES (the teacher) turns to see Peter. They lock eyes. Davies smiles expectantly.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Feeling pressured, Peter walks to the classroom. He ENTERS.
+  EXPRESSION: Afraid
+
+::PATHS::
+- CHOICE: "Enter classroom"
+  TARGET: graham_house_hallway_flies
+  STATE_CHANGE: apprehension = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Graham House - Upstairs Hallway
+MOOD: Paranoia, Dread, Rising Tension
+CHARACTERS: Narrator, Annie
+BACKGROUND_IMAGE: graham_house_hallway.png
+BACKGROUND_EDIT: "Flies crawling everywhere, especially on attic hatch"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The hallway is crawling with flies.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie, still holding the photo album, enters (from the Workshop) to investigate.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The ceiling’s ATTIC HATCH is now covered in more flies than ever. It’s clearly the source of the infestation.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie, eyes crazed with paranoia, stares at the hatch. A short (but accessible) rope hangs from it, asking to be pulled.
+  EXPRESSION: Afraid
+- CHARACTER: Narrator
+  LINE: Annie pulls on the rope, slowly OPENING the attic hatch and releasing its retractable stairway. A HORDE OF FLIES escapes the attic.
+  EXPRESSION: Surprised
+- CHARACTER: Narrator
+  LINE: Annie hesitates before climbing up.
+  EXPRESSION: Afraid
+
+::PATHS::
+- CHOICE: "Climb to the attic"
+  TARGET: attic
+  STATE_CHANGE: fear = +2
+  CONDITION: null
+
+::SCENE::
+LOCATION: Attic
+MOOD: Horror, Terror, Shock
+CHARACTERS: Narrator, Annie
+BACKGROUND_IMAGE: attic.png
+BACKGROUND_EDIT: "Dank, claustrophobic attic, scant moonlight, flies everywhere"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The attic is dank and claustrophobic. There is one window, letting in scant moonlight. Otherwise, the space is obscured in utter darkness.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Annie pokes her head in. At the foot of the entrance is a FLASHLIGHT. Annie takes it, turns it on, and shines its beam into the shadows.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Flies are everywhere. Their buzzing permeates the room.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Waving away the flies, Annie explores the space. It’s filled with discarded pieces of the family’s past. Old cribs, a mattress, toys, etc.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Finally, Annie’s FLASHLIGHT dawns on something. A FIGURE lying prostrate in the corner. Annie approaches it. The flies get louder. Annie finally gets close enough to SEE... It is a WOMAN’S CORPSE, and upon closer inspection, its HEAD is seen to be MISSING. From the white and wrinkled hands, it’s evident that this was an old woman. She is also wearing a WHITE SILK ROBE - identical to the one that Charlie saw the corpse wearing earlier in the woods. (Is this Ellen Leigh’s corpse?) A large TRIANGLE has been drawn in chalk around the body.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: (GASPS, staggers back, and bends over to RETCH)
+  EXPRESSION: Terrified
+- CHARACTER: Narrator
+  LINE: As she does so, the flashlight’s beam crosses something on the VAULTED CEILING above the body. Annie pauses before raising the flashlight. She trains it on the ceiling to reveal... THE SIGIL OF PAIMON has been painted onto the ceiling in now-dry BLOOD. Flies crawl across its coarse black-red strokes.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "React to the discovery"
+  TARGET: classroom_peter
+  STATE_CHANGE: terror = +3, shock = +2
+  CONDITION: null
+
+::SCENE::
+LOCATION: Classroom
+MOOD: Extreme Tension, Horror, Panic
+CHARACTERS: Narrator, Peter, Mr. Davies, Bridget, Class
+BACKGROUND_IMAGE: classroom.png
+BACKGROUND_EDIT: "Daytime, students in desks, Mr. Davies at chalkboard"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Peter sits at the back of the class. He WRINGS his hands, anxiety mounting. He’s still thinking about the woman (Joan) who was yelling at him.
+  EXPRESSION: Anxious
+- CHARACTER: Narrator
+  LINE: Mr. Davies stands at the chalkboard. Written on the board: “Punishment brings wisdom.”
+  EXPRESSION: null
+- CHARACTER: Mr. Davies
+  LINE: So, everyone feels justified: Iphigenia’s murder was commanded by the gods - so really Agamemnon had no choice. And Clytemnestra is driven by revenge, just like Orestes when he returns...
+  EXPRESSION: Neutral
+- CHARACTER: Narrator
+  LINE: Suddenly, Peter hears something behind him. A distant CLICKING of the tongue. We focus in on Peter’s EAR. Separated by a few seconds each, the clicks become clearer and more present with every CLICK. It’s as if the source is nearing.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Soon it’s loud enough to be RIGHT NEXT TO PETER’S FACE.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Suddenly, as seen from behind, PETER’S ARM SPIKES UP INTO THE AIR. Because we’re behind him, we don’t see Peter’s face. The tense arm is HELD there, as if being pulled by an unseen force. The clicking sound continues.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Mr. Davies turns to notice Peter.
+  EXPRESSION: null
+- CHARACTER: Mr. Davies
+  LINE: Peter.
+  EXPRESSION: Neutral
+- CHARACTER: Narrator
+  LINE: Mr. Davies waits, but after a moment, his expression darkens into concern.
+  EXPRESSION: Concerned
+- CHARACTER: Mr. Davies
+  LINE: Peter, are you okay?
+  EXPRESSION: Concerned
+- CHARACTER: Narrator
+  LINE: We now reveal PETER. His face is CONTORTED with terrible stress, as if his head were gripped by an electric vice. His eyes are locked open; his eyeballs darting around, as if appealing for help. His hand remains stiffly raised and he seems to have difficulty breathing. In fact, his face is about to turn purple.
+  EXPRESSION: Terrified
+- CHARACTER: Peter
+  LINE: (CLICKS HIS TONGUE. He’s now the one clicking.)
+  EXPRESSION: Terrified
+- CHARACTER: Mr. Davies
+  LINE: Peter. What’s wrong?
+  EXPRESSION: Concerned
+- CHARACTER: Narrator
+  LINE: Bridget, staring at Peter, looks especially disturbed. Peter CLICKS again.
+  EXPRESSION: Terrified
+- CHARACTER: Mr. Davies
+  LINE: I...
+  EXPRESSION: Hesitant
+- CHARACTER: Narrator
+  LINE: Suddenly Peter GASPS a horrible, gurgling gasp. It sounds like an agonized SQUEAL, much like the one we heard from Charlie during her allergic attack (before her decapitation).
+  EXPRESSION: Terrified
+- CHARACTER: Bridget
+  LINE: Can he breathe?!
+  EXPRESSION: Terrified
+- CHARACTER: Narrator
+  LINE: A spit-bubble forms on Peter’s lips as he struggles hopelessly to speak. But then--
+  EXPRESSION: Terrified
+- CHARACTER: Narrator
+  LINE: Peter’s head is SLAMMED FACE-DOWN into his desk. It holds there, trembling with tension. His face is SMEARED across the desktop, as if a great pressure is being applied to the back of his head. One can almost hear Peter’s nose CRUNCHING.
+  EXPRESSION: Terrified
+- CHARACTER: Narrator
+  LINE: Peter’s head suddenly swings back up, as if being YANKED by the hair. He is held upright for a moment, revealing that his eyes are pitch-red with tears. His nose is also bleeding lightly. He looks extremely disoriented.
+  EXPRESSION: Disoriented
+- CHARACTER: Peter
+  LINE: MOM!
+  EXPRESSION: Terrified
+- CHARACTER: Narrator
+  LINE: Peter’s head is SLAMMED back down, into the table. Blood BURSTS out of his now-broken nose.
+  EXPRESSION: Terrified
+- CHARACTER: Narrator
+  LINE: The class screams!
+  EXPRESSION: Terrified
+- CHARACTER: Narrator
+  LINE: Peter, suddenly in possession of his faculties, KICKS himself back. He stumbles out of his chair, knocking over the desk as he staggers backward. He has been RELEASED from whatever was just gripping him.
+  EXPRESSION: Terrified
+- CHARACTER: Narrator
+  LINE: He SCREAMS, throwing his arms around, fending off whatever it was. He breaks down in SOBS, fraught with terror.
+  EXPRESSION: Terrified
+- CHARACTER: Narrator
+  LINE: The class is completely silent.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Recuperate from the incident"
+  TARGET: steve_office_call
+  STATE_CHANGE: trauma = +3, fear = +2
+  CONDITION: null
+
+::SCENE::
+LOCATION: Steve’s Office
+MOOD: Distress, Avoidance, Foreboding
+CHARACTERS: Narrator, Steve, Annie (via phone)
+BACKGROUND_IMAGE: steve_office.png
+BACKGROUND_EDIT: "Daytime, messy office, Steve looking haggard"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: A haggard Steve sits in his office, nursing a scotch.
+  EXPRESSION: Sad
+- CHARACTER: Narrator
+  LINE: His cell phone VIBRATES. It’s ANNIE.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Steve just stares at it. Letting it vibrate. It stops.
+  EXPRESSION: Sad
+- CHARACTER: Narrator
+  LINE: After a moment, the office phone RINGS. He looks at it. Thinks about answering. Doesn’t.
+  EXPRESSION: Sad
+- CHARACTER: Narrator
+  LINE: He turns in his chair, raising the scotch to his lips.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Ignoring the phone. He downs the glass.
+  EXPRESSION: Sad
+- CHARACTER: Narrator
+  LINE: We now reveal the office phone’s CALLER ID. This call is coming from Peter’s High School.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Continue to Graham House Kitchen"
+  TARGET: graham_house_kitchen
+  STATE_CHANGE: stress = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Graham House - Kitchen
+MOOD: Foreboding, Emptiness
+CHARACTERS: Narrator
+BACKGROUND_IMAGE: graham_house_kitchen.png
+BACKGROUND_EDIT: "Daytime, empty kitchen, phone ringing"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The land-line rings. It’s the high school, now calling the Graham house.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Nobody is home.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Continue to Annie's car"
+  TARGET: car_annie
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Car (Parked on Street)
+MOOD: Crazed, Desperate, Anxious
+CHARACTERS: Narrator, Annie
+BACKGROUND_IMAGE: annie_car.png
+BACKGROUND_EDIT: "Daytime, Annie in driver's seat, watching house with crazed eyes"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Annie sits in her car, parked on the street. She is waiting in the driver seat, eyes crazed. She watches the house, holding her cell phone at the ready.
+  EXPRESSION: Anxious
+- CHARACTER: Narrator
+  LINE: A car drives by. She turns to investigate. It’s not Steve.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Goddamn it, Steve. Come home.
+  EXPRESSION: Angry
+
+::PATHS::
+- CHOICE: "Continue to Steve's Office"
+  TARGET: steve_office_ringing
+  STATE_CHANGE: frustration = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Steve’s Office
+MOOD: Avoidance, Tension
+CHARACTERS: Narrator, Steve
+BACKGROUND_IMAGE: steve_office.png
+BACKGROUND_EDIT: "Daytime, Steve leaning back, eyes closed, phone ringing"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Steve is still in his office, eyes closed, leaning back in his chair. Clinging to the peace.
+  EXPRESSION: Sad
+- CHARACTER: Narrator
+  LINE: The phone ring
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "End of excerpt"
+  TARGET: end
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Steve's House - Living Room
+MOOD: Annoyed, then alarmed
+CHARACTERS: Steve, Narrator
+BACKGROUND_IMAGE: living_room_phone_call.png
+BACKGROUND_EDIT: "Steve answering phone, drink on table"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: He sets his drink on the table and grudgingly answers.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: Hello?
+  EXPRESSION: Annoyed
+- CHARACTER: Narrator
+  LINE: Pause. Steve suddenly becomes alert.
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: What? What happened?
+  EXPRESSION: Alarmed
+- CHARACTER: Narrator
+  LINE: (listens for a moment)
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: Okay. Yes. I’m coming now. Which hospital?
+  EXPRESSION: Urgent
+
+::PATHS::
+- CHOICE: "Rush to the hospital"
+  TARGET: car_moving_late_afternoon
+  STATE_CHANGE: stress = +2, urgency = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Car - Moving
+MOOD: Somber, tense, emotional
+CHARACTERS: Steve, Peter, Narrator
+BACKGROUND_IMAGE: car_moving_interior.png
+BACKGROUND_EDIT: "Late afternoon, Steve driving, Peter asleep in back with bandaged nose"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Steve is now driving home. PETER is asleep in the back seat. His nose is HEAVILY BANDAGED and his eyes are black and blue.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Steve looks at the rear-view mirror while he drives. Watches his son sleep.
+  EXPRESSION: Concerned
+- CHARACTER: Narrator
+  LINE: Steve looks back to the road to see -- he’s about to run a red light. He STOMPS on the brake.
+  EXPRESSION: Surprised
+- CHARACTER: Narrator
+  LINE: Despite the harsh stop, Peter remains asleep.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Steve grips the wheel, on the edge of his seat. A moment of tense silence and then: the floodgates open. Steve starts CRYING, overwhelmed. After a moment of this, he regains composure.
+  EXPRESSION: Overwhelmed
+- CHARACTER: Narrator
+  LINE: The light goes GREEN.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Drive home"
+  TARGET: annies_car_late_afternoon
+  STATE_CHANGE: stress = +1, sadness = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Annie's Car / Graham Driveway
+MOOD: Anxious, panic, confrontation
+CHARACTERS: Annie, Steve, Peter, Narrator
+BACKGROUND_IMAGE: graham_driveway.png
+BACKGROUND_EDIT: "Late afternoon, Annie waiting in car, Steve's car arriving"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Annie is still waiting anxiously in her car.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Steve’s car is seen pulling into the Graham driveway. Annie heaves a relieved sigh - “finally!” But then she notices that Steve is pulling an unconscious Peter out of the back seat.
+  EXPRESSION: Relieved, then alarmed
+- CHARACTER: Narrator
+  LINE: She sees Peter’s bandaged nose and PANICS.
+  EXPRESSION: Panicked
+- CHARACTER: Narrator
+  LINE: Annie jumps out of the car and bounds over. She’s gripping her mother’s photo album.
+  EXPRESSION: Urgent
+- CHARACTER: Annie
+  LINE: Oh my God what happened?!
+  EXPRESSION: Panicked
+- CHARACTER: Narrator
+  LINE: Steve turns to Annie as she arrives. He’s in no mood for any histrionics. Annie GASPS at the sight of Peter’s face.
+  EXPRESSION: Annoyed
+- CHARACTER: Annie
+  LINE: Who did that?!
+  EXPRESSION: Shocked
+- CHARACTER: Steve
+  LINE: He did apparently. Smashed his own face into his desk, hard enough to break it.
+  EXPRESSION: Blunt
+- CHARACTER: Narrator
+  LINE: This only feeds Annie’s paranoia. She covers her mouth with her hands.
+  EXPRESSION: Paranoia
+- CHARACTER: Annie
+  LINE: (needing to tell him)
+  LINE: Steve...
+  EXPRESSION: Needing to tell him
+- CHARACTER: Steve
+  LINE: (blunt)
+  LINE: Please: just take his feet.
+  EXPRESSION: Blunt
+- CHARACTER: Narrator
+  LINE: Annie hesitantly gathers Peter’s feet. Steve proceeds toward the house, carrying Peter by his underarms.
+  EXPRESSION: Hesitant
+
+::PATHS::
+- CHOICE: "Bring Peter inside"
+  TARGET: peter_bedroom_day
+  STATE_CHANGE: paranoia_annie = +1, frustration_steve = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Peter’s Bedroom
+MOOD: Somber, tense, revelation, fear
+CHARACTERS: Steve, Annie, Peter, Max (O.S.), Narrator
+BACKGROUND_IMAGE: peter_bedroom.png
+BACKGROUND_EDIT: "Daytime, Peter comatose in bed, Max barking outside"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Outside, Max’s BARKING is heard. It will persist through the following scene.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Steve and Annie lay the comatose Peter into bed. Steve looks down at Peter, sapped. He’s avoiding Annie’s eyes.
+  EXPRESSION: Exhausted
+- CHARACTER: Annie
+  LINE: Steve.
+  EXPRESSION: Concerned
+- CHARACTER: Narrator
+  LINE: Steve waits for her to continue.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: ...Upstairs, in the attic... When you were gone, I went up there.
+  EXPRESSION: Apprehensive
+- CHARACTER: Narrator
+  LINE: Steve closes his eyes, not wanting to hear whatever’s coming.
+  EXPRESSION: Annoyed
+- CHARACTER: Annie
+  LINE: There’s a decapitated body. An old woman....
+  EXPRESSION: Horrified
+- CHARACTER: Narrator
+  LINE: Steve’s eyes open, numb. He looks blankly at Annie.
+  EXPRESSION: Numb
+- CHARACTER: Annie
+  LINE: (reacting)
+  LINE: That’s what all the flies are!
+  EXPRESSION: Realizing
+- CHARACTER: Steve
+  LINE: (zero inflection)
+  LINE: A body?
+  EXPRESSION: Zero inflection
+- CHARACTER: Annie
+  LINE: Go upstairs. Look for yourself.
+  EXPRESSION: Urgent
+- CHARACTER: Steve
+  LINE: Whose body?
+  EXPRESSION: Questioning
+- CHARACTER: Annie
+  LINE: I think it might be my mother’s. I think! I can’t tell! The skin is black and she’s all distended, but it’s an old woman and the head is gone... Go see for yourself.
+  EXPRESSION: Panicked
+- CHARACTER: Narrator
+  LINE: Steve STARES at her before walking into the hall and approaching the attic hatch.
+  EXPRESSION: Staring
+- CHARACTER: Annie
+  LINE: And then there’s more.
+  EXPRESSION: Warning
+- CHARACTER: Steve
+  LINE: More than your mother’s headless body. Of course.
+  EXPRESSION: Sarcastic
+
+::PATHS::
+- CHOICE: "Investigate the attic"
+  TARGET: upstairs_hallway_moments_later
+  STATE_CHANGE: fear_steve = +1, paranoia_annie = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Upstairs Hallway
+MOOD: Dread, horror, frantic
+CHARACTERS: Steve, Annie, Max (O.S.), Narrator
+BACKGROUND_IMAGE: upstairs_hallway.png
+BACKGROUND_EDIT: "Hallway, attic hatch open, flies escaping"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Steve reaches for the attic hatch. He pulls it down and a mass of FLIES escapes.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Steve pauses, now much more nervous about what he’s about to find. He begins to climb the stairs.
+  EXPRESSION: Nervous
+- CHARACTER: Narrator
+  LINE: Annie now RUNS downstairs...
+  EXPRESSION: Urgent
+
+::PATHS::
+- CHOICE: "Annie runs downstairs to start a fire"
+  TARGET: living_room_continuous
+  STATE_CHANGE: fear_annie = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Living Room - Fire
+MOOD: Desperate
+CHARACTERS: Annie, Max (O.S.), Narrator
+BACKGROUND_IMAGE: living_room_fireplace.png
+BACKGROUND_EDIT: "Living room, Annie rushing to fireplace, Max barking off-screen"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Annie rushes to the fireplace. She starts a FIRE.
+  EXPRESSION: Urgent
+- CHARACTER: Narrator
+  LINE: Max’s barking continues off-screen.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Annie runs back upstairs"
+  TARGET: upstairs_hallway_return
+  STATE_CHANGE: urgency_annie = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Upstairs Hallway - Return
+MOOD: Shock, terror, confrontation, paranoia
+CHARACTERS: Steve, Annie, Max (O.S.), Narrator
+BACKGROUND_IMAGE: upstairs_hallway.png
+BACKGROUND_EDIT: "Hallway, attic hatch still open, Steve returning from attic"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The hatch is still open. We hear from within the attic:
+  EXPRESSION: null
+- CHARACTER: Steve
+  LINE: (O.S.)
+  LINE: Jesus fuck!
+  EXPRESSION: Horrified (O.S.)
+- CHARACTER: Narrator
+  LINE: Annie has run back upstairs.
+  EXPRESSION: Urgent
+- CHARACTER: Narrator
+  LINE: Sounds of distress (from above) as Steve rushes to the stairs and stumbles down into the hallway. He’s pale with shock.
+  EXPRESSION: Distressed
+- CHARACTER: Steve
+  LINE: What the fuck!
+  EXPRESSION: Shocked
+- CHARACTER: Annie
+  LINE: There’s more.
+  EXPRESSION: Urgent
+- CHARACTER: Steve
+  LINE: Why haven’t you called the police?!
+  EXPRESSION: Outraged
+- CHARACTER: Annie
+  LINE: The police can’t help us!
+  EXPRESSION: Desperate
+- CHARACTER: Narrator
+  LINE: This makes Steve pause. Did Annie do this?
+  EXPRESSION: Suspicious
+- CHARACTER: Steve
+  LINE: Who is that, Annie?
+  EXPRESSION: Suspicious
+- CHARACTER: Narrator
+  LINE: Annie squeezes her mother’s photo album.
+  EXPRESSION: Anxious
+- CHARACTER: Annie
+  LINE: Do you remember Joan, my friend? Her grandson died and she took me to her apartment?
+  EXPRESSION: Explaining
+- CHARACTER: Narrator
+  LINE: Steve’s eyes are harrowed.
+  EXPRESSION: Harrowed
+- CHARACTER: Steve
+  LINE: (to himself)
+  LINE: It did look like your mother.
+  EXPRESSION: To himself, horrified
+- CHARACTER: Annie
+  LINE: Listen! She taught me how to do the seance. I didn’t even want to know. But she brought her grandson back, and I saw it and I felt it - just like you did with Charlie.
+  EXPRESSION: Explaining frantically
+- CHARACTER: Narrator
+  LINE: Steve eyes Annie with growing revulsion. She now opens the photo album. She’s frighteningly energetic.
+  EXPRESSION: Revulsed
+- CHARACTER: Annie
+  LINE: This was my mother’s album. Okay? Now look: this woman, right here, that’s her! That’s Joan!
+  EXPRESSION: Energetic
+- CHARACTER: Narrator
+  LINE: Annie is pointing at a photo of Joan (20 years younger) standing with Annie’s mother (20 years younger). Annie speaks quickly to prevent Steve from interrupting.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: She never mentioned knowing my mother and I never met her before, but she approached me, she consoled me, and she told me about the seance, she showed me how, and now - look:
+  EXPRESSION: Rushing words
+- CHARACTER: Narrator
+  LINE: Steve can’t listen to this, but Annie desperately draws his attention to the photo of Annie’s Mother being showered in coins by Joan. Annie points at the NECKLACE.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: That’s the necklace my mom gave me. Right? It’s my mother’s necklace. Right?
+  EXPRESSION: Desperate for validation
+- CHARACTER: Narrator
+  LINE: Now Annie points out another photo: her mother posing with Joan - both wearing the same necklace.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: They’re both wearing it. And they’re wearing it in every photo!
+  EXPRESSION: Revealing
+- CHARACTER: Narrator
+  LINE: Steve, now completely pale, doesn’t react. He’s staring at Annie like she’s a contagious disease.
+  EXPRESSION: Revulsed
+- CHARACTER: Annie
+  LINE: And look at the pattern! Did you see up there? This was painted above the body. Right?! In blood?!
+  EXPRESSION: Urgent, panicked
+- CHARACTER: Steve
+  LINE: (dawning on him)
+  LINE: ...You dug up the grave.
+  EXPRESSION: Dawning realization
+- CHARACTER: Annie
+  LINE: What?!
+  EXPRESSION: Shocked
+- CHARACTER: Steve
+  LINE: It was you, wasn’t it? When you were going out, “to the movies”?
+  EXPRESSION: Accusing
+- CHARACTER: Annie
+  LINE: You’re not even listening!
+  EXPRESSION: Frustrated
+- CHARACTER: Steve
+  LINE: (horrified)
+  LINE: And when the cemetery called...
+  LINE: (outraged at the thought)
+  LINE: I didn’t tell you because I didn’t want to worry you.
+  EXPRESSION: Horrified, outraged
+- CHARACTER: Annie
+  LINE: Goddamn it! LISTEN to me, Steve! I know you don’t trust me - there’s nothing I can do about that - but they put a curse on us, and when we brought back Charlie -
+  EXPRESSION: Desperate
+- CHARACTER: Steve
+  LINE: We didn’t bring back Charlie!
+  EXPRESSION: Asserting
+- CHARACTER: Annie
+  LINE: (continuing)
+  LINE: - we made a PACT with something! I don’t know what it is, but it’s in the house and it wants Peter!
+  EXPRESSION: Panicked, frantic
+- CHARACTER: Narrator
+  LINE: Annie pulls out Charlie’s DRAWING PAD. She opens it and flips through the sketches of Peter with his eyes X’d out.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: I watched these pages fill. They’re all of Peter.
+  EXPRESSION: Somber
+- CHARACTER: Narrator
+  LINE: She looks up at Steve.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: I’m sorry, Steve: I don’t know what I did, but Peter’s in danger and I’m the one who started this.
+  EXPRESSION: Apologetic, distraught
+- CHARACTER: Narrator
+  LINE: Annie takes Steve’s arm. He recoils at his wife’s touch. She leads him toward the STAIRS.
+  EXPRESSION: Recoiling
+
+::PATHS::
+- CHOICE: "Go downstairs to the living room"
+  TARGET: living_room_sacrifice
+  STATE_CHANGE: distrust_steve = +1, desperation_annie = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Living Room - Sacrifice
+MOOD: Desperate, heartbreaking, horrified
+CHARACTERS: Annie, Steve, Max (O.S.), Narrator
+BACKGROUND_IMAGE: living_room_fireplace.png
+BACKGROUND_EDIT: "Living room, fire burning, Annie attempting sacrifice"
+
+::SCRIPT::
+- CHARACTER: Annie
+  LINE: If we destroy this book, it’ll take me too. I tried to burn it - I tried - but my arm caught fire. On its own. As if I was linked to it, because I am linked! I know that now. But if we don’t destroy this...Peter will...
+  EXPRESSION: Overwhelmed
+- CHARACTER: Narrator
+  LINE: She’s too overwhelmed to finish her thought. Steve’s eyes register no compassion. He skeptically follows her down the stairs toward the LIVING ROOM.
+  EXPRESSION: Skeptical
+- CHARACTER: Annie
+  LINE: It needs to be me, Steve. It’s my fault! I need you to throw it in the fire.
+  EXPRESSION: Pleading
+- CHARACTER: Narrator
+  LINE: Steve just stares at her.
+  EXPRESSION: Staring
+- CHARACTER: Annie
+  LINE: I can’t do it! I can’t throw it in! I’m too scared. But if you don’t, it’ll be Peter. I know it will.
+  EXPRESSION: Panicked, pleading
+- CHARACTER: Annie
+  LINE: (breaks down crying at the thought)
+  LINE: It’ll be our son!
+  EXPRESSION: Crying
+- CHARACTER: Narrator
+  LINE: Annie puts the drawing pad in Steve’s hand. She closes his fingers around it. She tries to calm herself down.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Please baby. I can’t do it. I need you to throw it in the fire.
+  EXPRESSION: Pleading
+- CHARACTER: Narrator
+  LINE: Annie takes a canister of LIGHTER FLUID and proceeds to DOUSE the drawing pad. She then looks at Steve with great love and sadness.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Even if you can’t believe me: You’re the love of my life.
+  EXPRESSION: Loving, sad
+- CHARACTER: Narrator
+  LINE: Annie KISSES him passionately. It has the desperation of a farewell kiss. Steve’s lips are stone.
+  EXPRESSION: Desperate
+- CHARACTER: Annie
+  LINE: I love you, Steve. I love you so much. And I love Peter so much!
+  EXPRESSION: Crying hysterically
+- CHARACTER: Narrator
+  LINE: Annie is crying hysterically. Max’s barking continues.
+  EXPRESSION: null
+- CHARACTER: Annie
+  LINE: Please! Throw it in!
+  EXPRESSION: Pleading
+- CHARACTER: Narrator
+  LINE: Steve walks in a horrified daze toward the FIREPLACE. But then -- he STOPS SHORT. He turns to Annie.
+  EXPRESSION: Horrified, then resolute
+- CHARACTER: Steve
+  LINE: I’m not doing this anymore with you, Annie.
+  EXPRESSION: Refusing
+- CHARACTER: Annie
+  LINE: (panicked)
+  LINE: What? No.
+  EXPRESSION: Panicked
+- CHARACTER: Steve
+  LINE: This isn’t helpin
+  EXPRESSION: Resolute
+
+::PATHS::
+- CHOICE: "Steve refuses to throw the book in the fire"
+  TARGET: end
+  STATE_CHANGE: defiance_steve = +1, panic_annie = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Interior Graham House (Living Room)
+MOOD: Extreme Horror, Chaos
+CHARACTERS: Narrator, Annie, Steve
+BACKGROUND_IMAGE: living_room_fire.png
+BACKGROUND_EDIT: "Nighttime, intense fire, shadowy, terror"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: That does it. Annie storms toward Steve, SEIZES the drawing pad, runs to the fireplace, and HURLS the book into the fire.
+  EXPRESSION: Angry
+- CHARACTER: Narrator
+  LINE: It is immediately CONSUMED by the flames, and then, like clockwork--
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: STEVE IGNITES INTO A RAGING BALL OF FLAMES. He cries out as he is instantaneously swallowed up by the screaming fire.
+  EXPRESSION: Terrified
+- CHARACTER: Narrator
+  LINE: Annie can’t even scream. She’s frozen in horror. Her eyes are LOCKED on the sight of her husband’s burning. And what’s more, the ominous STREAK OF LIGHT has returned - now bouncing wildly around the room. Max’s off-screen BARKING has reached an insane pitch.
+  EXPRESSION: Terrified
+- CHARACTER: Narrator
+  LINE: We see Steve’s searing reflection in Annie’s fixed pupil. The fire is impossibly violent. Now, at the scene’s shrieking apex, the streak of light settles on Annie - entering her!
+  EXPRESSION: Terrified
+
+::PATHS::
+- CHOICE: "Continue to the next scene"
+  TARGET: woods_night
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Woods
+MOOD: Eerie, Mysterious
+CHARACTERS: Narrator
+BACKGROUND_IMAGE: snowy_woods.png
+BACKGROUND_EDIT: "Nighttime, snowing, distant drumming"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: SLAM TO BLACK
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Silence.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: A distant drumming fades in...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The WOODED AREA behind the Graham house. It’s snowing.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: A drum circle seems to be in progress somewhere unseen.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Repetitive, minimal PERCUSSION (like subdued war drums) thumps faintly and steadily in the distance.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Continue to Peter's Bedroom"
+  TARGET: peter_bedroom_same_time
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Peter’s Bedroom
+MOOD: Suspense, Eerie
+CHARACTERS: Narrator, Peter, Annie
+BACKGROUND_IMAGE: peter_bedroom.png
+BACKGROUND_EDIT: "Nighttime, dim, old room, treehouse visible from window"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Silence. Max’s barking has STOPPED.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter’s eyes blink OPEN from his deep sleep. He bolts up with a start. He’s in his room, under the covers.
+  EXPRESSION: Surprised
+- CHARACTER: Narrator
+  LINE: He squints with pain. He reaches to touch his nose, but discovers the heavy plaster bandage.
+  EXPRESSION: Pain
+- CHARACTER: Narrator
+  LINE: Outside Peter’s window: the TREEHOUSE. A dim, golden light - like candlelight - flickers from within.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter stares at it. The drums are barely heard in the b.g.
+  EXPRESSION: Curious
+- CHARACTER: Narrator
+  LINE: They will continue.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The drums are momentarily drowned out by the sound of a CAR DRIVING BY outside. Its HEADLIGHTS gently illuminate Peter’s room, scanning the walls (in pale blue) as the car drifts by.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: For the briefest moment, in this fleeting light, we see... ANNIE, still wearing her nightgown, in the top corner of the room. She seems to be FLOATING WEIGHTLESSLY. She’s so elevated, in fact, that her head is turned to the side and her cheek pressed against the ceiling.
+  EXPRESSION: Eerie
+- CHARACTER: Narrator
+  LINE: There’s something still and composed about her; something resolutely NOT Annie. Her eyes are WIDE and her face expressionless. She’s behind Peter, STARING at his back. He doesn’t notice.
+  EXPRESSION: Eerie
+- CHARACTER: Narrator
+  LINE: The car has now passed, and the room is obscured again in darkness. Annie is no longer clearly visible.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter senses something behind him. He pauses, listens. Then he begins to TURN.
+  EXPRESSION: Anxious
+- CHARACTER: Narrator
+  LINE: Annie, back pressed against the wall, scrambles (in a silent panic) across the wall and OUT the door. She seems to be CRAB-WALKING across the wall’s surface.
+  EXPRESSION: Terrified
+- CHARACTER: Narrator
+  LINE: Peter looks back just as Annie has left. He didn’t see her.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter climbs out of bed. He goes to leave the bedroom.
+  EXPRESSION: Determined
+
+::PATHS::
+- CHOICE: "Leave the bedroom"
+  TARGET: hallway_continuous_1
+  STATE_CHANGE: fear = +1, confusion = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Hallway
+MOOD: Suspense, Fear
+CHARACTERS: Narrator, Peter
+BACKGROUND_IMAGE: graham_house_hallway.png
+BACKGROUND_EDIT: "Nighttime, dimly lit, silent, eerie"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: As Peter enters the hallway, a SHARP CLANGING SOUND is heard downstairs. Peter freezes. A sustained REVERB fills the house. It sounded like it came from a piano.
+  EXPRESSION: Surprised
+- CHARACTER: Narrator
+  LINE: Peter remains motionless, listening.
+  EXPRESSION: Anxious
+- CHARACTER: Peter
+  LINE: Dad?
+  EXPRESSION: Anxious
+- CHARACTER: Narrator
+  LINE: Flies are everywhere.
+  EXPRESSION: Disgusted
+- CHARACTER: Narrator
+  LINE: Peter walks over to his parents’ BEDROOM.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He peers in. It’s empty.
+  EXPRESSION: Disappointed
+- CHARACTER: Narrator
+  LINE: He turns back to the hall.
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: Mom? Dad?
+  EXPRESSION: Anxious
+- CHARACTER: Narrator
+  LINE: Peter looks up at the ATTIC HATCH, now closed. The SOUND OF FLIES is especially aggressive up there.
+  EXPRESSION: Anxious
+- CHARACTER: Narrator
+  LINE: He then notices that ANNIE’S MOM’S BEDROOM DOOR IS OPEN. He looks inside. EMPTY. He closes the door.
+  EXPRESSION: Anxious
+- CHARACTER: Narrator
+  LINE: Peter continues warily down the hall. He approaches the stairs.
+  EXPRESSION: Anxious
+- CHARACTER: Peter
+  LINE: Hello?
+  EXPRESSION: Anxious
+- CHARACTER: Narrator
+  LINE: Peter leans to peer down the stairs. He sees nothing. He slowly proceeds downward.
+  EXPRESSION: Anxious
+
+::PATHS::
+- CHOICE: "Go downstairs to the foyer"
+  TARGET: foyer_continuous
+  STATE_CHANGE: fear = +1, curiosity = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Foyer
+MOOD: Paranoia, Suspense
+CHARACTERS: Narrator, Peter
+BACKGROUND_IMAGE: graham_house_foyer.png
+BACKGROUND_EDIT: "Nighttime, bottom of stairs, piano visible, dimly lit"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Peter arrives at the bottom of the stairs. The foyer is empty.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter notices the PIANO. It seems to have been tampered with. The lid is open and a couple of the wires have been SNAPPED.
+  EXPRESSION: Concerned
+- CHARACTER: Narrator
+  LINE: Peter carefully walks through the foyer, eyes scanning around. Paranoia building.
+  EXPRESSION: Anxious
+- CHARACTER: Narrator
+  LINE: He approaches the LIVING ROOM, which is faintly illuminated by an off-screen flame.
+  EXPRESSION: Anxious
+
+::PATHS::
+- CHOICE: "Enter the living room"
+  TARGET: living_room_continuous
+  STATE_CHANGE: paranoia = +1, fear = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Living Room
+MOOD: Extreme Horror, Terror, Panic
+CHARACTERS: Narrator, Peter, Annie, Man in Red Cloak
+BACKGROUND_IMAGE: graham_house_living_room_fire.png
+BACKGROUND_EDIT: "Nighttime, dim fire, charred corpse, shadowy corners"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Peter stops at the doorway. His eyes travel across the walls to finally come to...
+  EXPRESSION: Anxious
+- CHARACTER: Narrator
+  LINE: The FIREPLACE. The last of a dim fire (mostly embers) crackles in the pit. And lying before the fireplace is... A CHARRED, BLACK CORPSE. It lies twisted on the rug.
+  EXPRESSION: Terrified
+- CHARACTER: Narrator
+  LINE: Peter stands frozen, trying to discern what it is. He takes a reluctant step forward and slowly approaches the dark figure.
+  EXPRESSION: Terrified
+- CHARACTER: Narrator
+  LINE: Peter finally comes close enough to SEE...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The body’s HEAD has been violently AMPUTATED. The PINK/RED of the exposed neck contrasts garishly with the crisped whole.
+  EXPRESSION: Terrified
+- CHARACTER: Narrator
+  LINE: The body is on its back, arched and contorted.
+  EXPRESSION: Terrified
+- CHARACTER: Narrator
+  LINE: Peter looks at the HANDS. The fingers are curled into desperate claws. One finger bears STEVE’S WEDDING RING.
+  EXPRESSION: Terrified
+- CHARACTER: Narrator
+  LINE: Peter opens his mouth to scream, but all that comes out is a muted gust of air. Tears well in his eyes. He can’t even summon the strength to look away. And above him... ANNIE is huddled up into a corner of the ceiling. Her face is twisted with grief and fear, and she is shaking her head - “no, no, no, no, no” - as if pleading with the back of Peter’s head, like a frightened animal. She holds PIANO WIRE, pulling it taut with both hands. Wringing blood.
+  EXPRESSION: Terrified
+- CHARACTER: Narrator
+  LINE: Peter FREEZES, sensing something behind him. He slowly turns, but not toward Annie...
+  EXPRESSION: Terrified
+- CHARACTER: Narrator
+  LINE: Peter looks to the other corner of the room. The CLOSET DOOR is cracked open. Peter SQUINTS at it. Standing in the dark closet, barely visible, is a MAN IN A RED CLOAK - staring at him.
+  EXPRESSION: Terrified
+- CHARACTER: Narrator
+  LINE: Peter is paralyzed.
+  EXPRESSION: Terrified
+- CHARACTER: Narrator
+  LINE: He then SENSES something in the corner of the ceiling - where Annie was. His eyes scan tensely to the corner, but Annie is now GONE.
+  EXPRESSION: Anxious
+- CHARACTER: Narrator
+  LINE: Pregnant silence.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Suddenly, from behind Peter, Annie BURSTS SCREAMING out of the darkness, dashing towards him.
+  EXPRESSION: Terrified
+- CHARACTER: Narrator
+  LINE: Peter RUNS squealing out of the room. He sprints for the STAIRS.
+  EXPRESSION: Terrified
+- CHARACTER: Narrator
+  LINE: Peter bounds up the staircase, but at the top step, he trips over his own foot. He crashes to his knees, scrambling to get back up. Behind him, we hear Annie pursuing.
+  EXPRESSION: Terrified
+- CHARACTER: Narrator
+  LINE: Peter races madly through the HALLWAY. The attic hatch is now inexplicably OPEN. He dashes for the ATTIC STAIRS.
+  EXPRESSION: Terrified
+- CHARACTER: Narrator
+  LINE: He runs up the stairs and immediately RETRACTS them - just as Annie reaches him. Peter manages to pull the attic hatch SHUT, almost catching Annie’s bloody fingers.
+  EXPRESSION: Terrified
+
+::PATHS::
+- CHOICE: "Escape into the attic"
+  TARGET: attic_continuous_1
+  STATE_CHANGE: terror = +5, trapped = true
+  CONDITION: null
+
+::SCENE::
+LOCATION: Attic
+MOOD: Terror, Enclosed
+CHARACTERS: Narrator, Peter
+BACKGROUND_IMAGE: graham_house_attic.png
+BACKGROUND_EDIT: "Dark, dusty, enclosed space, pounding sound"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Peter LOCKS the floor’s hatch. There is a mad POUNDING from beneath.
+  EXPRESSION: Terrified
+
+::PATHS::
+- CHOICE: "Hear the pounding from below"
+  TARGET: hallway_continuous_2
+  STATE_CHANGE: fear = +2
+  CONDITION: null
+
+::SCENE::
+LOCATION: Hallway (below attic)
+MOOD: Extreme Horror, Demonic
+CHARACTERS: Narrator, Annie
+BACKGROUND_IMAGE: graham_house_hallway_ceiling.png
+BACKGROUND_EDIT: "Nighttime, Annie on ceiling, violent, dark"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Annie is UPSIDE DOWN and straddling the ceiling (as though gravity were no longer a thing). She pulls at the attic knob, SLAMMING her head into the hatch.
+  EXPRESSION: Furious
+- CHARACTER: Narrator
+  LINE: She bangs her head crazily against the ceiling, over and over. With every strike, she POUNDS her forehead harder and more wildly against the hatch - like a mad bull, trying to break through by sheer force.
+  EXPRESSION: Furious
+
+::PATHS::
+- CHOICE: "Return to attic perspective"
+  TARGET: attic_continuous_2
+  STATE_CHANGE: fear = +3, impending_doom = true
+  CONDITION: null
+
+::SCENE::
+LOCATION: Attic
+MOOD: Extreme Terror, Occult, Dread
+CHARACTERS: Narrator, Peter
+BACKGROUND_IMAGE: graham_house_attic_candles.png
+BACKGROUND_EDIT: "Dark, cluttered attic, dim candlelight, flies buzzing, sigils"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Peter stands in the dark, screaming and crying as the pounding persists. It keeps growing harder, faster, more insane - until it STOPS.
+  EXPRESSION: Terrified
+- CHARACTER: Narrator
+  LINE: Peter listens... Nothing. Just the shrill cacophony of buzzing flies. Beside him, at his feet, is a dwindling BLACK CANDLE.
+  EXPRESSION: Anxious
+- CHARACTER: Peter
+  LINE: Mommy?
+  EXPRESSION: Terrified
+- CHARACTER: Narrator
+  LINE: Peter looks up. BLACK CANDLES HAVE BEEN SET UP ALL AROUND THE ATTIC. Their flames dimly illuminate the clutter.
+  EXPRESSION: Surprised
+- CHARACTER: Narrator
+  LINE: Peter now looks to the CORNER that earlier enshrined the headless corpse. The corpse is now gone, but something tiny has replaced it. The distance and weak light preclude Peter from identifying it.
+  EXPRESSION: Curious
+- CHARACTER: Narrator
+  LINE: Peter begins to approach the corner, tears streaming. He sees the bloody sigil on the vaulted ceiling above. As he walks, the buzzing gets LOUDER, more concentrated.
+  EXPRESSION: Anxious
+- CHARACTER: Narrator
+  LINE: Peter continues warily toward the corner, his fear rising.
+  EXPRESSION: Anxious
+- CHARACTER: Narrator
+  LINE: The buzzing has gotten even louder. Finally Peter gets close enough to SEE...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: In the center of the chalk-etched triangle is a PHOTOGRAPH OF PETER WITH HIS EYES X’d OUT.
+  EXPRESSION: Stunned
+- CHARACTER: Narrator
+  LINE: Stunned
+  EXPRESSION: Stunned
+
+::PATHS::
+- CHOICE: "End the scene"
+  TARGET: end
+  STATE_CHANGE: fate_revealed = true, terror = +5
+  CONDITION: null
+
+::SCENE::
+LOCATION: Peter's Room
+MOOD: Intense Horror
+CHARACTERS: Narrator, Peter, Annie, Blonde Man, Older Women
+BACKGROUND_IMAGE: peter_room.png
+BACKGROUND_EDIT: "Darkened corner, overturned candle, snowy window, ghostly Annie, cult members appear"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Peter REELS back, knocking over a candle. The corner goes dark. Peter is weeping uncontrollably now. He starts backing away, toward the room’s center. His eyes remain glued to his photograph.
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: Please. This isn’t happening. You need to wake up.
+  EXPRESSION: Afraid
+- CHARACTER: Narrator
+  LINE: Peter’s teeth are chattering. He’s hyperventilating. His trembling silhouette is framed by the WINDOW behind him. Outside the window: dreamy snowfall.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter continues backing up, but something makes him FREEZE. A prolonged GROAN, accompanied by the sound of WIRE being wrapped and tightened around FLESH. It’s coming from a source about twenty feet away, BEHIND him. This is followed by a swifter, HARSHER SOUND - like a saw being dragged through flesh. A pregnant PAUSE and then the sound REPEATS. A briefer pause and it REPEATS again.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter slowly turns around. His eyes travel up to SEE... ANNIE has somehow gotten in. She floats weightlessly in the air. She is faintly illuminated by a candle below her. She has looped the PIANO WIRE around her own NECK, which is already straining blood. She TUGS on one end of the wire. It SAWS through her neck. She TUGS on the other end of the wire. It saws even deeper.
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: Mommy!
+  EXPRESSION: Afraid
+- CHARACTER: Narrator
+  LINE: Annie keeps sawing, FASTER and HARDER and with more ruthless persistence. The sawing sound is horrible. Peter, screaming, TURNS away, only to see:
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: A MIDDLE-AGED BLONDE MAN, dressed in a red cloak, near Peter. He’s SMILING giddily. Behind him, two SMILING OLDER WOMEN. They are crouched together, illuminated by a nearby candle-flame.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: PETER SCREAMS, TURNS, AND RUNS STRAIGHT FOR THE WINDOW. HE JUMPS THROUGH THE GLASS.
+  EXPRESSION: Afraid
+
+::PATHS::
+- CHOICE: "Jump through the window"
+  TARGET: graham_house_ext_after_jump
+  STATE_CHANGE: fear = +3, panic = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Graham House Exterior
+MOOD: Eerie, Supernatural
+CHARACTERS: Narrator, Peter, Annie, Whippoorwill
+BACKGROUND_IMAGE: graham_house_ext.png
+BACKGROUND_EDIT: "Snow-covered yard, broken window, floating headless Annie, dead dog, eerie light"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Peter has landed face-first into the SNOW. Small shards of glass are embedded all over his body, but nothing too serious.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter lies motionless for a long time.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: We cut WIDE to a BIRD’S EYE VIEW looking down on Peter. He lies face-down in the blue-white snow, inanimate. The wind blows softly.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: We HOLD on this peaceful, static wide. After a moment, a SHADOW floats gracefully across the snow. It belongs to Annie, who must be above us - but the shadow seems headless.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The shadow drifts out of frame, followed by the vague, familiar STREAK OF LIGHT. The light, however, STOPS at Peter. It dances on his back... steadies... disappears into him.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: After a moment, Peter’s head RISES languidly from the snow. His face is marked by a few minor GASHES (from the glass). He looks up, EYES STRANGELY CALM. They even look a bit clouded. He looks ahead to the TREEHOUSE...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: PETER’S POV: Annie’s floating body has arrived at the treehouse, which is still glowing by candlelight. She ascends into it. For a split-second, before she disappears into the treehouse, we see that ANNIE HAS NO HEAD.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter rises to his feet, hollow-eyed. His gaze trained on the treehouse. He seems to be in some sort of TRANCE - much like the trance that Charlie entered earlier. After a moment of standing, staring at the treehouse...Peter CLICKS HIS TONGUE.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: With that, he begins walking slowly toward the treehouse.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He passes MAX’S DEAD CARCASS, sprawled across a snow-buried garden.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: As Peter nears the treehouse, he looks up to its OPEN WINDOW...
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Through the window, from Peter’s low-angle POV: a birdcage hangs from the treehouse ceiling. It houses a manic WHIPPOORWILL.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: We cut to a WIDE of the treehouse as Peter arrives at the tree’s base.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter pauses. Looks up. After a beat, he begins to leadenly climb up.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Climb into the treehouse"
+  TARGET: treehouse_int
+  STATE_CHANGE: possessed = true
+  CONDITION: null
+
+::SCENE::
+LOCATION: Treehouse Interior
+MOOD: Cultic, Horrific Revelation
+CHARACTERS: Narrator, Peter, Joan, Worshippers, Annie, Annie's Mother, Charlie
+BACKGROUND_IMAGE: treehouse_int.png
+BACKGROUND_EDIT: "Dark, candlelit, red-cloaked figures bowing, gruesome manikin with Charlie's head, headless corpses"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Peter, having scaled the tree, pokes his head through the floor-hatch and climbs in.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The walls are lined with black candles, and before Peter are several MEN AND WOMAN (some elderly, some middle-aged) BOWING on their knees, foreheads against the floor. They are all dressed in RED CLOAKS.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Standing behind Peter (on the opposite side of the treehouse) is the terrible object of their reverence. He turns to see... A GIANT, 6’ WOOD-FIGURE MANIKIN. Placed atop its shoulders (in lieu of a head) is CHARLIE’S DECAPITATED HEAD - now in an advanced state of decomposition. The nose is still smashed in, much of the face is black with rot, and it wears a silver CROWN. One hand grips a wooden SCEPTER. The manikin’s other hand is raised to extend its first two fingers and thumb; the third and fourth fingers are bent (like a Christ figure).
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Bowing at the foot of the manikin is ANNIE’S HEADLESS TORSO - blood pooling at the neck. Beside her corpse, also prostrated, is ANNIE’S MOTHER’S HEADLESS CORPSE (still dressed in white silk, but in a worse state of decay).
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter’s eyes are WIDE, but still blank. They are FIXED on Charlie’s head. He looks more confused than horrified.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter turns around to face the groveling red-cloaked worshippers. They now seem to be bowing in his direction. Among the worshippers is JOAN - her forehead pressed to the floor.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter, unnerved, looks away. He notices... A photo portrait of ANNIE’S MOTHER on the wall. She sits upright and her expression is severe. The frame bears an engraving: “Queen Leigh”.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: We come to a CLOSE-UP of Peter. He looks confused and scared. We will HOLD on this CU for the remainder of the scene.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The sound of someone RISING. This person (Joan) shuffles past Peter to lift the crown off of Charlie’s head. She then comes to stand before Peter. After a moment, the CROWN enters frame to be placed ceremoniously onto Peter’s head.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter has TENSED up, desperately avoiding eye contact with Joan. He SENSES something behind him. He looks back to see... The headless corpses of Peter’s family are now inexplicably bowing in his direction.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Peter turns forward again - overwhelmed. He looks trapped. Trembling. His milky eyes are welling with tears.
+  EXPRESSION: null
+- CHARACTER: Joan
+  LINE: Hey hey - no no - you’re all right...
+  EXPRESSION: Soothing
+- CHARACTER: Narrator
+  LINE: But he is starting to PANIC. His eyes fix fearfully to the floor as his breathing grows erratic. Then:
+  EXPRESSION: null
+- CHARACTER: Joan
+  LINE: Hey: hey: Charlie.
+  EXPRESSION: Calm
+- CHARACTER: Narrator
+  LINE: Peter’s breathing HALTS. He looks up to Joan, still trembling. Eyes wide.
+  EXPRESSION: null
+- CHARACTER: Joan
+  LINE: You’re all right now.
+  EXPRESSION: Calm
+- CHARACTER: Narrator
+  LINE: A long silence as Peter searches Joan’s face for understanding. Peter finally SPEAKS...but he sounds more like CHARLIE than Peter.
+  EXPRESSION: null
+- CHARACTER: Peter
+  LINE: Who am I?
+  EXPRESSION: Confused
+- CHARACTER: Narrator
+  LINE: A loaded pause from Joan. Then:
+  EXPRESSION: null
+- CHARACTER: Joan
+  LINE: You are Paimon. One of the eight Kings of Hell.
+  EXPRESSION: Ritualistic
+- CHARACTER: Narrator
+  LINE: Beat. Peter doesn’t react. He just stares at her, uncomprehending.
+  EXPRESSION: null
+- CHARACTER: Joan
+  LINE: We have looked to the northwest and called you in. We’ve corrected your first body and give you now this healthy male host. We reject the Trinity and pray devoutly to you, great Paimon: give us your knowledge of all secret things and all mysteries of the Earth; bring us honor, wealth and good familiars; and bind all men to our Will, as we have bound ourselves for now and ever to Yours.
+  EXPRESSION: Ritualistic
+- CHARACTER: Narrator
+  LINE: We hear Joan return to her bowing position:
+  EXPRESSION: null
+- CHARACTER: Joan
+  LINE: Hail Paimon.
+  EXPRESSION: Ritualistic
+- CHARACTER: Narrator
+  LINE: Peter’s eyes are buzzing.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Then, from behind Joan:
+  EXPRESSION: null
+- CHARACTER: Worshippers
+  LINE: Hail Paimon!
+  EXPRESSION: Ritualistic
+- CHARACTER: Narrator
+  LINE: Then, louder:
+  EXPRESSION: null
+- CHARACTER: Joan/Worshippers
+  LINE: Hail Paimon!!
+  EXPRESSION: Ritualistic
+
+::PATHS::
+- CHOICE: "Confront the ritual"
+  TARGET: treehouse_ext_credits
+  STATE_CHANGE: possessed = true, fear = -5, power = +5
+  CONDITION: null
+
+::SCENE::
+LOCATION: Treehouse Exterior
+MOOD: Ominous, Finality
+CHARACTERS: Narrator, Worshippers
+BACKGROUND_IMAGE: treehouse_ext.png
+BACKGROUND_EDIT: "Wide shot of the glowing treehouse, then miniature Graham House in snowfall"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: WIDE of the treehouse.
+  EXPRESSION: null
+- CHARACTER: Worshippers
+  LINE: Hail!!
+  EXPRESSION: Ritualistic
+- CHARACTER: Narrator
+  LINE: CUT HARD TO BLACK.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: HOLD ON THE BLACK.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: From this, we VERY SLOWLY FADE IN ON:
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: A NEUTRAL WIDE OF THE GRAHAM HOUSE. NIGHT. Surrounded by dreamy snowfall. A strong artifice distinguishes the image. As if the actual house has somehow been replaced by its MINIATURE REPLICA. Even the drifting snowflakes look false.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Hold on this as the CREDITS roll.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "End"
+  TARGET: end
+  STATE_CHANGE: null
+  CONDITION: null
+

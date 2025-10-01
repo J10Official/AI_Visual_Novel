@@ -1,0 +1,7160 @@
+::SCENE::
+LOCATION: BLACK BACKGROUND
+MOOD: Ominous
+CHARACTERS: Narrator
+BACKGROUND_IMAGE: black_background.png
+BACKGROUND_EDIT: "Minimal opening titles done in black lettering, white background"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: FADE IN: WARNER LOGO FOLLOWED BY MINIMAL OPENING TITLES DONE IN BLACK LETTERING WHITE BACKGROUND, WE THEN LOSE THE FINAL TITLE, RETAINING THE WHITE BACKGROUND WHICH QUICKLY GIVES WAY TO:
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Continue"
+  TARGET: excavation_site
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Excavation Site - Nineveh
+MOOD: Foreboding
+CHARACTERS: Narrator, Old Man, Kurdish Assistants
+BACKGROUND_IMAGE: excavation_site_nineveh.png
+BACKGROUND_EDIT: "Broiling noon sun, dawn, excavation mound"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: An OLD MAN in khakis works at section of mound with excavating pick. (In b.g. there may be TWO KURDISH ASSISTANTS carefully packing the day's finds.)
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The old man now makes a find. He extracts it gingerly from the mound, begins to dust it off then reacts with dismay upon recognizing a green stone amulet in the figure of the demon Pazuzu.
+  EXPRESSION: Dismayed
+- CHARACTER: Narrator
+  LINE: CLOSE SHOT - PERSPIRATION POURING DOWN OLD MAN'S BROW
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: CLOSE SHOT - OLD MAN'S HANDS
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Trembling, they reach across rude wooden table and cup themselves around a steaming glass of hot tea, as if for warmth.
+  EXPRESSION: Trembling
+- CHARACTER: Narrator
+  LINE: CLOSE SHOT - OLD MAN’S FACE
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The eyes staring off, haunted, as if by some chilling premonition — and some frightening remembrance.
+  EXPRESSION: Haunted
+
+::PATHS::
+- CHOICE: "Go to teahouse"
+  TARGET: roadside_chaykhana
+  STATE_CHANGE: fear = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Roadside Chaykhana - Erbil Area
+MOOD: Unease
+CHARACTERS: Narrator, Old Man, Kurdish Proprietor
+BACKGROUND_IMAGE: roadside_chaykhana_erbil.png
+BACKGROUND_EDIT: "Northern Iraq, teahouse among green hills, ragged road, mound-city of Erbil in background"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: SUPERIMPOSE: NORTHERN IRAQ. The chaykhana (teahouse) is set among poppied, green hills and athwart a ragged, rock-strewn bolt of road. In the background, the beautiful mound-city of Erbil floats upward, scraping the cloud.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The KURDISH PROPRIETOR is seen leaning in the Chaykhana doorway. He watches the only other character visible, the OLD MAN, who sits at an outdoor table, inexplicably cold beneath the fiery sun. Abstractedly, he sips at his tea. Nearby, parked off the road, an ancient jeep. LOSE SUPER.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The Proprietor shuffles out, stands beside the Old Man, speaks to him in Kurdish indistinctly.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The Old Man appears not to hear at first; then comes to, looks up at Kurd, shakes head mutely, and reaches into shirt pocket, removing coins to pay for his tea.
+  EXPRESSION: Mute
+- CHARACTER: Narrator
+  LINE: CLOSE SHOT - COINS SLIPPED ONTO TABLE
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: CLOSE SHOT - IGNITION KEY IN JEEP
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The Old Man's hand reaches into FRAME, starts engine. The jeep takes off, disappearing down the road.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The Kurd comes into FRAME, and we end CLOSE on him as he watches the jeep. Mirrored in his face are sadness; love; respect.
+  EXPRESSION: Sadness, Love, Respect
+
+::PATHS::
+- CHOICE: "Go to Curator's office"
+  TARGET: curator_office
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Room in Mosul - Curator of Antiquities Office
+MOOD: Quiet Intensity
+CHARACTERS: Narrator, Curator, Old Man
+BACKGROUND_IMAGE: curator_office_mosul.png
+BACKGROUND_EDIT: "Daytime, archaeological finds on a table, ticking clock"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The CAMERA is in motion, SLOWLY PANNING the tagged finds of a recent archeological dig now spread out in near rows on a long table. The CAMERA STOPS finally at an Assyrian pendant as the CURATOR'S HAND reaches INTO FRAME, lifting tag on pendant so that the writing on it can be read by him. The only SOUND is the soft, regular TICKING of an old-fashioned pendulum CLOCK.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: CLOSE SHOT - LEDGER containing entries of the finds. It is clearly headed (in the Curator's handwriting) "Nineveh Excavation: Merrin." On a fresh line of the entries, Curator's hand now writes: "Pendant, Assyrian; Palace of Assurbani -- " Here, the hand breaks off.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: CLOSE SHOT - ARAB CURATOR. He is seated at same table on which rest the finds and is looking up curiously from ledger at someone O.S.
+  EXPRESSION: Curious
+- CHARACTER: Narrator
+  LINE: CLOSE SHOT - OLD MAN. He is standing over another section of the same table. He is staring down at something on it. O.S.
+  EXPRESSION: Haunted
+- CHARACTER: Narrator
+  LINE: CLOSE SHOT - AMULET ON TABLE. Tagged, it is the Pazuzu amulet.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: CLOSE SHOT - CURATOR. His gaze is now on the amulet. Softly:
+  EXPRESSION: null
+- CHARACTER: Curator
+  LINE: Evil against evil.
+  EXPRESSION: Calm
+- CHARACTER: Narrator
+  LINE: INTERCUT OLD MAN AND CURATOR. The Old Man does not react, continuing to stare down at amulet, expression haunted. After a beat:
+  EXPRESSION: null
+- CHARACTER: Curator
+  LINE: Father?
+  EXPRESSION: Concerned
+- CHARACTER: Narrator
+  LINE: We are on the Old Man now as, after several beats, the TICKING of the CLOCK abruptly ceases; and it is this sudden silence that, after a beat, unconsciously causes the Old Man to look up at the Curator, who is still staring at the Old Man. Still no response. Something is worrying the Curator, but he doesn't know what.
+  EXPRESSION: null
+- CHARACTER: Curator
+  LINE: (ARABIC) My heart has a wish: That you would not go, old friend.
+  EXPRESSION: Troubled
+- CHARACTER: Old Man
+  LINE: (ARABIC) I have an errand.
+  EXPRESSION: Resolute
+- CHARACTER: Narrator
+  LINE: AT CURATOR - OLD MAN. They stand by open door to street, the Old Man leaving. Curator has hold of Old Man’s hand in both of his. He is troubled, as if the Old Man’s premonition has invaded him. The Old Man slowly looks up at Curator, searching his face with great affection. Then, with a squeeze of his hand:
+  EXPRESSION: null
+- CHARACTER: Old Man
+  LINE: Goodbye.
+  EXPRESSION: Affectionate
+
+::PATHS::
+- CHOICE: "Leave the office"
+  TARGET: curator_office_exterior
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Curator's Office Exterior
+MOOD: Foreboding Transition
+CHARACTERS: Narrator, Old Man, Curator
+BACKGROUND_IMAGE: curator_office_exterior.png
+BACKGROUND_EDIT: "Daytime, street outside the office, gathering gloom"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The Old Man exits, leaving FRAME as he steps into the gathering gloom of the streets of Mosul. The Curator watches him, great love in his expression as:
+  EXPRESSION: Loving
+- CHARACTER: Narrator
+  LINE: P.O.V. THE OLD MAN STREET OUTSIDE CURATOR’S OFFICE. The Old Man almost collides with a fast-moving droshky.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: CLOSE MOVING SHOT - DROSHKY’S SOLE PASSENGER. A corpulent, OLD ARAB WOMAN in black, her face a shadow behind the lace veil draped loosely over her like a shroud.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: AT CURATOR. His expression darkening at this.
+  EXPRESSION: Darkening
+
+::PATHS::
+- CHOICE: "Proceed to excavation site"
+  TARGET: excavation_site_dusk
+  STATE_CHANGE: fear = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Long Shot - Mosul Outskirts - Nineveh Excavation
+MOOD: Dreadful Confirmation
+CHARACTERS: Narrator, Old Man, Arab Watchman, Savage Dogs
+BACKGROUND_IMAGE: excavation_site_dusk.png
+BACKGROUND_EDIT: "Dusk, ruins of a temple, distant savage dogs"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The Old Man is slowly and warily walking amid the ruins of a former temple area.
+  EXPRESSION: Wary
+- CHARACTER: Narrator
+  LINE: OLD MAN’S P.O.V. An Arab watchman approaches, rifle at the ready; but then stops and waves as he recognizes the Old Man.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: MOVING SHOT as the Old Man slowly resumes his walk with the manner of someone sifting vibrations. He is like one looking for something, yet is afraid that he will find it. At last, upon seeing something O.S., he freezes.
+  EXPRESSION: Fearful
+- CHARACTER: Narrator
+  LINE: P.O.V. - FULL SHOT - STATUE OF DEMON PAZUZU IN SITU.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: AT OLD MAN. This is it. He lowers head, closing eyes against a dread confirmation of his premonition. A SHADOW of the statue lengthens and creeps onto Old Man’s face as in the distance we HEAR the DILI YAPPINGS of SAVAGE DOG EARS.
+  EXPRESSION: Dread
+- CHARACTER: Narrator
+  LINE: ANGLE AT SHADOWS QUICKENING ACROSS THE DESERT. Still the DOGS, yelping and howling distantly. A breeze rises up, blowing dust and sand ACROSS THE FRAME.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: AT OLD MAN. He slowly lifts his head, his gaze on the O.S. statue of Pazuzu. But in his expression now is acceptance and grim determination. The shadow on his face has grown longer and the breeze is whipping gently at his shirt.
+  EXPRESSION: Determined
+- CHARACTER: Narrator
+  LINE: OLD MAN’S P.O.V. - STATUE OF PAZUZU.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: HIGH DOWN SHOT - TEMPLE AREA - STATUE - OLD MAN. They stand motionless like two ancient enemies squared off in a massive arena.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: ANGLE AT SETTING SUN. It sinks into darkness. The dog packs.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Transition to new location"
+  TARGET: washington_dc_sunrise
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Sunrise Shot - Washington, D.C.
+MOOD: Peaceful Transition
+CHARACTERS: Narrator
+BACKGROUND_IMAGE: washington_dc_sunrise.png
+BACKGROUND_EDIT: "Sunrise, sounds of neighborhood dogs and children"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: SOUND of savage dogs gives way to DISTANT SOUNDS of friendly neighborhood dogs; children's voices; a city waking up.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Explore Georgetown area"
+  TARGET: georgetown_area_shots
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Series of Moving Shots - Georgetown Area
+MOOD: Calm Observation
+CHARACTERS: Narrator
+BACKGROUND_IMAGE: georgetown_area.png
+BACKGROUND_EDIT: "Potomac River, Georgetown University, priests, Prospect Street"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Below us, the Potomac River; the Gothic spires and wooded walks of Georgetown University; a PRIEST or two walking, saying their Office; and then, we are on Prospect Street slowly approaching a house that sits beside a flight of steep, stone steps plunging precipitately down to "M" Street below. An upstairs bedroom light is burning.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Enter Chris MacNeil's bedroom"
+  TARGET: chris_macneil_bedroom
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Chris MacNeil’s Bedroom
+MOOD: Intrigue
+CHARACTERS: Narrator, Chris, Regan
+BACKGROUND_IMAGE: chris_macneil_bedroom.png
+BACKGROUND_EDIT: "Dawn, Chris sitting up in bed, studying a script"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: CHRIS is sitting up in bed. Her lips move silently as she studies lines from a film script. We HEAR light O.S. RAPPING SOUNDS, irregular, yet rhythmically clustered. They sound like alien code tapped out by a dead man.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Chris HEARS them, listens for a moment, then tries to ignore them, but she cannot concentrate. She irritably slams script down and bounces out of bed. She EXITS into:
+  EXPRESSION: Irritated
+- CHARACTER: Narrator
+  LINE: SECOND FLOOR HALL - MACNEIL HOUSE - DAWN. The RAPPINGS are louder. Chris listens for source of sound; locates it; throws open door to Regan's bedroom.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Enter Regan's bedroom"
+  TARGET: regans_bedroom_door
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Regan's Bedroom - At Door
+MOOD: Confusion
+CHARACTERS: Narrator, Chris
+BACKGROUND_IMAGE: regans_bedroom_door.png
+BACKGROUND_EDIT: "Dawn, Chris at the open door of Regan's bedroom"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The RAPPINGS have abruptly ceased. Chris looks baffled.
+  EXPRESSION: Baffled
+- CHARACTER: Narrator
+  LINE: P.O.V. - THE ROOM - CAMERA SHIFTING to follow Chris's gaze.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Observe the room"
+  TARGET: regans_bedroom_interior
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Regan's Bedroom
+MOOD: Uneasy
+CHARACTERS: Narrator, Regan, Chris
+BACKGROUND_IMAGE: regans_bedroom.png
+BACKGROUND_EDIT: "Child's bedroom, dimly lit, bay window"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: It is a typical child’s bedroom. A large bay window; with shutters overlooks the steps outside the house. REGAN is asleep, her blankets kicked off and askew.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Chris moves to bedside. Heavy breathing, regular and deep.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Chris considers; then abruptly notices goose pimples on her arms. She rubs at them, shivering as if at an icy coldness. She touches the nearby radiator. Hot.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: She looks at Regan, frowning in perplexity, for Regan's brow is wet with perspiration. Chris squints her eyes in consternation; looks back at her goose pimples.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Now she hears sounds from above, like tiny claws scratching at the edge of a galaxy. She looks up at ceiling. The scrapings cease.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Chris keeps staring a moment, then looks down. She leans over, adjusts Regan's pillow, then examines her features with warmth.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: I sure do love you.
+  EXPRESSION: Affectionate
+- CHARACTER: Narrator
+  LINE: Car lights reflect on ceiling of darkened room.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: MacNeil House - Kitchen
+MOOD: Mundane
+CHARACTERS: Narrator, Chris, Willie
+BACKGROUND_IMAGE: macneil_kitchen.png
+BACKGROUND_EDIT: "Kitchen, early morning, bacon frying"
+
+::SCRIPT::
+- CHARACTER: Chris
+  LINE: Hi, Willie. Howya doin’?
+  EXPRESSION: Casual
+- CHARACTER: Narrator
+  LINE: Willie, a middle-aged housekeeper, is at stove. Sleepy-eyed Chris, in bathrobe and carrying script, is entering.
+  EXPRESSION: null
+- CHARACTER: Willie
+  LINE: Oh, Mrs. MacNeil! Good morning!
+  EXPRESSION: Respectful
+- CHARACTER: Chris
+  LINE: Never mind, Will, I’ll get it.
+  EXPRESSION: Casual
+- CHARACTER: Narrator
+  LINE: She drops a pack of cigarettes and matches beside her cup and sits. Crusty-eyed, she picks up copy of Washington Post by plate and stares at it fuddled until she realizes it is upside down. She turns it right-side up.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: MacNeil House - Kitchen
+MOOD: Domestic Disagreement
+CHARACTERS: Narrator, Chris, Karl, Willie
+BACKGROUND_IMAGE: macneil_kitchen.png
+BACKGROUND_EDIT: "Kitchen, morning, Chris and Willie at counter"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: A man enters: KARL. Willie's husband. Very Teutonic. He is carrying a Spark left's bottle to mount on cooler in exchange for the empty.
+  EXPRESSION: null
+- CHARACTER: Karl
+  LINE: Good morning, Madam.
+  EXPRESSION: Formal
+- CHARACTER: Chris
+  LINE: Mornin'. Hey, Karl, we've got rats in the attic. Better get us some traps.
+  EXPRESSION: Conversational
+- CHARACTER: Karl
+  LINE: There are rats?
+  EXPRESSION: Surprised
+- CHARACTER: Chris
+  LINE: I just said that.
+  EXPRESSION: Dry
+- CHARACTER: Karl
+  LINE: But the attic is clean.
+  EXPRESSION: Confident
+- CHARACTER: Chris
+  LINE: Well, okay, we've got clean rats.
+  EXPRESSION: Sarcastic
+- CHARACTER: Karl
+  LINE: No rats.
+  EXPRESSION: Insistent
+- CHARACTER: Chris
+  LINE: Karl, I heard them this morning!
+  EXPRESSION: Frustrated
+- CHARACTER: Karl
+  LINE: Maybe plumbing. Maybe boards.
+  EXPRESSION: Dismissive
+- CHARACTER: Chris
+  LINE: Maybe rats! Now will you buy the damn traps and quit arguing?
+  EXPRESSION: Exasperated
+- CHARACTER: Karl
+  LINE: Yes. I go now.
+  EXPRESSION: Obedient
+- CHARACTER: Chris
+  LINE: No, not now, Karl! The stores are all closed.
+  EXPRESSION: Annoyed
+- CHARACTER: Karl
+  LINE: I will see.
+  EXPRESSION: Evasive
+- CHARACTER: Chris
+  LINE: Karl -- !
+  EXPRESSION: Frustrated
+- CHARACTER: Narrator
+  LINE: He is gone. Chris and Millie exchange exasperated glances, and then we hear front door open and close, o.s. With a sigh, Willie turns back to bacon, shaking her head.
+  EXPRESSION: null
+- CHARACTER: Willie
+  LINE: They are closed.
+  EXPRESSION: Resigned
+
+::SCENE::
+LOCATION: Campus of Georgetown University
+MOOD: Chaotic
+CHARACTERS: Narrator, Chris, Denning, Karras, A.D., Reel Student Leader, Police
+BACKGROUND_IMAGE: georgetown_campus.png
+BACKGROUND_EDIT: "University campus, daytime, film set"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: A film is being shot in front the steps of Healy Building. The usual equipment, cast and crew are in evidence, as well as spectators made up of faculty and students.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Chris, in jeans and sweatshirt, and indicating page in her script (titled "CRASH COURSE”), calls her director, elfin British BURNS DENNINGS. He has been drinking.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Swigging from a paper cup, he looks over as, argumentatively:
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Hey, Burke? Take a look at damned thing, will ya?
+  EXPRESSION: Irritated
+- CHARACTER: Denning
+  LINE: Oh, how marvelous! You do have a script, I see!
+  EXPRESSION: Sarcastic
+- CHARACTER: Narrator
+  LINE: (he surgically shaves a narrow strip from edge of page of her script) Yes, how nice! I believe I'll just have a little fiddle.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: As they continue, Burke will nervously fiddle with the paper, in the meantime:
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Burke —
+  EXPRESSION: Impatient
+- CHARACTER: Denning
+  LINE: Yes, I'm terribly glad that the star has a script. Now then, tell me my baby: What is it? What's wrong?
+  EXPRESSION: Condescending
+- CHARACTER: Chris
+  LINE: It just doesn’t make sense.
+  EXPRESSION: Frustrated
+- CHARACTER: Denning
+  LINE: Why, it's perfectly plain. You're a teacher at the college and you don't want the building torn down and —
+  EXPRESSION: Patronizing
+- CHARACTER: Chris
+  LINE: Oh, well, Jesus, Burke; thanks; I can read.
+  EXPRESSION: Annoyed
+- CHARACTER: Denning
+  LINE: Then what's wrong?
+  EXPRESSION: Impatient
+- CHARACTER: Chris
+  LINE: Why the hell should they tear down the building?
+  EXPRESSION: Demanding
+- CHARACTER: Denning
+  LINE: Are you sending me up?
+  EXPRESSION: Defensive
+- CHARACTER: Chris
+  LINE: No, I'm asking 'what for?'
+  EXPRESSION: Firm
+- CHARACTER: Denning
+  LINE: Because it's there!
+  EXPRESSION: Absurd
+- CHARACTER: Chris
+  LINE: In the script?
+  EXPRESSION: Confused
+- CHARACTER: Denning
+  LINE: On the grounds!
+  EXPRESSION: Giddy
+- CHARACTER: Chris
+  LINE: Well, it doesn’t make sense. They wouldn’t do that.
+  EXPRESSION: Stubborn
+- CHARACTER: Denning
+  LINE: They would!
+  EXPRESSION: Insistent
+- CHARACTER: Chris
+  LINE: No, they wouldn't!
+  EXPRESSION: Adamant
+- CHARACTER: Denning
+  LINE: Shall we summon the writer? I believe he’s in Paris!
+  EXPRESSION: Mocking
+- CHARACTER: Chris
+  LINE: Hiding?
+  EXPRESSION: Skeptical
+- CHARACTER: Denning
+  LINE: Fucking! Now then, shall we get on with it?
+  EXPRESSION: Aggressive
+- CHARACTER: Narrator
+  LINE: Chris stares momentarily, then sags onto Burke spurting laughter. Then she looks worriedly toward a PRIEST (KARRAS) O.S. among the spectators, afraid he’s heard obscenity. And now we CUT TO Karras and see that he is smiling slightly but warmly. The ANGIE then RETURNS to Chris, Burke and the A.D.
+  EXPRESSION: null
+- CHARACTER: Denning
+  LINE: I said, "Shall we get on with it?"
+  EXPRESSION: Impatient
+- CHARACTER: Chris
+  LINE: Huh? Yeah, okay, Burke. Let’s go.
+  EXPRESSION: Resigned
+- CHARACTER: Denning
+  LINE: All right, lights, love.
+  EXPRESSION: Directing
+- CHARACTER: Asst. Director
+  LINE: Let's warm ’em!
+  EXPRESSION: Directing
+- CHARACTER: Denning
+  LINE: Now the extras should be ...
+  EXPRESSION: Directing
+- CHARACTER: Narrator
+  LINE: And we hear the ad lib continuation o.s. a bit as camera now follows Chris as she walks, head down, concentrating while crew sets up. Then she looks over toward Karras.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He’s gone. She sees him walking slowly away toward the campus gates like a lone black cloud in search of the rain. Dennings comes to Chris.
+  EXPRESSION: null
+- CHARACTER: Denning
+  LINE: Are you ready, ducks?
+  EXPRESSION: Encouraging
+- CHARACTER: Chris
+  LINE: Do it.
+  EXPRESSION: Ready
+- CHARACTER: Denning
+  LINE: Roll the film.
+  EXPRESSION: Directing
+- CHARACTER: Asst. Director
+  LINE: Okay, roll 'er.
+  EXPRESSION: Directing
+- CHARACTER: Technician
+  LINE: Speed.
+  EXPRESSION: Directing
+- CHARACTER: Denning
+  LINE: Action!
+  EXPRESSION: Directing
+- CHARACTER: Narrator
+  LINE: While extras cheer and boo at her approach, Chris races up Healy Steps and seizes bullhorn from REEEL STUDENT LEADER. There is pushing and shoving. POLICE are on the scene.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Okay, now, hold it! Hold it a second! Hey, give me a chance, will ya, huh? Just a minute?
+  EXPRESSION: Authoritative
+- CHARACTER: Narrator
+  LINE: We see now that various of the student factions are holding up signs and banners. Some read: "KEEP CLASSES OPEN", "FREE LOGIC!", "SHUT DOWN!", "CLOSE THE SCHOOL" and "BURN IT!?" Still other placards are blank. Many of the students in one sector are affecting shrouds and death masks. As the commotion diminishes;
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Look, we're all concerned with human rights, but the kids who pay tuition have also got a right, the right to learn, and shutting those kids out of class solves nothing. It's answering one kind of tyranny with another, one kind of cruelty with another.
+  EXPRESSION: Earnest
+- CHARACTER: Narrator
+  LINE: Commotion. At some point during the above speech, we will hear Chris o. s. while the camera goes to Dennings as the director turns a significant and imperious gaze to the A.D., who dutifully pads over to him and proffers his open script like an aging altar boy the missal to his priest at solemn Hass. Burke begins to slice off a strip of page.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: "O" Street - Chris at Campus Main Gate
+MOOD: Reflective
+CHARACTERS: Narrator, Chris, Tommy, Young Priest, Older Priest, Karras
+BACKGROUND_IMAGE: campus_gate.png
+BACKGROUND_EDIT: "Campus main gate, overcast, threatening rain"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: It has clouded over, threatening rain. Chris, wearing raincoat, sends limo driver home.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: I feel like walking, Tommy. Thanks.
+  EXPRESSION: Grateful
+- CHARACTER: Narrator
+  LINE: He nods. She starts to walk home, thoughtful and weary.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: As she walks by Holy Trinity Auditorium, a YOUNG PRIEST in nylon windbreaker passes her. Tense. He takes a right into an easement leading into a courtyard back of church. Chris pauses by easement, watching him; curious.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He heads for white frame cottage from which an OLDER PRIEST emerges looking glum and nervous. He nods curtly toward the Younger Priest, and with lowered eyes heads for door to back of church. Again, cottage door opens from within and Karras appears. He silently greets the Younger Priest, putting his arm around his shoulder as he leads him inside, a gesture that is gentle and somehow parental. Door closes and they are gone. Chris is pensive, puzzled by the scene. A rumble of thunder. She looks up at the sky, tugging up raincoat collar.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: MacNeil House - Chris Enters
+MOOD: Transition
+CHARACTERS: Narrator
+BACKGROUND_IMAGE: macneil_house_exterior.png
+BACKGROUND_EDIT: "MacNeil house exterior, dusk"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: EXT. MACNEIL HOUSE - CHRIS ENTERS - DUSK
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: MacNeil House - Kitchen
+MOOD: Transition
+CHARACTERS: Narrator
+BACKGROUND_IMAGE: macneil_kitchen.png
+BACKGROUND_EDIT: "MacNeil house kitchen, dusk"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: INT. MACNEIL HOUSE KITCHEN -
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Breakfast Table - MacNeil House
+MOOD: Domestic Calm
+CHARACTERS: Narrator, Sharon Spencer, Chris
+BACKGROUND_IMAGE: breakfast_table.png
+BACKGROUND_EDIT: "Dusk, a cozy breakfast table"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: We open on SHARON SPENCER, a pretty young blonde and Chris’ secretary (and nurse to Regan) sitting at breakfast table, typing. Stack of mail and messages. We hear front door close; footsteps approaching. Chris enters, weary.
+  EXPRESSION: null
+- CHARACTER: Sharon Spencer
+  LINE: Hi, Chris. How’d it go?
+  EXPRESSION: Neutral
+- CHARACTER: Chris
+  LINE: Oh, well, it was kind of like the Walt Disney version of the Ho Chi Minh story, but other than that it was really terrific.
+  EXPRESSION: Tired
+
+::PATHS::
+- CHOICE: "Sit down"
+  TARGET: breakfast_table_continue
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Breakfast Table - MacNeil House
+MOOD: Domestic Calm
+CHARACTERS: Narrator, Sharon Spencer, Chris
+BACKGROUND_IMAGE: breakfast_table_continue.png
+BACKGROUND_EDIT: "Dusk, Chris has come to the table, leafing through mail"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Chris has come to table, stands leafing through mail and messages. Sharon continues to type through:
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Anything exciting?
+  EXPRESSION: Curious
+- CHARACTER: Sharon Spencer
+  LINE: Do you want to have dinner next week at the White House?
+  EXPRESSION: Neutral
+- CHARACTER: Chris
+  LINE: Are you kidding?
+  EXPRESSION: Surprised
+- CHARACTER: Sharon Spencer
+  LINE: No, of course not; it’s Thursday.
+  EXPRESSION: Neutral
+- CHARACTER: Chris
+  LINE: Big party?
+  EXPRESSION: Curious
+- CHARACTER: Sharon Spencer
+  LINE: No, I gather it’s just five or six people.
+  EXPRESSION: Neutral
+- CHARACTER: Chris
+  LINE: No kidding? Where's Rags?
+  EXPRESSION: Curious
+- CHARACTER: Sharon Spencer
+  LINE: Oh, she’s down in the playroom.
+  EXPRESSION: Neutral
+- CHARACTER: Chris
+  LINE: What doin'?
+  EXPRESSION: Curious
+- CHARACTER: Sharon Spencer
+  LINE: She's sculpting. She’s making you a bird.
+  EXPRESSION: Neutral
+- CHARACTER: Chris
+  LINE: How’d the lesson go?
+  EXPRESSION: Curious
+- CHARACTER: Sharon Spencer
+  LINE: Bad time with math again.
+  EXPRESSION: Frowning
+- CHARACTER: Chris
+  LINE: Oh? Gee, that’s funny.
+  EXPRESSION: Puzzled
+- CHARACTER: Sharon Spencer
+  LINE: I know. It's her favorite subject.
+  EXPRESSION: Frowning
+- CHARACTER: Chris
+  LINE: Oh, well, this "new math." Christ, I couldn’t make change for the bus if --
+  EXPRESSION: Frustrated
+
+::PATHS::
+- CHOICE: "Regan enters"
+  TARGET: regan_enters
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Breakfast Table - MacNeil House
+MOOD: Energetic Interruption
+CHARACTERS: Narrator, Sharon Spencer, Chris, Regan
+BACKGROUND_IMAGE: regan_enters.png
+BACKGROUND_EDIT: "Dusk, Regan bounding into the room"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: She is interrupted by the bounding entrance of REGAN, her 11-year-old daughter. Freckles. Ponytails. Braces on teeth. Arms outstretched, she is racing for her mother.
+  EXPRESSION: null
+- CHARACTER: Regan
+  LINE: Hi, Mom!
+  EXPRESSION: Excited
+- CHARACTER: Narrator
+  LINE: She is in SCENE not? as Chris catches her in a bear hug.
+  EXPRESSION: null
+- CHARACTER: Sharon Spencer
+  LINE: 'Sharon resumes her typing.
+  EXPRESSION: Neutral
+- CHARACTER: Chris
+  LINE: Hiya, bearface!
+  EXPRESSION: Affectionate
+- CHARACTER: Narrator
+  LINE: Chris covers her with smacking kisses. Then, rocking her back and forth:
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: What ’djya do today? Anything exciting?
+  EXPRESSION: Affectionate
+- CHARACTER: Regan
+  LINE: Oh, stuff.
+  EXPRESSION: Indifferent
+- CHARACTER: Chris
+  LINE: So, what kind of stuff?
+  EXPRESSION: Curious
+- CHARACTER: Regan
+  LINE: Oh, well, I studied, and I painted.
+  EXPRESSION: Neutral
+- CHARACTER: Chris
+  LINE: Wha'djya paint?
+  EXPRESSION: Curious
+- CHARACTER: Regan
+  LINE: Oh, well, flowers. Ya' know, daisies? An' — Oh! Mother! This horse! This man had a horse, ya know, down by the river? We were talking, see. Mom, and then-along came this horse! He was beautiful! Oh, Mom, ya should've seen him, and the man let me sit on him! Really! I mean, practically a minute! It was a gray horse! Mother, can't we get a horse? I mean could we?
+  EXPRESSION: Excited
+- CHARACTER: Chris
+  LINE: We’ll see, baby.
+  EXPRESSION: Gentle
+- CHARACTER: Regan
+  LINE: Gee, Mom, I’m starving.
+  EXPRESSION: Hungry
+- CHARACTER: Chris
+  LINE: Run upstairs and get dressed and we'll go out for some pizza.
+  EXPRESSION: Decisive
+- CHARACTER: Regan
+  LINE: Can I wear my new dress?
+  EXPRESSION: Hopeful
+- CHARACTER: Chris
+  LINE: Honey, sure.
+  EXPRESSION: Gentle
+- CHARACTER: Chris
+  LINE: Got a date?
+  EXPRESSION: Teasing
+- CHARACTER: Sharon Spencer
+  LINE: Yes, I do.
+  EXPRESSION: Neutral
+- CHARACTER: Chris
+  LINE: You go on, then. We can catch all this stuff in the morning.
+  EXPRESSION: Decisive
+- CHARACTER: Narrator
+  LINE: Sharon rises, but Chris abruptly recollects something.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Oh, hey, wait. There's a letter got to go out tonight.
+  EXPRESSION: Recalling
+- CHARACTER: Sharon Spencer
+  LINE: Oh, okay.
+  EXPRESSION: Agreeable
+- CHARACTER: Chris
+  LINE: Dear Mr. Gable...
+  EXPRESSION: Dictating
+- CHARACTER: Narrator
+  LINE: Sharon reacts, amused; then Chris dictates in earnest: a letter to her agent. As she gets into it:
+  EXPRESSION: null
+- CHARACTER: Regan
+  LINE: Moth-theeeeeerrrr! I can’t find the dress!
+  EXPRESSION: Frantic
+- CHARACTER: Chris
+  LINE: Shar, wait’ll I come down.
+  EXPRESSION: Annoyed
+- CHARACTER: Sharon Spencer
+  LINE: Gee, it’s time for me to meditate, Chris.
+  EXPRESSION: Matter-of-fact
+- CHARACTER: Chris
+  LINE: You really think that kind of stuff if going to do you any good?
+  EXPRESSION: Skeptical
+- CHARACTER: Sharon Spencer
+  LINE: Well, it gives me peace of mind.
+  EXPRESSION: Calm
+- CHARACTER: Chris
+  LINE: Right.
+  EXPRESSION: Resigned
+- CHARACTER: Chris
+  LINE: Correct. Terrific.
+  EXPRESSION: Sarcastic
+
+::PATHS::
+- CHOICE: "Go to Regan's room"
+  TARGET: regans_bedroom_dusk
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Second Floor Hallway - MacNeil House
+MOOD: Purposeful
+CHARACTERS: Narrator, Chris
+BACKGROUND_IMAGE: hallway_macneil.png
+BACKGROUND_EDIT: "Dusk, a dimly lit hallway"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Chris heads for Regan’s bedroom and enters.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Enter Regan's bedroom"
+  TARGET: regans_bedroom_dusk_interior
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Regan's Bedroom - MacNeil House
+MOOD: Mysterious Disturbance
+CHARACTERS: Narrator, Chris, Regan
+BACKGROUND_IMAGE: regans_bedroom_dusk.png
+BACKGROUND_EDIT: "Dusk, Regan's bedroom, slightly cluttered"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The scene is odd: Regan is standing in the middle of the room, silently staring up at the ceiling, frowning.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: What’s doin’?
+  EXPRESSION: Curious
+- CHARACTER: Regan
+  LINE: Funny noises.
+  EXPRESSION: Pensive
+- CHARACTER: Chris
+  LINE: I know. We’ve got friends. Squirrels, honey. Squirrels in the attic.
+  EXPRESSION: Reassuring
+- CHARACTER: Narrator
+  LINE: Regan looks unconvinced. She looks up at ceiling again; then moves over to watch her mother’s search for the dress which now ends in apparent failure.
+  EXPRESSION: null
+- CHARACTER: Regan
+  LINE: See, Mom? It’s not there.
+  EXPRESSION: Frustrated
+- CHARACTER: Chris
+  LINE: Yeah, I see. Maybe Willie picked it up with the cleaning.
+  EXPRESSION: Considering
+- CHARACTER: Regan
+  LINE: It’s gone.
+  EXPRESSION: Upset
+- CHARACTER: Chris
+  LINE: Yeah, well put on the navy. It's pretty.
+  EXPRESSION: Practical
+
+::PATHS::
+- CHOICE: "Continue searching for dress"
+  TARGET: dress_search_failed
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: "C & O" Canal
+MOOD: Troubled Reflection
+CHARACTERS: Narrator, Karras, Tom (Georgetown University President)
+BACKGROUND_IMAGE: canal_karras.png
+BACKGROUND_EDIT: "Dusk, a canal path"
+
+::SCRIPT::
+- CHARACTER: Karras
+  LINE: It’s my mother. She’s alone, Tom. I never should’ve left her. At least in New York I’d be close. I could see her.
+  EXPRESSION: Distraught
+- CHARACTER: Tom
+  LINE: I could see about a transfer.
+  EXPRESSION: Supportive
+- CHARACTER: Karras
+  LINE: I need reassignment. Get me out of this job, Tom; it’s wrong. It’s no good.
+  EXPRESSION: Desperate
+- CHARACTER: Tom
+  LINE: Are you kidding? You’re the best that we’ve got.
+  EXPRESSION: Convinced
+- CHARACTER: Narrator
+  LINE: They stop.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: Am I really? It's more than psychiatry, Tom, and you knew that. Some of their problems core down to vocation, to the meaning of their lives, and I just can't cut it, Tom. It's too much. I need out. I'm unfit.
+  EXPRESSION: Agonized
+- CHARACTER: Narrator
+  LINE: After a pause.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: I think I’ve lost my faith.
+  EXPRESSION: Confessed
+
+::PATHS::
+- CHOICE: "Continue walking"
+  TARGET: canal_continue
+  STATE_CHANGE: karras_faith_loss = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Basement Playroom of MacNeil House
+MOOD: Playful Interaction
+CHARACTERS: Narrator, Chris, Regan
+BACKGROUND_IMAGE: playroom_basement.png
+BACKGROUND_EDIT: "Early evening, a converted basement playroom"
+
+::SCRIPT::
+- CHARACTER: Chris
+  LINE: Whatchya doin’ down there?
+  EXPRESSION: Calling
+- CHARACTER: Regan
+  LINE: Come on down, Mom; I've got a surprise.
+  EXPRESSION: Excited
+- CHARACTER: Chris
+  LINE: Oh, great.
+  EXPRESSION: Amused
+- CHARACTER: Narrator
+  LINE: Regan is standing by a games table in basement made over as playroom, and hands her a sculpted clay "worry bird” with a comically long painted nose. Chris oohs and ahhs.
+  EXPRESSION: null
+- CHARACTER: Regan
+  LINE: Do you like it?
+  EXPRESSION: Hopeful
+- CHARACTER: Chris
+  LINE: Oh, honey, I do, I really do. Got a name for it?
+  EXPRESSION: Affectionate
+- CHARACTER: Regan
+  LINE: Uh-uh.
+  EXPRESSION: Uncertain
+- CHARACTER: Chris
+  LINE: What’s a good one?
+  EXPRESSION: Pondering
+- CHARACTER: Regan
+  LINE: I dunno.
+  EXPRESSION: Shrugging
+- CHARACTER: Chris
+  LINE: Let me see, let me see. I don’t know. Nhaddya think? Whaddya think about ’Durbbird?' Huh? Just 'Dumbbird.'
+  EXPRESSION: Playful
+- CHARACTER: Narrator
+  LINE: Regan is snickering, nodding; hand to mouth to hide the braces.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: 'Dumbbird' by a landslide! Super! Here, I‘ll leave it here to dry for a ...
+  EXPRESSION: Enthusiastic
+- CHARACTER: Narrator
+  LINE: She has noticed an Ouija Board and planchette on table.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Hey, where'd you get the Ouija Board?
+  EXPRESSION: Surprised
+- CHARACTER: Regan
+  LINE: I found it.
+  EXPRESSION: Indicating
+- CHARACTER: Chris
+  LINE: Found it where?
+  EXPRESSION: Curious
+- CHARACTER: Regan
+  LINE: In that closet.
+  EXPRESSION: Indicating
+- CHARACTER: Chris
+  LINE: You been playin' with it?
+  EXPRESSION: Curious
+- CHARACTER: Regan
+  LINE: Yep.
+  EXPRESSION: Affirmative
+- CHARACTER: Chris
+  LINE: You know how?
+  EXPRESSION: Surprised
+- CHARACTER: Regan
+  LINE: Oh, well, sure. Here, I'll show you.
+  EXPRESSION: Eager
+- CHARACTER: Chris
+  LINE: Well, I think you need two people, honey.
+  EXPRESSION: Skeptical
+- CHARACTER: Regan
+  LINE: No, ya don’t, Mora. I do it all the time.
+  EXPRESSION: Assertive
+- CHARACTER: Chris
+  LINE: Oh, you do? Hell, let’s both play, okay?
+  EXPRESSION: Agreeable
+- CHARACTER: Regan
+  LINE: Well -- okay.
+  EXPRESSION: Agreeable
+- CHARACTER: Narrator
+  LINE: Regan has her fingertips positioned on the planchette, and as Chris reaches out to put hers there, planchette makes sudden, forceful move to the position on board.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: You don’t want me to play?
+  EXPRESSION: Puzzled
+- CHARACTER: Regan
+  LINE: No, I do! Captain Howdy said ”No."
+  EXPRESSION: Assertive
+- CHARACTER: Chris
+  LINE: Captain who?
+  EXPRESSION: Confused
+- CHARACTER: Regan
+  LINE: Captain Howdy.
+  EXPRESSION: Matter-of-fact
+- CHARACTER: Chris
+  LINE: Honey, who’s Captain Howdy?
+  EXPRESSION: Confused
+- CHARACTER: Regan
+  LINE: Oh, ya know. I make questions and he does the answers.
+  EXPRESSION: Matter-of-fact
+- CHARACTER: Chris
+  LINE: That’s so?
+  EXPRESSION: Amused
+- CHARACTER: Regan
+  LINE: Oh, he's nice.
+  EXPRESSION: Innocent
+- CHARACTER: Chris
+  LINE: Oh, well, sure; he’s terrific.
+  EXPRESSION: Sarcastic
+- CHARACTER: Regan
+  LINE: Here, I’ll show you.
+  EXPRESSION: Eager
+- CHARACTER: Narrator
+  LINE: Regan stares at board, eyes drawn tight in concentration.
+  EXPRESSION: null
+- CHARACTER: Regan
+  LINE: Captain Howdy, do you think my mom is pretty?
+  EXPRESSION: Serious
+- CHARACTER: Narrator
+  LINE: Seconds tick by. nothing happening. Chris turns head at an odd, o.s. creaking sound from closet area. She holds the look for a moment, then looks back at board. Another few beats of silence. Then:
+  EXPRESSION: null
+- CHARACTER: Regan
+  LINE: Captain Howdy?
+  EXPRESSION: Questioning
+- CHARACTER: Regan
+  LINE: Captain Howdy, that’s really not very polite.
+  EXPRESSION: Irritated
+- CHARACTER: Chris
+  LINE: Honey, maybe he’s sleeping.
+  EXPRESSION: Gentle
+- CHARACTER: Regan
+  LINE: Let him sleep on his own time.
+  EXPRESSION: Annoyed
+
+::PATHS::
+- CHOICE: "Continue playing Ouija"
+  TARGET: ouija_continue
+  STATE_CHANGE: regan_paranormal_interest = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Regan's Bedroom - MacNeil House
+MOOD: Affectionate Bedtime
+CHARACTERS: Narrator, Regan, Chris
+BACKGROUND_IMAGE: regans_bedroom_night.png
+BACKGROUND_EDIT: "Night, Regan's bedroom, Chris tucking her in"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Regan in bed. Chris finishing tucking her in. Sits on bed.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Honey, Sunday's your birthday. Want to do somethin’?
+  EXPRESSION: Affectionate
+- CHARACTER: Regan
+  LINE: What?
+  EXPRESSION: Curious
+- CHARACTER: Chris
+  LINE: Oh, well, I don't know. Somethin'. You want to go see the sights?
+  EXPRESSION: Suggestive
+- CHARACTER: Regan
+  LINE: Oh, yeah, Mom!
+  EXPRESSION: Excited
+- CHARACTER: Chris
+  LINE: And tomorrow night a movie! How’s that?
+  EXPRESSION: Suggestive
+- CHARACTER: Regan
+  LINE: Oh, I love you!
+  EXPRESSION: Affectionate
+- CHARACTER: Chris
+  LINE: Oh, Rags, honey, I love you.
+  EXPRESSION: Affectionate
+- CHARACTER: Regan
+  LINE: You can bring Mr. Dennings if you
+  EXPRESSION: Hopeful
+
+::PATHS::
+- CHOICE: "Finish tucking in"
+  TARGET: bedtime_routine
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Chris's Study
+MOOD: Concerned / Intimate
+CHARACTERS: Chris, Regan
+BACKGROUND_IMAGE: chris_study.png
+BACKGROUND_EDIT: "Nighttime, Chris studying a script in front of a fireplace."
+
+::SCRIPT::
+- CHARACTER: Chris
+  LINE: Well, I mean, it’s okay.
+  EXPRESSION: neutral
+- CHARACTER: Chris
+  LINE: No, it isn’t okay. Honey, why would I want to bring Burke?
+  EXPRESSION: chuckling
+- CHARACTER: Regan
+  LINE: Well, you like him.
+  EXPRESSION: neutral
+- CHARACTER: Chris
+  LINE: Oh, well, sure I like him, honey. Don’t you?
+  EXPRESSION: neutral
+- CHARACTER: Chris
+  LINE: Baby, what’s going on?
+  EXPRESSION: concerned
+- CHARACTER: Regan
+  LINE: You’re going to marry him, Mommy, aren’t you?
+  EXPRESSION: sullen
+- CHARACTER: Chris
+  LINE: Oh, my baby, of course not! What on earth are you talking about? Burke Dennings? Where’s you get that idea?
+  EXPRESSION: amused
+- CHARACTER: Regan
+  LINE: But you like him.
+  EXPRESSION: neutral
+- CHARACTER: Chris
+  LINE: I like pizzas but I wouldn’t ever marry one! Honey, he’s a friend, just a crazy old friend!
+  EXPRESSION: playful
+- CHARACTER: Regan
+  LINE: You don’t like him like Daddy?
+  EXPRESSION: questioning
+- CHARACTER: Chris
+  LINE: Rags, I love your daddy. I’ll always love your daddy. Mr. Dennings comes by here a lot ’cause he’s lonely, that’s all; he’s a friend.
+  EXPRESSION: loving
+- CHARACTER: Regan
+  LINE: Well, I heard ...
+  EXPRESSION: hesitant
+- CHARACTER: Chris
+  LINE: You heard what? Heard from who?
+  EXPRESSION: curious
+- CHARACTER: Regan
+  LINE: I don’t know. I just thought.
+  EXPRESSION: uncertain
+- CHARACTER: Chris
+  LINE: Well, it’s silly, so forget it.
+  EXPRESSION: dismissive
+- CHARACTER: Regan
+  LINE: Okay.
+  EXPRESSION: obedient
+- CHARACTER: Chris
+  LINE: Hi, honey. What’s wrong?
+  EXPRESSION: loving
+- CHARACTER: Regan
+  LINE: There's these real funny noises, Mom. It’s like knocking. I can’t go to sleep.
+  EXPRESSION: scared
+- CHARACTER: Chris
+  LINE: Oh, where the heck are those traps!
+  EXPRESSION: frustrated
+- CHARACTER: Regan
+  LINE: Huh?
+  EXPRESSION: confused
+- CHARACTER: Chris
+  LINE: Oh, nothing, hon. Come on. You can sleep in my bedroom and I’ll see what it is.
+  EXPRESSION: reassuring
+
+::PATHS::
+- CHOICE: "Go to Chris's bedroom"
+  TARGET: chris_bedroom
+  STATE_CHANGE: fear = -1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Chris's Bedroom
+MOOD: Caring / Reassuring
+CHARACTERS: Chris, Regan
+BACKGROUND_IMAGE: chris_bedroom.png
+BACKGROUND_EDIT: "Nighttime, Chris tucking Regan into her bed."
+
+::SCRIPT::
+- CHARACTER: Regan
+  LINE: Can I watch TV for a while till I sleep?
+  EXPRESSION: hopeful
+- CHARACTER: Chris
+  LINE: Where's your book?
+  EXPRESSION: neutral
+- CHARACTER: Regan
+  LINE: I can’t find it. Can I watch?
+  EXPRESSION: pleading
+- CHARACTER: Chris
+  LINE: Sure, okay.
+  EXPRESSION: yielding
+- CHARACTER: Chris
+  LINE: Loud enough?
+  EXPRESSION: concerned
+- CHARACTER: Regan
+  LINE: Yes.
+  EXPRESSION: content
+- CHARACTER: Chris
+  LINE: Try to sleep.
+  EXPRESSION: gentle
+  DIRECTION: exiting; turning out light
+
+::PATHS::
+- CHOICE: "Attempt to sleep"
+  TARGET: macneil_house_attic_door
+  STATE_CHANGE: sleepiness = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: MacNeil House - Attic Door
+MOOD: Mysterious / Foreboding
+CHARACTERS: Chris, Karl
+BACKGROUND_IMAGE: attic_door.png
+BACKGROUND_EDIT: "Nighttime, Chris cautiously pushing open an attic door with a candle."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Door is pushed slowly open. Chris ENTERS, tries the light switch. It doesn't work. She looks about the attic searching for something while slowly advancing at CAMERA when the candle flame suddenly and astoundingly disengages from the candle and shoots up to the ceiling and is extinguished. Behind Chris, having come upstairs, looms KARL. Coning up silently behind Chris:
+  EXPRESSION: null
+- CHARACTER: Karl
+  LINE: There is nothing.
+  EXPRESSION: calm
+- CHARACTER: Chris
+  LINE: Oh, good Jesus! Oh, jesus h. Christ, Karl, don’t do that!
+  EXPRESSION: startled fright
+  DIRECTION: leaps three feet out of her skin, spinning around and practically into Karl's arms. A hand to her fluttering heart.
+- CHARACTER: Karl
+  LINE: Very sorry. But you see? No rats.
+  EXPRESSION: apologetic
+- CHARACTER: Chris
+  LINE: Yeah, no rats. Thanks a lot, Karl. Terrific.
+  EXPRESSION: sarcastic
+- CHARACTER: Karl
+  LINE: Madam, maybe cat better.
+  EXPRESSION: neutral
+  DIRECTION: exiting.
+- CHARACTER: Chris
+  LINE: What?
+  EXPRESSION: confused
+- CHARACTER: Karl
+  LINE: Maybe cat better — to catch rats.
+  EXPRESSION: neutral
+- CHARACTER: Narrator
+  LINE: Chris stares a moment, then releases a sigh of weariness and relief.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Leave the attic"
+  TARGET: macneil_house_night
+  STATE_CHANGE: fear = -2, weariness = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: MacNeil House - Night
+MOOD: Peaceful
+CHARACTERS: Narrator
+BACKGROUND_IMAGE: macneil_house_night.png
+BACKGROUND_EDIT: "Nighttime, bedroom with light turned off."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Bedroom, light is turned off. All is peaceful.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Transition to next scene"
+  TARGET: montage_dc
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Montage - Chris and Regan Sightseeing in D.C.
+MOOD: Reflective / Sad
+CHARACTERS: Chris, Regan
+BACKGROUND_IMAGE: montage_dc.png
+BACKGROUND_EDIT: "Daytime, montage of Chris and Regan at Memorial Drive, Lee Mansion, and Tomb of Unknown Soldier."
+
+::SCRIPT::
+- CHARACTER: Regan
+  LINE: Mom, why do people have to die?
+  EXPRESSION: sad
+- CHARACTER: Chris
+  LINE: Honey, people get tired.
+  EXPRESSION: tenderly
+- CHARACTER: Regan
+  LINE: Why does God let then?
+  EXPRESSION: questioning
+- CHARACTER: Chris
+  LINE: Who’s been telling you about God, baby?
+  EXPRESSION: frowning
+- CHARACTER: Regan
+  LINE: Sharon.
+  EXPRESSION: neutral
+- CHARACTER: Chris
+  LINE: Oh.
+  EXPRESSION: neutral
+- CHARACTER: Regan
+  LINE: Mom, why does God let us get tired?
+  EXPRESSION: questioning
+- CHARACTER: Chris
+  LINE: Well, after awhile, God gets lonesome for us, Rags. He wants us back.
+  EXPRESSION: thoughtful
+
+::PATHS::
+- CHOICE: "Continue sightseeing"
+  TARGET: chris_macneil_bedroom
+  STATE_CHANGE: contemplation = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Chris MacNeil's Bedroom
+MOOD: Stressed / Impatient
+CHARACTERS: Chris, Sharon
+BACKGROUND_IMAGE: chris_bedroom_phone.png
+BACKGROUND_EDIT: "Nighttime, Chris pacing with a phone, Sharon scribbling notes."
+
+::SCRIPT::
+- CHARACTER: Chris
+  LINE: And get hold of that real estate agent and tell him we’re staying till June. I want Rags to finish up the semester at school. And then -- Yeah, yeah, I’m here. Yes, I'm waiting ... Good Christ, do you believe it?
+  EXPRESSION: determined / impatient
+- CHARACTER: Narrator
+  LINE: (mouthpiece down; to Sharon)
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Continue conversation"
+  TARGET: macneil_house_hall
+  STATE_CHANGE: frustration = +2
+  CONDITION: null
+
+::SCENE::
+LOCATION: MacNeil House - Second Floor Hall
+MOOD: Despondent / Angry
+CHARACTERS: Chris (O.S.), Sharon (O.S.), Regan
+BACKGROUND_IMAGE: macneil_hall.png
+BACKGROUND_EDIT: "Second floor hall, Regan listening at her bedroom door."
+
+::SCRIPT::
+- CHARACTER: Chris
+  LINE: Doesn’t send a card or call his daughter on her birthday?
+  EXPRESSION: angry
+- CHARACTER: Sharon
+  LINE: Well, the circuits might be busy.
+  EXPRESSION: neutral
+- CHARACTER: Chris
+  LINE: My ass, he just doesn’t give a shit! He’s just -- Yes, goddamit, I’m waiting!
+  EXPRESSION: furious
+- CHARACTER: Narrator
+  LINE: Regan sadly enters her room as:
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Enter bedroom"
+  TARGET: chris_bedroom_night
+  STATE_CHANGE: sadness = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Chris's Bedroom
+MOOD: Frustrated / Musing
+CHARACTERS: Chris
+BACKGROUND_IMAGE: chris_bedroom_muttering.png
+BACKGROUND_EDIT: "Nighttime, Chris pacing and muttering to herself."
+
+::SCRIPT::
+- CHARACTER: Chris
+  LINE: The whole fucking world is still waiting for the sunrise.
+  EXPRESSION: muttering
+  DIRECTION: pacing
+
+::PATHS::
+- CHOICE: "Wait for sunrise"
+  TARGET: chris_bedroom_dawn
+  STATE_CHANGE: contemplation = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Chris's Bedroom - Dawn
+MOOD: Surprised / Amused
+CHARACTERS: Chris, Regan
+BACKGROUND_IMAGE: chris_bedroom_dawn.png
+BACKGROUND_EDIT: "Dawn, Chris in bed as the phone rings."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Wake-up call from the A.D. Hangs up; gets out of bed; discovers Regan is in bed with her, half awake.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Well, what in the -- ! What are you doing here?
+  EXPRESSION: surprised
+- CHARACTER: Regan
+  LINE: My bed was shaking.
+  EXPRESSION: sleepy
+- CHARACTER: Chris
+  LINE: Oh, you nut. Go back to sleep.
+  EXPRESSION: amused
+  DIRECTION: kisses her and pulls up her covers.
+
+::PATHS::
+- CHOICE: "Return to sleep"
+  TARGET: house_transition
+  STATE_CHANGE: sleepiness = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: House - Night to Day Transition
+MOOD: Transition
+CHARACTERS: Narrator
+BACKGROUND_IMAGE: house_transition.png
+BACKGROUND_EDIT: "Transition from night to day, following a newspaper boy on a bike."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: EXT. HOUSE - NIGHT TO DAY TRANSITION FOLLOW NEWSPAPER BOY ON BIKE TO EOLY TRINITY
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Enter Holy Trinity Church"
+  TARGET: holy_trinity_church
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Holy Trinity Church - Rear Side Door
+MOOD: Shocking / Disturbing
+CHARACTERS: Pastor
+BACKGROUND_IMAGE: holy_trinity_church.png
+BACKGROUND_EDIT: "Dawn, the Pastor enters the church and discovers a desecrated statue."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: We HEAR key in door from other side. The PASTOR of Holy Trinity sluggishly enters, sets door stop to hold door open, turns on church lights, blows nose into handkerchief as he absently shuffles along; then genuflects at altar railing. He blesses himself, says a silent prayer, and as he looks up and starts to bless himself he. reacts with startlement and then shock as he sees before him;
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: It has been desecrated, painted over to suggest that the Virgin is a harlot. A slatternly, dissolute appearance. And glued to the appropriate spot is a sculpted clay phallus in erection.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "React to desecration"
+  TARGET: new_york_subway
+  STATE_CHANGE: shock = +3, disbelief = +3
+  CONDITION: null
+
+::SCENE::
+LOCATION: New York Subway Station
+MOOD: Desolate / Grim
+CHARACTERS: Damien Karras, Derelict
+BACKGROUND_IMAGE: subway_station.png
+BACKGROUND_EDIT: "Nighttime, a deserted subway station with points of light in the tunnel."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Silence, except for low RUMBLE of distant train. Points of light stretch down the darkness of the tunnel like guides to hopelessness.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The station appears to be deserted. The MAN stands close to the edge of the near platform. Black coat, hat and trousers. Powerfully built. He carries a valise resembling a doctor’s medical bag and stands with his back to us, head down, as if in dejection. Hear him, a vending machine on a pillar.
+  EXPRESSION: null
+- CHARACTER: Derelict
+  LINE: Faddah.
+  EXPRESSION: pleading
+- CHARACTER: Derelict
+  LINE: Hey, Faddah! Couldja help an old altar boy, Faddah? I’m Cat’lic.
+  EXPRESSION: pleading
+- CHARACTER: Narrator
+  LINE: The Man looks up with dismay, disclosing the round Roman collar at the neck, and the face of Damien Karras, now filled with an even deeper pain than when we met him. He shuts his eyes against this intrusion and clutches at his coat lapels, nulling them together as if to hide the collar. The train SOUND is UP FULL NOW, and in ANOTHER ANGLE the TRAIN rushes across FRAME, blocking our view of Karras and the Derelict.
+  EXPRESSION: dismayed / pained
+  DIRECTION: Karras shuts his eyes, clutches coat lapels. Train rushes across frame.
+
+::PATHS::
+- CHOICE: "Continue journey"
+  TARGET: east_21st_street
+  STATE_CHANGE: pain = +2
+  CONDITION: null
+
+::SCENE::
+LOCATION: East 21st Street, NYC
+MOOD: Melancholy / Reflective
+CHARACTERS: Damien Karras
+BACKGROUND_IMAGE: east_21st_street.png
+BACKGROUND_EDIT: "Daytime, Karras walks despondently past tenement buildings, observing street urchins."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Between 1st and 2nd Avenues. Karras walks despondently along the south side of the street, which is studded with decrepit tenement buildings. He pauses before one and with melancholy sees his past in the raggedly clothed, grime-covered, foul-mouthed urchins pitching pennies against the stoop. Karras looks up at front door. He starts up the steps.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Enter building"
+  TARGET: karras_mothers_apartment
+  STATE_CHANGE: melancholy = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Hall - Karras Outside Mother’s Apartment Door
+MOOD: Somber / Nostalgic
+CHARACTERS: Damien Karras
+BACKGROUND_IMAGE: karras_apartment_door.png
+BACKGROUND_EDIT: "Hallway outside an apartment door, Karras mounting steps."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: CUTTING, we find the CAMERA stationed by an apartment front door, trained on Karras mounting ste
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Continue to apartment"
+  TARGET: end
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Hallway - Tenement Apartment Entrance
+MOOD: Somber
+CHARACTERS: Narrator, Karras, Mother
+BACKGROUND_IMAGE: hallway.png
+BACKGROUND_EDIT: "Dimly lit hallway, end of the hall"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: At far end of hall. He approaches and lightly raps. From within we HEAR faint SOUND of a RADIO tuned to news station.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Karras waits a moment, then digs out a key from pants pocket, opens door like an aching wound, and enters.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Enter Apartment"
+  TARGET: tenement_apartment_kitchen
+  STATE_CHANGE: sadness = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Tenement Apartment - Kitchen
+MOOD: Melancholy
+CHARACTERS: Narrator, Karras, Mother
+BACKGROUND_IMAGE: tenement_kitchen.png
+BACKGROUND_EDIT: "Railroad flat kitchen, tiny, cracking plaster, peeling wallpaper, unkempt, sparse furnishings, snail tub, faded newspapers on floor"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The RADIO now more audible. We are in a railroad flat kitchen. Tiny. Cracking plaster and peeling wallpaper. Unkempt. Sparse and ancient furnishings. In the kitchen, a snail tub for bathing. Faded old newspapers spread on the uncarpeted floor.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: As Karras enters, he breathes in an aching sigh as his gaze brushes around at the painful reminders of his past. Then he glances to right, from which we HEAR SOUND of RADIO. He puts down valise and starts into bedroom.
+  EXPRESSION: Sad
+- CHARACTER: Karras
+  LINE: Mama?
+  EXPRESSION: Longing
+- CHARACTER: Narrator
+  LINE: No response. CAMERA FOLLOWS him into squalid living room. Karras now sees his MOTHER, fully dressed, sleeping on a torn and grease-stained old sofa. On her right cheek, a prominent mole. He observes her for a moment; sighs as he removes raincoat.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: As he drapes it over a chair, his mother awakens with a slight start; sees him; reacts with surprise and joy.
+  EXPRESSION: null
+- CHARACTER: Mother
+  LINE: Dimmy!
+  EXPRESSION: Joyful
+- CHARACTER: Mother
+  LINE: Oh, Dimmy, I so glad to see you!
+  EXPRESSION: Joyful
+
+::PATHS::
+- CHOICE: "Talk to Mother"
+  TARGET: mother_kitchen_table
+  STATE_CHANGE: comfort = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Karras' Mother's Kitchen
+MOOD: Warmth tinged with sadness
+CHARACTERS: Narrator, Karras, Mother
+BACKGROUND_IMAGE: mothers_kitchen.png
+BACKGROUND_EDIT: "Tiny kitchen table, radio playing news"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Me HEAR radio still tuned to news. Karras and mother sit at tiny table in kitchen. Karras sips at coffee.
+  EXPRESSION: null
+- CHARACTER: Mother
+  LINE: Dimmy, you thin. You not eating. I fix for you.
+  EXPRESSION: Concerned
+- CHARACTER: Karras
+  LINE: No, Mom.
+  EXPRESSION: Resigned
+- CHARACTER: Mother
+  LINE: I fix.
+  EXPRESSION: Determined
+
+::PATHS::
+- CHOICE: "Let Mother fix food"
+  TARGET: karras_mother_eating
+  STATE_CHANGE: comfort = +2
+  CONDITION: null
+
+::SCENE::
+LOCATION: Karras And Mother
+MOOD: Contentment
+CHARACTERS: Narrator, Karras, Mother
+BACKGROUND_IMAGE: kitchen_table_eating.png
+BACKGROUND_EDIT: "Karras eating at the kitchen table"
+
+::SCRIPT::
+- CHARACTER: Karras
+  LINE: Really great, Mom! Just great!
+  EXPRESSION: Appreciative
+- CHARACTER: Mother
+  LINE: You Uncle John cone by to visit me.
+  EXPRESSION: Casual
+- CHARACTER: Karras
+  LINE: Oh really, Ha? When?
+  EXPRESSION: Pleased
+- CHARACTER: Mother
+  LINE: Last month.
+  EXPRESSION: Casual
+
+::PATHS::
+- CHOICE: "Reflect on Uncle John's visit"
+  TARGET: karras_mother_eating
+  STATE_CHANGE: sadness = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Mother's Living Room
+MOOD: Quiet contemplation
+CHARACTERS: Narrator, Karras, Mother
+BACKGROUND_IMAGE: mothers_living_room.png
+BACKGROUND_EDIT: "Tidied up living room, sofa, broken lamp, broom, refuse container, carpet sweeper"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Mother (wearing holy medal) sits on sofa, watching as Karras repairs a broken lamp. The room has been tidied up a little. In the scene we SEE a broom, a small plastic refuse container and a dilapidated carpet sweeper. Silence.
+  EXPRESSION: null
+- CHARACTER: Mother
+  LINE: Dimmy, you worry about something?
+  EXPRESSION: Concerned
+- CHARACTER: Karras
+  LINE: No, Mama.
+  EXPRESSION: Evasive
+- CHARACTER: Mother
+  LINE: You not happy. What's the matter, Dimmy?
+  EXPRESSION: Concerned
+- CHARACTER: Karras
+  LINE: Nothing, Mama. Really. I’m fine.
+  EXPRESSION: Forced Calm
+- CHARACTER: Narrator
+  LINE: A pause. Then:
+  EXPRESSION: null
+- CHARACTER: Mother
+  LINE: I wish you was marry Mary McArdle.
+  EXPRESSION: Regretful
+
+::PATHS::
+- CHOICE: "Respond to Mother's wish"
+  TARGET: karras_leaving
+  STATE_CHANGE: melancholy = +2
+  CONDITION: null
+
+::SCENE::
+LOCATION: Mother's Living Room - Departure
+MOOD: Regretful
+CHARACTERS: Narrator, Karras, Mother
+BACKGROUND_IMAGE: karras_leaving_living_room.png
+BACKGROUND_EDIT: "Karras putting on raincoat, valise in hand, Mother on sofa"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Karras is entering living room, pulling on raincoat. He has valise. He cones to Mother and observes her sadly for a moment. Regret.
+  EXPRESSION: Sad
+- CHARACTER: Narrator
+  LINE: He leans over and kisses her cheek tenderly. He starts to leave, remembers something, tunes radio to all-news station.
+  EXPRESSION: Tender
+
+::PATHS::
+- CHOICE: "Depart"
+  TARGET: fordham_university_dawn
+  STATE_CHANGE: regret = +3
+  CONDITION: null
+
+::SCENE::
+LOCATION: Fordham University - Establishing
+MOOD: Serene
+CHARACTERS: Narrator
+BACKGROUND_IMAGE: fordham_university.png
+BACKGROUND_EDIT: "Dawn, establishing shot of Fordham University"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: DAWN
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Enter Chapel"
+  TARGET: jesuit_residence_chapel
+  STATE_CHANGE: peace = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Small Chapel - Jesuit Residence Hall
+MOOD: Reverent
+CHARACTERS: Narrator, Karras
+BACKGROUND_IMAGE: small_chapel.png
+BACKGROUND_EDIT: "Dawn, Karras in vestments preparing for mass"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Karras wears trousers and T-shirt. He vests and prepares for mass, and then steps back facing altar, blesses himself, and begins:
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: 'I will go to the Altar of God, Unto God who gives joy to my youth.'
+  EXPRESSION: Poignant Longing
+
+::PATHS::
+- CHOICE: "Begin Mass"
+  TARGET: bellevue_hall_hall
+  STATE_CHANGE: devotion = +2
+  CONDITION: null
+
+::SCENE::
+LOCATION: Hall of Bellevue Hospital
+MOOD: Somber
+CHARACTERS: Narrator, Karras, Uncle
+BACKGROUND_IMAGE: bellevue_hall.png
+BACKGROUND_EDIT: "Hospital hallway, Karras and Uncle approaching"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The CAMERA is fixed at one end of the hall, and Karras and his UNCLE are approaching from far down the opposite end; however, their dialogue is clearly audible at all times, and their voices metallically reverberant.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Karras has his head down, sorrowful and displayed, as he listens to the Uncle, who speaks with a thick, immigrant accent. Karras is ruefully shaking his head, and the UNCLE is gesturing helplessly, defensively, as:
+  EXPRESSION: Sad
+- CHARACTER: Uncle
+  LINE: But, Dimmy, da edema affected her brain! You understand? She don't let. any doctor come near her! She was all da time screwin', even talkin' to da radio! Listen, regular hospital not gonna nut up wit’ dat, Dirnmy! Un’erstan? So we give her a shot an’ bring her here ’til da doctors, day fix up her leg! Den we take her right out, Dimmy. Two or t’ree month, and she’s out, good as new.
+  EXPRESSION: Frustrated
+
+::PATHS::
+- CHOICE: "Continue to Ward 3"
+  TARGET: ward_3_entry
+  STATE_CHANGE: frustration = +2
+  CONDITION: null
+
+::SCENE::
+LOCATION: Ward 3 - Padded Entry Door
+MOOD: Disturbing
+CHARACTERS: Narrator, Karras, Uncle, Nurse
+BACKGROUND_IMAGE: ward_3_entry.png
+BACKGROUND_EDIT: "Hospital hallway outside Ward 3, locked door"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Karras and his Uncle have halted outside locked door above which is posted the legend: NEURO-PSYCHIATRIC: WARD 3, and Uncle pushes BUZZER to summon curse.
+  EXPRESSION: null
+- CHARACTER: Uncle
+  LINE: You go in, Dimmy. I wait out here.
+  EXPRESSION: Reluctant
+- CHARACTER: Narrator
+  LINE: Karras nods. Now the uncle has head down in ironic thought.
+  EXPRESSION: null
+- CHARACTER: Uncle
+  LINE: Cat’s funny. You know, if you wasn’t be priest, you be famous psychiatrist now on Park Avenue, Dimmy. Your mother, she be livin’ in a penthouse instead of da --
+  EXPRESSION: Ironic
+- CHARACTER: Narrator
+  LINE: as a corpulent NURSE waddles INTO FRAME and uses large iron key to unlock door. O.S., we HEAR the demented SCREAMS, MOANS and FRAGMENTED STATEMENTS of MENTAL PATIENTS. The door comes open, disclosing Karras and Uncle.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Karras slowly lifts head at the O.S. SOUNDS.
+  EXPRESSION: Apprehensive
+
+::PATHS::
+- CHOICE: "Enter Ward 3"
+  TARGET: ward_3_invalid_patients_room
+  STATE_CHANGE: fear = +3
+  CONDITION: null
+
+::SCENE::
+LOCATION: Ward 3 - Invalided Patients' Room
+MOOD: Distressing
+CHARACTERS: Narrator, Karras, Mother
+BACKGROUND_IMAGE: ward_3_patients_room.png
+BACKGROUND_EDIT: "Large ward with eighty beds, elderly patients, cries of pain, demented chatter"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Karras walks down aisle of an enormous ward containing eighty beds. The PATIENTS are mostly elderly, and we HEAR their CRIES of PAIN and DEMENTED CHATTER.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Karras stops before a bedded patient far down the row; Karras' MOTHER. Gaunt and hollow-eyed, looking confused and helpless; disoriented; she has spied her son and is gripping at sidebars of bed, trying to raise herself as CAMERA now moves forward, again, trained on mother.
+  EXPRESSION: Pity
+- CHARACTER: Narrator
+  LINE: By the time Karras halts by her, his mother, looking frightened and pathetic, eyes wide with pleading, has raised herself up, pulling weakly, hands trembling.
+  EXPRESSION: Pathetic
+- CHARACTER: Mother
+  LINE: Why you do dis, Dimmy? Why?
+  EXPRESSION: Pleading
+
+::PATHS::
+- CHOICE: "Confront the situation"
+  TARGET: bellevue_hall_karras_uncle_walking
+  STATE_CHANGE: anguish = +4
+  CONDITION: null
+
+::SCENE::
+LOCATION: Bellevue Hall - Karras and Uncle Walking
+MOOD: Heartbroken
+CHARACTERS: Narrator, Karras, Uncle
+BACKGROUND_IMAGE: bellevue_hall_walking.png
+BACKGROUND_EDIT: "Hospital hallway outside Ward 3, Karras fumbling for cigarettes, eyes wet with tears"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Behind them, WARD 3 entry door. Karras is fumbling for his cigarette pack. His eyes are wet with tears.
+  EXPRESSION: Grieving
+- CHARACTER: Karras
+  LINE: Couldn’t you have put her someplace else?
+  EXPRESSION: Desperate
+- CHARACTER: Uncle
+  LINE: Like what? Private hospital? Who got the money for dat, Dimmy? You?
+  EXPRESSION: Cynical
+
+::PATHS::
+- CHOICE: "Continue walking"
+  TARGET: gym
+  STATE_CHANGE: despair = +3
+  CONDITION: null
+
+::SCENE::
+LOCATION: Gym
+MOOD: Violent catharsis
+CHARACTERS: Narrator, Karras
+BACKGROUND_IMAGE: gym.png
+BACKGROUND_EDIT: "Gymnasium, Karras in boxer shorts punching a punching bag"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Karras in boxer shorts and shirt works savagely at a punching bag of the man-sized, stuffed variety. Eyes wet with tears, he slams at the bag with a mixture of sorrow, rage and frustration.
+  EXPRESSION: Violent
+
+::PATHS::
+- CHOICE: "Continue punching"
+  TARGET: dr_kleins_office_reception
+  STATE_CHANGE: rage = +4, sorrow = +4, frustration = +4
+  CONDITION: null
+
+::SCENE::
+LOCATION: Dr. Klein’s Office - Building Rosslyn - Reception
+MOOD: Anxious
+CHARACTERS: Narrator, Chris
+BACKGROUND_IMAGE: dr_kleins_office_reception.png
+BACKGROUND_EDIT: "Reception room, other mothers and children present"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Chris sits in reception room. A few other MOTHERS and CHILDREN are present.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Wait to see Dr. Klein"
+  TARGET: dr_kleins_examining_room
+  STATE_CHANGE: anxiety = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Dr. Klein’s Examining Room
+MOOD: Uneasy
+CHARACTERS: Narrator, Regan, Nurse
+BACKGROUND_IMAGE: dr_kleins_examining_room.png
+BACKGROUND_EDIT: "Examining room, montage of medical tests"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: BRIEF MONTAGE OF SHOTS. Klein administering physical to Regan. Should include ophthalmoscope, tuning fork and simple coordination test. Also blood sample in centridograph, and urine sample under microscope.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: FINAL SHOT has a NURSE leaning with her back against examining table, her expression partly puttied, partly disturbed as she observes Regan, who is in her slip and in constant motion; stepping, twirling, touching, making nervous movements while aimlessly humming. Klein is not present.
+  EXPRESSION: Disturbed
+
+::PATHS::
+- CHOICE: "Leave Examining Room"
+  TARGET: dr_kleins_office_desk
+  STATE_CHANGE: unease = +2
+  CONDITION: null
+
+::SCENE::
+LOCATION: Dr. Klein’s Office
+MOOD: Concerned
+CHARACTERS: Narrator, Chris, Klein
+BACKGROUND_IMAGE: dr_kleins_office_desk.png
+BACKGROUND_EDIT: "Office with desk, Klein writing prescription"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Chris is seated on edge of chair. Klein is back of desk, writing a prescription.
+  EXPRESSION: null
+- CHARACTER: Klein
+  LINE: A disorder of the nerves. At least we think it is. We don’t know yet exactly how it works, but it’s often seen in early adolescence. She shows all the symptoms: the hyperactivity; the temper; her performance in math.
+  EXPRESSION: Clinical
+- CHARACTER: Chris
+  LINE: Yeah, the math. Why the math?
+  EXPRESSION: Puzzled
+- CHARACTER: Klein
+  LINE: It affects concentration. Now this is for Ritalin. Ten milligrams a day.
+  EXPRESSION: Clinical
+- CHARACTER: Narrator
+  LINE: (he rips the prescription from the small blue pad and hands it over)
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: What is it? A tranquilizer?
+  EXPRESSION: Concerned
+- CHARACTER: Klein
+  LINE: A stimulant.
+  EXPRESSION: Clinical
+- CHARACTER: Chris
+  LINE: Stimulant? She’s higher'n a kite right now!
+  EXPRESSION: Exasperated
+- CHARACTER: Klein
+  LINE: Her condition isn't quite what it seems. Nobody knows the cause of hyperkinetic behavior in a child. The Ritalin seems to work to relieve the condition but we really don’t know how or why, frankly. Your daughter's symptoms could be an overreaction to depression -- but that's out of my field.
+  EXPRESSION: Uncertain
+- CHARACTER: Chris
+  LINE: Depression?
+  EXPRESSION: Shocked
+
+::PATHS::
+- CHOICE: "Process the information"
+  TARGET: end
+  STATE_CHANGE: confusion = +3
+  CONDITION: null
+
+::SCENE::
+LOCATION: Unknown
+MOOD: Conversational
+CHARACTERS: Chris, Klein
+BACKGROUND_IMAGE: null
+BACKGROUND_EDIT: null
+
+::SCRIPT::
+- CHARACTER: Chris
+  LINE: Well, you mentioned her father ... the separation.
+  EXPRESSION: null
+- CHARACTER: Klein
+  LINE: Oh, no. I'd wait and see what happens with the Ritalin. I think that’s the answer. Wait two or three weeks.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: And those lies she's been telling?
+  EXPRESSION: null
+- CHARACTER: Klein
+  LINE: Lies?
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Ya know, those things to get attention, like saying that her bed shakes and stuff.
+  EXPRESSION: null
+- CHARACTER: Klein
+  LINE: Have you ever known your daughter to swear and use obscenities?
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Never.
+  EXPRESSION: null
+- CHARACTER: Klein
+  LINE: Well, you see, that’s quite similar to things like her lying — uncharacter —
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Wait a minute. What are you talking about?
+  EXPRESSION: Perplexed
+- CHARACTER: Klein
+  LINE: Well, she let loose quite a string while I was examining her, Mrs. MacNeil.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: You’re kidding! Like what?
+  EXPRESSION: null
+- CHARACTER: Klein
+  LINE: Well, I’d say her vocabulary's rather extensive.
+  EXPRESSION: Evasive
+- CHARACTER: Chris
+  LINE: Well, what, for example? I mean, give me a for instance!
+  EXPRESSION: null
+- CHARACTER: Klein
+  LINE: Well, specifically, Mrs. MacNeil, she advised me to keep my fingers away from her "goddam cunt."
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: She used those words?
+  EXPRESSION: Shocked
+- CHARACTER: Klein
+  LINE: She used those words. Look, I doubt that she even understood what she was saying.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Yeah, I guess. Maybe not. You don't think a psychiatrist?
+  EXPRESSION: null
+- CHARACTER: Klein
+  LINE: The best explanation is always the simplest one. Let's wait. Let’s wait and see. In the meantime, try not to worry.
+  EXPRESSION: Encouraging
+- CHARACTER: Chris
+  LINE: How?
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: MacNeil Home - Living Room
+MOOD: Social, Lively
+CHARACTERS: Chris, Burke Dennings, Senator, Senator's Wife, Karl, Jesuit Dean, Mary Jo Perrin
+BACKGROUND_IMAGE: macneil_living_room_party.png
+BACKGROUND_EDIT: "Nighttime party in progress, conversations, drinks being served"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: A few Jesuits and some of the cast and crew of the motion picture are present. Vibrant hum of conversation.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Then a closer angle featuring Burke Dennings. Burke, an empty glass in hand, stands chatting with silver-maned Senator and Senator's Wife. Back of them, and to side. Chris is visible, chatting with the Jesuit Dean of the college.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Karl is approaching the latter with drinks tray. Burke seems irritable and tautly drunk.
+  EXPRESSION: null
+- CHARACTER: Dennings
+  LINE: Ho, no, her part is finished; all the parts with the principal actors, you see; but I’m staying to finish other scenes.
+  EXPRESSION: null
+- CHARACTER: Senator
+  LINE: I understand.
+  EXPRESSION: null
+- CHARACTER: Dennings
+  LINE: Oh, how splendid, Let's another for the road.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: The Lincoln Highway?
+  EXPRESSION: null
+- CHARACTER: Dennings
+  LINE: Oh, now, don’t be so silly.
+  EXPRESSION: null
+- CHARACTER: Senator’s Wife
+  LINE: Fun party.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Thanks, Martha.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: And Chris returns to conversation with the Dean. During the above, the Senator has mutely refused another drink, but Burke now takes one in his other hand.
+  EXPRESSION: null
+- CHARACTER: Dennings
+  LINE: Oh, now tell me, was it Public Relations you did for the Gestapo, or Community Relations?
+  EXPRESSION: null
+- CHARACTER: Karl
+  LINE: I am Swiss.
+  EXPRESSION: Grimly uptight
+- CHARACTER: Dennings
+  LINE: Yes, of course. And you never went bowling with Goebbels, I suppose.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Unknown
+MOOD: Tense, Accusatory
+CHARACTERS: Narrator, Dennings, Karl
+BACKGROUND_IMAGE: null
+BACKGROUND_EDIT: "Tracking shot of Karl, then focusing on Sharon and Mary Jo"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: His face impassive; yet his eyes are angry, as we hear:
+  EXPRESSION: null
+- CHARACTER: Dennings
+  LINE: So superior, aren't you? Nazi!
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Camera follows Karl but holds — as he passes them — on Sharon and Mary Jo Ferrin, who are seated somewhere in the room. A bubbly personality, Mary Jo is reading Sharon’s palm.
+  EXPRESSION: null
+- CHARACTER: Perrin
+  LINE: Well yes, your work line is longer than your heart line. There, you see? And you've recently broken up with a boyfriend. Am I right?
+  EXPRESSION: null
+- CHARACTER: Sharon
+  LINE: No.
+  EXPRESSION: null
+- CHARACTER: Perrin
+  LINE: I'm really famous for predictions, not palms. Where’s the bathroom?
+  EXPRESSION: null
+- CHARACTER: Sharon
+  LINE: Upstairs, I’ll go with you.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: As they move, camera follows:
+  EXPRESSION: null
+- CHARACTER: Perrin
+  LINE: Oh, by the way, I brought that witchcraft book you asked for.
+  EXPRESSION: null
+- CHARACTER: Sharon
+  LINE: Oh, thanks.
+  EXPRESSION: null
+- CHARACTER: Perrin
+  LINE: And another one on Russian ESP, They’re in the study.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Unknown
+MOOD: Awkward, Suspicious
+CHARACTERS: Narrator, Dennings, Senator, Senator's Wife
+BACKGROUND_IMAGE: null
+BACKGROUND_EDIT: "Dennings, Senator, and wife. Senator turns away."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: They walk out of frame as camera holds on Dennings, the Senator, and his wife. The Senator is turned away from Dennings, conversing in low tones with wife. Dennings is now composed and as he stares down into his gin glass:
+  EXPRESSION: null
+- CHARACTER: Dennings
+  LINE: There seems to be an alien pubic-hair in my gin.
+  EXPRESSION: null
+- CHARACTER: Senator
+  LINE: I beg your pardon?
+  EXPRESSION: null
+- CHARACTER: Dennings
+  LINE: Never seen it before in my life!
+  EXPRESSION: Defensive
+- CHARACTER: Senator
+  LINE: Yes, I’m sure.
+  EXPRESSION: Murmuring
+- CHARACTER: Dennings
+  LINE: Have you?
+  EXPRESSION: Accusatory
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Unknown
+MOOD: Conversational, Curious
+CHARACTERS: Chris, Jesuit Dean, Mary Jo Perrin, Father Dyer, Astronaut
+BACKGROUND_IMAGE: null
+BACKGROUND_EDIT: "Chris, Dean, and Perrin eating dinner. Chris is on the floor."
+
+::SCRIPT::
+- CHARACTER: Perrin
+  LINE: On, cone on, every family's got one black sheep.
+  EXPRESSION: null
+- CHARACTER: Dean
+  LINE: Yes, I know, but we were pushing our quota with the Medici Popes.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Say, Father, there's something I've been meaning to ask you. Do you know that sort of wing that's in back of the church over there? The red brick one, I mean.
+  EXPRESSION: null
+- CHARACTER: Dean
+  LINE: St. Mike's.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Yeah, right. St. Mike's. What goes on in there, Father?
+  EXPRESSION: null
+- CHARACTER: Dean
+  LINE: Oh, that's where we say Black Mass.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: What’s that?
+  EXPRESSION: null
+- CHARACTER: Perrin
+  LINE: Oh, he's kidding.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: I wasn't. I'd still like to know what it is.
+  EXPRESSION: null
+- CHARACTER: Dean
+  LINE: Oh, well basically, I guess, it's a travesty of the Catholic Mass. It's connected to witchcraft. Devil worship cults. Gee, where's Joe? He knows all about this stuff.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He is indicating Father Dyer, who is standing at buffet, heaping second helping onto his plate.
+  EXPRESSION: null
+- CHARACTER: Dean
+  LINE: Hey, Joe!
+  EXPRESSION: null
+- CHARACTER: Dyer
+  LINE: You called, Great Dean?
+  EXPRESSION: null
+- CHARACTER: Dean
+  LINE: They had a couple of cases of desecration in Holy Trinity last week, and Joe said something about one of them reminding him of some things they used to do at Black Mass, so I expect he knows something about the subject.
+  EXPRESSION: null
+- CHARACTER: Perrin
+  LINE: What happened at the church?
+  EXPRESSION: null
+- CHARACTER: Dean
+  LINE: Oh, it’s really too disgusting.
+  EXPRESSION: null
+- CHARACTER: Dyer
+  LINE: Listen, give me just a minute. I think I've got something going over there with the Astronaut.
+  EXPRESSION: null
+- CHARACTER: Dean
+  LINE: What?
+  EXPRESSION: null
+- CHARACTER: Dyer
+  LINE: First missionary on the moon?
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: They burst into laughter as he moves off to join Astronaut.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: He’s fun. You haven't told me what goes on yet in back of St. Mike’s. Big secret? Who’s that priest I keep seeing there? You know, sort of dark? Do you know the one I mean?
+  EXPRESSION: null
+- CHARACTER: Dean
+  LINE: Father Karras.
+  EXPRESSION: Lowered tone, trace of regret
+- CHARACTER: Chris
+  LINE: What’s he do?
+  EXPRESSION: null
+- CHARACTER: Dean
+  LINE: He’s our counselor, Chris. A psychiatrist. The back of St. Mike’s is our couch.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Oh, I see.
+  EXPRESSION: null
+- CHARACTER: Dean
+  LINE: Had a pretty rough knock last night, poor guy. His mother passed away.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Oh, I’m sorry.
+  EXPRESSION: Grief
+- CHARACTER: Dean
+  LINE: He seems to be taking it pretty hard. She was living by herself, and I guess she was dead for a couple of days before they found her.
+  EXPRESSION: null
+- CHARACTER: Perrin
+  LINE: Oh, how awful.
+  EXPRESSION: Murmur
+- CHARACTER: Dean
+  LINE: The superintendent of her apartment building found her at four in the morning. They wouldn’t have found her even then except ... Well, the next door neighbors complained about her radio going all the time.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Unknown
+MOOD: Comedic
+CHARACTERS: Narrator, Dyer, Astronaut
+BACKGROUND_IMAGE: null
+BACKGROUND_EDIT: "Two shot of Dyer and Astronaut"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The Astronaut is breaking up as:
+  EXPRESSION: null
+- CHARACTER: Dyer
+  LINE: No, I’m really not a priest. I’m actually a terribly avant-garde rabbi.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: MacNeil House - Kitchen
+MOOD: Chaotic, Angry
+CHARACTERS: Chris, Dennings, Karl, Sharon
+BACKGROUND_IMAGE: macneil_kitchen.png
+BACKGROUND_EDIT: "Kitchen, Dennings is yelling at Karl."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Chris is bursting in as Dennings continues to rave at a stolid, expressionless Karl who stands immobile, arms akimbo, watching Dennings.
+  EXPRESSION: null
+- CHARACTER: Dennings
+  LINE: Cunting Hun! You bloody damned butchering Nazi pig!
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Karl! Will you get out of here! Get out!
+  EXPRESSION: Overlapping Dennings
+- CHARACTER: Narrator
+  LINE: Sharon enters now and Chris has started pushing Karl out. The latter, defiant, permits it only reluctantly.
+  EXPRESSION: null
+- CHARACTER: Dennings
+  LINE: What the hell makes you think you're so fucking superior? Goddamned cunting Heinrich Himmler! Get the hell back to — !
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Karl is out and now De
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: MacNeil House - Main Staircase
+MOOD: Comedic Relief
+CHARACTERS: Dennings, Chris, Sharon, Assistant Director
+BACKGROUND_IMAGE: macneil_house_staircase.png
+BACKGROUND_EDIT: "Nighttime, people milling about"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Dennings, in a remarkable performance, is instantly composed and as Chris turns to him after shoving Karl out door, Dennings turns to her genially and rubs his hands together with:
+  EXPRESSION: null
+- CHARACTER: Dennings
+  LINE: Now, then, what's dessert?
+  EXPRESSION: Genial
+- CHARACTER: Chris
+  LINE: Dessert!
+  EXPRESSION: Incredulous
+- CHARACTER: Dennings
+  LINE: Well, I'm hungry.
+  EXPRESSION: Whining
+- CHARACTER: Chris
+  LINE: Feed him!
+  EXPRESSION: Exasperated
+
+::PATHS::
+- CHOICE: "Continue the party"
+  TARGET: regans_bedroom
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Regan's Bedroom
+MOOD: Quiet Concern
+CHARACTERS: Regan, Chris
+BACKGROUND_IMAGE: regans_bedroom.png
+BACKGROUND_EDIT: "Nighttime, room is dark, Regan in bed"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Regan is in bed. Chris is tucking her bedcovers in. The room lights are cut and Regan is turned on side. She has eyes closed. Chris, finished, looks down at her.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: You okay, hon?
+  EXPRESSION: Concerned
+- CHARACTER: Narrator
+  LINE: No response. Chris waits. Regan appears to be asleep.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Sleep tight.
+  EXPRESSION: Whisper
+
+::PATHS::
+- CHOICE: "Leave Regan to sleep"
+  TARGET: macneil_house_staircase_2
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: MacNeil House - Angle at Main Staircase
+MOOD: Lively Party
+CHARACTERS: Dyer, Dean, Chris, Sharon, Assistant Director, Dennings
+BACKGROUND_IMAGE: macneil_house_staircase_party.png
+BACKGROUND_EDIT: "Nighttime, a group singing and playing music"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Dyer and Dean are SINGING and PLAYING, "Oh, Lindberg (What a Flyin' Fool Was He)."
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: GO TO Chris holding front door open for Sharon and the Assistant Director with a barely conscious Dennings being carried between them, heading for open front door.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Nite, Burke. Take it easy.
+  EXPRESSION: Friendly
+- CHARACTER: Dennings
+  LINE: Fuck it!
+  EXPRESSION: Mutter
+- CHARACTER: Chris
+  LINE: Thanks, Father. Keep goin'.
+  EXPRESSION: Friendly
+- CHARACTER: Dyer
+  LINE: I don't need the encouragement. My notion of heaven is a solid white nightclub with me center stage for all the rest of eternity.
+  EXPRESSION: Amused
+- CHARACTER: Narrator
+  LINE: Does anyone else know the words to "I’ll Bet You’re Sorry Now, Tokyo Rose."
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Chris starts singing as Dyer delightedly joins her. Then abruptly he stops, staring expressionlessly at something O.S. Chris, too, stops as Dyer nods head toward spot O.S.
+  EXPRESSION: null
+- CHARACTER: Dyer
+  LINE: I believe we have a visitor, Mrs. MacNeil.
+  EXPRESSION: Serious
+
+::PATHS::
+- CHOICE: "Investigate the visitor"
+  TARGET: chris_astronaut_scene
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: MacNeil House - At Chris and Astronaut
+MOOD: Shock and Dismay
+CHARACTERS: Chris, Dyer, Astronaut, Regan
+BACKGROUND_IMAGE: macneil_house_party_shock.png
+BACKGROUND_EDIT: "Nighttime, partygoers look stunned"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Chris looks where Dyer has indicated, and as sudden silence falls on the group, Chris gasps in shock and dismay, hand flying to her cheek, a small whimper coming up in her throat.
+  EXPRESSION: Shocked, Dismayed
+- CHARACTER: Narrator
+  LINE: The CAMERA MOVES TO TIGHT ON ASTRONAUT'S FACE as he, too, looks down and we HEAR:
+  EXPRESSION: null
+- CHARACTER: Regan
+  LINE: You're going to die up there.
+  EXPRESSION: O.S.
+- CHARACTER: Narrator
+  LINE: As Astronaut’s face turns gray with dismay and chilling apprehension, we HEAR:
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Oh, my God! Oh, —
+  EXPRESSION: Anguished, O.S.
+
+::PATHS::
+- CHOICE: "React to Regan's outburst"
+  TARGET: regan_astronaut_pov
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Regan’s Bedroom - Astronaut's P.O.V.
+MOOD: Distress and Confusion
+CHARACTERS: Regan, Chris (O.S.)
+BACKGROUND_IMAGE: regans_bedroom_pov.png
+BACKGROUND_EDIT: "Nighttime, Regan is urinating"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Regan in nightgown, is staring up at Astronaut (CAMERA), and is urinating gushingly onto the rug.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: -- my God, Oh my baby!
+  EXPRESSION: Anguished, O.S.
+
+::PATHS::
+- CHOICE: "Help Regan"
+  TARGET: widen_angle
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: MacNeil House - Wide Angle
+MOOD: Urgent Concern
+CHARACTERS: Chris, Regan, Astronaut
+BACKGROUND_IMAGE: macneil_house_wide_angle.png
+BACKGROUND_EDIT: "Nighttime, Chris rushes to Regan"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: to disclose Chris rushing up to Regan and leading her away toward stairs.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Oh, come on, Rags, come with me, come upstairs! Oh, I’m so sorry! She's been sick, she must be walking in her sleep! She didn’t know what she was saying!
+  EXPRESSION: Reassuring, Over shoulder
+
+::PATHS::
+- CHOICE: "Take Regan upstairs"
+  TARGET: astronaut_staring
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: MacNeil House - Close at Astronaut
+MOOD: Shaken
+CHARACTERS: Astronaut
+BACKGROUND_IMAGE: astronaut_staring.png
+BACKGROUND_EDIT: "Nighttime, Astronaut looks shaken"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: CLOSE AT ASTRONAUT - STARING - SHAKEN
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Return to Regan's room"
+  TARGET: regans_bathroom
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Regan's Bathroom
+MOOD: Tense
+CHARACTERS: Regan, Chris
+BACKGROUND_IMAGE: regans_bathroom.png
+BACKGROUND_EDIT: "Nighttime, Regan is in the tub"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Regan sits in tub like someone in trance while Chris rapidly bathes her.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Honey, why did you say that? Why?
+  EXPRESSION: Puzzled
+
+::PATHS::
+- CHOICE: "Continue to Regan's Bedroom"
+  TARGET: regans_bedroom_night
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Regan's Bedroom
+MOOD: Somber
+CHARACTERS: Regan, Chris
+BACKGROUND_IMAGE: regans_bedroom_night.png
+BACKGROUND_EDIT: "Nighttime, moonlight, Regan staring at wall"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Moonlight streams in through open window. Regan turned toward wall, is in bed, dully staring at a point in space.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Chris sits on edge of bed. Through window, from street below, we HEAR O.S. SOUNDS and VOICES of departing guests.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Howya feelin', honey? Better?
+  EXPRESSION: Concerned
+- CHARACTER: Narrator
+  LINE: No response.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Would you like me to read to you?
+  EXPRESSION: Gentle
+- CHARACTER: Narrator
+  LINE: Regan shakes head slightly, still staring at wall.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Okay, then. Try to sleep.
+  EXPRESSION: Gentle
+- CHARACTER: Chris
+  LINE: ’Night, my baby.
+  EXPRESSION: Loving
+- CHARACTER: Narrator
+  LINE: Chris leaves and is almost out the door when she is arrested by Regan calling to her in a low, despairing, haunted tone:
+  EXPRESSION: null
+- CHARACTER: Regan
+  LINE: Mother, what’s wrong with me?
+  EXPRESSION: Despairing, Haunted
+- CHARACTER: Chris
+  LINE: Why, honey, it’s nerves. That’s all. I mean, it’s just like the doctor said. You keep taking those pills and you’ll be fine. Just fine.
+  EXPRESSION: Reassuring
+- CHARACTER: Narrator
+  LINE: Okay, Rags?
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Chris waits. Still nothing. Troubled and despondent.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Chris starts out of room.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Leave the room"
+  TARGET: second_floor_hall
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Second Floor Hall of MacNeil House
+MOOD: Unease
+CHARACTERS: Chris, Willie
+BACKGROUND_IMAGE: macneil_house_hallway.png
+BACKGROUND_EDIT: "Nighttime, hallway, Chris is thoughtful"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The CAMERA is FIXED at one end of hall, and we see Chris exit at the other from Regan’s bedroom. Head down, thoughtful, she starts toward us; then remembers some­ thing and moves back to lean over balustrade railing and observe something below for a moment or two.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: We HEAR O.S. SCRAPING SOUND, like a brush against carpeting; Willie brushing cut the urine stains.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Comin’ out, Willie?
+  EXPRESSION: Softly
+- CHARACTER: Willie
+  LINE: Yes, madam. I think so.
+  EXPRESSION: Resigned
+- CHARACTER: Chris
+  LINE: Good.
+  EXPRESSION: Slight nod
+- CHARACTER: Narrator
+  LINE: She continues to stare for a moment more, then comes toward CAMERA again until she reaches door to her bedroom and enters. She closes door. A beat. Then from O.S., within Regan’s bedroom, we HEAR METALLIC SOUNDS, like bedsprings violently quivering. They are tentative at first, then insistent. Then:
+  EXPRESSION: null
+- CHARACTER: Regan
+  LINE: Mother?
+  EXPRESSION: O.S., Apprehensive, Surmising
+- CHARACTER: Narrator
+  LINE: Two beats. The bedspring SOUNDS. Then, much louder, and filled with terror:
+  EXPRESSION: null
+- CHARACTER: Regan
+  LINE: Mother, come here! Come here!
+  EXPRESSION: O.S., Terrified
+- CHARACTER: Narrator
+  LINE: Chris' door has already shot open, and she’s burst out into the hall, racing for Regan's bedroom.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Yes, I’m coming! All right, hon! I’m coming!
+  EXPRESSION: Urgent
+- CHARACTER: Regan
+  LINE: Mothhheerrrrrrr!
+  EXPRESSION: O.S., Screaming
+- CHARACTER: Chris
+  LINE: Oh, my baby, what’s --
+  EXPRESSION: O.S.
+
+::PATHS::
+- CHOICE: "Rush to Regan's room"
+  TARGET: regans_bedroom_dock
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Regan's Bedroom at Dock
+MOOD: Terror and Shock
+CHARACTERS: Chris, Regan
+BACKGROUND_IMAGE: regans_bedroom_dock.png
+BACKGROUND_EDIT: "Nighttime, lights on, Chris shocked"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Chris bursts in, continuing as she reaches for light switch and we HEAR MASSIVE METALLIC SOUNDS now:
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: — wrong, hon? What is it? What's -- ?
+  EXPRESSION: O.S.
+- CHARACTER: Narrator
+  LINE: The lights are on, and as Chris stares at Regan's bed O.S., she breaks off, electrified.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Jesus! Oh, Jesus!
+  EXPRESSION: Electrified
+- CHARACTER: Narrator
+  LINE: P.O.V. AT REGAN
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: She lies taut on her back, face stained with tears and contorted with terror and confusion as she grips at sides of narrow beet. It is savagely quivering back and forth!
+  EXPRESSION: null
+- CHARACTER: Regan
+  LINE: Mother, why is it shaking? Make it stop! Oh, I'm scared! Make it stop! Oh, I'm scared, Mother, please make it stoooooooooo —
+  EXPRESSION: Terrified, Pleading
+
+::PATHS::
+- CHOICE: "End scene on Regan's scream"
+  TARGET: jesuit_residence_hall
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Jesuit Residence Hall - Dyer Enters
+MOOD: Transition
+CHARACTERS: Dyer
+BACKGROUND_IMAGE: jesuit_residence_hall.png
+BACKGROUND_EDIT: "Nighttime, Dyer walking"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: INT. JESUIT RESIDENCE HALL - DYER ENTERS - NIGHT
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Follow Dyer"
+  TARGET: corridor_residence_hall
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Corridor in Residence Hall
+MOOD: Transition
+CHARACTERS: Dyer
+BACKGROUND_IMAGE: corridor_residence_hall.png
+BACKGROUND_EDIT: "Nighttime, corridor"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Follow Dyer to Karras' room.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Enter Karras' room"
+  TARGET: karras_room
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Karras' Room
+MOOD: Somber and Exhausted
+CHARACTERS: Dyer, Karras
+BACKGROUND_IMAGE: karras_room.png
+BACKGROUND_EDIT: "Nighttime, dim lighting, Karras looks worn out"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Dim desk lamp lighting. Dyer sits back of Karras' desk, wearing a "Snoopy" T-shirt. Karras is sitting on edge of oot, his eyes fixed low in haunted stare. They are red and raw from weeping. In his hand is a cup containing a small amount of scotch, and his eyes and voice are fogged by heavy drinking and chronic sleeplessness. Dyer is pouring from a bottle of Chivas Regal Into Karras' cup.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: Where'd you got the money for Chevas Regal, Joe? The poorbox?
+  EXPRESSION: Fogged, Weary
+- CHARACTER: Dyer
+  LINE: Don't be an asshole, that would be breaking my vow of poverty.
+  EXPRESSION: Dry
+- CHARACTER: Karras
+  LINE: Where did you get it then?
+  EXPRESSION: Weary
+- CHARACTER: Dyer
+  LINE: I stole it.
+  EXPRESSION: Matter-of-fact
+- CHARACTER: Karras
+  LINE: I believe you.
+  EXPRESSION: Weary
+- CHARACTER: Dyer
+  LINE: College presidents shouldn't drink. It tends to set a bad example. I figure I relieved him of a terrible temptation.
+  EXPRESSION: Dry
+- CHARACTER: Narrator
+  LINE: Karras is nodding slightly, smiling, when suddenly he bursts into sobs.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: Ah, Joe.
+  EXPRESSION: Sobbing
+- CHARACTER: Dyer
+  LINE: I know. I know.
+  EXPRESSION: Comforting
+- CHARACTER: Narrator
+  LINE: Karras cries it through, the sobbing gradually subsiding.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: Ah, God.
+  EXPRESSION: Whisper
+- CHARACTER: Narrator
+  LINE: Karras at last exhales an enormous sigh, closing his eyes, outstretched on cot.
+  EXPRESSION: null
+- CHARACTER: Dyer
+  LINE: Do you think you can sleep new, Damien?
+  EXPRESSION: Gentle
+- CHARACTER: Narrator
+  LINE: Karras nods head along with a throat sound of affirmation.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Dyer moves to foot of bed, undoes laces and removes Karras's shoes.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: Gonna steal my shoes now?
+  EXPRESSION: Weary
+- CHARACTER: Dyer
+  LINE: No, I tell fortunes by reading the creases, Mow shut up and go to sleep.
+  EXPRESSION: Dry
+- CHARACTER: Karras
+  LINE: You’re a Jesuit
+  EXPRESSION: O.S.
+
+::PATHS::
+- CHOICE: "Continue conversation"
+  TARGET: end
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Desk in a room
+MOOD: Somber
+CHARACTERS: Narrator, Dyer, Karras
+BACKGROUND_IMAGE: desk_room.png
+BACKGROUND_EDIT: "Dimly lit room with a desk, late at night"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Cat burglar,
+  EXPRESSION: null
+- CHARACTER: Dyer
+  LINE: Listen? someone’s got to worry about the bills around this place,
+  EXPRESSION: Concerned
+- CHARACTER: Dyer
+  LINE: All you other guys do is just rattle your beads and pray for the hippies down on "M" Street.
+  EXPRESSION: Cynical
+- CHARACTER: Narrator
+  LINE: Dyer flicks off desk light.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: Stealing is a sin.
+  EXPRESSION: Stern
+- CHARACTER: Narrator
+  LINE: A beat. Then, tenderly, Dyer touches a hand to Karras’ shoulder in goodnight, but as he starts to move toward door, Karras' hand reaches out and grips Dyer's wrist, squeezing, and giving a little shake in a gesture of gratitude and deep friendship. At this moment, the CAMERA is TIGHT on the HANDS, but then goes to Dyer, as he nods in acknowledgement. Then Dyer stares down and CAMERA FOLLOWS his gaze to TIGHT at the HANDS again, as healing sleep at last comes to Karras and his grip slackens and his hand slowly falls.
+  EXPRESSION: null
+- CHARACTER: Dyer
+  LINE: (o.s.; whisper) Goodnight, Damien.
+  EXPRESSION: Affectionate
+
+::PATHS::
+- CHOICE: "Leave the room"
+  TARGET: holy_trinity_church
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Holy Trinity Church
+MOOD: Solemn
+CHARACTERS: Narrator, Karras, Worshippers
+BACKGROUND_IMAGE: church_altar.png
+BACKGROUND_EDIT: "Early morning, sparsely populated church, Karras in black vestments at the main altar"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Only two or three worshippers in the church. Karras, in his black vestments, is at main altar saying Mass. While washing at small table to side of altar:
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: "O Lord, I have loved the beauty of Thy house and the place where Thy glory dwelleth. Take not away my soul, O God, with the wicked, nor my life with men of blood...
+  EXPRESSION: Devout
+- CHARACTER: Narrator
+  LINE: Another Angle - (Time Lapse)
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Now Karras’ eyes are moistening with tears as:
+  EXPRESSION: Emotional
+- CHARACTER: Karras
+  LINE: "Remember also, O Lord, Thy servant, Mary Karras ... who has gone before us with the sign of faith, and sleeps the sleep of peace. To her, O Lord, and to — all — (he’s fighting tears) — who rest in Christ, grant her — we pray Thee, a place of — refreshment — of light — and ... (striking his breast) To us also, Thy sinful servants ...
+  EXPRESSION: Grieving
+- CHARACTER: Narrator
+  LINE: Another Angle - (Time Lapse)
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: "Peace I leave you; my peace I give you. Look rot upon my sins but upon the faith of your church ... "
+  EXPRESSION: Hopeful
+- CHARACTER: Narrator
+  LINE: Another Angle - (Time Lapse)
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: (hands extended) "O Lord, I am not worthy. Speak but the word and my soul shall be healed."
+  EXPRESSION: Humble
+
+::PATHS::
+- CHOICE: "Continue with Mass"
+  TARGET: dr_kleins_examining_room
+  STATE_CHANGE: spiritual_anguish = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Dr. Klein's Examining Room
+MOOD: Chaotic
+CHARACTERS: Narrator, Klein, Chris, Nurse, Regan
+BACKGROUND_IMAGE: klein_exam_room.png
+BACKGROUND_EDIT: "Daytime, medical examining room, Regan struggling violently"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: While Klein attempts to administer an injection, Chris and Nurse forcibly restrain a struggling, kicking Regan who is shrieking as:
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Please, honey! It’s to help you!
+  EXPRESSION: Pleading
+- CHARACTER: Regan
+  LINE: I don't want it! I don't — !
+  EXPRESSION: Defiant
+- CHARACTER: Narrator
+  LINE: Klein leans over, injects needle.
+  EXPRESSION: null
+- CHARACTER: Regan
+  LINE: Son of a bitch bastard!
+  EXPRESSION: Enraged
+- CHARACTER: Narrator
+  LINE: She spits in Klein's face.
+  EXPRESSION: Vile
+
+::PATHS::
+- CHOICE: "Continue with medical examination"
+  TARGET: hall_of_kleins_offices
+  STATE_CHANGE: anger = +2, fear = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Hall of Klein's Suite of Offices
+MOOD: Concerned
+CHARACTERS: Narrator, Klein, Chris
+BACKGROUND_IMAGE: klein_office_hall.png
+BACKGROUND_EDIT: "Daytime, medical office hallway"
+
+::SCRIPT::
+- CHARACTER: Klein
+  LINE: Well, it's sometimes a symptom of a type of disturbance in the chemico-electrical activity of the brain. In the case of your daughter, in the temporal lobes. (a hand to side of his skull) Up here, in the lateral part of the brain. Now it's rare, but it does cause bizarre hallucinations and usually happens just before a convulsion. It --
+  EXPRESSION: Clinical
+- CHARACTER: Chris
+  LINE: Convulsion.
+  EXPRESSION: Frowning
+- CHARACTER: Klein
+  LINE: Well, the shaking of the bed. That was doubtless due to muscular spasms.
+  EXPRESSION: Evasive
+- CHARACTER: Chris
+  LINE: To muscular spasms? Hey, I was on the bed and it even shook with me on it.
+  EXPRESSION: Skeptical
+- CHARACTER: Klein
+  LINE: Look, Mrs. MacNeil — your daughter's problem isn't beds; the problem is her; it's in her brain.
+  EXPRESSION: Firm
+- CHARACTER: Chris
+  LINE: Yeah, okay. So what causes this ... ? (she can’t find the term)
+  EXPRESSION: Confused
+- CHARACTER: Klein
+  LINE: Lesion of the temporal lobe. It’s a kind of ... well, seizure disorder.
+  EXPRESSION: Explanatory
+- CHARACTER: Chris
+  LINE: Yeah. Look, I’ll tell you the truth, doc; I don’t understand how her whole personality could change.
+  EXPRESSION: Bewildered
+- CHARACTER: Klein
+  LINE: In temporal lobe, that’s very common, and can last in some cases for several days. It isn’t rare to find destructive, even criminal behavior.
+  EXPRESSION: Matter-of-fact
+- CHARACTER: Narrator
+  LINE: Chris closes her eyes and lowers her forehead onto a fist.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: (murmuring) Listen, tell me something good.
+  EXPRESSION: Desperate
+- CHARACTER: Klein
+  LINE: Nell, now, don’t be alarmed. If it’s a lesion, in a way, she’s fortunate. Then all we have to do is remove the scar.
+  EXPRESSION: Reassuring
+
+::PATHS::
+- CHOICE: "Ask more questions"
+  TARGET: radiological_lab
+  STATE_CHANGE: hope = +1, fear = -1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Radiological Lab
+MOOD: Tense
+CHARACTERS: Narrator, Regan, Chris, Radiologist, Klein, Dr. Tanney
+BACKGROUND_IMAGE: xray_lab.png
+BACKGROUND_EDIT: "Daytime, medical lab with X-ray equipment"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Series of shots - Regan having brain X-rayed (arteriogram)
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Chris and Radiologist present
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Then go to:
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Small medical lab and X-ray room - Day
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: We begin CLOSE at X-RAY OF REGAN’S SKULL, then disclose Klein and a consulting neurologist (DR. TANNEY) thoughtfully studying several of them.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Tanney, shaking his head, removes his eyeglasses and tucks them into breast pocket of jacket with:
+  EXPRESSION: null
+- CHARACTER: Tanney
+  LINE: There's just nothing there. No vascular distortion at all.
+  EXPRESSION: Confused
+- CHARACTER: Klein
+  LINE: (frowning, still studying X-rays) Doesn’t figure.
+  EXPRESSION: Perplexed
+- CHARACTER: Tanney
+  LINE: Want to run another series?
+  EXPRESSION: Inquisitive
+- CHARACTER: Klein
+  LINE: (turning away from X-rays) I don’t think so.
+  EXPRESSION: Decisive
+- CHARACTER: Narrator
+  LINE: We HEAR TELEPHONE BUZZER simultaneous with:
+  EXPRESSION: null
+- CHARACTER: Klein
+  LINE: (picking up wall phone) I’d like you to see her again. (into phone) Yes.
+  EXPRESSION: Urgent
+- CHARACTER: Narrator
+  LINE: Receptionist’s Voice: (Filter: urgent phone) Chris MacNeil’s on the line! Says it’s urgent!
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Answer the call"
+  TARGET: second_floor_hall
+  STATE_CHANGE: urgency = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Second Floor Hall - MacNeil House
+MOOD: Terrifying
+CHARACTERS: Narrator, Regan, Sharon, Klein, Tanney, Karl
+BACKGROUND_IMAGE: macneil_hall.png
+BACKGROUND_EDIT: "Daytime, hallway outside Regan's bedroom, sounds of pain from within"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The CAMERA is by door to Regan’s bedroom, from which emanates Regan's MOANS of pain and SCREAMS of terror.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Rushing up from steps on landing is Sharon, followed by Klein and Tanney. At door, Sharon cracks it open and calls in:
+  EXPRESSION: null
+- CHARACTER: Sharon
+  LINE: Doctors, Chris!
+  EXPRESSION: Anxious
+- CHARACTER: Narrator
+  LINE: Chris immediately comes to door, opening it. She is extremely distraught and bewildered.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Enter Regan's bedroom"
+  TARGET: regans_bedroom_door
+  STATE_CHANGE: extreme_fear = +2
+  CONDITION: null
+
+::SCENE::
+LOCATION: Regan's Bedroom - At Door
+MOOD: Horrific
+CHARACTERS: Narrator, Karl, Regan, Chris, Klein, Tanney
+BACKGROUND_IMAGE: regan_bedroom_door.png
+BACKGROUND_EDIT: "Daytime, doorway to Regan's bedroom, sounds of violence from within"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Karl stands beside door, staring numbly at O.S. SOUNDS, and as the doctors enter, we HEAR O.S. SOUND OF some­ thing SLAMMING ONTO BEDSPRIHGS REPEATEDLY (in addition to Regan’s cries).
+  EXPRESSION: null
+- CHARACTER: Regan
+  LINE: (o.s.; hysterical) Mooooootheeeeerrrrr!
+  EXPRESSION: Hysterical
+- CHARACTER: Narrator
+  LINE: P.O.V. - At Regan
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Flailing her arms, her body seems to be flinging itself up horizontally about a foot into the air above her bed, and then is slammed down savagely onto mattress, as if by an unseen person, and causing wrenching of Regan’s breath. It happens repeatedly and rapidly as:
+  EXPRESSION: null
+- CHARACTER: Regan
+  LINE: Oh, Mother make him stop! Please stop him! Stop him! He’s trying to kill me! He's — ! Oh, please stoo ppppppppppp hiwmmmmmmmmm, Motherrrrrrrrrrrr!
+  EXPRESSION: Agonized
+- CHARACTER: Narrator
+  LINE: At Chris and Doctors
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Doc, what is it? What’s happening?
+  EXPRESSION: Panicked
+- CHARACTER: Narrator
+  LINE: He shakes head, gaze fixed on Regan.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: P.O.V. - At Regan
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The up and down movements briefly; then they abruptly cease, and Regan twists feverishly from side to side, her eyes rolling upwards, into their sockets so that only the whites are exposed, while her legs keep crossing and uncrossing rapidly.
+  EXPRESSION: null
+- CHARACTER: Regan
+  LINE: (moaning) Oh, he’s burning me! I’m burning! I’m — ! Uhh!
+  EXPRESSION: In Pain
+- CHARACTER: Narrator
+  LINE: With this sudden SOUND of pain, Regan has abruptly jerked her head back, disclosing a bulging, swollen throat, and she begins to mutter incomprehensibly in a strangely deepened, guttural tone.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Another Angle
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: as the doctors approach. Reaching the bedside, Klein reaches down to take Regan's pulse.
+  EXPRESSION: null
+- CHARACTER: Klein
+  LINE: (soothingly) All right, now, let’s see what the trouble is, dear. I’m just going to —
+  EXPRESSION: Calm
+- CHARACTER: Narrator
+  LINE: And abruptly Klein is reeling, stunned and staggering, across the room from the force of a vicious backward swing of Regan's arm as she suddenly sits up, her face contorted with hideous rage. Now, in a coarse and powerful, deep male voice:
+  EXPRESSION: null
+- CHARACTER: Regan
+  LINE: The sow is mine! Mine! Keep away from her!
+  EXPRESSION: Demonic
+- CHARACTER: Narrator
+  LINE: At Klein
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He stares O.S., stunned, as Karl and Tanney kneel to his assistance.
+  EXPRESSION: null
+- CHARACTER: Klein
+  LINE: I'm all right.
+  EXPRESSION: Dazed
+- CHARACTER: Narrator
+  LINE: They look toward Regan as we HEAR from O.S. a yelping laugh gushing up in her throat.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: At Regan
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Her head is tilted back. The laugh continues, demonic.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Then she falls to her back as if someone has pushed her down. She pulls back her nightgown with:
+  EXPRESSION: null
+- CHARACTER: Regan
+  LINE: Fuck me, fuck —
+  EXPRESSION: Profane
+- CHARACTER: Narrator
+  LINE: At Regan
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Sitting up, she begins to caress her own arms sensually as she croons in that guttural, coarse, male voice:
+  EXPRESSION: null
+- CHARACTER: Regan
+  LINE: Ah, my flower ... my pearl ...
+  EXPRESSION: Seductive
+- CHARACTER: Narrator
+  LINE: Abruptly she falls onto back again as if from a shove, and cries out with a wrench of breath. Then abruptly she
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Observe the unfolding horror"
+  TARGET: end
+  STATE_CHANGE: terror = +5, understanding_demon = true
+  CONDITION: null
+
+::SCENE::
+LOCATION: Regan's Room - MEDICAL
+MOOD: Agitation
+CHARACTERS: Regan, Chris
+BACKGROUND_IMAGE: regan_room_medical.png
+BACKGROUND_EDIT: "Intense medical setting, Regan thrashing in bed"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: is sitting up again, as if pulled by the hands, and:
+  EXPRESSION: null
+- CHARACTER: Regan
+  LINE: Oh, mother! Mother — !
+  EXPRESSION: Normal voice
+- CHARACTER: Narrator
+  LINE: Another sudden cry, and then she is bending at the waist, whirling her torso around in rapid, strenuous circles.
+  EXPRESSION: null
+- CHARACTER: Regan
+  LINE: Oh, stop him, please stop him! It hurts! Make him stop! Make him. stop! I can't breaaaaaath!
+  EXPRESSION: Weeping
+- CHARACTER: Chris
+  LINE: Oh, my God, oh, my — !
+  EXPRESSION: Distressed
+
+::SCENE::
+LOCATION: Regan's Room - MEDICAL
+MOOD: Increasing Dread
+CHARACTERS: Regan, Tanney, Klein
+BACKGROUND_IMAGE: regan_room_medical_tanney_klein.png
+BACKGROUND_EDIT: "Close-up on Regan as she's pushed back, her eyes rolling up."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Before she finishes her cry, she again appears to be shoved savagely onto her back, and as Tanney comes beside bed and observes, her eyes roll upward into their sockets and again she begins muttering incomprehensibly in that thickened voice. Tanney leans head closer to try to make it out, frowning.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Large Window - MEDICAL
+MOOD: Focused Preparation
+CHARACTERS: Klein, Tanney
+BACKGROUND_IMAGE: window_medical_klein_tanney.png
+BACKGROUND_EDIT: "Klein preparing a hypodermic injection by a window overlooking steps."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: He is by the large window overlooking steps, preparing a hypodermic injection.
+  EXPRESSION: null
+- CHARACTER: Klein
+  LINE: Sam!
+  EXPRESSION: Normal voice
+- CHARACTER: Narrator
+  LINE: He beckons Tanney over to him with move of head and continues preparing hypo. We HEAR the O.S., fevered gibberish from Regan. Tanney comes INTO FRAME.
+  EXPRESSION: null
+- CHARACTER: Klein
+  LINE: I’m giving her Librium. You’re going to have to hold her.
+  EXPRESSION: Normal voice
+
+::SCENE::
+LOCATION: Regan's Room - MEDICAL
+MOOD: Terror
+CHARACTERS: Regan, Klein, Tanney, Chris
+BACKGROUND_IMAGE: regan_room_medical_terror.png
+BACKGROUND_EDIT: "Regan thrashing, eyes wide with terror, Klein and Tanney approaching."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: They look quickly toward:
+  EXPRESSION: null
+- CHARACTER: Regan
+  LINE: Oh, no!
+  EXPRESSION: Terrified
+- CHARACTER: Regan
+  LINE: No! Captain Howdy, don’t — !
+  EXPRESSION: Terrified
+- CHARACTER: Narrator
+  LINE: Regan slamming up and down off the bed again.
+  EXPRESSION: null
+- CHARACTER: Regan
+  LINE: Mother! Mother! Motherrrrrrrrr!
+  EXPRESSION: Screaming
+
+::SCENE::
+LOCATION: Chris - MEDICAL
+MOOD: Desperate Plea
+CHARACTERS: Chris, Doctors
+BACKGROUND_IMAGE: chris_medical_plea.png
+BACKGROUND_EDIT: "Chris with fists to temples, shrieking at doctors."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Before Regan’s prolonged scream of pain and terror, Chris, with fists to her temples, turns to shriek at doctors:
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: God almighty, will you do something! Help her! Help — !
+  EXPRESSION: Desperate
+
+::SCENE::
+LOCATION: Doctors - MEDICAL
+MOOD: Grim Determination
+CHARACTERS: Klein, Tanney, Chris, Regan
+BACKGROUND_IMAGE: doctors_medical_grim.png
+BACKGROUND_EDIT: "Klein ready, Tanney by his side, as Chris and Regan's cries continue."
+
+::SCRIPT::
+- CHARACTER: Chris
+  LINE: — herrrrrrrrrrrrrrrr ... !
+  EXPRESSION: Continuing scream
+- CHARACTER: Narrator
+  LINE: and Regan’s continuing SCREAM from O.S., Klein grimly nods to Tanney. And as they start toward bed with both Chris and Regan’s cries persisting we
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: MacNeil House - Second Floor Hall - DAY
+MOOD: Quiet Relief
+CHARACTERS: Chris, Sharon, Klein, Tanney
+BACKGROUND_IMAGE: macneil_house_hall_day.png
+BACKGROUND_EDIT: "Blessed silence in the hallway, Chris and Sharon waiting, Klein and Tanney exiting a room."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Blessed silence. Chris and Sharon have heads lowered, waiting by balustrade. Klein and Tanney exit Regan's room and approach then. Chris dabs at nose with moist balled-up handkerchief, her eyes red from crying.
+  EXPRESSION: null
+- CHARACTER: Klein
+  LINE: She’s heavily sedated. She'll undoubtedly sleep right through until tomorrow.
+  EXPRESSION: Calm
+- CHARACTER: Chris
+  LINE: Doc, how could she jump off the bed like that?
+  EXPRESSION: Bewildered
+- CHARACTER: Dr. Tanney
+  LINE: There's a perfectly rational explanation. Technically speaking, pathological states can induce abnormal strength and accelerated motor performance. More commonly, a ninety-pound woman sees her child pinned under the wheel of a truck, runs out and lifts the wheels half a foot up off the ground. You've heard the story. Same thing here.
+  EXPRESSION: Explanatory
+- CHARACTER: Chris
+  LINE: Yeah, okay.
+  EXPRESSION: Skeptical
+- CHARACTER: Dr. Tanney
+  LINE: Same principle, I mean.
+  EXPRESSION: Clarifying
+- CHARACTER: Chris
+  LINE: So what’s wrong with her? What do you think?
+  EXPRESSION: Concerned
+- CHARACTER: Klein
+  LINE: Well, we still think it's temporal lobe, and —
+  EXPRESSION: Pensive
+- CHARACTER: Chris
+  LINE: What the hell are you talking about? She's been acting like some kind of a psycho, like a split personality! What do you — Guess I'm all uptight. I'm sorry. You were saying?
+  EXPRESSION: Frustrated
+- CHARACTER: Dr. Tanney
+  LINE: There haven’t been more than a hundred authenticated cases of so-called dual or split personality, first MacNeil. Now I know the temptation is to leap to psychiatry, but any reasonable psychiatrist would exhaust the somatic possibilities first.
+  EXPRESSION: Informative
+- CHARACTER: Chris
+  LINE: Okay, so what’s next?
+  EXPRESSION: Seeking direction
+- CHARACTER: Dr. Tanney
+  LINE: A pneumoencephalogram, I would think, to pin down that lesion ... outline the cavities of her brain. It will involve another spinal.
+  EXPRESSION: Medical
+- CHARACTER: Chris
+  LINE: Oh, Christ.
+  EXPRESSION: Dismayed
+- CHARACTER: Dr. Tanney
+  LINE: It’s vital. What we missed in the EEG and the arteriograms could conceivably turn up there. At the least, it would exhaust certain other possibilities.
+  EXPRESSION: Emphatic
+
+::SCENE::
+LOCATION: Medical Laboratory
+MOOD: Routine Procedure
+CHARACTERS: Lab Technician
+BACKGROUND_IMAGE: medical_lab.png
+BACKGROUND_EDIT: "Lab technician performing a check of spinal fluid protein content."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: LAB TECHNICIAN completes check of spinal fluid protein content.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Klein’s Office
+MOOD: Perplexity
+CHARACTERS: Klein, Chris
+BACKGROUND_IMAGE: klein_office_reports.png
+BACKGROUND_EDIT: "Klein looking baffled at lab reports."
+
+::SCRIPT::
+- CHARACTER: Klein
+  LINE: Dr. Tanney says the X-rays are negative. In other words, normal.
+  EXPRESSION: Baffled
+- CHARACTER: Chris
+  LINE: Well, —
+  EXPRESSION: Bleak murmur
+- CHARACTER: Narrator
+  LINE: here we are again, folks.
+  EXPRESSION: null
+- CHARACTER: Klein
+  LINE: Do you keep any drugs in your house?
+  EXPRESSION: Inquisitive
+- CHARACTER: Chris
+  LINE: Huh?
+  EXPRESSION: Confused
+- CHARACTER: Klein
+  LINE: Amphetamines? LSD?
+  EXPRESSION: Direct
+- CHARACTER: Chris
+  LINE: Gee, no. Look, I’d tell you. Mo, there’s nothing like that.
+  EXPRESSION: Honest
+- CHARACTER: Narrator
+  LINE: He nods and stares at his shoes; then looks up again.
+  EXPRESSION: null
+- CHARACTER: Klein
+  LINE: Are you planning to be home soon? L.A., I mean.
+  EXPRESSION: Inquiring
+- CHARACTER: Chris
+  LINE: No. No, I’m building a new house and the old one’s been sold. We were going to Europe for a while after Rags finished up with her school here. Why’d you ask?
+  EXPRESSION: Explanatory
+- CHARACTER: Klein
+  LINE: I think it's time we started looking for a psychiatrist.
+  EXPRESSION: Decisive
+
+::SCENE::
+LOCATION: Chris' Car - Key Bridge - NIGHT
+MOOD: Somber Return
+CHARACTERS: Chris
+BACKGROUND_IMAGE: chris_car_bridge_night.png
+BACKGROUND_EDIT: "Chris driving across Key Bridge at night."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: as she drives back-across Key Bridge.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Chris' Car - "M" Street and 36th - NIGHT
+MOOD: Alarming Discovery
+CHARACTERS: Chris, Medics, Police
+BACKGROUND_IMAGE: chris_car_street_night.png
+BACKGROUND_EDIT: "Through windshield: a crowd, ambulance, flashing police lights."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Through the windshield, dead ahead, a CROWD has gathered by base of the steep steps beside the house, and an AMBULANCE is pulling out into traffic. White-coated MEDICS are running around in a panic. Police car lights are flashing. As Chris rounds off the bridge onto Prospect, the AMBULANCE nulls out and gets just ahead of her, SIREN VAILING. We FOLLOW AMBULANCE for two beats, then:
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: MacNeil House - Regan's Window - CURTAINS BLOWING
+MOOD: Unsettling Omen
+CHARACTERS: None
+BACKGROUND_IMAGE: macneil_house_window_curtains.png
+BACKGROUND_EDIT: "Close-up on Regan's window with curtains blowing."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: (no dialogue)
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: MacNeil House - Front Door - NIGHT
+MOOD: Despair and Unease
+CHARACTERS: Chris, Sharon
+BACKGROUND_IMAGE: macneil_house_front_door_night.png
+BACKGROUND_EDIT: "Chris entering despondently, leaning against the door as lights flicker."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Chris enters despondently. Closing door behind her, she leans back against it, looking down in thought, her hand still clutching doorknob. A beat. The LIGHTS IN HOUSE BLINK OUT for a beat. Chris looks up. They ELINK OUT AGAIN, this time longer.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Sharon?
+  EXPRESSION: Calling out
+- CHARACTER: Narrator
+  LINE: The lights come back on.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Shar?
+  EXPRESSION: Calling out again
+- CHARACTER: Narrator
+  LINE: Still no response. Chris starts up the staircase, frowning apprehensively.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Second Floor Hall - MacNeil House - NIGHT
+MOOD: Apprehension
+CHARACTERS: Chris
+BACKGROUND_IMAGE: second_floor_hall_night.png
+BACKGROUND_EDIT: "Camera fixed by Regan's door, lights flicker, Chris cautiously moves down the hall."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The CAMERA is FIXED by door to Regan's bedroom. As Chris reaches landing, the LIGHTS BLINK OUT AGAIN, BRIEFLY, THEN OH, Chris has halted, her eyes warily scanning around; then she continues down the hall toward us, and opens door to Regan’s bedroom.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Regan's Bedroom - Night
+MOOD: Strange Calm
+CHARACTERS: Chris, Regan
+BACKGROUND_IMAGE: regan_bedroom_night.png
+BACKGROUND_EDIT: "Chris enters Regan's room, finding her asleep and the room cold."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Silence as Chris stands by door a moment; then she goes to Regan's bedside, and rubs at her arms, as if from extreme cold. She examines Regan, who is still sound asleep.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: at Chris hugging arms akimbo, shivering.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Shit!
+  EXPRESSION: Perplexed whisper
+- CHARACTER: Narrator
+  LINE: Then she looks toward window; frowns in consternation.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Regan's Bedroom - The Room - FULL SHOT - NIGHT
+MOOD: Cold and Confused
+CHARACTERS: Chris
+BACKGROUND_IMAGE: regan_bedroom_room_night.png
+BACKGROUND_EDIT: "The window is open, Chris closes and locks it but still feels cold."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The window is open. Chris moves to it and stares for a moment. She closes and looks it. But she still feels cold. She HEARS FRONT DOOR OPENING from O.S., below, through open door to Regan's bedroom, and turns toward the SOUND. We FOLLOW her out into:
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Second Floor Hall - MacNeil House - NIGHT
+MOOD: Approaching Encounter
+CHARACTERS: Chris
+BACKGROUND_IMAGE: second_floor_hall_night_leaving_room.png
+BACKGROUND_EDIT: "Chris exits Regan's room, softly closing the door and heading towards the stairs."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: As Chris exits and softly closes Regan’s door. She starts toward stairs.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Sharon?
+  EXPRESSION: Calling softly
+
+::SCENE::
+LOCATION: Foyer Living Room Area - MacNeil House - NIGHT
+MOOD: Confrontation and Confusion
+CHARACTERS: Chris, Sharon
+BACKGROUND_IMAGE: foyer_living_room_night.png
+BACKGROUND_EDIT: "Sharon enters with a pharmacy bag, Chris confronts her."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Sharon enters house with white paper pharmacy bag in hand.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Hey, what the hell’s wrong with you, Sharon? You go out and leave Rags by herself? Where've you been?
+  EXPRESSION: Angry
+- CHARACTER: Sharon
+  LINE: Oh, didn't he tell you?
+  EXPRESSION: Surprised
+- CHARACTER: Chris
+  LINE: Oh, didn't who tell me?
+  EXPRESSION: Impatient
+- CHARACTER: Sharon
+  LINE: Burke. Isn't he here? Where is he?
+  EXPRESSION: Questioning
+- CHARACTER: Chris
+  LINE: He was here?
+  EXPRESSION: Astonished
+- CHARACTER: Sharon
+  LINE: You mean he wasn't when you got home?
+  EXPRESSION: Realizing
+- CHARACTER: Chris
+  LINE: Listen, start all over.
+  EXPRESSION: Exasperated
+- CHARACTER: Sharon
+  LINE: Oh, that nut. I couldn't get the druggist to deliver. Karl and Willie are off, so when Burke cane around, I thought, fine, he can stay here with Regan while I go get the Thorazine. Guess I should have-known.
+  EXPRESSION: Recounting
+- CHARACTER: Chris
+  LINE: Yeah, you should've.
+  EXPRESSION: Resigned
+- CHARACTER: Sharon
+  LINE: What happened with the tests?
+  EXPRESSION: Curious
+- CHARACTER: Chris
+  LINE: Not a thing. I'm going to have to get Regan a shrink.
+  EXPRESSION: Decisive
+
+::SCENE::
+LOCATION: Foyer Area MacNeil House - NIGHT
+MOOD: Bad News
+CHARACTERS: Chris, Assistant Director
+BACKGROUND_IMAGE: foyer_area_night_door.png
+BACKGROUND_EDIT: "Chris answering the door to an ashen-faced Assistant Director."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Chris is answering the door. It is the Assistant Director ashen-faced.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Oh, Chuck. How ya doin’? Com
+  EXPRESSION: Wary
+
+::SCENE::
+LOCATION: INT. CHRIS' BEDROOM
+MOOD: Somber, Shocking
+CHARACTERS: Narrator, Assistant Director, Chris, Sharon, Regan
+BACKGROUND_IMAGE: int_bedroom_day.png
+BACKGROUND_EDIT: "Room with closed shutters, dark"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: e on
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: in.
+  EXPRESSION: null
+- CHARACTER: Assistant Director
+  LINE: You haven’t heard?
+  EXPRESSION: Gravely
+- CHARACTER: Chris
+  LINE: Heard what?
+  EXPRESSION: Confused
+- CHARACTER: Narrator
+  LINE: Sharon enters scene, listening.
+  EXPRESSION: null
+- CHARACTER: Assistant Director
+  LINE: Well, it's bad.
+  EXPRESSION: Gravely
+- CHARACTER: Chris
+  LINE: What’s bad?
+  EXPRESSION: Concerned
+- CHARACTER: Assistant Director
+  LINE: Burke’s dead.
+  EXPRESSION: Gravely
+- CHARACTER: Chris
+  LINE: Oh, no!
+  EXPRESSION: Distraught
+- CHARACTER: Sharon
+  LINE: What happened?
+  EXPRESSION: Concerned
+- CHARACTER: Assistant Director
+  LINE: I guess he was drunk. He fell down from the top of the steps right outside. By the time he hit "M" Street, he’d broken his neck.
+  EXPRESSION: Gravely
+- CHARACTER: Narrator
+  LINE: Chris puts a hand to her mouth stifling a sob.
+  EXPRESSION: null
+- CHARACTER: Assistant Director
+  LINE: Yeah, I know. See you later.
+  EXPRESSION: Gravely
+- CHARACTER: Narrator
+  LINE: He closes door behind him, Chris leans against door crying while Sharon moves despondently to foot of staircase.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Oh, Burke! Poor Burke!
+  EXPRESSION: Grief-stricken
+- CHARACTER: Sharon
+  LINE: I can’t believe it.
+  EXPRESSION: Disbelieving
+- CHARACTER: Narrator
+  LINE: Chris lowers brow into hand, leaning against door. She shakes her head, exhales,
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: I guess everything —
+  EXPRESSION: Distraught
+- CHARACTER: Narrator
+  LINE: She breaks off, staring with horror at something descending the stairs behind Sharon. It is Regan on all fours. She is gliding, spiderlike, noiselessly and swiftly, down the staircase, her tongue flicking rapidly in and out of her mouth like a snake. She halts directly beside Sharon.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Sharon?
+  EXPRESSION: Numbly
+- CHARACTER: Narrator
+  LINE: Sharon stops, as does Regan. Sharon turns and sees nothing; and then screams as she feels Regan’s tongue snaking out at her ankle.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Call that doctor and get him the hell over here, Sharon! Get him now!
+  EXPRESSION: Panicked
+
+::SCENE::
+LOCATION: INT. CHRIS' BEDROOM
+MOOD: Hypnotic, Disturbing
+CHARACTERS: Narrator, Klein, Chris, Psychiatrist, Regan
+BACKGROUND_IMAGE: int_bedroom_dark.png
+BACKGROUND_EDIT: "Room is dark, shutters closed"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Shutters are closed and room is dark. Klein stands by bureau, watching. Chris sits on edge of bed, as does a PSYCHIATRIST. He is swinging a bauble on a chain back and forth, hypnotically, in front of Regan. He shines a penlight on the bauble so that it glows in the dark. He halts, inclining the penlight beam up, and we SEE Regan’s eyes are closed and appears to be in trance.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He turns off penlight.
+  EXPRESSION: null
+- CHARACTER: Psychiatrist
+  LINE: Are you comfortable, Regan?
+  EXPRESSION: Calm
+- CHARACTER: Regan
+  LINE: Yes.
+  EXPRESSION: Soft, Whispery
+- CHARACTER: Psychiatrist
+  LINE: How old are you?
+  EXPRESSION: Calm
+- CHARACTER: Regan
+  LINE: Twelve.
+  EXPRESSION: Soft, Whispery
+- CHARACTER: Psychiatrist
+  LINE: Is there someone inside you?
+  EXPRESSION: Calm
+- CHARACTER: Regan
+  LINE: Sometimes.
+  EXPRESSION: Soft, Whispery
+- CHARACTER: Psychiatrist
+  LINE: Who is it?
+  EXPRESSION: Calm
+- CHARACTER: Regan
+  LINE: I don’t know.
+  EXPRESSION: Soft, Whispery
+- CHARACTER: Psychiatrist
+  LINE: Captain Howdy?
+  EXPRESSION: Calm
+- CHARACTER: Regan
+  LINE: I don’t know.
+  EXPRESSION: Soft, Whispery
+- CHARACTER: Psychiatrist
+  LINE: If I ask him to tell me, will you let him answer?
+  EXPRESSION: Calm
+- CHARACTER: Regan
+  LINE: No!
+  EXPRESSION: Soft, Whispery
+- CHARACTER: Psychiatrist
+  LINE: Why not?
+  EXPRESSION: Calm
+- CHARACTER: Regan
+  LINE: I'm afraid!
+  EXPRESSION: Soft, Whispery
+- CHARACTER: Psychiatrist
+  LINE: If he talks to ma, I think he will leave you. Do you want him to leave you?
+  EXPRESSION: Calm
+- CHARACTER: Regan
+  LINE: Yes.
+  EXPRESSION: Soft, Whispery
+- CHARACTER: Psychiatrist
+  LINE: Let him speak, then. Will you let him speak?
+  EXPRESSION: Calm
+- CHARACTER: Regan
+  LINE: Yes.
+  EXPRESSION: Soft, Whispery
+- CHARACTER: Narrator
+  LINE: A pause; then:
+  EXPRESSION: null
+- CHARACTER: Psychiatrist
+  LINE: I am speaking to the person inside of Regan, now. If you are there you too are hypnotized and must answer all my questions. Come forward and answer me now: Are you there?
+  EXPRESSION: Firmly, New Tone
+- CHARACTER: Narrator
+  LINE: No response, and after three beats, we HEAR Regan’s BREATH coming loud and raspily, like a rotted, putrid bellows. The Psychiatrist sniffs, as if at a horrid smell, and then flicks on laser lamp and shines it up into Regan’s face. Chris gasps. We do not see Regan’s face, but play off reactions of Chris and the Psychiatrist. Chris lowers her head into a hand, the sight too unbearable for her, and she grips the Psychiatrist’s arm with the other in a tight vise.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: This causes him to extinguish the laser lamp.
+  EXPRESSION: null
+- CHARACTER: Psychiatrist
+  LINE: Are you the person inside of Regan?
+  EXPRESSION: Calm
+- CHARACTER: Regan
+  LINE: Say.
+  EXPRESSION: Coarse and Guttural Voice
+- CHARACTER: Psychiatrist
+  LINE: Did you answer?
+  EXPRESSION: Calm
+- CHARACTER: Regan
+  LINE: Say.
+  EXPRESSION: Coarse and Guttural Voice
+- CHARACTER: Psychiatrist
+  LINE: If that’s yes, nod your head.
+  EXPRESSION: Calm
+- CHARACTER: Narrator
+  LINE: Regan nods.
+  EXPRESSION: null
+- CHARACTER: Psychiatrist
+  LINE: Who are you?
+  EXPRESSION: Calm
+- CHARACTER: Regan
+  LINE: Nowonmai.
+  EXPRESSION: Coarse and Guttural Voice
+- CHARACTER: Psychiatrist
+  LINE: That’s your name?
+  EXPRESSION: Calm
+- CHARACTER: Regan
+  LINE: Say.
+  EXPRESSION: Coarse and Guttural Voice
+- CHARACTER: Psychiatrist
+  LINE: Are you speaking in a foreign language?
+  EXPRESSION: Calm
+- CHARACTER: Regan
+  LINE: Say.
+  EXPRESSION: Coarse and Guttural Voice
+- CHARACTER: Psychiatrist
+  LINE: Are you someone whom Regan has known?
+  EXPRESSION: Calm
+- CHARACTER: Regan
+  LINE: One.
+  EXPRESSION: Coarse and Guttural Voice
+- CHARACTER: Psychiatrist
+  LINE: That she knows of?
+  EXPRESSION: Calm
+- CHARACTER: Regan
+  LINE: One.
+  EXPRESSION: Coarse and Guttural Voice
+- CHARACTER: Psychiatrist
+  LINE: Part of Regan?
+  EXPRESSION: Calm
+- CHARACTER: Regan
+  LINE: One.
+  EXPRESSION: Coarse and Guttural Voice
+- CHARACTER: Psychiatrist
+  LINE: Do you like her?
+  EXPRESSION: Calm
+- CHARACTER: Regan
+  LINE: One.
+  EXPRESSION: Coarse and Guttural Voice
+- CHARACTER: Psychiatrist
+  LINE: Do you hate her?
+  EXPRESSION: Calm
+- CHARACTER: Regan
+  LINE: Say.
+  EXPRESSION: Coarse and Guttural Voice
+- CHARACTER: Psychiatrist
+  LINE: Are you punishing her?
+  EXPRESSION: Calm
+- CHARACTER: Regan
+  LINE: Say.
+  EXPRESSION: Coarse and Guttural Voice
+- CHARACTER: Psychiatrist
+  LINE: You wish to harm her?
+  EXPRESSION: Calm
+- CHARACTER: Regan
+  LINE: Say.
+  EXPRESSION: Coarse and Guttural Voice
+- CHARACTER: Psychiatrist
+  LINE: To kill her?
+  EXPRESSION: Calm
+- CHARACTER: Regan
+  LINE: Say.
+  EXPRESSION: Coarse and Guttural Voice
+- CHARACTER: Psychiatrist
+  LINE: But if Regan died, wouldn't you die, too?
+  EXPRESSION: Calm
+- CHARACTER: Regan
+  LINE: One.
+  EXPRESSION: Coarse and Guttural Voice
+- CHARACTER: Psychiatrist
+  LINE: Is there something she can do to make you leave her?
+  EXPRESSION: Calm
+- CHARACTER: Regan
+  LINE: Say.
+  EXPRESSION: Coarse and Guttural Voice
+- CHARACTER: Psychiatrist
+  LINE: Do you blame her for her parents' divorce?
+  EXPRESSION: Calm
+- CHARACTER: Narrator
+  LINE: His question elides into a prolonged gasp of startled pain and horrified incredulity as we go quickly to FULL AT REGAN, mad, evil glee in the eyes as now the light drops from the Psychiatrist's hand.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: CLOSE AT PSYCHIATRIST. In the darkness, we SEE his mouth agape in horrible pain, his eyes wide-staring. What has happened is that Regan has gripped his scrotum in a hand that is squeezing like an iron talon.
+  EXPRESSION: null
+- CHARACTER: Psychiatrist
+  LINE: Marc! Marc, help me!
+  EXPRESSION: Agonized
+- CHARACTER: Narrator
+  LINE: QUICKLY AT CHRIS. leaping up and away from Psychiatrist struggling to wrench Regan's hand away, a hand with incredible strength,
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Jesus!
+  EXPRESSION: Panicked
+- CHARACTER: Narrator
+  LINE: Klein races forward toward bed; Chris is running, panicked, for the lightswitch: Psychiatrist, in agony, struggling; Regan "Creature" with head tilted back, is cackling demoniacally and then howls like a wolf as Chris slaps at the lightswitch. The lights come on and we see:
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: AT BED. Regan, cackling demoniacally is rolling around on bed in savage struggle with Klein and Psychiatrist, who are still attempting to dislodge her hand from its grip. Grimaces, Gasps. Curses. The bedstead is quivering violently side to side.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: ANOTHER ANGLE. Regan jerks upright. Her eyes roll upward into their sockets and she wrenches up a keening shriek of terror torn raw and bloody from the base of her spine as her face becomes her own. Then she falls backwards in a faint.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: VIEW OF BED. Stillness. Regan unconscious. Two beats. One of the doctors makes a small move at extricating himself from the tangle. Chris crumples in a dead faint.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: EXT. OUTDOOR TRACK IN HOLLOW OF GEORGETOWN U. CAMPUS
+MOOD: Contemplative, Conversational
+CHARACTERS: Narrator, Karras, Kinderman
+BACKGROUND_IMAGE: outdoor_track_day.png
+BACKGROUND_EDIT: "Sunny day, people jogging, baseball practice sounds"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: In shorts and T-shirt, Karras is doing laps. A portly middle-aged man (KINDERMAN) is seated on bench at edge of track watching him. SOUNDS of baseball practice o.s.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: KARRAS passes Kinderman and shortly thereafter stops running, hands to hips as he walks, head down and panting. Kinderman rises and moves toward him.
+  EXPRESSION: null
+- CHARACTER: Kinderman
+  LINE: Father Karras?
+  EXPRESSION: Calling
+- CHARACTER: Narrator
+  LINE: Karras turns head, squinting into sun, his breath coming in great gulps, chest heaving. He waits for Kinderman to reach him, then beckons him to follow as Karras resumes his walk.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: Do you mind? I'll cramp.
+  EXPRESSION: Panting
+- CHARACTER: Kinderman
+  LINE: Yes, of course.
+  EXPRESSION: Polite
+- CHARACTER: Karras
+  LINE: Have we met?
+  EXPRESSION: Curious
+- CHARACTER: Kinderman
+  LINE: No, we haven't, but they said I could tell; that you looked like a boxer. I'm William F. Kinderman, Father. Homicide.
+  EXPRESSION: Informative, Flashing I.D.
+- CHARACTER: Narrator
+  LINE: Karras and Kinderman walk toward the path.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: What's this about?
+  EXPRESSION: Direct
+- CHARACTER: Kinderman
+  LINE: It’s true, you do look like a boxer. Excuse me, that scar, you know, there by your eye? Like Brando, it looks like, in Waterfront. Just exactly Marlon Brando. People tell you that, Father?
+  EXPRESSION: Observant
+- CHARACTER: Karras
+  LINE: Do people ever tell you that you look like Paul Newman?
+  EXPRESSION: Witty
+- CHARACTER: Kinderman
+  LINE: Always.
+  EXPRESSION: Amused
+- CHARACTER: Narrator
+  LINE: Karras and Kinderman continue walking.
+  EXPRESSION: null
+- CHARACTER: Kinderman
+  LINE: Look, Father, could we keep this between us? Confidential? Like a matter of confession, so to speak?
+  EXPRESSION: Serious, Confidential
+- CHARACTER: Karras
+  LINE: Yes, of course.
+  EXPRESSION: Assured
+- CHARACTER: Kinderman
+  LINE: You know that director who was doing the film here, Father? Burke Dennings?
+  EXPRESSION: Inquiring
+- CHARACTER: Karras
+  LINE: Well, I’ve seen him.
+  EXPRESSION: Casual
+- CHARACTER: Kinderman
+  LINE: You’ve seen him. You're also familiar with how last week he died?
+  EXPRESSION: Direct
+- CHARACTER: Karras
+  LINE: Well, the papers ...
+  EXPRESSION: Shrugging, Vague
+- CHARACTER: Kinderman
+  LINE: That’s part of it.
+  EXPRESSION: Cryptic
+- CHARACTER: Karras
+  LINE: Oh?
+  EXPRESSION: Curious
+- CHARACTER: Kinderman
+  LINE: Only part. Listen, what do you know on the subject of witchcraft, Father? From the witching end, please, not the hunting.
+  EXPRESSION: Serious, Inquisitive
+- CHARACTER: Narrator
+  LINE: Karras and Kinder
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: South of Dahlgren Chapel. Tracking behind Karras and Kinderman
+MOOD: Conversational
+CHARACTERS: Narrator, Karras, Kinderman
+BACKGROUND_IMAGE: south_of_dahlgren_chapel.png
+BACKGROUND_EDIT: "Karras and Kinderman walking and talking"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Man continue walking.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: Oh, I once did a paper on it.
+  EXPRESSION: Smiling
+- CHARACTER: Kinderman
+  LINE: Really?
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: From the psychiatric end.
+  EXPRESSION: null
+- CHARACTER: Kinderman
+  LINE: From whatever. Look, these desecrations going on in the church — they remind you of anything to do with witchcraft?
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: Maybe. Some rituals used in Black Mass.
+  EXPRESSION: null
+- CHARACTER: Kinderman
+  LINE: And now Dennings — you read how he died?
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: In a fall.
+  EXPRESSION: null
+- CHARACTER: Kinderman
+  LINE: Well, I'll tell you; and please! Confidential!
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Continue walking and talking"
+  TARGET: continuing_conversation
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: South of Dahlgren Chapel. Tracking behind Karras and Kinderman
+MOOD: Conversational
+CHARACTERS: Narrator, Karras, Kinderman
+BACKGROUND_IMAGE: south_of_dahlgren_chapel_cont.png
+BACKGROUND_EDIT: "Karras and Kinderman stop, then continue walking"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Karras nods. They stop, and continue talking.
+  EXPRESSION: null
+- CHARACTER: Kinderman
+  LINE: Burke Dennings, good Father, was found at the bottom of those steps down to "M" Street with his head turned completely around and facing backwards.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: It didn't happen in the fall?
+  EXPRESSION: null
+- CHARACTER: Kinderman
+  LINE: Sure, it's possible. Possible. However ...
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: Unlikely.
+  EXPRESSION: null
+- CHARACTER: Kinderman
+  LINE: Exactly.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: They start walking again.
+  EXPRESSION: null
+- CHARACTER: Kinderman
+  LINE: So on the one hand a witchcraft kind of murder, on the other, Black Mass type desecrations in the church.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: The killer and the desecrator, you think, then, are the same?
+  EXPRESSION: null
+- CHARACTER: Kinderman
+  LINE: Maybe somebody crazy, Father Karras; maybe someone with a spite against the Church, some unconscious rebellion perhaps! And who also has access to the Church in the middle of the night.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: A sick priest. Is that it?
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Continue walking"
+  TARGET: georgetown_university_quadrangle
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Georgetown University. Quadrangle, near Fountain and Gazebo
+MOOD: Conversational
+CHARACTERS: Narrator, Karras, Kinderman
+BACKGROUND_IMAGE: georgetown_quadrangle.png
+BACKGROUND_EDIT: "Karras and Kinderman walking"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Karras and Kinderman walking.
+  EXPRESSION: null
+- CHARACTER: Kinderman
+  LINE: Listen, Father, this is hard for you — please! — I understand. But for priests on the campus here, you're the psychiatrist; you'd know who was sick at the time, who was not, I mean, this kind of sickness. You’d know that.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: I really know of no one who fits the description.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: They stop and sit on the railing.
+  EXPRESSION: null
+- CHARACTER: Kinderman
+  LINE: Ah, yes; doctor's ethics. If you knew, you wouldn't tell.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: No, I probably wouldn't.
+  EXPRESSION: null
+- CHARACTER: Kinderman
+  LINE: Incidentally — I mention it only in passing — but this ethic is recently considered illegal. Not to bother you with trivia, but lately a psychiatrist in sunny California, no less, was put in jail for not telling the police what he knew about a patient.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: That a threat?
+  EXPRESSION: Smiling
+- CHARACTER: Kinderman
+  LINE: Don’t talk paranoid; I mention it in passing.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: I could always tell the judge it was a matter of confession.
+  EXPRESSION: null
+- CHARACTER: Kinderman
+  LINE: Want to go into business, Father? 'Father' — what 'Father'? You're a Jew, I could tell when I met you.
+  EXPRESSION: Gloomy
+- CHARACTER: Narrator
+  LINE: Karras chuckles.
+  EXPRESSION: null
+- CHARACTER: Kinderman
+  LINE: Yes, laugh; go ahead; laugh.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: But then Kinderman smiles, looking impishly pleased with himself, and turns to Karras with beaming eyes.
+  EXPRESSION: null
+- CHARACTER: Kinderman
+  LINE: That reminds me. The entrance exam for policemen, Father? When I took it, one question went something like: ”What are rabies and what would you do for then?" Know what some dumbhead put down for an answer? Emis? "Rabies," he said, "are Jew priests and I would do anything that I could for them.”
+  EXPRESSION: Beaming
+
+::PATHS::
+- CHOICE: "Continue walking"
+  TARGET: georgetown_university_quadrangle_washington_steps
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Georgetown University. Quadrangle, near Fountain and Gazebo
+MOOD: Conversational
+CHARACTERS: Narrator, Karras, Kinderman
+BACKGROUND_IMAGE: georgetown_quadrangle_cont.png
+BACKGROUND_EDIT: "Karras and Kinderman walking"
+
+::SCRIPT::
+- CHARACTER: Kinderman
+  LINE: Listen, Father. Listen, doctor - ... Am I crazy, or could there maybe be a witch coven here in the District? Right now, I mean. Today.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: Oh, come on.
+  EXPRESSION: null
+- CHARACTER: Kinderman
+  LINE: So then what am I looking for. Father?
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: A madman. Maybe someone on drugs.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Continue walking"
+  TARGET: georgetown_university_washington_steps
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Georgetown University, Washington Steps. Tracking shot - Karras and Kinderman walking
+MOOD: Conversational
+CHARACTERS: Narrator, Karras, Kinderman
+BACKGROUND_IMAGE: georgetown_washington_steps.png
+BACKGROUND_EDIT: "Karras and Kinderman walking down steps"
+
+::SCRIPT::
+- CHARACTER: Kinderman
+  LINE: You like movies, Father Karras?
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: Very much.
+  EXPRESSION: null
+- CHARACTER: Kinderman
+  LINE: I get passes for the very best shows, Mrs. K., she gets tired, though; never likes to go.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: That's too bad.
+  EXPRESSION: null
+- CHARACTER: Kinderman
+  LINE: It's too bad; yes, I hate to go alone. You know, I love to talk film; to discuss; to critique. Would you like to see a film with me? I've got passes for the Crest. It's Othello.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: Who's starring?
+  EXPRESSION: null
+- CHARACTER: Kinderman
+  LINE: Debbie Reynolds, Desdemona, and Othello, Groucho Marx. You're happy?
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Karras smiles. They have halted at entry to Jesuit residence hall.
+  EXPRESSION: null
+- CHARACTER: Kinderman
+  LINE: Listen, Father, one more time ~- you can think of some priest who fits the bill?
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: Oh, come on, now.
+  EXPRESSION: null
+- CHARACTER: Kinderman
+  LINE: Just answer the question, please, Father Paranoia.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: Look, Lieutenant, can I tell you who I really think did it?
+  EXPRESSION: Grave
+- CHARACTER: Kinderman
+  LINE: No, who?
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: Dominicans.
+  EXPRESSION: null
+- CHARACTER: Kinderman
+  LINE: I could have you deported, you know that?
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: What for?
+  EXPRESSION: null
+- CHARACTER: Kinderman
+  LINE: A psychiatrist shouldn't piss people off. Plus also the goyim, plainly speaking, would love it. Who needs it? A priest who wears sneakers and T-shirts!
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Karras turns and walks away toward entry to residence hall. Calling out after him:
+  EXPRESSION: null
+- CHARACTER: Kinderman
+  LINE: I lied! You look like Sal Mineo!
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Enter residence hall"
+  TARGET: barringer_clinic_day
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Barringer Clinic
+MOOD: Baffled
+CHARACTERS: Narrator, Regan, Clinic Director, Doctors
+BACKGROUND_IMAGE: barringer_clinic.png
+BACKGROUND_EDIT: "Daytime. Regan in bed, restrained."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Regan in another fit, in bed and restrained by straps. Clinic Director is in the room with other doctors observing. They are baffled.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Observe Regan"
+  TARGET: hospital_corridor
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Hospital corridor
+MOOD: Mysterious
+CHARACTERS: Narrator, Nurse, Regan
+BACKGROUND_IMAGE: hospital_corridor.png
+BACKGROUND_EDIT: "Dim nightlight illumination. Nurse pauses outside Regan's room."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Hospital corridor. Nurse walking to door to Regan’s room. Pauses outside as hears curious rapping sound from within. She enters room. Dim nightlight illumination. The rappings have ceased. Regan is sleeping. Nurse checks her pulse, then frowns in wonderment as she spots something on Regan’s chest.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: She parts Regan’s pajama top to sea better, and as she leans closer, she looks mystified. We now see that on Regan’s chest, faintly, the letter "L", followed by a separation, then the letter "M", having risen up in blood-red, light bas-relief lettering on her skin.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Examine the lettering"
+  TARGET: clinic_directors_office
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Clinic Director's Office
+MOOD: Tense
+CHARACTERS: Narrator, Clinic Director, Doctors, Chris
+BACKGROUND_IMAGE: clinic_directors_office.png
+BACKGROUND_EDIT: "Glass enclosed office. Chris looks taut. TV monitor shows Regan."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The room is glass enclosed on two sides, so that we have a view in b.g. or a traffic of DOCTORS AND NURSES. Clinic Director and two of the Doctors from earlier clinic scenes are present. Chris sits in chair, taut and drawn. In the room, A CLOSED CIRCUIT TV MONITOR SHOWING REGAN IN THE HOSPITAL ROOM, IN A FIT, as:
+  EXPRESSION: null
+- CHARACTER: Clinic Director
+  LINE: People with very, very sensitive skin can just trace with a finger, and then a little while later it shows up. Not abnormal. Why an "L" and an "M", of course, we don’t understand. In the meantime ....
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Observe TV monitor"
+  TARGET: tv_monitor_time_lapse
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Clinic Director's Office - TV Monitor
+MOOD: Clinical
+CHARACTERS: Narrator, Clinic Director
+BACKGROUND_IMAGE: tv_monitor_clinic.png
+BACKGROUND_EDIT: "Time lapse of TV monitor showing Regan"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: It looks like a type of disorder that you rarely ever see any mere, except among primitive cultures. We call it somnambuliform possession. Quite frankly, we don’t know much about it except that it starts with some conflict or guilt that eventually leads to the patient’s delusion that his body's been invaded by an alien intelligence; a spirit, if you will. In times gone by, the entity possessing the victim is supposed to be a so-called demon, or devil.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Continue watching"
+  TARGET: full_at_tv_monitor
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Clinic Director's Office - TV Monitor
+MOOD: Frustrated
+CHARACTERS: Narrator, Chris, Clinic Director
+BACKGROUND_IMAGE: tv_monitor_clinic_chris.png
+BACKGROUND_EDIT: "Full view of TV monitor showing Regan. Chris is speaking."
+
+::SCRIPT::
+- CHARACTER: Chris
+  LINE: Look, I’m telling you again and you’d better believe it, I’m not about to put her in a goddamn asylum!
+  EXPRESSION: Angry
+- CHARACTER: Clinic Director
+  LINE: It’s —
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: I don’t care what you call it! I’m not going to put her away!
+  EXPRESSION: Angry
+- CHARACTER: Clinic Director
+  LINE: Well, I’m sorry.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Yeah, sorry, Christ, eighty-eight doctors and all you can tell me with all of your bullshit....
+  EXPRESSION: Angry
+
+::PATHS::
+- CHOICE: "Continue the conversation"
+  TARGET: another_angle_time_lapse
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Clinic Director's Office - TV Monitor
+MOOD: Hopeful
+CHARACTERS: Narrator, Clinic Director, Chris
+BACKGROUND_IMAGE: clinic_office_hopeful.png
+BACKGROUND_EDIT: "Another angle. Time lapse. Clinic Director is speaking."
+
+::SCRIPT::
+- CHARACTER: Clinic Director
+  LINE: There is one outside chance of a cure, I think of it as shock treatment. As I say, it’s a very outside chance. But then since you're so opposed to your daughter being hospitalized —
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Will you name it, for God’s sake? What is it?
+  EXPRESSION: Desperate
+- CHARACTER: Clinic Director
+  LINE: Have you any religious beliefs?
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: No, I don’t.
+  EXPRESSION: null
+- CHARACTER: Clinic Director
+  LINE: And your daughter?
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Why?
+  EXPRESSION: null
+- CHARACTER: Clinic Director
+  LINE: Have you ever heard of exorcism, Mrs. MacNeil?
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Come again.
+  EXPRESSION: Confused
+- CHARACTER: Clinic Director
+  LINE: It’s a stylized ritual in
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Ask for explanation"
+  TARGET: end
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Unspecified
+MOOD: Explanatory
+CHARACTERS: Narrator, Chris
+BACKGROUND_IMAGE: null
+BACKGROUND_EDIT: null
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Rabbis and priests try to drive out a so-called invading spirit. It’s pretty much discarded these days, except by the Catholics who keep it in the closet as a sort of embarrassment. It has worked, in fact, although not for the reason they think, of course. It was purely the force of suggestion. The victim's belief in possession helped cause it; and in just the same way this belief in the power of exorcism can make it disappear.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Jesus! Are you telling me to take her to a witch doctor?
+  EXPRESSION: Shocked
+
+::PATHS::
+- CHOICE: Continue
+  TARGET: street_macneil_house
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Street in front of MacNeil House
+MOOD: Tense
+CHARACTERS: Narrator, Karl, Sharon, Chris, Regan
+BACKGROUND_IMAGE: street_macneil_house.png
+BACKGROUND_EDIT: "Daytime, a limo parked, MacNeil house in background"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: A limo has pulled up and Karl is exiting driver's seat and opening rear door while Sharon exits on right rear side. Karl reaches in and picks up a small figure (Regan) wrapped in a blanket from Chris in back seat.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: While Karl carries Regan toward door of MacNeil house where Willie is standing, anxiously watching, Chris exits car in deep depression.
+  EXPRESSION: Sad
+
+::PATHS::
+- CHOICE: Enter the house
+  TARGET: regans_bedroom
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Regan’s Bedroom
+MOOD: Disturbing
+CHARACTERS: Narrator, Regan, Sharon, Karl, Chris
+BACKGROUND_IMAGE: regans_bedroom.png
+BACKGROUND_EDIT: "Daytime, Regan in bed with medical equipment and restraints"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Regan is faced to side. Sharon is adjusting Sustagen flask used for a naso-gastric feeding. Karl is affixing a set of restraining straps to bed. Chris enters, standing by door and observing. Karl lets straps hang loose, nods to Sharon.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Sharon starts out of room, pausing for a moment by door to look at Chris.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Chris moves slowly forward to bedside and looks down at Regan. We see now that Regan’s face is torn and bloated with numerous scratch marks and scabs. Projecting hideously from her nostrils is the naso-gastric tubing. Karl has finished adjusting straps. He, too, now looks down at Regan. Two beats. He looks up at Chris.
+  EXPRESSION: null
+- CHARACTER: Karl
+  LINE: She is going to be well?
+  EXPRESSION: Concerned
+- CHARACTER: Chris
+  LINE: (after a beat) I don’t know.
+  EXPRESSION: Uncertain
+- CHARACTER: Narrator
+  LINE: A beat. Then Chris leans and tenderly adjusts Regan’s pillow. In the process, she discovers a crucifix under it made of white bone. She lifts it out, examining it, frowning. Then, at Karl:
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Who put this crucifix under her pillow?
+  EXPRESSION: Suspicious
+
+::PATHS::
+- CHOICE: Leave the room
+  TARGET: house_behind_kinderman
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: House - Behind Kinderman looking up to Regan’s window
+MOOD: Observational
+CHARACTERS: Narrator, Kinderman
+BACKGROUND_IMAGE: house_behind_kinderman.png
+BACKGROUND_EDIT: "Daytime, view of the house from behind, looking up at Regan's window"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: null
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: Go to the kitchen
+  TARGET: kitchen_macneil_house
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Kitchen MacNeil House
+MOOD: Inquisitive
+CHARACTERS: Narrator, Sharon, Willie, Chris
+BACKGROUND_IMAGE: kitchen_macneil_house.png
+BACKGROUND_EDIT: "Daytime, kitchen interior, mail on counter"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Sharon, her coat still on, listless sorts through a mound of mail and messages. Willie is slicing carrots for a stew. Chris enters with crucifix.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: (to Sharon) Was it you put this under her pillow?
+  EXPRESSION: Demanding
+- CHARACTER: Sharon
+  LINE: (fuddled) Whaddya mean?
+  EXPRESSION: Confused
+- CHARACTER: Chris
+  LINE: You didn’t?
+  EXPRESSION: Skeptical
+- CHARACTER: Sharon
+  LINE: Chris, I don’t even know what you’re talking about. Listen, I told you ...
+  EXPRESSION: Exasperated
+- CHARACTER: Chris
+  LINE: (interjecting) Yeah.
+  EXPRESSION: Impatient
+- CHARACTER: Sharon
+  LINE: I’ve ever said to Rags is maybe "God made the world,” and maybe things about —
+  EXPRESSION: Defensive
+- CHARACTER: Chris
+  LINE: Fine, Sharon. Fine, I believe you, but —
+  EXPRESSION: Resigned
+- CHARACTER: Willie
+  LINE: Me, I don’t put it.
+  EXPRESSION: Firm
+- CHARACTER: Chris
+  LINE: This fucking cross didn’t just walk up there, dammit! Now —
+  EXPRESSION: Angry
+- CHARACTER: Narrator
+  LINE: She is interrupted by the entrance of Karl.
+  EXPRESSION: null
+- CHARACTER: Karl
+  LINE: Please, madam, there is man here to see you.
+  EXPRESSION: Polite
+- CHARACTER: Chris
+  LINE: What man?
+  EXPRESSION: Surprised
+
+::PATHS::
+- CHOICE: Meet the visitor
+  TARGET: entry_hall_macneil_house
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Entry Hall MacNeil House
+MOOD: Suspicious
+CHARACTERS: Narrator, Kinderman, Chris
+BACKGROUND_IMAGE: entry_hall_macneil_house.png
+BACKGROUND_EDIT: "Daytime, interior hallway, Kinderman waiting"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Kinderman stands waiting with hat in hand as Chris approaches. He shows I.D.
+  EXPRESSION: null
+- CHARACTER: Kinderman
+  LINE: I’d know that face in any lineup, Mrs. MacNeil.
+  EXPRESSION: Confident
+- CHARACTER: Chris
+  LINE: Am I in one?
+  EXPRESSION: Wary
+
+::PATHS::
+- CHOICE: Go to the kitchen
+  TARGET: kitchen_macneil_house_kinderman
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Kitchen MacNeil House
+MOOD: Investigatory
+CHARACTERS: Narrator, Chris, Kinderman
+BACKGROUND_IMAGE: kitchen_macneil_house_kinderman.png
+BACKGROUND_EDIT: "Daytime, kitchen interior, Regan's artwork on table"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Chris and Kinderman. On the breakfast table sits Regan’s sculpt of the bird. It is set among the salt and pepper shakers and is now a decorative piece.
+  EXPRESSION: null
+- CHARACTER: Kinderman
+  LINE: (at Chris) Might your daughter remember if perhaps Mr. Dennings was in her room that night?
+  EXPRESSION: Curious
+- CHARACTER: Chris
+  LINE: (vague apprehensiveness) Why do you ask?
+  EXPRESSION: Apprehensive
+- CHARACTER: Kinderman
+  LINE: Might your daughter remember?
+  EXPRESSION: Persistent
+- CHARACTER: Chris
+  LINE: Oh, no she was heavily sedated.
+  EXPRESSION: Resigned
+- CHARACTER: Kinderman
+  LINE: It’s serious?
+  EXPRESSION: Concerned
+- CHARACTER: Chris
+  LINE: Yes, I’m afraid it is.
+  EXPRESSION: Somber
+- CHARACTER: Kinderman
+  LINE: May I ask ... ?
+  EXPRESSION: Inquiring
+- CHARACTER: Chris
+  LINE: We still don’t know.
+  EXPRESSION: Uncertain
+- CHARACTER: Kinderman
+  LINE: Watch out for drafts. A draft in the fall when a house is hot, is a magic carpet for bacteria.
+  EXPRESSION: Informative
+- CHARACTER: Chris
+  LINE: Why are you asking all this?
+  EXPRESSION: Puzzled
+- CHARACTER: Kinderman
+  LINE: Strange ... strange ... so baffling. The deceased comes to visit, stays only twenty minutes without even seeing you, and leaves all alone here a very sick girl. And speaking plainly, Mrs. MacNeil, as you say, it’s not likely he would fall from a window. Besides that, a fall wouldn't do to his neck what we found except maybe a chance in a thousand. My hunch? My opinion? I believe he was killed by a powerful man: point one. And the fracturing of his skull — point two plus the various things I have mentioned, would make it very probable — probable, not certain — the deceased was killed and then afterwards pushed from your daughter's window. But no one was here except your daughter. So how could this be? It could be one way: if someone came calling between the time Miss Spencer left and the time you returned.
+  EXPRESSION: Analytical
+- CHARACTER: Chris
+  LINE: (hoarsely; stunned) Judas priest, just a second.
+  EXPRESSION: Stunned
+- CHARACTER: Kinderman
+  LINE: The servants? They have visitors?
+  EXPRESSION: Inquisitive
+- CHARACTER: Chris
+  LINE: Never. Not at all.
+  EXPRESSION: Firm
+- CHARACTER: Kinderman
+  LINE: You expected a package that day? Some delivery?
+  EXPRESSION: Probing
+- CHARACTER: Chris
+  LINE: Not that I know of.
+  EXPRESSION: Uncertain
+- CHARACTER: Kinderman
+  LINE: Dry cleaning, maybe? Groceries? Liquor? A package?
+  EXPRESSION: Persistent
+- CHARACTER: Chris
+  LINE: I really wouldn’t know. Karl handles all of that.
+  EXPRESSION: Vague
+- CHARACTER: Kinderman
+  LINE: Oh, I see.
+  EXPRESSION: Understanding
+- CHARACTER: Chris
+  LINE: Want to ask him?
+  EXPRESSION: Suggestive
+- CHARACTER: Kinderman
+  LINE: Never mind, it's remote. You've got a daughter very sick, and — well, never mind.
+  EXPRESSION: Dismissive
+- CHARACTER: Narrator
+  LINE: Chris rises.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Would you like another cup of coffee?
+  EXPRESSION: Polite
+
+::PATHS::
+- CHOICE: Go to the kitchen for coffee
+  TARGET: macneil_kitchen_coffee
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: MacNeil Kitchen
+MOOD: Observational
+CHARACTERS: Narrator, Kinderman, Chris
+BACKGROUND_IMAGE: macneil_kitchen_coffee.png
+BACKGROUND_EDIT: "Daytime, kitchen interior, Kinderman notices artwork"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Kinderman follows Chris toward Sharon’s working area. He notices Regan's artwork.
+  EXPRESSION: null
+- CHARACTER: Kinderman
+  LINE: Cute ... It’s so cute. Your daughter? She’s the artist?
+  EXPRESSION: Admiring
+- CHARACTER: Chris
+  LINE: (nods)
+  EXPRESSION: Affirmative
+- CHARACTER: Kinderman
+  LINE: Incidentally, just a chance in a Trillion, I know; but your daughter — you could possibly ask her if she saw Mr. Dennings in her room that night?
+  EXPRESSION: Hesitant
+- CHARACTER: Chris
+  LINE: Look, he wouldn’t have a reason to be up there in the first place.
+  EXPRESSION: Firm
+- CHARACTER: Kinderman
+  LINE: I know that; I realize; that’s true; very true. But if certain British doctors never asked "What’s this fungus?", we wouldn’t today have penicillin. Correct?
+  EXPRESSION: Analogous
+- CHARACTER: Chris
+  LINE: When she’s well enough. I’ll ask.
+  EXPRESSION: Conceding
+- CHARACTER: Kinderman
+  LINE: Couldn’t hurt. In the meantime ...
+  EXPRESSION: Encouraging
+- CHARACTER: Narrator
+  LINE: (they have come to the front door and Kinderman falters, embarrassed)
+  EXPRESSION: null
+- CHARACTER: Kinderman
+  LINE: Look, I really hate to ask you; however ...
+  EXPRESSION: Embarrassed
+- CHARACTER: Chris
+  LINE: (tensing) What?
+  EXPRESSION: Tense
+- CHARACTER: Kinderman
+  LINE: For my daughter ... you could maybe give an autograph?
+  EXPRESSION: Hopeful
+- CHARACTER: Narrator
+  LINE: He has reddened, and Chris almost laughs with relief.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Oh, of course. Where’s a pencil?
+  EXPRESSION: Relieved
+- CHARACTER: Kinderman
+  LINE: Right here!
+  EXPRESSION: Eager
+- CHARACTER: Narrator
+  LINE: He has whipped out the stub of a chewed-up pencil from the pocket of his coat while he dipped his other hand in a pocket of his jacket and slipped out a calling card.
+  EXPRESSION: null
+- CHARACTER: Kinderman
+  LINE: She would love it.
+  EXPRESSION: Eager
+- CHARACTER: Chris
+  LINE: What’s her name?
+  EXPRESSION: Inquisitive
+- CHARACTER: Narrator
+  LINE: Chris presses the card against the door and poises pencil stub to write. There follows a weighty hesitation.
+  EXPRESSION: null
+- CHARACTER: Kinderman
+  LINE: (eyes desperate and defiant) I lied. It's for me. (fixes gate on card and blushes) Write 'To William F. Kinderman' — it's spelled on the back.
+  EXPRESSION: Desperate
+- CHARACTER: Narrator
+  LINE: Chris eyes him with a wan and unexpected affection, checks the spelling of his name and writes on card as:
+  EXPRESSION: null
+- CHARACTER: Kinderman
+  LINE: You know that film you made called “Angel?” I saw that film six times.
+  EXPRESSION: Enthusiastic
+- CHARACTER: Chris
+  LINE: If you were looking for the murderer, arrest the director.
+  EXPRESSION: Witty
+- CHARACTER: Kinderman
+  LINE: You're a very nice lady.
+  EXPRESSION: Sincere
+- CHARACTER: Chris
+  LINE: You're a very nice man.
+  EXPRESSION: Sincere
+- CHARACTER: Narrator
+  LINE: Kinderman exits. Chris leans against the door, thoughtful, for a moment. Then she moves on. Walking by door to basement we hear washing machine O.S.. Chris halts, then opens door and calls down:
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Willie.
+  EXPRESSION: Calling
+- CHARACTER: Narrator
+  LINE: No response. She starts down the stairs.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: Go to the basement
+  TARGET: basement_playroom
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Basement Playroom
+MOOD: Inquisitive
+CHARACTERS: Narrator, Chris, Willie
+BACKGROUND_IMAGE: basement_playroom.png
+BACKGROUND_EDIT: "Daytime, basement interior, Willie working"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Chris comes down the stairs. Willie is working in the service area.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Willie.
+  EXPRESSION: Calling
+- CHARACTER: Willie
+  LINE: Oh, yes, Madam.
+  EXPRESSION: Attentive
+- CHARACTER: Chris
+  LINE: Look, never mind dinner tonight. I’m not hungry, and if
+  EXPRESSION: Distracted
+
+::PATHS::
+- CHOICE: Continue speaking
+  TARGET: end
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Laundry Room
+MOOD: Suspense
+CHARACTERS: Willie, Chris
+BACKGROUND_IMAGE: laundry_room.png
+BACKGROUND_EDIT: "Daytime, clothes dryer spinning"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Her eye has fallen to a book that is lying open, face down, on top of the dryer.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: IN AN INSERT WE SEE THE TITLE: "A HISTORY OF WITCHCRAFT."
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Picking it up?
+  EXPRESSION: null
+- CHARACTER: CHRIS
+  LINE: You reading this?
+  EXPRESSION: null
+- CHARACTER: WILLIE
+  LINE: I try, but very difficult. Madam.
+  EXPRESSION: null
+- CHARACTER: CHRIS
+  LINE: Some illustrations.
+  EXPRESSION: null
+- CHARACTER: WILLIE
+  LINE: I find in Kiss Regan bedroom.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Chris looks up at her. Dryer stops spinning and Willie turns away to take out the clothes. Chris resumes thumbing through the book.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Abruptly she FREEZES, turning ashen. She holds gaze on book for a beat; then, numbly:
+  EXPRESSION: Shocked
+- CHARACTER: CHRIS
+  LINE: 83. Willie — you found this in Regan’s bedroom?
+  EXPRESSION: Terrified
+- CHARACTER: WILLIE
+  LINE: Yes, Madam. Under bed.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Still numb, Chris runs a finger along edge of right-hand page, and in an INSERT, we see that a narrow strip — in the manner of Burke Dennings — has been surgically shaved from along its length.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Confront Regan"
+  TARGET: regans_bedroom_altercation
+  STATE_CHANGE: fear = +2
+  CONDITION: null
+
+::SCENE::
+LOCATION: Hallway / Regan's Bedroom (Sound)
+MOOD: Intense Conflict
+CHARACTERS: Narrator, Chris, Regan, Deep Bass Voice
+BACKGROUND_IMAGE: hallway_stairs.png
+BACKGROUND_EDIT: "Dusk, interior shots of hallway and stairs"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: ANOTHER ANGLE. Willie and Chris look up at SOUND from above, in Regan’s bedroom, of a blow, of someone staggering across the room, of someone crashing to wail and falling heavily to ground. This is followed, as Chris races upstairs, by an at first indistinct altercation between a tearful and terror-stricken Regan, and someone else — a man — with a powerful and incredibly deep bass voice. Regan is pleading; the man commanding in obscene terms.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: ANGLE AT CHRIST FROM TOP OF STEPS (SECOND FLOOR). Rushing up, frenzied, while Willie and Sharon stare up from bottom of steps. We HEAR:
+  EXPRESSION: null
+- CHARACTER: REGAN
+  LINE: No! Oh, no, don't! Don’t — !
+  EXPRESSION: Terrified
+- CHARACTER: DEEP BASS VOICE
+  LINE: Do it, damned piglet! You'll — I
+  EXPRESSION: Menacing
+- CHARACTER: REGAN
+  LINE: No! Oh, no don't! Please, don’t —
+  EXPRESSION: Terrified
+- CHARACTER: Narrator
+  LINE: And in this manner, the VOICES continue — and never overlapping — while CAMERA TRACKS with Chris to door to Regan's bedroom.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Enter Regan's Bedroom"
+  TARGET: regans_bedroom_confrontation
+  STATE_CHANGE: fear = +3
+  CONDITION: null
+
+::SCENE::
+LOCATION: Regan's Bedroom
+MOOD: Horror
+CHARACTERS: Narrator, Chris, Regan, Male Voice, Regan-Demonic
+BACKGROUND_IMAGE: regans_bedroom.png
+BACKGROUND_EDIT: "Daytime, disheveled bedroom, bed shaking"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: INT. REGAN’S BEDROOM - DAY. Chris bursts in, then stands rooted in shock, as we HEAR SOUND OF BED SHAKING VIOLENTLY, and the continuation of dialogue between Regan and the thundering deep MALE VOICE.
+  EXPRESSION: null
+- CHARACTER: REGAN
+  LINE: Please! Oh, please don’t m(-ake) — !
+  EXPRESSION: Pleading
+- CHARACTER: MALE VOICE
+  LINE: You’ll do as I tell you, filth! You’ll — !
+  EXPRESSION: Commanding
+- CHARACTER: Narrator
+  LINE: Chris has turned head to stare at:
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: P.O.V. AT KARL. Blood trickling down from forehead, he lies unconscious on floor near bureau.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The CAMERA GOES TO BED disclosing Regan sitting up in a SIDE VIEW TO CAMERA, her legs propped wide apart and the bone-white crucifix clutched in raw-knuckled hands that are upraised over her head. She seems to be exerting a powerful effort to keep the crucifix UP, away from her vagina, which we cannot (AND WILL NOT) see, her nightgown pulled up to precisely that point. We see that her FACE ALTERS EXPRESSION to match each voice in the argument, BOTH OF WHICH ARE COMING FROM HER! When the deep male voice speaks through her mouth, the features instantaneously contort into a demonic grimace of malevolence and rage. Blood trickles down from Regan’s nose. The nasogastric tubing has been ripped out.
+  EXPRESSION: null
+- CHARACTER: REGAN
+  LINE: Oh, no don’t make me! Don’t!
+  EXPRESSION: Pleading
+- CHARACTER: REGAN-DEMONIC
+  LINE: You’ll do it!
+  EXPRESSION: Demanding
+- CHARACTER: REGAN
+  LINE: No! NO, — !
+  EXPRESSION: Pleading
+- CHARACTER: REGAN-DEMONIC
+  LINE: Do it, stinking bitch! You’ll do it! You’ll do it or I’m going to kill you!
+  EXPRESSION: Threatening
+- CHARACTER: REGAN
+  LINE: Nooooo!
+  EXPRESSION: Terrified
+- CHARACTER: REGAN-DEMONIC
+  LINE: Yes, do it, do it, do- !
+  EXPRESSION: Demanding
+
+::PATHS::
+- CHOICE: "Witness the full horror"
+  TARGET: crucifix_plunge
+  STATE_CHANGE: trauma = +5
+  CONDITION: null
+
+::SCENE::
+LOCATION: Regan's Bedroom (Crucifix Plunge)
+MOOD: Extreme Horror
+CHARACTERS: Narrator, Regan, Regan-Demonic
+BACKGROUND_IMAGE: regans_bedroom_crucifix.png
+BACKGROUND_EDIT: "Close up on Regan's face, eyes wide, mouth agape"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: QUICK CUT TO: CLOSE DOWN ANGLE - AT REGAN showing nothing from the waist down as with eyes wide and staring she seems to be flinching from the rush of some hideous finality, her mouth agape and shrieking in terror as she stares up at the upheld crucifix.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Then the shriek ends as the demonic face once again takes over her features, and the piercing cry of terror elides into a yelping, gutteral laugh of malevolent spite and rage triumphant as the crucifix is plunged down and out of sight at Regan’s vagina.
+  EXPRESSION: null
+- CHARACTER: DEMON
+  LINE: Yes, now you’re mine, you stinking cow! You're mine, you're mine, you're — !
+  EXPRESSION: Triumphant, Cruel
+
+::PATHS::
+- CHOICE: "Intervene"
+  TARGET: demon_confrontation_chris
+  STATE_CHANGE: courage = +2, fear = +4
+  CONDITION: null
+
+::SCENE::
+LOCATION: Regan's Bedroom (Demon Confrontation)
+MOOD: Violent Chaos
+CHARACTERS: Narrator, Chris, Demon, Regan
+BACKGROUND_IMAGE: regans_bedroom_demon.png
+BACKGROUND_EDIT: "Intense close-ups of struggle, blood spatter"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Chris has raced in, screaming, grappling to take hold of the crucifix. We see blood on Regan's thighs, but NEVER THE VAGINA. The Demon first turns on Chris with a look of mindbending fury. Then:
+  EXPRESSION: null
+- CHARACTER: DEMON
+  LINE: Ahhh, little pig mother!
+  EXPRESSION: Furious, Mocking
+- CHARACTER: Narrator
+  LINE: The Demon pulls Chris* head down, rubbing her face sensually against pelvic area, then lifts head and smashes Chris a blow across the chest that sends her reeling across room and crashing to a wall with stunning force while Demon laughs with bellowing spite.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Chris crumples against wall near Karl. Willie arrives, staring in confusion and horror.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Chris begins to pick herself up. She stares toward bed, her head bloodied, and begins to crawl painfully toward it.
+  EXPRESSION: null
+- CHARACTER: DEMON
+  LINE: Ah, there’s my pearl, my sweet honey piglet!
+  EXPRESSION: Possessive, Twisted
+
+::PATHS::
+- CHOICE: "Observe Regan's Action"
+  TARGET: Regan_masturbation
+  STATE_CHANGE: fear = +3
+  CONDITION: null
+
+::SCENE::
+LOCATION: Regan's Bedroom (Chris' P.O.V.)
+MOOD: Disturbing Revelation
+CHARACTERS: Narrator, Chris, Regan, Demon, Regan-Denning
+BACKGROUND_IMAGE: regans_bedroom_pov.png
+BACKGROUND_EDIT: "Moving shot from Chris's perspective, crawling towards the bed"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: MOVING SHOT - AT BED - CHRIS' P.O.V. as she crawls closer. Regan now has back to CAMERA, looking down, and we know the crucifix is being used for masterbation.
+  EXPRESSION: null
+- CHARACTER: DEMON
+  LINE: Ahh! Yes, mine, you are mine, you are — !
+  EXPRESSION: Ecstatic, Possessive
+- CHARACTER: Narrator
+  LINE: It breaks off and the Regan-Demon thing abruptly looks over shoulder at CAMERA (and Chris), which halts at the sight. The features of Regan’s face seem to be those of Burke Dennings. Then it sneaks in the British-accented giggly VOICE of the dead director.
+  EXPRESSION: null
+- CHARACTER: REGAN-DENNINGS
+  LINE: Do you know what she did, your cunting daughter?
+  EXPRESSION: Taunting, Malicious
+
+::PATHS::
+- CHOICE: "Scream in Horror"
+  TARGET: chriss_scream
+  STATE_CHANGE: trauma = +4
+  CONDITION: null
+
+::SCENE::
+LOCATION: 35th Street Bridge & Canal Area
+MOOD: Despair
+CHARACTERS: Narrator, Chris, Karras
+BACKGROUND_IMAGE: bridge_canal.png
+BACKGROUND_EDIT: "Daytime, urban bridge overlooking a canal"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: QUICK CUT TO: EXT. 35TH STREET BRIDGE & CANAL AREA - DAY. Chris. She wears oversized dark glasses and is leaning over bridge railing.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: ANOTHER ANGLE as Chris sees a large, powerfully built man wearing khakis, sweater and sturdy, scuffed white tennis shoes approaching her. She quickly looks away. Though she doesn’t recognize him, we see it is Karras. Coming up beside her:
+  EXPRESSION: null
+- CHARACTER: KARRAS
+  LINE: Are you Chris MacNeil?
+  EXPRESSION: Inquisitive
+- CHARACTER: CHRIS
+  LINE: Keep movin', creep.
+  EXPRESSION: Hostile
+- CHARACTER: KARRAS
+  LINE: I'm Father Karras.
+  EXPRESSION: Calm
+- CHARACTER: CHRIS
+  LINE: Oh, my God! Oh, I’m — ! Jesus!
+  EXPRESSION: Shocked, Flustered
+- CHARACTER: Narrator
+  LINE: She is tugging at her sunglasses, flustered, and immediately pushing them back as the sad, dark eyes probe hers.
+  EXPRESSION: null
+- CHARACTER: KARRAS
+  LINE: I suppose I should have told you that I wouldn't be in uniform.
+  EXPRESSION: Apologetic
+- CHARACTER: CHRIS
+  LINE: Yeah, it would've been terrific. Got a cigarette, Father?
+  EXPRESSION: Cynical
+- CHARACTER: KARRAS
+  LINE: Sure.
+  EXPRESSION: Helpful
+- CHARACTER: Narrator
+  LINE: She lights up. After a deep exhalation of smokes.
+  EXPRESSION: null
+- CHARACTER: CHRIS
+  LINE: How'd a shrink ever get to be a priest?
+  EXPRESSION: Curious
+- CHARACTER: KARRAS
+  LINE: It’s the other way around. The Society sent me through medical school and psychiatric training.
+  EXPRESSION: Explanatory
+- CHARACTER: CHRIS
+  LINE: Where?
+  EXPRESSION: Inquisitive
+- CHARACTER: KARRAS
+  LINE: Oh, well, Harvard; John Hopkins, Bellevue, then —
+  EXPRESSION: Enumerating
+- CHARACTER: CHRIS
+  LINE: You’re a friend of Father Dyer’s, that right?
+  EXPRESSION: Suspicious
+- CHARACTER: KARRAS
+  LINE: Yes, I am.
+  EXPRESSION: Affirmative
+- CHARACTER: CHRIS
+  LINE: Pretty close?
+  EXPRESSION: Probing
+- CHARACTER: KARRAS
+  LINE: Pretty close.
+  EXPRESSION: Affirmative
+- CHARACTER: CHRIS
+  LINE: Did he talk about the party?
+  EXPRESSION: Inquisitive
+- CHARACTER: KARRAS
+  LINE: Yes.
+  EXPRESSION: Affirmative
+- CHARACTER: CHRIS
+  LINE: About my daughter?
+  EXPRESSION: Hopeful
+- CHARACTER: KARRAS
+  LINE: No, I didn’t know you had one.
+  EXPRESSION: Honest
+- CHARACTER: CHRIS
+  LINE: Yeah, she’s twelve. He didn’t mention her?
+  EXPRESSION: Disappointed
+- CHARACTER: KARRAS
+  LINE: No.
+  EXPRESSION: Negative
+- CHARACTER: CHRIS
+  LINE: He didn’t tell you what she did?
+  EXPRESSION: Anxious
+- CHARACTER: KARRAS
+  LINE: He never mentioned her.
+  EXPRESSION: Negative
+- CHARACTER: CHRIS
+  LINE: Priests keep a pretty tight mouth, then; that right?
+  EXPRESSION: Skeptical
+- CHARACTER: KARRAS
+  LINE: That depends.
+  EXPRESSION: Philosophical
+- CHARACTER: CHRIS
+  LINE: On what?
+  EXPRESSION: Inquisitive
+- CHARACTER: KARRAS
+  LINE: On the priest.
+  EXPRESSION: Direct
+- CHARACTER: CHRIS
+  LINE: I mean, what if a person, let’s say, was a criminal, like maybe a murderer or something, you know? If he came to you for help, would you have to turn him in?
+  EXPRESSION: Hypothetical
+- CHARACTER: KARRAS
+  LINE: If he came to me for spiritual help, I’d say, no.
+  EXPRESSION: Honest
+- CHARACTER: CHRIS
+  LINE: You wouldn’t.
+  EXPRESSION: Surprised
+- CHARACTER: KARRAS
+  LINE: No, I wouldn’t. But I’d try to persuade him to turn himself in.
+  EXPRESSION: Ethical
+- CHARACTER: CHRIS
+  LINE: And how do you go about getting an exorcism?
+  EXPRESSION: Direct
+- CHARACTER: KARRAS
+  LINE: Beg pardon?
+  EXPRESSION: Confused
+- CHARACTER: CHRIS
+  LINE: If a person’s possessed by some kind of a demon, how do you go about getting an exorcism?
+  EXPRESSION: Direct
+- CHARACTER: KARRAS
+  LINE: Well, first you'd have to put him in a time machine and get him back to the sixt
+  EXPRESSION: Humorous (attempt)
+
+::PATHS::
+- CHOICE: "Continue asking about exorcisms"
+  TARGET: exorcism_process
+  STATE_CHANGE: curiosity = +2
+  CONDITION: null
+
+::SCENE::
+LOCATION: MacNeil House Staircase
+MOOD: Tension
+CHARACTERS: Chris, Karras
+BACKGROUND_IMAGE: staircase.png
+BACKGROUND_EDIT: "Daytime, ascending staircase"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Chris and Karras are ascending staircase, Karras frowning in consternation at O.S. SOUND, from Regan's bedroom, of the demonic Voice threatening and raging.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: When they reach door to Regan's bedroom, we pick up Karl leaning against opposite wall, arms folded, head bowed.
+  EXPRESSION: null
+- CHARACTER: Karl
+  LINE: It wants no straps, still.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Karras stares at him; looks at door; exchanges looks with Chris. Then he grasps doorknob and starts to open door. He reacts, as to a noxious odor; then steels self.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Regan’s Bedroom
+MOOD: Horror
+CHARACTERS: Karras, Regan-Demon, Chris
+BACKGROUND_IMAGE: regans_bedroom.png
+BACKGROUND_EDIT: "Daytime, Regan restrained on bed, demonic presence"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Reining back his revulsion, Karras enters slowly, scanning room; then freezes in horror. Arms held down by double set of restraining straps, it seems no longer Regan but the demonic entity that now lies on the bed, turning head to stare at Karras. The eyes bulge wide in wasted sockets, shining with mad cunning and burning intelligence, seething in a face shaped into a hideous mask of evil. The hair is tangled and thickly matted, and Regan’s legs and arms are spider-thin, a distended stomach jutting up grotesquely. Karras reacts, then closes door and strives for an affable, conversational tone.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: Hello, Regan. I’m a friend of your mother's. I'd like to help you.
+  EXPRESSION: Concerned
+- CHARACTER: Regan-Demon
+  LINE: You might-loosen these straps, then.
+  EXPRESSION: Menacing
+- CHARACTER: Karras
+  LINE: Are they uncomfortable for you?
+  EXPRESSION: Gentle
+- CHARACTER: Regan-Demon
+  LINE: Extremely.
+  EXPRESSION: Menacing
+- CHARACTER: Karras
+  LINE: I’m afraid you might hurt yourself. Regan.
+  EXPRESSION: Concerned
+- CHARACTER: Regan-Demon
+  LINE: I am not Regan.
+  EXPRESSION: Cold
+- CHARACTER: Karras
+  LINE: Oh, I see. Well, then, maybe we should introduce ourselves. I'm Damien Karras. Who are you?
+  EXPRESSION: Calm
+- CHARACTER: Regan-Demon
+  LINE: I'm the devil. New kindly undo these straps.
+  EXPRESSION: Demanding
+- CHARACTER: Karras
+  LINE: If you're the devil, why not just make the straps disappear?
+  EXPRESSION: Challenging
+- CHARACTER: Regan-Demon
+  LINE: That's much too vulgar a display of power, Karras.
+  EXPRESSION: Smug
+- CHARACTER: Karras
+  LINE: Where's Regan?
+  EXPRESSION: Demanding
+- CHARACTER: Regan-Demon
+  LINE: She is in here with us, my friend; we are Legion.
+  EXPRESSION: Sinister
+- CHARACTER: Karras
+  LINE: Show me Regan and —
+  EXPRESSION: Determined
+- CHARACTER: Narrator
+  LINE: CLOSE AT REGAN. The features are her own, now, and the eyes are filled with terror, her mouth gaping open in a soundless, electrifying shriek for help. But then quickly the Regan identity is replaced by a remolding of Regan's features into those of Denning's and we HEAR:
+  EXPRESSION: null
+- CHARACTER: Denning’s Voice
+  LINE: Won't you take off these straps, please? They're hurting me! Really!
+  EXPRESSION: Pleading
+- CHARACTER: Narrator
+  LINE: And now Regan's face instantaneously is remolded back to the demonic.
+  EXPRESSION: null
+- CHARACTER: Regan-Demon
+  LINE: Couldjya help an old altar boy, Faddah? I'm Cat'lie.
+  EXPRESSION: Mocking
+- CHARACTER: Narrator
+  LINE: AT KARRAS — REACTING as we HEAR the O.S. MOCKING LAUGHTER of the demon.
+  EXPRESSION: null
+- CHARACTER: Regan-Demon
+  LINE: Incidentally, your mother is here with us, Karras. Do you wish to leave a message? I will see that she gets it.
+  EXPRESSION: Taunting
+- CHARACTER: Narrator
+  LINE: And Karras is suddenly dodging a projectile stream of vomit/ leaping out of his chair so that only his hand and portion of his sweater are hit. The demonic entity laughs mockingly.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: If that is true, then you must know my mother’s maiden name? What is it?
+  EXPRESSION: Challenging
+- CHARACTER: Narrator
+  LINE: Regan hisses at him, mad eyes gleaming/ and her head gently undulating like a cobra’s.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: What is it?
+  EXPRESSION: Demanding
+- CHARACTER: Narrator
+  LINE: Regan, in an angry bellow that shivers through the walls of the room, begins to low like a steer. Her eyes then roll upwards into their sockets, exposing whites only. For a time, Karras watches, ashen, as the bellowing continues.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: MacNeil House Bathroom and Hall Off Bedroom
+MOOD: Despair
+CHARACTERS: Karras, Chris
+BACKGROUND_IMAGE: bathroom.png
+BACKGROUND_EDIT: "Late day, Karras washing hands, Chris anxious"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Karras' sweater is craped over shower pole as he washes hands at sink. Chris sits on edge of tub, anxiously fidgeting with towel in lap as she watches Karras, From down the hall, O.S., we HEAR varied ANIMAL SOUNDS.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: But your daughter doesn’t say she's a demon, Mrs. MacNeil; she says she's the devil himself and if you've seen as many psychotics as I have, you'd know that’s like saying you’re Napoleon Bonaparte.
+  EXPRESSION: Explaining
+- CHARACTER: Chris
+  LINE: Look, I’ll tell you something. Father; you show me Regan’s identical twin: Same face, same voice, same smell, same everything down to the way she dots her i’s, and still I'd know in a second that it wasn't really her! I’d know it! I’d know it in my gut and I'm telling you I know that thing in there is not my daughter! Now you tell me what to do. Go ahead: You tell me that you know for a fact there’s nothing wrong with my daughter except in her head; that you know for a fact that she doesn’t need an exorcism; that you know it wouldn't do her any good. Go ahead! You tell me! You tell me what to do!
+  EXPRESSION: Desperate
+- CHARACTER: Narrator
+  LINE: For long troubled seconds, the priest is still. Then he answers softly:
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: Well, there’s little in this world that I knew for a fact.
+  EXPRESSION: Somber
+- CHARACTER: Narrator
+  LINE: Chris stares at him a brief beat, then rises and moves quickly out of bathroom. Karras frowns, hearing REGAN howling like a wolf. Chris returns with a framed photo of Regan and shows it to him.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: That’s her. That's Regan. That was taken four months ago.
+  EXPRESSION: Hopeful
+- CHARACTER: Karras
+  LINE: Look, I'm only against the chance of doing your daughter more harm than good.
+  EXPRESSION: Hesitant
+- CHARACTER: Chris
+  LINE: But you’re talking now strictly as a psychiatrist, right?
+  EXPRESSION: Skeptical
+- CHARACTER: Karras
+  LINE: No, I’m talking now also as a priest. If I go to the Chancery office to get permission to perform an exorcism, the first thing I’d have to have is a pretty substantial indication that your daughter’s condition isn't a purely psychiatric problem. After tha
+  EXPRESSION: Serious
+
+::SCENE::
+LOCATION: MacNeil House - INT. (Before INT. MACNEIL HOUSE STAIRCASE)
+MOOD: Pleading
+CHARACTERS: Chris, Karras
+BACKGROUND_IMAGE: unknown.png
+BACKGROUND_EDIT: "Interior of the MacNeil house"
+
+::SCRIPT::
+- CHARACTER: Chris
+  LINE: Father Karras, it’s my daughter!
+  EXPRESSION: Pleading
+- CHARACTER: Karras
+  LINE: Then all the more reason to forget about exorcism and —
+  EXPRESSION: Gentle
+- CHARACTER: Chris
+  LINE: Why? God, I don’t understand!
+  EXPRESSION: Frustrated
+- CHARACTER: Karras
+  LINE: To begin with it could make things worse.
+  EXPRESSION: Cautionary
+- CHARACTER: Chris
+  LINE: But how?
+  EXPRESSION: Confused
+- CHARACTER: Karras
+  LINE: The ritual of exorcism is dangerously suggestive. And secondly, Miss MacNeil, before the church approves an exorcism, it conducts an investigation to see if it's warranted. That takes time. In the meantime, your —
+  EXPRESSION: Explanatory
+- CHARACTER: Chris
+  LINE: Couldn't you do the exorcism yourself?
+  EXPRESSION: Hopeful
+- CHARACTER: Karras
+  LINE: Look, every priest has the power to exorcise, but he has to have church approval, and frankly, it’s rarely ever given, so -
+  EXPRESSION: Resigned
+- CHARACTER: Chris
+  LINE: Can't you even look at her?
+  EXPRESSION: Desperate
+- CHARACTER: Karras
+  LINE: Well, as a psychiatrist, yes, I could, but -
+  EXPRESSION: Hesitant
+- CHARACTER: Chris
+  LINE: She needs a priest! I've taken her to every goddamn fucking doctor psychiatrist in the world and they sent me to you! Now you send me to them!
+  EXPRESSION: Outraged
+- CHARACTER: Karras
+  LINE: But your -
+  EXPRESSION: Interrupted
+- CHARACTER: Chris
+  LINE: Jesus Christ, won't somebody help me!
+  EXPRESSION: Shrieking
+- CHARACTER: Narrator
+  LINE: She crumples against Karras' chest, moaning, with convulsive sobs.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Help her! Help her! Oh, somebody ...
+  EXPRESSION: Sobbing
+- CHARACTER: Narrator
+  LINE: The final "help" elides into deep, throaty sobbing.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: (puzzled)
+  Didn’t get you.
+  EXPRESSION: Confused
+- CHARACTER: Karras
+  LINE: 89. Well, it just doesn’t happen anymore, Miss MacNeil.
+  EXPRESSION: Matter-of-fact
+- CHARACTER: Chris
+  LINE: Since when?
+  EXPRESSION: Curious
+- CHARACTER: Karras
+  LINE: Since we learned about mental illness; about paranoia; dual personality; all of those things that they taught me at Harvard.
+  EXPRESSION: Informative
+- CHARACTER: Chris
+  LINE: You kidding?
+  EXPRESSION: Disbelieving
+- CHARACTER: Karras
+  LINE: Many educated Catholics, Miss MacNeil, don’t believe in the devil anymore; and as far as possession is concerned, since the day I joined the Jesuits I’ve never met a priest who’s ever in his life performed an exorcism. Not one.
+  EXPRESSION: Resigned
+- CHARACTER: Chris
+  LINE: Oh, really? Well, it happens, Father Karras, that someone very close to me is probably possessed. She needs an exorcism. Will you do it?
+  EXPRESSION: Pleading
+- CHARACTER: Narrator
+  LINE: She has slipped off the glasses and Karras feels momentary, wincing shock at the redness, at the desperate pleading in the haggard eyes.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Unknown
+MOOD: Analytical
+CHARACTERS: Karras, Chris
+BACKGROUND_IMAGE: null
+BACKGROUND_EDIT: null
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: t,
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: I'd need evidence the Church would accept as signs of possession.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Like what?
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: Well, like her speaking in a language that she’s never known or studied.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: And what else?
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: I don’t know. I’m going to have to look it up,
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: I thought you were supposed to be an expert.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: You probably know more about demonic possession right now than most priests.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: Continue discussion
+  TARGET: macneil_house_exterior
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: MacNeil House - Exterior
+MOOD: Suspenseful
+CHARACTERS: Chris, Karras, Kinderman
+BACKGROUND_IMAGE: macneil_house_exterior.png
+BACKGROUND_EDIT: "Nighttime, Chris opens door for Karras, who steps out onto stoop carrying witchcraft book and slender box with tape recording."
+
+::SCRIPT::
+- CHARACTER: Karras
+  LINE: Did your daughter know a priest was coming over?
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: No, No, nobody knew but me.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: Did you know that my mother had died just recently?
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Yes, I’m very sorry.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: Is Regan aware of it?
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Why?
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: Is she aware of it?
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: No, not at all.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Why’d you ask?
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: Not important. I just wondered.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He studies her for a moment without expression; then quickly moves away. Chris watches from the doorway.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Karras crosses the street. At the corner, he drops the book and stoops quickly to retrieve it, then rounds the corner and vanishes from sight. Chris closes the door.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: And now the CAMERA DISCLOSES Kinderman observing house from an unmarked car parked a little down the street, toward campus library.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: Continue observing
+  TARGET: prospect_street
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Prospect Street
+MOOD: Puzzled, Mysterious
+CHARACTERS: Kinderman, Regan (implied)
+BACKGROUND_IMAGE: prospect_street.png
+BACKGROUND_EDIT: "Nighttime, Kinderman in unmarked car, looking at Regan's house."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Kinderman frowns in puzzlement as he sees something: in the window of Regan’s bedroom (the shutters are partially open), a suggestion of a slender figure (Regan?) quickly ducking away from sight.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: We go back to Kinderman, thoughtful. He does not see the shutter slowly pulled shut.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: Go to Language Lab
+  TARGET: gu_language_lab
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: G. U. Language Lab
+MOOD: Focused
+CHARACTERS: Karras
+BACKGROUND_IMAGE: gu_language_lab.png
+BACKGROUND_EDIT: "Nighttime, Karras enters the lab."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Karras enters.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: Begin listening to tape
+  TARGET: language_lab_interior
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Language Lab - Interior
+MOOD: Haunting
+CHARACTERS: Karras, Regan's Voice, Chris' Voice
+BACKGROUND_IMAGE: language_lab_interior.png
+BACKGROUND_EDIT: "Nighttime, Karras sits before tape recorder, wearing earphones."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: We HEAR TAPE HISS at first. Then:
+  EXPRESSION: null
+- CHARACTER: Regan's Voice
+  LINE: Hello ...
+  EXPRESSION: Normal
+- CHARACTER: Narrator
+  LINE: Whining feedback.
+  EXPRESSION: null
+- CHARACTER: Chris' Voice
+  LINE: Not so close to the microphone, honey. Hold it back.
+  EXPRESSION: Hushed
+- CHARACTER: Regan's Voice
+  LINE: Like this?
+  EXPRESSION: null
+- CHARACTER: Chris' Voice
+  LINE: No, more.
+  EXPRESSION: null
+- CHARACTER: Regan's Voice
+  LINE: Like this?
+  EXPRESSION: null
+- CHARACTER: Chris' Voice
+  LINE: Yeah, okay. Go ahead, now. Just talk.
+  EXPRESSION: null
+- CHARACTER: Regan's Voice
+  LINE: Hello, Daddy? This is me. I can't tell what to say.
+  EXPRESSION: Muffled giggling
+- CHARACTER: Chris' Voice
+  LINE: Oh, just tell him. how you are, Rags, and what you’ve been doin'.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Karras' look grows more and more haunted as he listens.
+  EXPRESSION: null
+- CHARACTER: Regan's Voice
+  LINE: Umm, Daddy — well, ya see; I mean I hope you can hear me okay and —- let's see. Umm, well, first we're - No, wait, now ... See, first we’re in Washington, Daddy, ya know? It’s — No, wait, now; I better start over. See, Daddy, there's ...
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: Go to Chapel
+  TARGET: dahlgren_chapel_exterior
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Dahlgren Chapel on C.U. Campus - Exterior
+MOOD: Serene, Hopeful
+CHARACTERS: Karras
+BACKGROUND_IMAGE: dahlgren_chapel_exterior.png
+BACKGROUND_EDIT: "Dawn, Karras enters the chapel."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Karras enters.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: Proceed to interior
+  TARGET: dahlgren_chapel_interior
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Dahlgren Chapel - Interior
+MOOD: Solemn, Devotional
+CHARACTERS: Karras
+BACKGROUND_IMAGE: dahlgren_chapel_interior.png
+BACKGROUND_EDIT: "Dawn, Karras vests in the vestment room and proceeds into the church. Time lapse shows Karras at the altar."
+
+::SCRIPT::
+- CHARACTER: Karras
+  LINE: "Thou Shalt turn again, O God, and quicken us. And Thy people shall rejoice in Thee. Show us Thy mercy, O Lord, and grant us Thy salvation. O Lord, hear my prayer. And let my cry come unto Thee."
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Another angle - (time lapse) Karras lifts the Communion Host in consecration. It trembles in his fingers with a hope he dares not hope.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: "The day before he suffered he took bread in his sacred hands and looking up to heaven, to you, his almighty Father, he gave you thanks and praise. He broke the bread, gave it to his disciples, and said: Take this, all of you, and eat it: For this is my body."
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Then:
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: When supper ended, again he gave you thanks and praise, gave the cup to his disciples and said: Take this all of you and drink from it. This is the cup of my blood, the blood of the new and everlasting covenant, the mystery of faith. It will be shed for you and for all men so that sins may be forgiven. Do this in memory of me.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: Go to Regan's Bedroom
+  TARGET: regans_bedroom_interior
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Regan’s Bedroom - Interior
+MOOD: Terrifying, Confrontational
+CHARACTERS: Karras, Regan-Demon
+BACKGROUND_IMAGE: regans_bedroom_interior.png
+BACKGROUND_EDIT: "Daytime, close up of tape recorder. Karras sits at foot of bed in clerical robes."
+
+::SCRIPT::
+- CHARACTER: Regan-Demon
+  LINE: Hello, Karras. What an excellent day for an exorcism. Do begin it soon.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: You would like that?
+  EXPRESSION: Puzzled
+- CHARACTER: Regan-Demon
+  LINE: Intensely.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: But wouldn’t that drive you out of Regan?
+  EXPRESSION: null
+- CHARACTER: Regan-Demon
+  LINE: It would bring us together.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: You and Regan?
+  EXPRESSION: null
+- CHARACTER: Regan-Demon
+  LINE: You and us.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Karras stares and then reacts as he feels something cold and unseen at his neck. Then he jerks his head around at a loud, sudden banging sound. O.S. a bureau drawer has popped open, sliding out its entire length.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The demon bursts into hysterical, gleeful laughter.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: You did that?
+  EXPRESSION: null
+- CHARACTER: Regan-Demon
+  LINE: Assuredly.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: Do it again.
+  EXPRESSION: null
+- CHARACTER: Regan-Demon
+  LINE: In time, in time. But mirabile dictu, don't you agree?
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: You speak Latin?
+  EXPRESSION: Startled
+- CHARACTER: Regan-Demon
+  LINE: Ego te absolvo.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: Quod nomen mihi est?
+  EXPRESSION: Excitedly
+- CHARACTER: Regan-Demon
+  LINE: Bon jour.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: Quod nomen mihi est?
+  EXPRESSION: Persistent
+- CHARACTER: Regan-Demon
+  LINE: Bon nuit. La plume de ma tante.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The demon laughs full and mockingly. Karras holds up a small vial of water that he has had cupped in his hand.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The demon abruptly breaks off the laughter.
+  EXPRESSION: null
+- CHARACTER: Regan-Demon
+  LINE: What is that?
+  EXPRESSION: Warily
+- CHARACTER: Karras
+  LINE: Holy water.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Karras has uncapped the vial and now sprinkles its contents over Regan. Instantly, Regan (Demon) writhes to avoid the spray, howling in pain and terror.
+  EXPRESSION: null
+- CHARACTER: Regan-Demon
+  LINE: Ahhhhhhhhhhhh! It burns me! It burns! It burns! Ah, cease, priest, bastard! Cease! Ahhhhhhhh!
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Karras looks disappointed. The howling ceases and Regan's head falls back onto pillow. Regan's eyes roll upward into their sockets, exposing the whites. Regan-Demon is now rolling head feverishly from side to side muttering an indistinct gibberish:
+  EXPRESSION: null
+- CHARACTER: Regan-Demon
+  LINE: I‘drehtellteeson. Dobetni tee siti. Leafy. Tseerpet reef. Emitsuvig.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Karras is intrigued and moves to side of bed. He turns up volume on recorder, then lowers his ear to Regan's mouth to pick it up. He listens. The gibberish ceases and is replaced by deep and raspy breathing. Karras straightens up.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: Who are you?
+  EXPRESSION: null
+- CHARACTER: Regan-Demon
+  LINE: Nowonmai... Nowonmai ...
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: Is that your name?
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: The lips move. Fevered syllables, slow and unintelligible. Then it ceases.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: Are you able to understand me?
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Silence. Only the eerie sound of breathing. Karras waits a little; then he shakes head, disappointed. He grips Regan’s wrist to check her pulse; then he draws back Regan’s nightgown top and looks with pained expression at the sight of her skeletal ribs. He shakes his head.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: Go to MacNeil House Study
+  TARGET: macneil_house_study
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: MacNeil House - Study
+MOOD: Frustrated, Desperate
+CHARACTERS: Chris, Karras
+BACKGROUND_IMAGE: macneil_house_study.png
+BACKGROUND_EDIT: "Chris is at the bar. Karras enters."
+
+::SCRIPT::
+- CHARACTER: Karras
+  LINE: I’m not hopeful I could ever get permission from the Bishop.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Why not?
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: He holds up the empty vial.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: I just told her this was holy water; when I sprinkled it on her, she reacted very violently.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: And so?
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: It’s just ordinary tap water.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Christ, who gives a shit! She’s dying! What's the difference between holy water and tap water, anyway?
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: Holy water is blessed.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Oh, Christ!
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: Where’s her father?
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: In Europe.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: Have you told him what's happening?
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: No!
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: Well, I think it would help if he were here. It’s —
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: I've asked you to drive a demon out, goddammit, not ask another one in! What the hell good is Howard right now? What's the good?
+  EXPRESSION: Overlapping
+- CHARACTER: Karras
+  LINE: There's a strong possibility that Regan's disorder is caused by her guilt over —
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Guilt over what?
+  EXPRESSION: Mysterical
+  
+::PATHS::
+- CHOICE: End Scene
+  TARGET: end
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Outside Language Lab
+MOOD: Tense
+CHARACTERS: Karras, Chris
+BACKGROUND_IMAGE: null
+BACKGROUND_EDIT: null
+
+::SCRIPT::
+- CHARACTER: Karras
+  LINE: It could —
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Over the divorce? All that psychiatric bullshit?
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: It’s —
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: She's guilty 'cause she killed Burke Dennings! She killed him! She killed him and they'll put her away!
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Language Lab - Night
+MOOD: Tense
+CHARACTERS: Karras, Frank
+BACKGROUND_IMAGE: language_lab.png
+BACKGROUND_EDIT: "Listening to a recording"
+
+::SCRIPT::
+- CHARACTER: Karras
+  LINE: Well, all right, is it a language or not?
+  EXPRESSION: null
+- CHARACTER: Frank
+  LINE: Oh, I’d say it was a language all right. It’s English.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: It’s what?
+  EXPRESSION: null
+- CHARACTER: Frank
+  LINE: I thought you were putting me on. It’s just English in reverse. I've pulled your questions, flipped the responses, and respliced them in sequence. Here, you just play it backwards.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Karras' Room - Night
+MOOD: Eerie
+CHARACTERS: Karras
+BACKGROUND_IMAGE: karras_room.png
+BACKGROUND_EDIT: "Karras listening to a tape recorder"
+
+::SCRIPT::
+- CHARACTER: TAPE RECORDER
+  LINE: (First Voice) Let her die! (Second Voice) No, no, sweet! It is sweet in the body! I feel! (Third Voice) Fear the priest. (Second Voice) Give us time. (Third Voice) He is ill. (Fourth Voice) No, not this one. The other. The one who will - (Second Voice interrupting) Ah, the blood! Feel the blood! How it sings! (Karras' Voice) Who are you? (First Voice) I am no one. (Karras' Voice) Is that your name? (Second Voice) I have no name. (First Voice) I am no one. (Third Voice) Many. (Fourth Voice) Let us be. Let us warm in the body. (Second Voice) Leave us. (Third Voice) Let us be, Karras. (First Voice) Merrin ... Merrin.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: Hello, yes? ... Be right over.
+  EXPRESSION: Urgently
+
+::SCENE::
+LOCATION: Prospect Street - Near the House - Night
+MOOD: Urgent
+CHARACTERS: Karras
+BACKGROUND_IMAGE: prospect_street.png
+BACKGROUND_EDIT: "Late night, empty street, Karras crossing"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Very late. No traffic noise. Karras is hastily crossing, throwing on a sweater.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Entry of MacNeil House - Night
+MOOD: Quiet, Secretive
+CHARACTERS: Sharon, Karras
+BACKGROUND_IMAGE: macneil_house_entry.png
+BACKGROUND_EDIT: "Darkened doorway, Sharon holding a flashlight"
+
+::SCRIPT::
+- CHARACTER: Sharon
+  LINE: I don’t want to wake Chris. I don’t think she ought to see this.
+  EXPRESSION: Whispering
+
+::SCENE::
+LOCATION: Second Floor Hall - By Regan’s Door - Night
+MOOD: Stealthy
+CHARACTERS: Karras, Sharon
+BACKGROUND_IMAGE: second_floor_hall.png
+BACKGROUND_EDIT: "Darkened hallway, approaching Regan's door"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The house is darkened. Karras and Sharon are silently approaching. Sharon carefully opens door, enters, and beckons Karras into room.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Regan's Bedroom - At Door - Night
+MOOD: Shocking, Cold
+CHARACTERS: Karras, Sharon
+BACKGROUND_IMAGE: regans_bedroom.png
+BACKGROUND_EDIT: "Extremely cold room, Karras reacts with surprise"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: As he enters and Sharon closes door, Karras reacts as if to extreme cold. His breath, like Sharon's is frostily condensing in the chill air of the room. He looks at Sharon with wonder.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Regan's Bedroom - Bedside
+MOOD: Eerie, Disturbing
+CHARACTERS: Karras, Sharon, Regan
+BACKGROUND_IMAGE: regans_bedroom_bedside.png
+BACKGROUND_EDIT: "Dark room, night light glow, Regan appears unconscious"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: The room is dark except for a night light glow. Sharon has flashlight on now, trained low. They stop by bed. Regan seems to be in coma, the whites of her eyes glowing eerily in the dim light. Heavy breathing. Karras takes her wrist to check her pulse. The naso-gastric tube is in place, Sustagen seeping into Regan's motionless body. Beads of perspiration on Regan's forehead. Sharon is bending, gently pulling Regan's pajama tops wide apart, exposing her chest. Karras wipes a little perspiration off Regan’s forehead, then stares at it on his fingers, rubbing them together with deeper consternation. Then he looks up at Sharon, feeling her gaze upon him.
+  EXPRESSION: null
+- CHARACTER: Sharon
+  LINE: I don’t know if it’s stopped. But watch. Just keep looking at her chest.
+  EXPRESSION: Whispering
+- CHARACTER: Narrator
+  LINE: Karras follows her instruction. One beat. Two. Then, flipping flashlight beam onto Regan's chest:
+  EXPRESSION: null
+- CHARACTER: Sharon
+  LINE: There! There, it's coming!
+  EXPRESSION: Whispering
+- CHARACTER: Narrator
+  LINE: Karras leans face closer to observe, then halts, shooked at:
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Regan's Chest (P.O.V.)
+MOOD: Terrifying Revelation
+CHARACTERS: Narrator
+BACKGROUND_IMAGE: regans_chest_pov.png
+BACKGROUND_EDIT: "Blood-red script appearing on skin"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Rising up slowly on her skin in blood-red, bas-relief script are two words: help me
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Regan's Bedroom - Reaction Shot
+MOOD: Shocked
+CHARACTERS: Karras, Sharon
+BACKGROUND_IMAGE: regans_bedroom_reaction.png
+BACKGROUND_EDIT: "Close-up on Karras and Sharon's shocked faces"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: As Karras and Sharon react.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Healy Building Hallway, Ground Floor - Day
+MOOD: Purposeful
+CHARACTERS: Karras
+BACKGROUND_IMAGE: healy_building_hallway.png
+BACKGROUND_EDIT: "Karras walking down hallway towards stairs"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Karras walks down Hallway toward stairs.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Healy Building Main Stairway - Day
+MOOD: Ascending
+CHARACTERS: Karras
+BACKGROUND_IMAGE: healy_building_stairway.png
+BACKGROUND_EDIT: "Karras climbing stairs into Cardinal's outer office"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Karras climbs stairs and enters Cardinal's outer office.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Cardinal’s Office - Day
+MOOD: Serious Discussion
+CHARACTERS: Karras, Cardinal
+BACKGROUND_IMAGE: cardinal_office.png
+BACKGROUND_EDIT: "Karras and the Cardinal in conversation"
+
+::SCRIPT::
+- CHARACTER: Cardinal
+  LINE: You're convinced that it's genuine.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: I don't know. No, not really. But I've made a prudent judgment that it meets the conditions set forth in the Ritual.
+  EXPRESSION: null
+- CHARACTER: Cardinal
+  LINE: You would want to do the Exorcism yourself?
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: All right.
+  EXPRESSION: null
+- CHARACTER: Cardinal
+  LINE: Well, we'll see. It might be best to have a man with experience. Maybe someone who's spent time in the foreign missions. Let's see who's around. In the meantime I'll call you as soon as I know.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Georgetown University President's Office - Day
+MOOD: Deliberative
+CHARACTERS: President, Cardinal
+BACKGROUND_IMAGE: georgetown_university_presidents_office.png
+BACKGROUND_EDIT: "President and Cardinal in discussion"
+
+::SCRIPT::
+- CHARACTER: President
+  LINE: Well, he does know the background. I doubt there's any danger in just having him assist. There should be a psychiatrist present, anyway.
+  EXPRESSION: null
+- CHARACTER: Cardinal
+  LINE: And what about the exorcist? Any ideas? I'm blank.
+  EXPRESSION: null
+- CHARACTER: President
+  LINE: Well, now, Lankester Merrin’s around.
+  EXPRESSION: null
+- CHARACTER: Cardinal
+  LINE: Merrin? I had a notion he was over in Iraq. I think I read he was working on a dig around Nineveh.
+  EXPRESSION: null
+- CHARACTER: President
+  LINE: That’s right. But he finished and came back around three or four months ago, Mike. He's at Woodstock.
+  EXPRESSION: null
+- CHARACTER: Cardinal
+  LINE: What’s he doing there? Teaching?
+  EXPRESSION: null
+- CHARACTER: President
+  LINE: No, he’s working on another book.
+  EXPRESSION: null
+- CHARACTER: Cardinal
+  LINE: Don't you think he’s too old, though, Tom? How's his health?
+  EXPRESSION: null
+- CHARACTER: President
+  LINE: Well, it must be all right or he wouldn’t be running around digging up tombs, don’t you think?
+  EXPRESSION: null
+- CHARACTER: Cardinal
+  LINE: Yes, I guess so.
+  EXPRESSION: null
+- CHARACTER: President
+  LINE: And besides, he's had experience, Mike.
+  EXPRESSION: null
+- CHARACTER: Cardinal
+  LINE: I didn't know that.
+  EXPRESSION: null
+- CHARACTER: President
+  LINE: Maybe ten or twelve years ago, I think, in Africa. Supposedly the exorcism lasted for months. I heard it damn near killed him.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Prospect Street in front of House - Night
+MOOD: Anticipatory
+CHARACTERS: Merrin
+BACKGROUND_IMAGE: prospect_street_house.png
+BACKGROUND_EDIT: "Cab pulls up to house, tall old priest steps out"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: A cab pulls up to house in LONG SHOT. Out from the cab steps a tall, old priest (MERRIN), carrying a battered valise. A hat obscures his face. As the cab pulls away Merrin stands rooted, staring up at second floor of MacNeil house like a melancholy traveler frozen in time.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Regan's Bedroom
+MOOD: Clinical, Tense
+CHARACTERS: Regan, Sharon, Karras
+BACKGROUND_IMAGE: regans_bedroom_clinical.png
+BACKGROUND_EDIT: "Regan unconscious, Sharon and Karras conducting medical checks"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Regan is apparently unconscious, her features recomposed into her own in the normal state, (as happens whenever she's unconscious). Sharon is winding sphygmomanometer wrappings around Regan's arm while Karras pinches Regan's Achilles tendon, checking her sensitivity to pain. During this:
+  EXPRESSION: null
+- CHARACTER: Sharon
+  LINE: Four hundred milligrams in less than two hours! That’s enough to put an army out!
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Karras nods; silently takes Regan’s blood pressure.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: 90 over 60.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Entry to MacNeil House - Night
+MOOD: Confrontational
+CHARACTERS: Chris, Merrin
+BACKGROUND_IMAGE: macneil_house_entry_confrontation.png
+BACKGROUND_EDIT: "Chris opens door to Merrin, who is still wearing his hat"
+
+::SCRIPT::
+- CHARACTER: Chris
+  LINE: Yes?
+  EXPRESSION: null
+- CHARACTER: Merrin
+  LINE: Mrs. MacNeil? I'm Father Merrin.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: And now we SEE it is the OLD MAN in Khaki from opening sequence.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Oh, my gosh, please come in! Oh come in!
+  EXPRESSION: Flustered
+- CHARACTER: Narrator
+  LINE: Suddenly, Chris flinches at a SOUND from above: the voice of the Demon, booming, yet muffled, like amplified premature burial.
+  EXPRESSION: null
+- CHARACTER: Regan-Demon
+  LINE: Merriiiinnnnnnn!
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: God almighty!
+  EXPRESSION: null
+- CHARACTER: Regan-Demon
+  LINE: Merriiinnnnnnn!
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Karl steps incredulous from the study and Karras comes out from the kitchen. Merrin turns and puts hand out to Karras.
+  EXPRESSION: null
+- CHARACTER: Merrin
+  LINE: Father Karras.
+  EXPRESSION: Warmly, Serene
+- CHARACTER: Karras
+  LINE: Hello, Father. Such an honor to meet you.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Merrin takes Karras’ hand in both of his, searching Karras’ face with a look of gravity and concern while upstairs the demonic laughter
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Study of MacNeil House
+MOOD: Tense Preparation
+CHARACTERS: Merrin, Karras
+BACKGROUND_IMAGE: study_macneil_house.png
+BACKGROUND_EDIT: "Nighttime, priests preparing vestments"
+
+::SCRIPT::
+- CHARACTER: Merrin
+  LINE: 110. Especially important is the warning to avoid conversations with the demon. We may ask what is relevant, but anything beyond that is dangerous. Extremely. Especially, do not listen to anything he says. The demon is a liar. He will lie to confuse us; but he will also mix lies with the truth to attack us. The attack is psychological, Damien. And powerful. Do not listen. Remember that. Do not listen.
+  EXPRESSION: Serious
+- CHARACTER: Merrin
+  LINE: Is there anything at all you would like to ask now?
+  EXPRESSION: Inquisitive
+- CHARACTER: Karras
+  LINE: No. But I think that it might be helpful if I gave you some background on the different personalities that Regan has manifested. So far, I'd say there seem to be three.
+  EXPRESSION: Thoughtful
+- CHARACTER: Merrin
+  LINE: There is only one.
+  EXPRESSION: Haunted
+
+::PATHS::
+- CHOICE: "Proceed to Regan's room"
+  TARGET: second_floor_landing
+  STATE_CHANGE: preparation_complete = true
+  CONDITION: null
+
+::SCENE::
+LOCATION: Second Floor Landing - At Stairs
+MOOD: Foreboding Approach
+CHARACTERS: Merrin, Karras, Chris, Sharon
+BACKGROUND_IMAGE: second_floor_landing.png
+BACKGROUND_EDIT: "Nighttime, priests in vestments approaching stairs"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Merrin and Karras, fully vested, Roman Rituals in their hands, slowly come to stairs and ascend in single file, Karras back of Merrin.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: As the priests approach. Chris and Sharon, bundled in sweaters, watch them. The priests halt by them; look at them a moment, then:
+  EXPRESSION: null
+- CHARACTER: Merrin
+  LINE: What is your daughter's middle name?
+  EXPRESSION: Calm
+- CHARACTER: Chris
+  LINE: Teresa.
+  EXPRESSION: Neutral
+- CHARACTER: Merrin
+  LINE: What a lovely name.
+  EXPRESSION: Gentle
+- CHARACTER: Narrator
+  LINE: He nods; then looks to door. The others follow suit.
+  EXPRESSION: null
+- CHARACTER: Merrin
+  LINE: All right.
+  EXPRESSION: Determined
+- CHARACTER: Narrator
+  LINE: Karras opens door, disclosing Karl sitting in corner wearing a heavy hunting jacket, a look of bewilderment and fear on his face as he looks toward us. Merrin hangs motionless for a moment.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Enter Regan's bedroom"
+  TARGET: regans_bedroom
+  STATE_CHANGE: tension_heightened = true
+  CONDITION: null
+
+::SCENE::
+LOCATION: Regan's Bedroom
+MOOD: Confrontation
+CHARACTERS: Merrin, Karras, Chris, Sharon, Regan-Demon, Karl
+BACKGROUND_IMAGE: regans_bedroom.png
+BACKGROUND_EDIT: "Nighttime, room is freezing, breath visible"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Merrin, just outside the door, staring in at:
+  EXPRESSION: null
+- CHARACTER: Regan-Demon
+  LINE: Lifting head from pillow, staring at Merrin with burning eyes.
+  EXPRESSION: Malignant
+- CHARACTER: Narrator
+  LINE: As Merrin steps into the room, followed by Karras, Chris and Sharon. Karras sees door is open, closes it.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Merrin goes to side of bed while Karras moves to its foot. They halt. (NOTE: "The room is freezing. Breath is condensing throughout.) A beat. Regan licks a wolfish, blackened tongue across dried lips with a sound like parchment being smoothed over. Then:
+  EXPRESSION: null
+- CHARACTER: Regan-Demon
+  LINE: Proud scum! This time you are going to lose!
+  EXPRESSION: Taunting
+- CHARACTER: Narrator
+  LINE: Regan tilts back head and laughs gleefully. Merrin traces the sign of the cross above her, then repeats the gesture at Karras and Karl, and as he plucks the cap from holy water vial in his hand, the demonic laughter breaks off. Merrin begins sprinkling the holy water on Regan, and she jerks head up, mouth and neck muscles trembling as she bellows inchoately with hatred and fury. Then:
+  EXPRESSION: null
+- CHARACTER: Merrin
+  LINE: Be silent!
+  EXPRESSION: Commanding
+- CHARACTER: Narrator
+  LINE: The words have flung forth like bolts. Karras has flinched and jerked his head around in wonder at Merrin, who stares commandingly at Regan. The demon is silent, returning his stare with eyes now hesitant, blinking and wary. Merrin caps the holy water vial routinely and returns it to Karras, who slips it in his pocket and watches as Merrin kneels down beside the bed and closes his eyes in murmured prayer:
+  EXPRESSION: null
+- CHARACTER: Merrin
+  LINE: 'Our Father, who art in...'
+  EXPRESSION: Pious
+- CHARACTER: Regan-Demon
+  LINE: Spits and hits Merrin in the face with a yellowish glob of mucus that oozes slowly down the exorcist's cheek.
+  EXPRESSION: Vile
+- CHARACTER: Narrator
+  LINE: His head still bowed, Merrin plucks a handkerchief out of his pocket and serenely, unhurriedly wipes away the spittle as:
+  EXPRESSION: null
+- CHARACTER: Merrin
+  LINE: '... heaven, hallowed by Thy name. Thy kingdom come, Thy will be done, on earth, as it is in heaven. Give us this day, our daily bread, and forgive us our trespasses, as we forgive those who trespass against us. And lead us not into temptation.'
+  EXPRESSION: Pious
+- CHARACTER: Karras
+  LINE: 'And deliver us from the evil one.'
+  EXPRESSION: Pious
+- CHARACTER: Narrator
+  LINE: Karras briefly looks up. Regan’s eyes are rolling upwards into their sockets until only the whites are exposed. Karras looks uneasy, then returns to his text to follow as Merrin now stands, praying reverently:
+  EXPRESSION: null
+- CHARACTER: Merrin
+  LINE: ‘God and Father of bur Lord Jesus Christ, I appeal to your holy name, humbly begging your kindness, that you may graciously grant me help against this unclean spirit now tormenting this creature of yours; through Christ our Lord,'
+  EXPRESSION: Pious
+- CHARACTER: Karras
+  LINE: 'Amen.'
+  EXPRESSION: Pious
+- CHARACTER: Narrator
+  LINE: As Merrin continues reading, Karras again glances un as he hears Regan hissing, sitting erect with the whites of her eyes exposed while her tongue flicks in and out Karras doesn’t hear it, a beat.
+  EXPRESSION: null
+- CHARACTER: Merrin
+  LINE: Damien.
+  EXPRESSION: Urgent
+- CHARACTER: Narrator
+  LINE: Karras turns to Merrin. We SEE him eyeing Karras serenely as he motions with his head at copy of the RITUAL in Karras’ hands.
+  EXPRESSION: null
+- CHARACTER: Merrin
+  LINE: The response, please, Damien.
+  EXPRESSION: Patient
+- CHARACTER: Narrator
+  LINE: Karras, still dumbfounded, glances again to the bed.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Then he collects himself and looks down at his text.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: "And the son of iniquity be powerless to harm her.'
+  EXPRESSION: Reciting
+- CHARACTER: Merrin
+  LINE: 'Lord, hear my prayer.'
+  EXPRESSION: Reciting
+- CHARACTER: Karras
+  LINE: ‘And let my cry come unto Thee.'
+  EXPRESSION: Reciting
+- CHARACTER: Narrator
+  LINE: Here Merrin reaches up his hand in a workaday manner and traces the sign of the cross unhurriedly three times on Regan's brow while:
+  EXPRESSION: null
+- CHARACTER: Merrin
+  LINE: '... Almighty Rather, everlasting God, who sent your only begotten Son into the world to crush that roaring lion ...'
+  EXPRESSION: Reading
+- CHARACTER: Narrator
+  LINE: The hissing ceases and from the taut-stretched "O" of Regan’s mouth comes the nerve-shredding lowing of a steer, growing shatteringly louder and louder as:
+  EXPRESSION: null
+- CHARACTER: Merrin
+  LINE: '... snatch from ruination and from the clutches of the noonday devil this human being made in your image.'
+  EXPRESSION: Reading
+- CHARACTER: Narrator
+  LINE: Merrin reaches his hand up again (still reading aloud) and presses a portion of his purple stele to Regan's neck.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Abruptly, the bellowing ceases and in the ringing silence a thick and putrid greenish vomit begins to pump from Regan's mouth in slow and regular, sickening spurts that ooze like lava over her lip and flow in waves onto Merrin's hand, which he does not move as we now hear:
+  EXPRESSION: null
+- CHARACTER: Merrin
+  LINE: 'God and Lord of all creation, by whose might Satan was made to fall from heaven like lightning, strike terror into the beast now laying waste your vineyard. Let your Mighty hand cast out this cruel demon from this creature. Drive out this persecutor of the innocent ...'
+  EXPRESSION: Reading
+- CHARACTER: Narrator
+  LINE: The bed begins to rock lazily, and then to pitch, and then suddenly is violently dipping and yawing. During this, the vomit still pumping from Regan’s mouth, Merrin routinely makes adjustments, keeping the stole firmly to Regan’s neck.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: During the latter part of the prayer, the bed has ceased its movements and floated with a cushioned thud to the rug, and Karras now stares mesmerized at Merrin's hand buried under the thick and mounded vomit.
+  EXPRESSION: null
+- CHARACTER: Merrin
+  LINE: Damien?
+  EXPRESSION: Concerned
+- CHARACTER: Karras
+  LINE: Turns to him blankly.
+  EXPRESSION: Blank
+- CHARACTER: Merrin
+  LINE: 'Lord, hear my prayer.'
+  EXPRESSION: Reciting
+- CHARACTER: Karras
+  LINE: 'And let my cry come unto Thee.'
+  EXPRESSION: Reciting
+- CHARACTER: Narrator
+  LINE: Now Merrin takes a step back and jolts the room with the lash of his voice as he commands:
+  EXPRESSION: null
+- CHARACTER: Merrin
+  LINE: 'I cast you cut, unclean spirit, along with every satanic power of the enemy! Every spectre from hell! Every savage companion! It is'
+  EXPRESSION: Commanding
+
+::PATHS::
+- CHOICE: "Continue exorcism"
+  TARGET: end_exorcism
+  STATE_CHANGE: intensity = +5, faith = +2
+  CONDITION: null
+
+::SCENE::
+LOCATION: Regan's Bedroom
+MOOD: Intense Horror
+CHARACTERS: Regan, Karras, Merrin, Sharon, Chris, Narrator
+BACKGROUND_IMAGE: regan_bedroom.png
+BACKGROUND_EDIT: "Nighttime, dimly lit, signs of struggle and illness"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: t who commands you, He who flung you headlong from the heights of Heaven! You robber of life! You corrupter of justice! You investor of every obscenity!
+  EXPRESSION: Raging
+- CHARACTER: Narrator
+  LINE: Regan has ceased vomiting. Karras moves slowly around to bedside and reaches down, checking Regan's pulse. She is silent and unmoving. Into icy air, thin mists of vapor waft upward from the vomit like a reeking offering. And now Karras lifts his eyes, staring, as with nightmare slowness, a fraction at a time. Regan's head turns toward him, swiveling like a mannequin's and creaking with the sound of a rusted mechanism until the dread and glaring whites of the eyes are fixed directly on Karras. And now Karras glances up warily as the lights in the room begin flickering, dimming, then fade to an eerie, pulsing amber. Regan turns back toward Merrin, and now a muffled POUNDING jolts the room; then another; and another, and then steadily, the splintering sound of throbbing at a ponderous rate like the beating of a heart that is massive and diseased.
+  EXPRESSION: Dread
+- CHARACTER: Merrin
+  LINE: 'Why do you stand and resist, knowing as you must that Christ the Lord brings your plans to nothing. He has already stripped you of your powers and laid waste your kingdom. He has cast you forth into the outer darkness. To what purpose do you brazenly refuse? For you are guilty before almighty God, whose laws you have transgressed. You are guilty before his Son, our Lord Jesus Christ, whom you dared to nail to the cross. You are guilty before the whole human race.'
+  EXPRESSION: Authoritative
+- CHARACTER: Merrin
+  LINE: ‘Depart, you monster! Your place is in solitude! Your abode is in a nest of vipers! Get down and crawl with then! It is God Himself who commands you ...'
+  EXPRESSION: Commanding
+- CHARACTER: Narrator
+  LINE: Merrin continues and now the poundings begin to come steadily louder, faster, until Sharon cries out, pressing fists against her ears as the poundings grow deafening and now suddenly accelerate to a terrifying tempo. And then abruptly the poundings cease and Merrin's prayer comes through in the silence.
+  EXPRESSION: Terrified
+- CHARACTER: Merrin
+  LINE: 'Oh, God of Heaven and earth, God of the angels and arch­ angels...'
+  EXPRESSION: Devout
+- CHARACTER: Narrator
+  LINE: OVER the continued recitation, we HEAR the return of the demon as the flickering haze grows gradually brighter.
+  EXPRESSION: Ominous
+- CHARACTER: Regan-Demon
+  LINE: Hypocrites!
+  EXPRESSION: Raging
+- CHARACTER: Merrin
+  LINE: 'God who has power to bestow life after death and rest after toil.'
+  EXPRESSION: Devout
+- CHARACTER: Regan-Demon
+  LINE: Liar! Proud bastard! Go back to the mountain top and speak to your only equal!
+  EXPRESSION: Contemptuous
+- CHARACTER: Merrin
+  LINE: 'I humbly entreat you to deliver this servant of yours, Regan Theresa MacNeil, from the unclean spirit.'
+  EXPRESSION: Pleading
+- CHARACTER: Merrin
+  LINE: 'I adjure you, ancient serpent, by the judge of the living and the dead, by your ...'
+  EXPRESSION: Solemn
+- CHARACTER: Narrator
+  LINE: As Merrin continues, O.S. (remainder of material in appendix), Regan begins to emit various animal noises, and Karras, a hypodermic syringe in one hand, moves to bedside, nodding for Chris and Sharon to approach. As he does, the Dennings personality takes over in Regan, turning to plead with Karras:
+  EXPRESSION: Concerned
+- CHARACTER: Regan-Dennings
+  LINE: What the hell are you doing, Karras? Can’t you see the littbe bitch should be in a hospital? She belongs in a madhouse! It’s —
+  EXPRESSION: Pleading
+- CHARACTER: Narrator
+  LINE: The entity breaks off, jerking head toward Chris, as Chris and Sharon cone to bedside.
+  EXPRESSION: Angry
+- CHARACTER: Regan-Demon
+  LINE: Ah, the mother of piglet! Yas, come see your handiwork, sow!
+  EXPRESSION: Taunting
+- CHARACTER: Narrator
+  LINE: While Sharon and Chris pin Regan’s arms, Karras administers the injection.
+  EXPRESSION: Determined
+- CHARACTER: Regan-Demon
+  LINE: (continuing; at Chris) See the puke! See the murderous bitch! Are you pleased! It is you who has done it! Yes, you with your career before her, before husband, before — !
+  EXPRESSION: Furious
+- CHARACTER: Narrator
+  LINE: And now the Demon has jerked its head around to Karras, eyes bulging with fury.
+  EXPRESSION: Enraged
+- CHARACTER: Regan-Demon
+  LINE: And you, bastard! You!
+  EXPRESSION: Enraged
+- CHARACTER: Narrator
+  LINE: Chris has swabbed Regan’s arm and as Karras flicks the needle into wasted flesh:
+  EXPRESSION: Focused
+- CHARACTER: Karras
+  LINE: (at Chris) Now get out!
+  EXPRESSION: Stern
+- CHARACTER: Narrator
+  LINE: As Chris flees the room we are:
+  EXPRESSION: Swift
+- CHARACTER: Regan-Demon
+  LINE: Yes, we know of your kindness to mothers!
+  EXPRESSION: Mocking
+- CHARACTER: Narrator
+  LINE: His head is lowered as he extracts the needle, and we HEAR O.S. mocking LAUGHTER of the Demon. Karras blanches and for a moment does not move.
+  EXPRESSION: Shaken
+- CHARACTER: Merrin
+  LINE: (continuing adjuration) "The mystery of the Cross commands you! The faith of the saints and the martyrs commands you! The blood of Christ commands you! The prayers of — "
+  EXPRESSION: Resolute
+- CHARACTER: Narrator
+  LINE: Merrin breaks off and looks up at hearing the demon cry in sudden pain, as well as anger. He repeats the line that produced this effect:
+  EXPRESSION: Alert
+- CHARACTER: Merrin
+  LINE: "The blood of Christ commands you!"
+  EXPRESSION: Resolute
+- CHARACTER: Narrator
+  LINE: Same reaction; greater.
+  EXPRESSION: Intense
+- CHARACTER: Merrin
+  LINE: "The blood of Christ commands you."
+  EXPRESSION: Resolute
+- CHARACTER: Narrator
+  LINE: Midway through the word "command", however, a prolonged howl of pain and rage from:
+  EXPRESSION: Agonized
+- CHARACTER: Regan-Demon
+  LINE: Daaaammmm youuuuu, Merrrriiinnnn!
+  EXPRESSION: Howling
+- CHARACTER: Narrator
+  LINE: But the cry of "Merrin" gives way to a prolonged exhalation of breath, almost as in death. And now from Regan comes the slow, lilting singing — in a sweet clear voice like a choirboy’s — of a hymn sung at Catholic benediction: “Tantum Ergo."
+  EXPRESSION: Ethereal
+- CHARACTER: Narrator
+  LINE: The whites of the eyes are exposed. The singing.
+  EXPRESSION: Horrifying
+- CHARACTER: Narrator
+  LINE: as Merrin appears with a towel. He wipes the vomit from Regan’s face with tender, weary movements. Sharon enters room and comes to bed. She takes the towel from Merrin’s hands.
+  EXPRESSION: Compassionate
+- CHARACTER: Sharon
+  LINE: I’ll finish that, Father.
+  EXPRESSION: Dutiful
+- CHARACTER: Karras
+  LINE: (at Sharon) Clean her up, please, and give her half of a 25 milligram Compazine suppository.
+  EXPRESSION: Professional
+- CHARACTER: Merrin
+  LINE: Father, what’s going on in there? What is it? If that’s the Devil, why this girl? It makes no sense.
+  EXPRESSION: Bewildered
+- CHARACTER: Merrin
+  LINE: I think the point is to make us despair, Damian — to see ourselves as animal and ugly — to reject our own humanity — to reject the possibility that God could ever love us.
+  EXPRESSION: Profound
+- CHARACTER: Narrator
+  LINE: It has an impact. Karras thinks. Then:
+  EXPRESSION: Reflective
+- CHARACTER: Merrin
+  LINE: Excuse me.
+  EXPRESSION: Urgent
+- CHARACTER: Narrator
+  LINE: Merrin hurries down hall cut of sight of Karras, then takes out a pill box, extracts a nitro-glycerin tablet and places it under his tongue. Karras turns to door as Sharon emerges with a bundle of fouled bedding and clothing.
+  EXPRESSION: Anxious
+- CHARACTER: Narrator
+  LINE: Karras takes a deep breath and enters.
+  EXPRESSION: Resolute
+- CHARACTER: Narrator
+  LINE: Regan sleeps but Karras' frosty breath tells us the air in the room is still icy. He shivers. Then he walks to the bedside, reaches down and grips Regan’s wrist to take her pulse. As he stares at sweep second hand of wristwatch, we are CLOSE AT KARRAS and we HEAR THE VOICE OF KARRAS' MOTHER.
+  EXPRESSION: Cold
+- CHARACTER: Regan-Mother
+  LINE: (o.s.) You leave me to be priest, Dimmy. Send me institution. Why? Why you do dis?
+  EXPRESSION: Pleading
+- CHARACTER: Narrator
+  LINE: Karras is almost trembling with the effort to keep from looking at Regan's face. And now the VOICE grows frightened and tearfully imploring.
+  EXPRESSION: Agonized
+- CHARACTER: Regan-Mother
+  LINE: You always good boy, Dimmy. Please! I am ’fraid! Please don't chase me outside, Dimmy! Please!
+  EXPRESSION: Tearful
+- CHARACTER: Karras
+  LINE: (vehement whisper) You*re not my mother!
+  EXPRESSION: Desperate
+- CHARACTER: Regan-Mother
+  LINE: Dimmy, please!
+  EXPRESSION: Desperate
+- CHARACTER: Karras
+  LINE: You’re not my — !
+  EXPRESSION: Frantic
+- CHARACTER: Narrator
+  LINE: INTERCUT - REGAN - KARRAS as the Demonic entity now returns, raging:
+  EXPRESSION: Explosive
+- CHARACTER: Regan-Demon
+  LINE: Won't you face the truth! You believe what Merrin tells you? You believe him to be holy? Well, he is not! And I will prove it! I will prove it by killing the piglet!
+  EXPRESSION: Malicious
+- CHARACTER: Regan-Demon
+  LINE: (grinning) Feel her pulse, Karras! Feel it!
+  EXPRESSION: Cruel
+- CHARACTER: Narrator
+  LINE: Karras looks down at the wrist still gripped in his hand.
+  EXPRESSION: Dread
+- CHARACTER: Regan-Demon
+  LINE: Somewhat rapid, Karras? Yes. But what else? As, yes, feeble.
+  EXPRESSION: Derisive
+- CHARACTER: Narrator
+  LINE: As Karras leans quickly to his medical bag and extracts a stethoscope:
+  EXPRESSION: Urgent
+
+::PATHS::
+- CHOICE: Continue the exorcism
+  TARGET: continued_exorcism
+  STATE_CHANGE: fear = +3
+  CONDITION: null
+
+::SCENE::
+LOCATION: Regan's Bedroom
+MOOD: Tense
+CHARACTERS: Demon, Karras, Merrin, Regan
+BACKGROUND_IMAGE: regans_bedroom.png
+BACKGROUND_EDIT: "Night, medical equipment, distressed atmosphere"
+
+::SCRIPT::
+- CHARACTER: Demon
+  LINE: (a laugh; then as Karras puts instrument to chest) Listen, Karras! Listen! Listen, well!
+  EXPRESSION: Laughing, menacing
+- CHARACTER: Narrator
+  LINE: Karras looks very worried. Demon laughs. Then, as Merrin enters:
+  EXPRESSION: null
+- CHARACTER: Regan-Demon
+  LINE: I will not let her sleep!
+  EXPRESSION: Furious
+- CHARACTER: Narrator
+  LINE: The Demon puts its head back in prolonged, hideous laughter, Karras staring numbly. Merrin comes to bedside and looks at Regan, then at Karras' stunned expression.
+  EXPRESSION: null
+- CHARACTER: Merrin
+  LINE: What is it?
+  EXPRESSION: Concerned
+- CHARACTER: Karras
+  LINE: Her heart’s begun to work inefficiently, Father. If she doesn’t get rest soon, she’ll die from cardiac exhaustion.
+  EXPRESSION: Worried
+- CHARACTER: Merrin
+  LINE: Can’t you give her drugs?
+  EXPRESSION: Alarmed
+- CHARACTER: Karras
+  LINE: No, she might go into coma. If her blood pressure drops any more ...
+  EXPRESSION: Anxious
+
+::SCENE::
+LOCATION: House across Potomac - Sunrise Shot
+MOOD: Hopeful
+CHARACTERS: Narrator
+BACKGROUND_IMAGE: sunrise_potomac.png
+BACKGROUND_EDIT: "Early morning sunrise over the Potomac River"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: 260 121.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Regan's Bedroom
+MOOD: Grim
+CHARACTERS: Merrin, Regan, Karras, Regan-Mother
+BACKGROUND_IMAGE: regans_bedroom_medical.png
+BACKGROUND_EDIT: "Early morning, frosty air, Regan showing distress, priests looking weary"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Merrin is fighting sleep. Regan is grunting like a pig, whites of eyes exposed. Karras is checking Regan’s heartbeat, and then her pulse, and then wraps black sphygmomanometer cloth around Regan’s arm to take a blood pressure reading. Both priests have blankets draped over their shoulders. Their breath is condensing in the frosty air of the room.
+  EXPRESSION: null
+- CHARACTER: Regan-Mother
+  LINE: I not good to you, Dimmy? Why you leave me to die all alone?
+  EXPRESSION: Pleading, confused
+- CHARACTER: Narrator
+  LINE: Merrin is at his side, clutching at his arm and trying to draw him away, Karras resisting, his gaze fixed trancelike on the O.S. face.
+  EXPRESSION: null
+- CHARACTER: Merrin
+  LINE: Damien!
+  EXPRESSION: Pleading
+- CHARACTER: Regan-Mother
+  LINE: Why, Dimmy?
+  EXPRESSION: Pleading
+- CHARACTER: Merrin
+  LINE: Go and rest for awhile!
+  EXPRESSION: Urging
+- CHARACTER: Narrator
+  LINE: At Regan. The features and eyes are subtly reminiscent of Karras' mother, but vividly evident is the large, circular mole that the mother had on her right cheek.
+  EXPRESSION: null
+- CHARACTER: Regan-Mother
+  LINE: Dimmy, please!
+  EXPRESSION: Pleading
+- CHARACTER: Merrin
+  LINE: Go and rest!
+  EXPRESSION: Firm
+- CHARACTER: Narrator
+  LINE: Reluctantly, Karras leaves. Merrin, after a beat, turns to Regan, the demonic entity reappears.
+  EXPRESSION: null
+- CHARACTER: Regan-Demon
+  LINE: You will lose!
+  EXPRESSION: Seething whisper
+
+::SCENE::
+LOCATION: MacNeil House - Kitchen
+MOOD: Melancholy
+CHARACTERS: Chris, Karras
+BACKGROUND_IMAGE: macneil_kitchen.png
+BACKGROUND_EDIT: "Late afternoon, Chris looking sad at a photo album"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Chris is sitting at breakfast nook looking at an album of photographs. She's on the verge of tears. Karras enters kitchen, pauses as he sees Chris.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: (a sniffle) There's coffee there, Father.
+  EXPRESSION: Sad, strained
+- CHARACTER: Narrator
+  LINE: Chris moves quickly past Karras with her face averted.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Excuse me.
+  EXPRESSION: Evasive
+- CHARACTER: Narrator
+  LINE: She exits kitchen. Karras' gaze shifts to album. We see that these are candid photos of Regan. In one photograph, she is blowing out candles on a birthday cake. In another, she is sitting on a lake-front dock in shorts and T-shirt with "Camp Brown Ledge” stencilled on the front. Karras is deeply affected, close to a breakdown, he puts a trembling hand to brow, with a fervently whispered, desperate:
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: God... God help...
+  EXPRESSION: Desperate whisper
+- CHARACTER: Narrator
+  LINE: Camera follows him as he leaves kitchen. Passing the living room, he HEARS sobbing from within. Looking in, he sees Chris on sofa convulsively weeping. Sharon, beside her, is comforting her.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: MacNeil House - Foyer
+MOOD: Tense, Urgent
+CHARACTERS: Chris, Kinderman
+BACKGROUND_IMAGE: macneil_foyer.png
+BACKGROUND_EDIT: "Night, front door area"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Chris hears the front door CHIMES. She reacts; waits. They RING again. She goes to answer, She opens door, disclosing Kinderman.
+  EXPRESSION: null
+- CHARACTER: Kinderman
+  LINE: I’m so sorry to dis —
+  EXPRESSION: Apologetic
+- CHARACTER: Narrator
+  LINE: He halts, eyeing her bruise. She knows what he’s staring at. She puts a hand to the bruise. He stares for a beat. Then:
+  EXPRESSION: null
+- CHARACTER: Kinderman
+  LINE: Look, I’m sorry to disturb you at this hour of the night, but I’m afraid that I’m going to have to talk to your daughter, Mrs. NacNeil and I’d like to take a look at her room, if you don’t mind.
+  EXPRESSION: Firm, apologetic
+- CHARACTER: Chris
+  LINE: Regan's bedroom?
+  EXPRESSION: Anxious
+- CHARACTER: Kinderman
+  LINE: Yes, immediately, please. I have a warrant.
+  EXPRESSION: Authoritative
+- CHARACTER: Chris
+  LINE: Oh, please, not now! She's gotten worse, Lieutenant. Please! Please, not now:
+  EXPRESSION: Pleading
+
+::SCENE::
+LOCATION: Second Floor Hall - MacNeil House
+MOOD: Intense, Tragic
+CHARACTERS: Karras, Regan-Demon, Merrin, Regan-Demon, Regan-Mother
+BACKGROUND_IMAGE: macneil_hallway_bedroom.png
+BACKGROUND_EDIT: "Night, leading into Regan's bedroom"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Karras enters Regan's bedroom and walks wearily to the chair where he had been sitting beside Merrin. During the above moves:
+  EXPRESSION: null
+- CHARACTER: Regan-Demon
+  LINE: (o.s.) ... would have lost! Would have lost and you knew it, Merrin! Bastard!
+  EXPRESSION: Mocking, furious
+- CHARACTER: Narrator
+  LINE: Regan On Bed - Merrin. Limp and disjointed, Merrin lies sprawled face-down on floor on far side of bed and beside it. Regan-Demon cranes head over side of bed at him, croaking inchoately with rage and frustration.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Another Angle. As Karras rushes to Merrin, kneeling beside him, and turning him over, disclosing bluish coloration of Merrin's face.
+  EXPRESSION: null
+- CHARACTER: Regan-Demon
+  LINE: Die, will you? Die? Karras, heal him! Heal him! Bring him back that we may finishhhhhh itttttt!
+  EXPRESSION: Vicious, taunting
+- CHARACTER: Narrator
+  LINE: And now inchoate croakings and moans of rage and frustration from o.s., as Karras feels for Merrin's pulse and in a wrenching, stabbing instnat of anguish realizes that Merrin is dead. Groaning in whisper:
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: Ah, God no!
+  EXPRESSION: Anguished groan
+- CHARACTER: Narrator
+  LINE: Karras sags back on his heels, an aching moan of grief rising up in his throat as he shuts his eyes fiercely and shakes his head in despair. Then:
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: No!
+  EXPRESSION: Desperate cry
+- CHARACTER: Narrator
+  LINE: Karras' eyes fix on something on the floor around Merrin: the pill box and a scattering of nitroglycerin pills.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Karras begins to gently and tenderly place Merrin's hands on his chest in the form of a cross. An enormous, mucoid glob of yellowish spittle hits the dead man's eye.
+  EXPRESSION: null
+- CHARACTER: Regan-Demon
+  LINE: (mocking) The last rites!
+  EXPRESSION: Mocking laughter
+- CHARACTER: Narrator
+  LINE: Then it puts back its head and laughs long, and wildly through:
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: You son-of-a-bitch! You murdering bastard!
+  EXPRESSION: Enraged
+- CHARACTER: Narrator
+  LINE: A projectile stream. of VOMIT from O.S. strikes his face but he is oblivious.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: Yes, you‘re very good with children! Well, come on! Let's see you try something bigger!
+  EXPRESSION: Defiant challenge
+- CHARACTER: Narrator
+  LINE: Karras has his hands out like great fleshy hooks, beckoning, challenging.
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: Come on! Try me! Take me! Come into me!
+  EXPRESSION: Bellowing challenge
+- CHARACTER: Narrator
+  LINE: At Regan-Demon. In the demonic features now, a trembling, wild-eyes rage; a fearsome struggle over some irresistibly tempting decision that the Demon is fighting against.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: As he breaks off, his body jerking as if seized suddenly by some inner force alien to him. Yet his features do not change as his hands go to his throat and he struggles to his feet. His actions are those of a man who either has been possessed by or thinks he has been possessed by the Demon, but who also is fighting for control of his own organism. And now here, suddenly, on a move toward the bed and Regan (who, if she is in SHOT, is unconscious, her face in shadow), Karras' features briefly contort into those of the demon Pazuzu; but then return to normal again on a backward jerk by Karras as;
+  EXPRESSION: null
+- CHARACTER: Karras
+  LINE: No!
+  EXPRESSION: Resolute
+- CHARACTER: Narrator
+  LINE: The Demon — in Karras' body — had moved to kill Regan; but Karras has won control now long enough to reach the window, rip the shutters off their hinges and leap out.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Karras Hurdling Out Window
+MOOD: Shocking, Dramatic
+CHARACTERS: Narrator
+BACKGROUND_IMAGE: karras_window_fall.png
+BACKGROUND_EDIT: "Night, Karras falling from window"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: 274 274
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Regan’s Bedroom Door
+MOOD: Panicked
+CHARACTERS: Chris, Sharon, Kinderman
+BACKGROUND_IMAGE: regans_bedroom_door.png
+BACKGROUND_EDIT: "Night, people rushing towards the door"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Angle From Near Regan’s Bedroom Door. As Chris, Sharon and Kinderman rush toward us.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Regan’s Bedroom At Door
+MOOD: Chaotic, Horrified
+CHARACTERS: Chris, Sharon, Kinderman
+BACKGROUND_IMAGE: regans_bedroom_entry.png
+BACKGROUND_EDIT: "Night, entering the bedroom, shock"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Chris, Sharon and Kinderman burst in, halt. Sharon rushes forward toward window.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Merrin
+MOOD: Devastated
+CHARACTERS: Chris, Merrin, Sharon
+BACKGROUND_IMAGE: merrin_dead.png
+BACKGROUND_EDIT: "Night, Chris discovers Merrin's body"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: As Chris rushes to him, kneels down by him, then reacts with shock.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Sharon! Cone here! Quick, come — !
+  EXPRESSION: Distraught
+- CHARACTER: Narrator
+  LINE: At Sharon and Kinderman. Staring down from window. Hands to sides of face, Sharon is screaming.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Karras In Street Below
+MOOD: Tragic
+CHARACTERS: Narrator
+BACKGROUND_IMAGE: karras_street.png
+BACKGROUND_EDIT: "Night, Karras' body on the street"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: P.O.V. - At Karras In Street Below.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Chris and Kinderman
+MOOD: Shocked
+CHARACTERS: Chris, Kinderman, Sharon
+BACKGROUND_IMAGE: chris_kinderman_street_view.png
+BACKGROUND_EDIT: "Night, looking down at the street"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Angle To Include Chris and Kinderman. As Sharon runs toward door.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Shar, what is it!
+  EXPRESSION: Anxious
+- CHARACTER: Sharon
+  LINE: (running out) Father Karras!
+  EXPRESSION: Horrified
+- CHARACTER: Narrator
+  LINE: Chris rises and runs trembling toward the window.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Chris and Kinderman from Exterior Window
+MOOD: Devastating
+CHARACTERS: Chris, Kinderman, Regan
+BACKGROUND_IMAGE: chris_kinderman_window_exterior.png
+BACKGROUND_EDIT: "Night, looking into the room from outside"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Looking down, Chris freezes at what she sees. Then from behind her, in a small, wan voice calling tearfully:
+  EXPRESSION: null
+- CHARACTER: Regan
+  LINE: (o. s.) Mother? Mother, what’s happening?
+  EXPRESSION: Helpless, frightened
+- CHARACTER: Narrator
+  LINE: (Chris half turns her head)
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Chris and Kinderman from Interior Room
+MOOD: Grief, Fear
+CHARACTERS: Chris, Kinderman, Regan
+BACKGROUND_IMAGE: chris_kinderman_interior_regans_view.png
+BACKGROUND_EDIT: "Night, looking towards Regan"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: As they turn toward Regan.
+  EXPRESSION: null
+- CHARACTER: Regan
+  LINE: (o.s.) Oh, please! Please, come here!
+  EXPRESSION: Pleading
+- CHARACTER: Narrator
+  LINE: At Regan. The real Regan, weeping in helpless confusion and fear.
+  EXPRESSION: null
+- CHARACTER: Regan
+  LINE: Mother, please! I’m afraid!
+  EXPRESSION: Weeping, terrified
+
+::SCENE::
+LOCATION: Regan
+MOOD: Desperate
+CHARACTERS: Chris, Regan
+BACKGROUND_IMAGE: regan_pleading.png
+BACKGROUND_EDIT: "Night, Regan looking directly at Chris"
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Another Angle. As Chris rushes forward to Reg
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: "HITCHCOCK” STEPS AREA ON "M” STREET - NIGHT
+MOOD: Tragic, Chaotic
+CHARACTERS: Chris, Dyer, Sharon, First Passerby, Second Passerby, Policeman, Karras (Damien)
+BACKGROUND_IMAGE: hitchcock_steps_night.png
+BACKGROUND_EDIT: "Night scene at accident with crowd gathered and police holding them back."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: ...and weeping:
+  EXPRESSION: Sad
+- CHARACTER: Chris
+  LINE: Rags! Oh, my baby, my baby!
+  EXPRESSION: Devastated
+- CHARACTER: Narrator
+  LINE: She is on the bed and embracing her daughter.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: at an accident scene. Policeman shepherds them back.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: DYER, followed by Sharon, is frantically pushing through as:
+  EXPRESSION: Frantic
+- CHARACTER: First Passerby
+  LINE: What happened?
+  EXPRESSION: Curious
+- CHARACTER: Second Passerby
+  LINE: Some guy fell down the steps.
+  EXPRESSION: Informative
+- CHARACTER: Policeman
+  LINE: Come on, now, move it back, folks. Give him air. Let him breathe.
+  EXPRESSION: Firm
+- CHARACTER: Narrator
+  LINE: Dyer has pushed through almost to Policeman.
+  EXPRESSION: Determined
+- CHARACTER: Dyer
+  LINE: Let me through, please! Coming through! Coming — !
+  EXPRESSION: Desperate
+
+::PATHS::
+- CHOICE: "Push past the policeman"
+  TARGET: karras_pov
+  STATE_CHANGE: urgency = +1
+  CONDITION: null
+
+::SCENE::
+LOCATION: Karras' Point of View
+MOOD: Harrowing, Desperate
+CHARACTERS: Karras, Dyer
+BACKGROUND_IMAGE: karras_pov.png
+BACKGROUND_EDIT: "Low angle shot of Karras lying on the ground in a pool of blood."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: He lies crumpled and twisted in a pool of blood. Dyer kneels to him.
+  EXPRESSION: null
+- CHARACTER: Dyer
+  LINE: Damien ... Can you talk?
+  EXPRESSION: Concerned
+- CHARACTER: Narrator
+  LINE: Karras slowly and painfully reaches out his hand to Dyer’s wrist and grips it, briefly squeezing. Fighting back the tears, Dyer leans his mouth close to Karras' ear.
+  EXPRESSION: Painful
+- CHARACTER: Dyer
+  LINE: Do you want to make your confession now, Damien?
+  EXPRESSION: Solemn
+- CHARACTER: Narrator
+  LINE: Karras squeezes Dyer’s wrist.
+  EXPRESSION:null
+- CHARACTER: Dyer
+  LINE: Are you sorry for all of the sins of your life and for having offended almighty God?
+  EXPRESSION: Pious
+- CHARACTER: Narrator
+  LINE: A squeeze. And now Dyer leans back and slowly traces the sign of the cross over Karras, reciting the words of absolution:
+  EXPRESSION: null
+- CHARACTER: Dyer
+  LINE: Ego te absolve in nomine Patris, et Filii, et Spiritus Sancti. Amen.
+  EXPRESSION: Solemn
+- CHARACTER: Narrator
+  LINE: as he again leans over with his mouth close to Karras' ear.
+  EXPRESSION: null
+- CHARACTER: Dyer
+  LINE: Are you — ?
+  EXPRESSION: Questioning
+- CHARACTER: Narrator
+  LINE: He halts, slightly turning his head toward his wrist.
+  EXPRESSION: null
+
+::PATHS::
+- CHOICE: "Continue confession"
+  TARGET: dyers_wrist
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Dyer's Wrist
+MOOD: Tense, Final
+CHARACTERS: Karras, Dyer
+BACKGROUND_IMAGE: dyers_wrist.png
+BACKGROUND_EDIT: "Close-up on Dyer's wrist, showing Karras' grip weakening."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: gripped by Karras. The grip slackens, the hand slowly opening, then falling limp.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Dyer and Karras
+MOOD: Somber, Mournful
+CHARACTERS: Dyer, Karras
+BACKGROUND_IMAGE: dyer_karras_low_angle.png
+BACKGROUND_EDIT: "Low angle shot of Dyer gently closing Karras' eyes as an ambulance siren wails in the background."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Slowly and tenderly, Dyer slips the eyelids down as we HEAR the WAILING SIREN of approaching ambulance. Dyer weeps ...
+  EXPRESSION: Grief
+
+::PATHS::
+- CHOICE: "Fade out"
+  TARGET: prospect_street_full_shot
+  STATE_CHANGE: null
+  CONDITION: null
+
+::SCENE::
+LOCATION: Prospect Street - Full Shot Featuring the House
+MOOD: Transition, Departure
+CHARACTERS: Sharon, Narrator
+BACKGROUND_IMAGE: prospect_street_house.png
+BACKGROUND_EDIT: "Daytime full shot of a house on Prospect Street with a limo parked out front."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Sharon exits house carrying a suitcase which she places in trunk of limo parked in front of house.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: MacNeil House - Chris' Bedroom
+MOOD: Domestic, Packing
+CHARACTERS: Chris, Karl, Sharon
+BACKGROUND_IMAGE: macneil_house_chris_bedroom.png
+BACKGROUND_EDIT: "Daytime interior of a bedroom in the MacNeil house. Chris is packing a suitcase."
+
+::SCRIPT::
+- CHARACTER: Chris
+  LINE: Okay, Karl, that's all of it.
+  EXPRESSION: Matter-of-fact
+- CHARACTER: Narrator
+  LINE: as Karl stands by. She closes lid.
+  EXPRESSION: null
+- CHARACTER: Sharon
+  LINE: Chris, what about those stereo earphones?
+  EXPRESSION: Concerned
+- CHARACTER: Chris
+  LINE: Storage.
+  EXPRESSION: Decisive
+- CHARACTER: Narrator
+  LINE: Karl, who has closed up suitcase, exits.
+  EXPRESSION: null
+- CHARACTER: Sharon
+  LINE: Okay, we're all set then. Dulles Airport's pretty far, Chris. You'd best allow an hour.
+  EXPRESSION: Informative
+- CHARACTER: Chris
+  LINE: Gonna miss you.
+  EXPRESSION: Sad
+- CHARACTER: Sharon
+  LINE: Same here, Chris.
+  EXPRESSION: Sad
+- CHARACTER: Chris
+  LINE: You won't change your mind?
+  EXPRESSION: Hopeful
+- CHARACTER: Sharon
+  LINE: People change.
+  EXPRESSION: Resigned
+- CHARACTER: Narrator
+  LINE: (she unclasps hand, disclosing Karras* medal and chain which she holds up to Chris)
+  EXPRESSION: null
+- CHARACTER: Sharon
+  LINE: Here, I found this in her room. It belonged to Father Karras.
+  EXPRESSION: Informative
+- CHARACTER: Narrator
+  LINE: Chris, after a pause, takes it from her.
+  EXPRESSION: null
+- CHARACTER: Sharon
+  LINE: You'd better hurry.
+  EXPRESSION: Urgent
+
+::SCENE::
+LOCATION: Second Floor Hall - MacNeil House
+MOOD: Anticipation, Departure
+CHARACTERS: Chris, Regan
+BACKGROUND_IMAGE: second_floor_hall_macneil.png
+BACKGROUND_EDIT: "Daytime interior of a hallway in the MacNeil house. Chris is walking towards Regan's bedroom."
+
+::SCRIPT::
+- CHARACTER: Chris
+  LINE: Hey, Rags, how ya comin’?
+  EXPRESSION: Cheerful
+
+::SCENE::
+LOCATION: Regan's Bedroom
+MOOD: Indecision, Childlike Frustration
+CHARACTERS: Regan, Chris
+BACKGROUND_IMAGE: regans_bedroom.png
+BACKGROUND_EDIT: "Daytime interior of Regan's bedroom. Regan is by her bed with stuffed animals and an over-packed suitcase."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Looking a little wan and gaunt, dark sacs beneath her eyes, Regan stands by her bed, holding two stuffed animals in her grip as she stares down with indecision and a child’s discontent at an over-packed, open suitcase.
+  EXPRESSION: Tired
+- CHARACTER: Chris
+  LINE: How ya comin’, hon? We’re late.
+  EXPRESSION: Gentle
+- CHARACTER: Regan
+  LINE: There’s just not enough room in this thing!
+  EXPRESSION: Frustrated
+- CHARACTER: Chris
+  LINE: Well, ya can’t take it all, now, sweetheart. Just leave it and Willie’ll bring it later on. Come on, babe, we've got to hurry or we’re going to miss the plane.
+  EXPRESSION: Reassuring
+- CHARACTER: Narrator
+  LINE: DOORCHIME SOUND
+  EXPRESSION: null
+- CHARACTER: Regan
+  LINE: Oh, okay.
+  EXPRESSION: Reluctant
+- CHARACTER: Chris
+  LINE: Atta’ girl.
+  EXPRESSION: Praising
+- CHARACTER: Narrator
+  LINE: Chris exits SCENE, heading for stairs. Regan sighs with resignation, looking down at the animals.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Front Door Area - MacNeil House
+MOOD: Farewell, Transition
+CHARACTERS: Chris, Dyer, Sharon, Karl
+BACKGROUND_IMAGE: front_door_macneil.png
+BACKGROUND_EDIT: "Daytime exterior of the front door of the MacNeil house. Chris is saying goodbye to Sharon and Dyer."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Chris is opening door, disclosing Dyer in cassock and Roman collar saying goodbye to Sharon, latter going to limo at curb and getting in as Chris steps outside and:
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Oh, hi, Father.
+  EXPRESSION: Friendly
+- CHARACTER: Dyer
+  LINE: Hi, Chris. Just came by to say ’so long,'
+  EXPRESSION: Warm
+- CHARACTER: Chris
+  LINE: I was just about to call. We're just leaving.
+  EXPRESSION: Informative
+- CHARACTER: Dyer
+  LINE: Going to miss you.
+  EXPRESSION: Sincere
+- CHARACTER: Chris
+  LINE: Me too.
+  EXPRESSION: Sincere
+- CHARACTER: Dyer
+  LINE: How's the girl?
+  EXPRESSION: Concerned
+- CHARACTER: Chris
+  LINE: Oh, she's great, really great.
+  EXPRESSION: Reassured
+- CHARACTER: Narrator
+  LINE: Karl passes between them with two suitcases heading for Chris' car which is parked in front of house. Dyer nods a little glumly.
+  EXPRESSION: null
+- CHARACTER: Dyer
+  LINE: I'm glad.
+  EXPRESSION: Relieved
+- CHARACTER: Chris
+  LINE: She still can't remember,
+  EXPRESSION: Reflective
+- CHARACTER: Dyer
+  LINE: Well, that's good.
+  EXPRESSION: Thoughtful
+- CHARACTER: Chris
+  LINE: Funny. He never even knew her.
+  EXPRESSION: Pensive
+- CHARACTER: Narrator
+  LINE: Dyer looks up, and then so does Chris, their gazes meeting.
+  EXPRESSION: null
+- CHARACTER: Dyer
+  LINE: What do you think happened. Do you think she was really possessed?
+  EXPRESSION: Questioning
+- CHARACTER: Chris
+  LINE: Oh, yeah, you bet I do. I mean, if you're asking if I believe in the Devil, the answer is yes — yeah, that I believe.
+  EXPRESSION: Firm
+- CHARACTER: Dyer
+  LINE: But if all of the evil in the world makes you think that there might be a Devil — then how do you account for all of the good?
+  EXPRESSION: Philosophical
+- CHARACTER: Narrator
+  LINE: Chris' reaction reveals that this is a telling point.
+  EXPRESSION: Thoughtful
+- CHARACTER: Narrator
+  LINE: Then into SCENE comes Regan, dressed to go.
+  EXPRESSION: null
+- CHARACTER: Regan
+  LINE: Okay, I finished.
+  EXPRESSION: Ready
+- CHARACTER: Chris
+  LINE: Honey, this is Father Dyer.
+  EXPRESSION: Introducing
+- CHARACTER: Regan
+  LINE: Hi, Father.
+  EXPRESSION: Polite
+- CHARACTER: Dyer
+  LINE: Hi.
+  EXPRESSION: Friendly
+- CHARACTER: Narrator
+  LINE: (tousles her hair) All set to go.
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: Regan, has begun to stare oddly up.at Dyer’s Ronan collar, some tugging remembrance in her eyes. Willie passes them with Ragan’s luggage, which she takes to car to load in trunk.
+  EXPRESSION: Peculiar
+- CHARACTER: Karl
+  LINE: Ready, Mizzes?
+  EXPRESSION: Inquiring
+- CHARACTER: Chris
+  LINE: Okay, Karl.
+  EXPRESSION: Affirmative
+- CHARACTER: Narrator
+  LINE: (taking Dyer’s hand) Bye, Father. I’ll call you from L.A.
+  EXPRESSION:null
+- CHARACTER: Dyer
+  LINE: Goodbye, Chris.
+  EXPRESSION: Fond
+- CHARACTER: Narrator
+  LINE: Suddenly, impulsively, in a quick and unexpected move, Regan reaches up to Dyer, pulls his head down and kisses his cheek; a quick stack. Then, locking puzzled herself at what she has done:
+  EXPRESSION: Spontaneous
+- CHARACTER: Regan
+  LINE: Goodbye.
+  EXPRESSION: Confused
+- CHARACTER: Dyer
+  LINE: Goodbye, dear.
+  EXPRESSION: Gentle
+- CHARACTER: Narrator
+  LINE: Chris remembers the medal still in her hand. She offers it to him.
+  EXPRESSION: null
+- CHARACTER: Chris
+  LINE: Oh, I forgot. Here.
+  EXPRESSION: Realizing
+- CHARACTER: Narrator
+  LINE: Dyer, who instantly recognizes the medal, stares at it a moment. Then:
+  EXPRESSION:null
+- CHARACTER: Dyer
+  LINE: Why don't you keep it?
+  EXPRESSION: Offering
+- CHARACTER: Narrator
+  LINE: A beat. Dyer sees that Chris* eyes are clouding with tears.
+  EXPRESSION:null
+- CHARACTER: Dyer
+  LINE: It’s all right, Chris. For him, it's the beginning,
+  EXPRESSION: Comforting
+- CHARACTER: Narrator
+  LINE: Chris holds his gaze, then nods.
+  EXPRESSION:null
+- CHARACTER: Chris
+  LINE: C’mon, Rags. Gotta hurry.
+  EXPRESSION: Urging
+- CHARACTER: Narrator
+  LINE: As Chris and Regan leave FRAME, CAMERA STAYS ON DYER, turning to watch them. Then:
+  EXPRESSION:null
+- CHARACTER: Chris
+  LINE: (o.s., calling) Bye, Father!
+  EXPRESSION: Distant
+
+::SCENE::
+LOCATION: Car Pulling Away - Point of View
+MOOD: Leaving, Finality
+CHARACTERS: Narrator
+BACKGROUND_IMAGE: car_pulling_away_pov.png
+BACKGROUND_EDIT: "Point of view shot of a car pulling away quickly down a street."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: and moving quickly down Prospect Street.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Dyer Watching
+MOOD: Reflection, Quiet
+CHARACTERS: Dyer, Willie
+BACKGROUND_IMAGE: dyer_watching.png
+BACKGROUND_EDIT: "Dyer stands watching as a car drives away. Willie goes back inside the house."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: Willie goes back inside house. O.S. SOUND OF SQUEAL OF CAR BRAKES.
+  EXPRESSION: null
+
+::SCENE::
+LOCATION: Squad Car - Point of View
+MOOD: Interruption, Curiosity
+CHARACTERS: Kinderman, Dyer
+BACKGROUND_IMAGE: squad_car_pov.png
+BACKGROUND_EDIT: "Point of view shot from a squad car. Kinderman is emerging, hurrying toward Dyer."
+
+::SCRIPT::
+- CHARACTER: Kinderman
+  LINE: I came to say goodbye.
+  EXPRESSION: Friendly
+- CHARACTER: Dyer
+  LINE: You just missed them,
+  EXPRESSION: Calm
+- CHARACTER: Narrator
+  LINE: Kinderman stops. A beat. Then:
+  EXPRESSION:null
+- CHARACTER: Kinderman
+  LINE: How's the girl?
+  EXPRESSION: Inquiring
+- CHARACTER: Dyer
+  LINE: She seemed fine.
+  EXPRESSION: Reassured
+- CHARACTER: Kinderman
+  LINE: Ah, that's good. Very good. Well, that's all that's important. Back to business. Back to work. Bye now, Father.
+  EXPRESSION: Casual
+- CHARACTER: Narrator
+  LINE: He turns and takes a step toward the squad car, then stops and turns back to stare speculatively at Dyer.
+  EXPRESSION:null
+- CHARACTER: Kinderman
+  LINE: You go to films, Father Dyer?
+  EXPRESSION: Curious
+- CHARACTER: Dyer
+  LINE: Sure.
+  EXPRESSION: Affirmative
+- CHARACTER: Kinderman
+  LINE: I get passes. In fact, I’ve got a pass for the. ‘Crest' tomorrow night. You'd like to go?
+  EXPRESSION: Inviting
+- CHARACTER: Dyer
+  LINE: What’s playing?
+  EXPRESSION: Neutral
+- CHARACTER: Kinderman
+  LINE: ‘Wuthering Heights.’
+  EXPRESSION: Informative
+- CHARACTER: Dyer
+  LINE: Who’s in it?
+  EXPRESSION: Neutral
+- CHARACTER: Kinderman
+  LINE: Heathcliffe, Jackie Gleason, and in the role Catherine Ernshaw, Lucille Ball.
+  EXPRESSION: Amused
+- CHARACTER: Dyer
+  LINE: I've seen it.
+  EXPRESSION: Deadpan
+- CHARACTER: Narrator
+  LINE: Kinderman stares limply for a moment, then looks away.
+  EXPRESSION:null
+- CHARACTER: Kinderman
+  LINE: Another one.
+  EXPRESSION: Resigned
+- CHARACTER: Narrator
+  LINE: Then Kinderman steps up to the sidewalk, hooks an arm through Dyer's and slowly starts walking him down the street. CAMERA TRACKING FRONT.
+  EXPRESSION:null
+- CHARACTER: Kinderman
+  LINE: I’m reminded of a line in the film Casablanca. At the end Humphrey Bogart says to Claude Rains, 'Louie — I think this is the beginning of a beautiful friendship.'
+  EXPRESSION: Fond
+
+::SCENE::
+LOCATION: Fixed Rear Shot
+MOOD: Beginning, Friendship
+CHARACTERS: Kinderman, Dyer
+BACKGROUND_IMAGE: fixed_rear_shot.png
+BACKGROUND_EDIT: "Rear shot of Kinderman and Dyer walking away down the street."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: As Kinderman and Dyer walk away from us*
+  EXPRESSION: null
+- CHARACTER: Dyer
+  LINE: You know, you look a little bit like Bogart.
+  EXPRESSION: Observant
+- CHARACTER: Kinderman
+  LINE: You noticed.
+  EXPRESSION: Amused
+
+::SCENE::
+LOCATION: To Black
+MOOD: End
+CHARACTERS: Narrator
+BACKGROUND_IMAGE: black_screen.png
+BACKGROUND_EDIT: "Solid black screen."
+
+::SCRIPT::
+- CHARACTER: Narrator
+  LINE: TITLES
+  EXPRESSION: null
+- CHARACTER: Narrator
+  LINE: THE END
+  EXPRESSION: null
+
