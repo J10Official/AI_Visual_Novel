@@ -1,0 +1,55 @@
+::EXPRESSIONS::
+- Happy
+- Angry
+- Sad
+- Afraid
+- Surprised
+
+::MOODS::
+- calm
+- rising_tension
+- peak_action
+- humorous
+- romantic
+- dread
+
+::STORY_FLAGS::
+# FORMAT: flag_name: initial_value
+knows_about_silas: false
+meeting_silas: false
+has_nullifier: false
+
+::CHARACTERS::
+- ID: narrator
+  DESCRIPTION: "The omniscient voice that guides the story, providing atmospheric descriptions and context for the unfolding events in Aethelburg."
+- ID: kaelen
+  DESCRIPTION: "A sharp, cynical investigator for the Aegis Bureau. Seen too much of Aethelburg's underbelly to be surprised by anything, but still holds onto a sliver of curiosity."
+- ID: anya
+  DESCRIPTION: "Kaelen's Bureau handler. Efficient, professional, and strictly by-the-book. Views the world through data points and mission parameters."
+- ID: silas
+  DESCRIPTION: "A former top-tier data-broker and informant, now a paranoid recluse living in the shadows. Haunted by a past operation that went wrong."
+
+::LOCATIONS::
+- ID: kaelens_hab
+  DESCRIPTION: "A sterile, high-tech apartment in the upper spires of Aethelburg. Offers a stunning, yet lonely, view of the city's neon-drenched skyline."
+- ID: the_glitch
+  DESCRIPTION: "A dimly lit dive bar in the city's underbelly, reeking of spilled synth-ale and ozone. A known neutral ground for illicit information exchanges."
+- ID: lower_decks
+  DESCRIPTION: "The forgotten, rusting foundation of the floating city. A maze of derelict corridors, abandoned sectors, and the ghosts of forgotten technologies."
+- ID: abandoned_lab
+  DESCRIPTION: "A stark white laboratory from a bygone era, sealed away in the deepest part of the Lower Decks. A tomb of secrets, strangely untouched by time."
+
+::BACKGROUNDS::
+# FORMAT: A list of Location, Descriptor, and Image links.
+- LOCATION: kaelens_hab
+  DESCRIPTOR: "Night, Raining"
+  IMAGE: "art/backgrounds/hab_unit_night_rain.png"
+- LOCATION: the_glitch
+  DESCRIPTOR: "Night"
+  IMAGE: "art/backgrounds/glitch_bar_interior.png"
+- LOCATION: lower_decks
+  DESCRIPTOR: "Derelict"
+  IMAGE: "art/backgrounds/lower_decks_corridor.png"
+- LOCATION: abandoned_lab
+  DESCRIPTOR: "Power_Fluctuating"
+  IMAGE: "art/backgrounds/abandoned_lab_active.png"

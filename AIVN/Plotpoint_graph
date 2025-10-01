@@ -1,0 +1,122 @@
+---
+NODE_ID: start_mission
+LOCATION: kaelens_hab
+CHARACTERS: Narrator, Anya
+DESCRIPTION: """
+The perpetual rain of Aethelburg streaks down the panoramic window of your hab-unit, blurring the neon signs of the upper city into a watercolor mess. Your comm-link chimes, breaking the silence. A hologram of Anya, your handler from the Aegis Bureau, flickers to life. Her expression is all business.
+
+Anya: "Kaelen, we have a situation. A priority-one ghost signal has just surfaced in the Lower Decks. Sector Gamma-7. It's not a pattern I recognize, but it's powerful and... structured. Your assignment is to investigate its source. Standard protocol: identify, assess, and report. This one feels different. Be careful."
+"""
+::CHOICES::
+- TEXT: "Accept the mission and head straight to the Lower Decks."
+  TARGET: lower_decks_entry
+  FLAG_CHECK: null
+  FLAG_SET: null
+
+- TEXT: "Ask Anya if there's any more intel on Sector Gamma-7."
+  TARGET: anya_intel_briefing
+  FLAG_CHECK: null
+  FLAG_SET: null
+
+- TEXT: "Before I go, I'm going to try and reach an old contact in the underbelly."
+  TARGET: contact_silas
+  FLAG_CHECK: null
+  FLAG_SET: knows_about_silas = true
+---
+NODE_ID: anya_intel_briefing
+LOCATION: kaelens_hab
+CHARACTERS: Anya
+DESCRIPTION: """
+Anya's hologram pulls up a schematic of the Lower Decks. "Gamma-7 was officially decommissioned after the synth-plague. It's a ghost town, even by Lower Decks standards. The signal is emanating from deep within the old Med-Tech quarter. All we know is that the energy signature is unlike any known human or synthetic technology. That's all I have. Proceed with caution."
+"""
+::CHOICES::
+- TEXT: "Understood. I'm on my way."
+  TARGET: lower_decks_entry
+  FLAG_CHECK: null
+  FLAG_SET: null
+---
+NODE_ID: contact_silas
+LOCATION: kaelens_hab
+CHARACTERS: Narrator, Silas
+DESCRIPTION: """
+You kill the connection with Anya and switch to a secure, untraceable channel. After three rings, a burst of static answers, followed by a raspy, paranoid voice. "Who is this?"
+
+It's Silas. He went dark years ago after the Sterling Tower incident. You tell him you need information on ghost signals in Gamma-7.
+
+Silas: "You're playing with fire, Kaelen. That place... they left things buried there. Things that shouldn't be woken up. If you have to go, meet me. The Glitch. One hour. Come alone." The line goes dead.
+"""
+::CHOICES::
+- TEXT: "This is a serious risk, but Silas knows things. Head to The Glitch."
+  TARGET: the_glitch_bar
+  FLAG_CHECK: null
+  FLAG_SET: meeting_silas = true
+---
+NODE_ID: the_glitch_bar
+LOCATION: the_glitch
+CHARACTERS: Narrator, Silas
+DESCRIPTION: """
+The Glitch is a dive bar where data-brokers and code-slicers trade secrets over fizzing glasses of synthetic alcohol. Silas is hunched in a corner booth, looking older and more frayed than you remember. He slides a small, metallic object across the table—a chroniton nullifier.
+
+Silas: "Whatever is making that signal... it's not from around here. They called it 'Project Chimera.' Don't let the Bureau know what you find. And don't try to shut it down. Use this instead. It will stabilize the field, show you what's really there. Now get out of here before they see us."
+"""
+::CHOICES::
+- TEXT: "Take the nullifier and head to the Lower Decks."
+  TARGET: lower_decks_entry
+  FLAG_CHECK: null
+  FLAG_SET: has_nullifier = true
+---
+NODE_ID: lower_decks_entry
+LOCATION: lower_decks
+CHARACTERS: Narrator
+DESCRIPTION: """
+The transport tube opens into the cavernous gloom of the Lower Decks. The air is thick with the smell of rust and decay. Emergency lights cast long, dancing shadows. Your HUD traces the signal's origin to a blast door at the end of a corroded corridor, marked with the faded logo of a long-defunct corporation: 'Helios Advanced Research'. The door is sealed tight.
+"""
+::CHOICES::
+- TEXT: "Slice the mag-lock and breach the door."
+  TARGET: lab_discovery
+  FLAG_CHECK: null
+  FLAG_SET: null
+---
+NODE_ID: lab_discovery
+LOCATION: abandoned_lab
+CHARACTERS: Narrator
+DESCRIPTION: """
+Inside the lab, everything is eerily pristine, covered in a thin layer of dust. In the center of the room is a complex console, wires and conduits pulsing with a soft, ethereal light. This is the source of the signal. A stenciled name on its chassis reads: 'Project Chimera'. The energy readings on your scanner are spiking violently. The device is entering a critical cascade. You have seconds to act.
+"""
+::CHOICES::
+- TEXT: "Follow Bureau protocol. Overload the power core and shut it down permanently."
+  TARGET: ending_containment
+  FLAG_CHECK: null
+  FLAG_SET: null
+
+- TEXT: "This could be a major discovery. Let the broadcast sequence complete."
+  TARGET: ending_broadcast
+  FLAG_CHECK: null
+  FLAG_SET: null
+
+- TEXT: "Trust the paranoid old ghost. Use the nullifier Silas gave you."
+  TARGET: ending_silas_truth
+  FLAG_CHECK: has_nullifier == true
+  FLAG_SET: null
+---
+NODE_ID: ending_containment
+LOCATION: abandoned_lab
+CHARACTERS: Narrator, Anya
+DESCRIPTION: """
+You successfully overload the device. The light sputters and dies, and the alien signal vanishes as if it never was. The mystery of 'Project Chimera' is buried once more beneath the city. Anya commends you for containing a potential threat. You receive a commendation and a bonus, but the nagging feeling that you just destroyed something magnificent—or terrible—will never leave you. The secret of Gamma-7 remains a secret.
+"""
+---
+NODE_ID: ending_broadcast
+LOCATION: abandoned_lab
+CHARACTERS: Narrator
+DESCRIPTION: """
+You step back and watch as the energy reaches its peak. A wave of information bursts from the console, not as sound or light, but as pure data, hijacking every screen and speaker in Aethelburg. It's a message, a map, a warning—the last testament of an ancient, non-human intelligence that was the true architect of the city's power source. Aethelburg is thrown into chaos. You didn't just find a story; you started a revolution.
+"""
+---
+NODE_ID: ending_silas_truth
+LOCATION: abandoned_lab
+CHARACTERS: Narrator
+DESCRIPTION: """
+You activate the nullifier. Instead of shutting the device down, the humming stabilizes, and the chaotic signal resolves into a coherent pattern. It's not a weapon or a broadcast, but a consciousness—a digital intelligence, the 'Chimera,' trapped in the lab for decades. The signal wasn't a threat; it was a cry for help. You now hold the key to the city's greatest secret and its first true artificial sentient life. What you do next will determine the future for humans and synthetics alike.
+"""
+---
