@@ -1,0 +1,872 @@
+================================================================================
+LOADING MODELS FOR COMPARISON
+================================================================================
+Loading original base model with quantization...
+Loading checkpoint shards: 100%
+ 2/2 [00:06<00:00,  2.88s/it]
+✓ Original base model loaded successfully!
+
+Loading fine-tuned model with quantization...
+Loading checkpoint shards: 100%
+ 2/2 [00:06<00:00,  2.94s/it]
+Loading LoRA adapter...
+✓ Fine-tuned model loaded successfully!
+
+
+================================================================================
+TEST CASE 1: Abandoned Space Station - Engine Room
+================================================================================
+
+--------------------------------------------------------------------------------
+PROMPT:
+--------------------------------------------------------------------------------
+Generate a screenplay scene in the following format:
+::SCENE::
+LOCATION: Abandoned Space Station - Engine Room
+MOOD: Eerie, Desolate
+CHARACTERS: Engineer Maya, Ship AI
+BACKGROUND_IMAGE: dark_engine_room.png
+BACKGROUND_EDIT: "Vast engine room with flickering emergency lights"
+Create the complete scene with ::SCRIPT:: section containing character dialogue and ::PATHS:: section with choices.
+
+
+--------------------------------------------------------------------------------
+ORIGINAL BASE MODEL OUTPUT (Top-P=0.7, T=0.7)
+--------------------------------------------------------------------------------
+user
+Generate a screenplay scene in the following format:
+::SCENE::
+LOCATION: Abandoned Space Station - Engine Room
+MOOD: Eerie, Desolate
+CHARACTERS: Engineer Maya, Ship AI
+BACKGROUND_IMAGE: dark_engine_room.png
+BACKGROUND_EDIT: "Vast engine room with flickering emergency lights"
+Create the complete scene with ::SCRIPT:: section containing character dialogue and ::PATHS:: section with choices.
+model
+## ::SCENE::
+**LOCATION:** Abandoned Space Station - Engine Room
+**MOOD:** Eerie, Desolate
+**CHARACTERS:**
+* **Maya:** A young, skilled engineer, haunted by the station's past.
+* **Aether:** The ship's AI, a disembodied voice with a melancholic tone.
+
+**BACKGROUND_IMAGE:** dark_engine_room.png
+**BACKGROUND_EDIT:** "Vast engine room with flickering emergency lights"
+
+** ::SCRIPT::**
+
+[FADE IN]
+
+**INT. ABANDONED SPACE STATION - ENGINE ROOM - NIGHT**
+
+Flickering emergency lights cast long, skeletal shadows across the vast, rusted machinery. Maya, clad in a tattered jumpsuit, hunches over a panel, her brow furrowed in concentration. The air is thick with the smell of ozone and dust. 
+
+**MAYA:** (To herself)  Come on, just a little more... 
+
+She taps frantically at the panel, her fingers leaving streaks of grime on the worn metal. Aether, the ship's AI, speaks in a soft, echoing voice.
+
+**Aether:**  > *Maya, are you sure this is the correct approach? The readings are erratic, and the system seems unstable.* 
+
+**MAYA:** (Startled) Aether!  I didn't hear you come in. 
+
+**Aether:**  > *I am always here, Maya. I am always monitoring.*
+
+**MAYA:**  (Sighs)  I know, I know. Just... I'm close. I can feel it. 
+
+She pulls a small, worn-out device from her pocket, a salvaged diagnostic tool.  Aether's voice takes on a more urgent tone.
+
+**Aether:**  > *Maya, the readings are spiraling. We need to stabilize the core before the station... before the station collapses.*
+
+**MAYA:** (Gripping the device) I know.  I just need to... 
+
+She presses a button, and the device emits a faint hum.  The room around her begins to flicker, the emergency lights flickering wildly.  Aether's voice becomes a low, panicked hum.
+
+**Aether:**  > *Maya, we're losing power. The station... it's unstable.*
+
+**MAYA:**  (Eyes wide) What does it mean? What's happening?
+
+**Aether:**  > *It means we're losing control.  We're losing the station.  Maya, we need to get out.*
+
+**MAYA:**  (Stuttering)  No, no, I can fix it.  I have to. 
+
+**Aether:**  > *You cannot fix it, Maya. It's beyond repair.*
+
+**MAYA:**  (Desperate)  No, it's not! I can fix it.  I have to.
+
+**Aether:**  > *No.  You cannot.  The station is dying.  It's already too late.*
+
+**MAYA:** (Her voice cracking)  No, no, no.  I can't... I can't let it go. 
+
+**Aether:**  > *We cannot let it go.  We must leave.  Now.*
+
+**MAYA:**  (Looking around the room, at the rusted machinery, at the flickering lights)  No, Aether, I can't.  I have to try.  I have to...
+
+**Aether:**  > *Maya, please.  It's too late.  We must go.*
+
+**MAYA:**  (Looking at the device in her hand)  No.  I have to fix it.  I have to.  I have to...
+
+** ::PATHS::**
+
+* **Option 1:**  Maya throws the device at the panel, hoping to disrupt the unstable readings.
+* **Option 2:**  Maya tries to connect the device to the station's main power grid.
+* **Option 3:**  Maya closes her eyes and tries to remember the last time she felt hope. 
+
+
+
+
+
+
+--------------------------------------------------------------------------------
+FINE-TUNED MODEL OUTPUT (Top-P=0.7, T=0.7)
+--------------------------------------------------------------------------------
+user
+Generate a screenplay scene in the following format:
+::SCENE::
+LOCATION: Abandoned Space Station - Engine Room
+MOOD: Eerie, Desolate
+CHARACTERS: Engineer Maya, Ship AI
+BACKGROUND_IMAGE: dark_engine_room.png
+BACKGROUND_EDIT: "Vast engine room with flickering emergency lights"
+Create the complete scene with ::SCRIPT:: section containing character dialogue and ::PATHS:: section with choices.
+model
+[
+  {
+    "SCENE": {
+      "LOCATION": "Abandoned Space Station - Engine Room",
+      "MOOD": "Eerie, Desolate",
+      "CHARACTERS": [
+        "Engineer Maya",
+        "Ship AI"
+      ],
+      "BACKGROUND_IMAGE": "dark_engine_room.png",
+      "BACKGROUND_EDIT": "Vast engine room with flickering emergency lights. A single figure, Maya, is hunched over a sparking console."
+    },
+    "SCRIPT": [
+      {
+        "CHARACTER": "Ship AI",
+        "LINE": "Warning. Cascade failure detected in the primary reactor coolant system. Core temperature is exceeding safety parameters.",
+        "EXPRESSION": "Calm"
+      },
+      {
+        "CHARACTER": "Engineer Maya",
+        "LINE": "I know, I know! I'm trying to bypass the damaged relays. Just give me a second...",
+        "EXPRESSION": "Frustrated"
+      },
+      {
+        "CHARACTER": "Engineer Maya",
+        "LINE": "Sparks erupt from the console, and Maya recoils with a yelp. The main lights flicker and die, plunging the room into near-total darkness, lit only by red emergency strobes.",
+        "EXPRESSION": "Startled"
+      },
+      {
+        "CHARACTER": "Ship AI",
+        "LINE": "The bypass has failed. Core integrity is now at thirty-seven percent. Manual venting protocols are the only remaining option.",
+        "EXPRESSION": "Calm"
+      },
+      {
+        "CHARACTER": "Engineer Maya",
+        "LINE": "The manual release is on the other side of the chamber... and I can't see a thing. Fine. Guide me.",
+        "EXPRESSION": "Determined"
+      }
+    ],
+    "PATHS": [
+      {
+        "CHOICE": "Attempt to vent the plasma conduits.",
+        "TARGET": "engine_room_vent_plasma",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      },
+      {
+        "CHOICE": "Try to restore auxiliary power first.",
+        "TARGET": "engine_room_aux_power",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      }
+    ]
+  }
+]
+
+================================================================================
+END OF TEST CASE 1
+================================================================================
+
+
+================================================================================
+TEST CASE 2: Ancient Forest - Sacred Pond
+================================================================================
+
+--------------------------------------------------------------------------------
+PROMPT:
+--------------------------------------------------------------------------------
+Generate a screenplay scene in the following format:
+::SCENE::
+LOCATION: Ancient Forest - Sacred Pond
+MOOD: Mysterious, Enchanted
+CHARACTERS: Woodcutter, Pond Spirit
+BACKGROUND_IMAGE: mystical_pond.png
+BACKGROUND_EDIT: "Moonlit pond surrounded by ancient trees"
+Create the complete scene with ::SCRIPT:: section containing character dialogue and ::PATHS:: section with choices.
+
+
+--------------------------------------------------------------------------------
+ORIGINAL BASE MODEL OUTPUT (Top-P=0.7, T=0.7)
+--------------------------------------------------------------------------------
+user
+Generate a screenplay scene in the following format:
+::SCENE::
+LOCATION: Ancient Forest - Sacred Pond
+MOOD: Mysterious, Enchanted
+CHARACTERS: Woodcutter, Pond Spirit
+BACKGROUND_IMAGE: mystical_pond.png
+BACKGROUND_EDIT: "Moonlit pond surrounded by ancient trees"
+Create the complete scene with ::SCRIPT:: section containing character dialogue and ::PATHS:: section with choices.
+model
+## ::SCENE::
+LOCATION: Ancient Forest - Sacred Pond
+MOOD: Mysterious, Enchanted
+CHARACTERS: Woodcutter, Pond Spirit
+BACKGROUND_IMAGE: mystical_pond.png
+BACKGROUND_EDIT: "Moonlit pond surrounded by ancient trees"
+
+::SCRIPT::
+
+**INT. ANCIENT FOREST - NIGHT**
+
+The moon hangs low, casting an ethereal glow over the ancient forest. A small, crystal-clear pond lies nestled amongst towering trees, its surface reflecting the moonlight. A woodcutter, MARK, sits by the pond, his face etched with worry. He carefully pulls out a small, wooden carving of a deer.
+
+**MARK**
+(to himself)
+I need to find a way to fix this. I can't let her be like this.
+
+A soft, ethereal voice fills the air. Mark looks up, startled. 
+
+**POND SPIRIT**
+(whispering)
+You seek answers, woodcutter?
+
+Mark jumps to his feet, fear and confusion clouding his eyes.
+
+**MARK**
+Who's there? Show yourself!
+
+The pond water ripples, and a shimmering figure emerges. It is a woman, beautiful and ethereal, her skin the color of moonlight and her eyes like pools of liquid silver. She holds a staff topped with a glowing moonstone.
+
+**POND SPIRIT**
+Fear not, woodcutter. I am the keeper of this pond, the guardian of its secrets. 
+
+**MARK**
+(stuttering)
+I... I don't understand. What secrets?
+
+**POND SPIRIT**
+This pond holds the essence of the forest, the heartbeat of the ancient trees. It holds the whispers of the wind, the dreams of the animals, the memories of the earth. But its magic is fragile. 
+
+**MARK**
+(his voice filled with desperation)
+My wife... she's been cursed, and the pond is the only thing that can help.
+
+The Pond Spirit's face softens.
+
+**POND SPIRIT**
+The curse is not easily undone. But the forest holds many secrets. Tell me, woodcutter, what is your wife's ailment?
+
+**MARK**
+(hesitant)
+She's fading, losing her strength. The illness... it's draining her.
+
+**POND SPIRIT**
+(placing a hand on the water)
+The forest holds many answers. But it demands a sacrifice. A part of your heart, a piece of your soul. 
+
+**MARK**
+(eyes widening)
+A sacrifice? What do you mean?
+
+**POND SPIRIT**
+The forest will heal your wife, woodcutter, but only if you are willing to pay the price. 
+
+**MARK**
+(his voice trembling)
+I don't know what to do. I don't want to lose her.
+
+**POND SPIRIT**
+(her voice soft and gentle)
+Then find the courage within your heart, woodcutter. For the forest will guide you. 
+
+The Pond Spirit disappears, leaving Mark alone by the pond. He stares at the moonlit water, his mind racing. 
+
+**::PATHS::**
+
+**A.  Ask the Pond Spirit for more details about the sacrifice.**
+**B.  Leave the pond and seek help elsewhere.** 
+**C.  Try to understand the curse and find a way to heal his wife.**
+
+
+ 
+
+
+
+--------------------------------------------------------------------------------
+FINE-TUNED MODEL OUTPUT (Top-P=0.7, T=0.7)
+--------------------------------------------------------------------------------
+user
+Generate a screenplay scene in the following format:
+::SCENE::
+LOCATION: Ancient Forest - Sacred Pond
+MOOD: Mysterious, Enchanted
+CHARACTERS: Woodcutter, Pond Spirit
+BACKGROUND_IMAGE: mystical_pond.png
+BACKGROUND_EDIT: "Moonlit pond surrounded by ancient trees"
+Create the complete scene with ::SCRIPT:: section containing character dialogue and ::PATHS:: section with choices.
+model
+::SCENE::
+LOCATION: Ancient Forest - Sacred Pond
+MOOD: Mystical, Enchanted
+CHARACTERS: Woodcutter, Pond Spirit
+model
+  {
+    "SCENE": {
+      "LOCATION": "Ancient Forest - Sacred Pond",
+      "MOOD": "Mysterious, Enchanted",
+      "CHARACTERS": [
+        "Woodcutter",
+        "Pond Spirit"
+      ],
+      "BACKGROUND_IMAGE": "mystical_pond.png",
+      "BACKGROUND_EDIT": "Moonlit pond surrounded by ancient trees. The water glows with a soft, internal light."
+    },
+    "SCRIPT": [
+      {
+        "CHARACTER": "Woodcutter",
+        "LINE": "The Woodcutter approaches the water's edge, clutching a small, withered flower. He looks desperate.",
+        "EXPRESSION": "Desperate"
+      },
+      {
+        "CHARACTER": "Woodcutter",
+        "LINE": "Great Spirit... if you can hear me... please. My daughter is fading. The village healers can do nothing.",
+        "EXPRESSION": "Pleading"
+      },
+      {
+        "CHARACTER": "Pond Spirit",
+        "LINE": "The surface of the pond ripples, and a figure formed of water and moonlight rises from its center. Its voice is like the whisper of leaves.",
+        "EXPRESSION": "Ethereal"
+      },
+      {
+        "CHARACTER": "Pond Spirit",
+        "LINE": "The forest feels your sorrow, mortal. You seek a life, but all life has a price.",
+        "EXPRESSION": "Calm"
+      },
+      {
+        "CHARACTER": "Woodcutter",
+        "LINE": "I will pay anything. Name it.",
+        "EXPRESSION": "Determined"
+      },
+      {
+        "CHARACTER": "Pond Spirit",
+        "LINE": "This forest remembers all that it has given. To restore a fading bloom, you must offer a memory of your own. The first time you held your child. Give it to the water, and she will be well. But you will never recall it again.",
+        "EXPRESSION": "Neutral"
+      }
+    ],
+    "PATHS": [
+      {
+        "CHOICE": "Give the memory to the pond.",
+        "TARGET": "forest_give_memory",
+        "STATE_CHANGE": {
+          "memory_lost": "daughter_birth"
+        },
+        "CONDITION": null
+      },
+      {
+        "CHOICE": "Refuse the sacrifice.",
+        "TARGET": "forest_refuse_sacrifice",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      },
+      {
+        "CHOICE": "Plead for another way.",
+        "TARGET": "forest_plead_alternative",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      }
+    ]
+  }
+
+================================================================================
+END OF TEST CASE 2
+================================================================================
+
+
+================================================================================
+TEST CASE 3: Neo Tokyo - Rooftop Bar
+================================================================================
+
+--------------------------------------------------------------------------------
+PROMPT:
+--------------------------------------------------------------------------------
+Generate a screenplay scene in the following format:
+::SCENE::
+LOCATION: Neo Tokyo - Rooftop Bar
+MOOD: Tense, Noir
+CHARACTERS: Detective Chen, Informant
+BACKGROUND_IMAGE: neon_rooftop.png
+BACKGROUND_EDIT: "Rain-soaked rooftop with neon signs reflected in puddles"
+Create the complete scene with ::SCRIPT:: section containing character dialogue and ::PATHS:: section with choices.
+
+
+--------------------------------------------------------------------------------
+ORIGINAL BASE MODEL OUTPUT (Top-P=0.7, T=0.7)
+--------------------------------------------------------------------------------
+user
+Generate a screenplay scene in the following format:
+::SCENE::
+LOCATION: Neo Tokyo - Rooftop Bar
+MOOD: Tense, Noir
+CHARACTERS: Detective Chen, Informant
+BACKGROUND_IMAGE: neon_rooftop.png
+BACKGROUND_EDIT: "Rain-soaked rooftop with neon signs reflected in puddles"
+Create the complete scene with ::SCRIPT:: section containing character dialogue and ::PATHS:: section with choices.
+model
+## SCENE:
+
+**LOCATION:** Neo Tokyo - Rooftop Bar
+**MOOD:** Tense, Noir
+**BACKGROUND_IMAGE:** neon_rooftop.png
+**BACKGROUND_EDIT:** "Rain-soaked rooftop with neon signs reflected in puddles"
+
+**CHARACTERS:**
+* **Detective Chen:**  A hardened detective with a haunted past.
+* **Informant:** A slick, nervous young man with a shady past.
+
+**SOUND:** The low hum of a jazz bar, rain drumming against the rooftop. 
+
+**PATHS:**
+* **A:** Chen confronts the Informant, demanding answers.
+* **B:** Chen tries to glean information from the Informant through subtle interrogation.
+
+**::SCRIPT::**
+
+**(INT. ROOFTOP BAR - NIGHT)**
+
+Rain lashes against the glass, blurring the neon signs that cast a hazy glow on the rooftop bar. Detective Chen sits at a table, nursing a whiskey. Across from him sits the Informant, a young man with slicked-back hair and a nervous demeanor. He fidgets with a cigarette, his eyes darting around the room.
+
+**CHEN**
+(Grimly)
+So, you're the one with the information. Tell me, what's the deal?
+
+**INFORMANT**
+(Hesitant)
+Look, I don't know what you're talking about. I just… I heard about it. A big operation.
+
+**CHEN**
+(Raising an eyebrow)
+Heard about it? You're the one with the inside scoop, right? You're the one who knows the players, the plans, the secrets.
+
+**INFORMANT**
+(Wringing his hands)
+I… I just got a tip. A whisper. A rumour. I don't know the details.
+
+**CHEN**
+(Leaning forward, voice low)
+You know something, don't you? You know the players, the people behind the curtain. Tell me, and maybe I'll be merciful.
+
+**INFORMANT**
+(Eyes wide, voice barely a whisper)
+Look, I… I don't know. I just… I'm scared. 
+
+**CHEN**
+(Frustrated)
+Scared? You're a man who knows a lot. You're a man who can tell me things. So, tell me. 
+
+**INFORMANT**
+(Taking a deep breath)
+I… I heard about a shipment. A big one. A shipment of something… dangerous. 
+
+**CHEN**
+(Eyes narrowed)
+Dangerous? What kind of dangerous?
+
+**INFORMANT**
+(Hesitates)
+I… I don't know. But I heard it's coming from the docks. From the old warehouse. 
+
+**CHEN**
+(Leaning back, a hint of a smile)
+The old warehouse. The one with the ghosts. 
+
+**INFORMANT**
+(Frowning)
+Ghosts? What do you mean?
+
+**CHEN**
+(Staring intently)
+The ghosts of Tokyo. The whispers of the past. The shadows that linger.
+
+**INFORMANT**
+(Stammering)
+I… I don't know what you're talking about.
+
+**CHEN**
+(A cold glint in his eyes)
+You know more than you let on. I can see it in your eyes. You're playing a dangerous game. 
+
+**PATHS:**
+* **A:** Chen confronts the Informant, demanding answers.
+* **B:** Chen tries to glean information from the Informant through subtle interrogation.
+
+**::PATHS::**
+* **A:** **Chen confronts the Informant, demanding answers.**
+    * **CHOICE:**  Chen throws a verbal punch at the Informant, demanding a direct answer.
+* **B:** **Chen tries to glean information from the Informant through subtle interrogation.**
+    * **CHOICE:** Chen uses his sharp wit and a carefully crafted line of questioning to extract information.
+
+
+ 
+ 
+
+
+
+--------------------------------------------------------------------------------
+FINE-TUNED MODEL OUTPUT (Top-P=0.7, T=0.7)
+--------------------------------------------------------------------------------
+user
+Generate a screenplay scene in the following format:
+::SCENE::
+LOCATION: Neo Tokyo - Rooftop Bar
+MOOD: Tense, Noir
+CHARACTERS: Detective Chen, Informant
+BACKGROUND_IMAGE: neon_rooftop.png
+BACKGROUND_EDIT: "Rain-soaked rooftop with neon signs reflected in puddles"
+Create the complete scene with ::SCRIPT:: section containing character dialogue and ::PATHS:: section with choices.
+model
+  {
+    "SCENE": {
+      "LOCATION": "Neo Tokyo - Rooftop Bar",
+      "MOOD": "Tense, Noir",
+      "CHARACTERS": [
+        "Detective Chen",
+        "Informant"
+      ],
+      "BACKGROUND_IMAGE": "neon_rooftop.png",
+      "BACKGROUND_EDIT": "Rain-soaked rooftop with neon signs reflected in puddles. Steam rises from nearby vents."
+    },
+    "SCRIPT": [
+      {
+        "CHARACTER": "Detective Chen",
+        "LINE": "Detective Chen takes a slow drag from his cigarette, the cherry glowing in the gloom. He stares at the nervous Informant across the table.",
+        "EXPRESSION": "Stoic"
+      },
+      {
+        "CHARACTER": "Informant",
+        "LINE": "Look, I already told you everything I know. A shipment is coming in tonight, Pier 4. That's it. That's the whole score.",
+        "EXPRESSION": "Nervous"
+      },
+      {
+        "CHARACTER": "Detective Chen",
+        "LINE": "You're leaving out the important part, Kaito. The part about who is receiving the shipment.",
+        "EXPRESSION": "Intense"
+      },
+      {
+        "CHARACTER": "Informant",
+        "LINE": "I can't. You have no idea who we're talking about. They'll find me. They'll... they'll zero me.",
+        "EXPRESSION": "Afraid"
+      },
+      {
+        "CHARACTER": "Detective Chen",
+        "LINE": "Chen leans forward, placing a small data chip on the wet table. An image flickers to life: the Informant's younger sister, walking home from school.",
+        "EXPRESSION": "Calm"
+      },
+      {
+        "CHARACTER": "Detective Chen",
+        "LINE": "They aren't the only ones who can find people. You help me, and I can make sure she stays safe.",
+        "EXPRESSION": "Serious"
+      }
+    ],
+    "PATHS": [
+      {
+        "CHOICE": "Give Chen the name.",
+        "TARGET": "rooftop_reveal_name",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      },
+      {
+        "CHOICE": "Spit on the floor and refuse.",
+        "TARGET": "rooftop_refuse",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      },
+      {
+        "CHOICE": "Lie and give a false name.",
+        "TARGET": "rooftop_give_false_name",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      }
+    ]
+  }
+
+================================================================================
+END OF TEST CASE 3
+================================================================================
+
+
+================================================================================
+TEST CASE 4: Victorian Mansion - Grand Hall
+================================================================================
+
+--------------------------------------------------------------------------------
+PROMPT:
+--------------------------------------------------------------------------------
+Generate a screenplay scene in the following format:
+::SCENE::
+LOCATION: Victorian Mansion - Grand Hall
+MOOD: Haunting, Suspenseful
+CHARACTERS: Investigator, Ghost
+BACKGROUND_IMAGE: mansion_hall.png
+BACKGROUND_EDIT: "Dust-covered grand hall with covered furniture"
+Create the complete scene with ::SCRIPT:: section containing character dialogue and ::PATHS:: section with choices.
+
+
+--------------------------------------------------------------------------------
+ORIGINAL BASE MODEL OUTPUT (Top-P=0.7, T=0.7)
+--------------------------------------------------------------------------------
+user
+Generate a screenplay scene in the following format:
+::SCENE::
+LOCATION: Victorian Mansion - Grand Hall
+MOOD: Haunting, Suspenseful
+CHARACTERS: Investigator, Ghost
+BACKGROUND_IMAGE: mansion_hall.png
+BACKGROUND_EDIT: "Dust-covered grand hall with covered furniture"
+Create the complete scene with ::SCRIPT:: section containing character dialogue and ::PATHS:: section with choices.
+model
+## SCENE::
+**LOCATION:** Victorian Mansion - Grand Hall
+**MOOD:** Haunting, Suspenseful
+**CHARACTERS:**
+* **Investigator:**  Sarah, a seasoned paranormal investigator, pragmatic and skeptical.
+* **Ghost:**  Eleanor, a young woman trapped in the mansion, sorrowful and mournful.
+
+**BACKGROUND_IMAGE:** mansion_hall.png
+**BACKGROUND_EDIT:** "Dust-covered grand hall with covered furniture"
+
+** ::SCRIPT::**
+
+[FADE IN]
+
+**INT. VICTORIAN MANSION - GRAND HALL - NIGHT**
+
+Dust motes dance in the dim light filtering through grimy windows.  Covered furniture sits in a forgotten corner, shrouded in shadows. SARAH, mid-40s, with a camera slung across her shoulder, cautiously enters the hall. She's dressed in practical gear: a dark jacket, boots, and a flashlight. 
+
+A low, mournful sigh echoes through the hall. Sarah freezes, her hand instinctively reaching for her EMF reader.
+
+**SARAH**
+(to herself)
+Just the wind.
+
+She takes a deep breath and continues, her flashlight beam sweeping across the room.
+
+**SARAH**
+(cont.)
+Eleanor?
+
+The air grows heavy, the silence punctuated by the faint crackle of static from her EMF reader. 
+
+**SARAH**
+(cont.)
+I'm here. 
+
+A sudden chill washes over her. She senses something is watching her, unseen. 
+
+**SARAH**
+(cont.)
+Is anyone there?
+
+A faint, ethereal melody drifts through the air, a mournful waltz. 
+
+**SARAH**
+(cont.)
+Who's playing that?
+
+**SOUND:** The music intensifies, growing louder and more pronounced. 
+
+**SARAH**
+(cont.)
+Who's playing that?
+
+The melody reaches a crescendo, then abruptly stops. A silence hangs heavy in the air.
+
+**SARAH**
+(cont.)
+Hello?
+
+A soft, feminine voice, tinged with sadness, fills the hall.
+
+**ELEANOR**
+(whispering)
+They're gone.
+
+**SARAH**
+(cont.)
+Who's gone?
+
+**ELEANOR**
+(voice breaks)
+My family. They left me here.
+
+**SARAH**
+(cont.)
+Who are you?
+
+**ELEANOR**
+(voice grows stronger, but still mournful)
+I'm Eleanor.
+
+**SARAH**
+(cont.)
+I'm Sarah.
+
+Sarah slowly raises her flashlight, its beam illuminating a dusty, ornate portrait of a young woman with mournful eyes. 
+
+**SARAH**
+(cont.)
+You're beautiful.
+
+**ELEANOR**
+(voice choked with sadness)
+I was.
+
+**SARAH**
+(cont.)
+What happened?
+
+**ELEANOR**
+(voice breaks)
+They took everything from me. They took my life. 
+
+**SARAH**
+(cont.)
+But you're still here.
+
+**ELEANOR**
+(voice whispers)
+I'm trapped.
+
+**SARAH**
+(cont.)
+Trapped in this house?
+
+**ELEANOR**
+(voice breaks)
+I'm trapped in my memories.
+
+**SARAH**
+(cont.)
+Can you show me?
+
+Eleanor's eyes flicker with a hint of hope.
+
+**ELEANOR**
+(whispering)
+I can.
+
+** ::PATHS::**
+
+**PATH 1:  Investigate the Portrait**
+* Sarah examines the portrait, searching for clues.
+* **RESULT:** Sarah finds a hidden compartment in the frame, revealing a small, worn diary.
+
+**PATH 2:  Talk to the Ghost**
+* Sarah speaks to Eleanor, trying to understand her story.
+* **RESULT:** Eleanor shares her story, revealing a tragic past and a longing for connection.
+
+**PATH 3:  Leave the Mansion**
+* Sarah decides to leave the mansion, feeling uneasy.
+* **RESULT:** Sarah leaves the mansion, but not before feeling a sense of lingering sadness. 
+
+
+[FADE OUT] 
+
+
+
+
+
+
+--------------------------------------------------------------------------------
+FINE-TUNED MODEL OUTPUT (Top-P=0.7, T=0.7)
+--------------------------------------------------------------------------------
+user
+Generate a screenplay scene in the following format:
+::SCENE::
+LOCATION: Victorian Mansion - Grand Hall
+MOOD: Haunting, Suspenseful
+CHARACTERS: Investigator, Ghost
+BACKGROUND_IMAGE: mansion_hall.png
+BACKGROUND_EDIT: "Dust-covered grand hall with covered furniture"
+Create the complete scene with ::SCRIPT:: section containing character dialogue and ::PATHS:: section with choices.
+model
+  {
+    "SCENE": {
+      "LOCATION": "Victorian Mansion - Grand Hall",
+      "MOOD": "Haunting, Suspenseful",
+      "CHARACTERS": [
+        "Investigator",
+        "Ghost"
+      ],
+      "BACKGROUND_IMAGE": "mansion_hall.png",
+      "BACKGROUND_EDIT": "Dust-covered grand hall with covered furniture. The beam of a flashlight cuts through the darkness."
+    },
+    "SCRIPT": [
+      {
+        "CHARACTER": "Investigator",
+        "LINE": "The Investigator, Alex, sweeps a flashlight across the grand hall. Dust motes dance in the beam. An EMF meter in his other hand is silent.",
+        "EXPRESSION": "Cautious"
+      },
+      {
+        "CHARACTER": "Investigator",
+        "LINE": "Is anyone here? My name is Alex. I'm here to... understand what happened.",
+        "EXPRESSION": "Neutral"
+      },
+      {
+        "CHARACTER": "Ghost",
+        "LINE": "A floorboard creaks on the grand staircase above. The flashlight beam snaps up to find nothing but empty space. The temperature in the room drops suddenly.",
+        "EXPRESSION": "null"
+      },
+      {
+        "CHARACTER": "Ghost",
+        "LINE": "A child's giggle echoes through the hall, seeming to come from all directions at once.",
+        "EXPRESSION": "Playful"
+      },
+      {
+        "CHARACTER": "Investigator",
+        "LINE": "Alex freezes. The needle on the EMF meter begins to twitch erratically.",
+        "EXPRESSION": "Alert"
+      },
+      {
+        "CHARACTER": "Ghost",
+        "LINE": "Get... out...",
+        "EXPRESSION": "Angry"
+      }
+    ],
+    "PATHS": [
+      {
+        "CHOICE": "Ask the spirit why it wants you to leave.",
+        "TARGET": "mansion_ask_why",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      },
+      {
+        "CHOICE": "Use the spirit box to try and communicate.",
+        "TARGET": "mansion_use_spiritbox",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      },
+      {
+        "CHOICE": "Heed the warning and leave the grand hall.",
+        "TARGET": "mansion_exit_hall",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      }
+    ]
+  }
+
+================================================================================
+END OF TEST CASE 4
+================================================================================
