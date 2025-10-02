@@ -1,0 +1,6 @@
+{
+  "base_model": "google/gemma-2-2b-it",
+  "lora_config": {
+    "r": 8,
+    "lora_alpha": 16,
+    "target_modules": 
