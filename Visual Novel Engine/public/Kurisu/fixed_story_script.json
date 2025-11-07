@@ -1,0 +1,982 @@
+[
+  {
+    "id": "intro_scene",
+    "SCENE": {
+      "LOCATION": "Mysterious Laboratory",
+      "MOOD": "Mysterious",
+      "CHARACTERS": [
+        "Kurisu",
+        "Player"
+      ],
+      "BACKGROUND_IMAGE": "lab.jpg",
+      "BACKGROUND_EDIT": null
+    },
+    "SCRIPT": [
+      {
+        "CHARACTER": "Narrator",
+        "LINE": "Late at night, you find yourself in a strange laboratory. The air hums with electricity, and mysterious devices line the walls.",
+        "EXPRESSION": null
+      },
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "Oh! You're finally awake. I was beginning to worry the temporal displacement might have caused permanent damage.",
+        "EXPRESSION": "sad"
+      },
+      {
+        "CHARACTER": "Player",
+        "LINE": "Temporal displacement? What are you talking about? Where am I?",
+        "EXPRESSION": null
+      },
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "You don't remember? The experiment... the machine... Something went wrong. We need to figure out what happened before it's too late.",
+        "EXPRESSION": "neutral"
+      }
+    ],
+    "PATHS": [
+      {
+        "CHOICE": "What experiment? I don't remember anything!",
+        "TARGET": "memory_loss",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      },
+      {
+        "CHOICE": "Show me this machine you're talking about",
+        "TARGET": "time_machine",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      },
+      {
+        "CHOICE": "Who are you? Can I trust you?",
+        "TARGET": "trust_issues",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      }
+    ]
+  },
+  {
+    "id": "memory_loss",
+    "SCENE": {
+      "LOCATION": "Laboratory - Main Console",
+      "MOOD": "Tense",
+      "CHARACTERS": [
+        "Kurisu",
+        "Player"
+      ],
+      "BACKGROUND_IMAGE": "lab.jpg",
+      "BACKGROUND_EDIT": null
+    },
+    "SCRIPT": [
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "Your memory loss is more severe than I thought. Listen carefully - we were working on a time travel device.",
+        "EXPRESSION": "sad"
+      },
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "You volunteered to be the first test subject, but something went wrong during the jump. You've been unconscious for hours.",
+        "EXPRESSION": "neutral"
+      },
+      {
+        "CHARACTER": "Player",
+        "LINE": "Time travel? That's impossible... isn't it?",
+        "EXPRESSION": null
+      },
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "Look around you! The temporal energy readings are off the charts. We've torn a hole in spacetime itself!",
+        "EXPRESSION": "angry"
+      },
+      {
+        "CHARACTER": "Narrator",
+        "LINE": "As if responding to her words, the laboratory lights flicker ominously, and you hear a strange humming sound growing louder.",
+        "EXPRESSION": null
+      }
+    ],
+    "PATHS": [
+      {
+        "CHOICE": "We need to fix this immediately!",
+        "TARGET": "emergency_protocol",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      },
+      {
+        "CHOICE": "Maybe we should evacuate first...",
+        "TARGET": "evacuation_route",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      },
+      {
+        "CHOICE": "Show me proof that time travel is real",
+        "TARGET": "time_proof",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      }
+    ]
+  },
+  {
+    "id": "time_machine",
+    "SCENE": {
+      "LOCATION": "Laboratory - Time Machine Chamber",
+      "MOOD": "Dramatic",
+      "CHARACTERS": [
+        "Kurisu",
+        "Player"
+      ],
+      "BACKGROUND_IMAGE": "lab.jpg",
+      "BACKGROUND_EDIT": null
+    },
+    "SCRIPT": [
+      {
+        "CHARACTER": "Narrator",
+        "LINE": "Kurisu leads you to a massive device in the center of the laboratory. It pulses with an otherworldly blue light.",
+        "EXPRESSION": null
+      },
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "This is it - the Temporal Displacement Engine. Three years of my life went into building this machine.",
+        "EXPRESSION": "happy"
+      },
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "But look at the readings! The temporal field is still active. It's creating dangerous fluctuations in the timeline.",
+        "EXPRESSION": "angry"
+      },
+      {
+        "CHARACTER": "Player",
+        "LINE": "It's... beautiful. But also terrifying. What does it mean that it's still active?",
+        "EXPRESSION": null
+      },
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "It means we're stuck in a temporal loop. Every moment we delay, the damage to reality gets worse.",
+        "EXPRESSION": "sad"
+      }
+    ],
+    "PATHS": [
+      {
+        "CHOICE": "Can we shut it down safely?",
+        "TARGET": "shutdown_attempt",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      },
+      {
+        "CHOICE": "What if we use it to go back and prevent this?",
+        "TARGET": "time_travel_plan",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      },
+      {
+        "CHOICE": "Is there another way to fix the timeline?",
+        "TARGET": "alternative_solution",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      }
+    ]
+  },
+  {
+    "id": "trust_issues",
+    "SCENE": {
+      "LOCATION": "Laboratory - Entrance",
+      "MOOD": "Contemplative",
+      "CHARACTERS": [
+        "Kurisu",
+        "Player"
+      ],
+      "BACKGROUND_IMAGE": "lab.jpg",
+      "BACKGROUND_EDIT": null
+    },
+    "SCRIPT": [
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "I understand your confusion. My name is Kurisu Makise - I'm a neuroscientist and theoretical physicist.",
+        "EXPRESSION": "neutral"
+      },
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "We've been working together for months on this project. You trusted me enough to risk your life for science.",
+        "EXPRESSION": "neutral"
+      },
+      {
+        "CHARACTER": "Player",
+        "LINE": "But I don't remember any of that. How do I know you're telling the truth?",
+        "EXPRESSION": null
+      },
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "Look at your hands. Do you see those scars? You got them helping me build the temporal stabilizer last month.",
+        "EXPRESSION": "neutral"
+      },
+      {
+        "CHARACTER": "Narrator",
+        "LINE": "You look down and indeed see small scars on your hands that you can't remember getting.",
+        "EXPRESSION": null
+      },
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "I know this is overwhelming, but I need you to trust me. The fate of our timeline depends on it.",
+        "EXPRESSION": "sad"
+      }
+    ],
+    "PATHS": [
+      {
+        "CHOICE": "Alright, I'll trust you. What do we need to do?",
+        "TARGET": "partnership_formed",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      },
+      {
+        "CHOICE": "I need more proof before I can trust you",
+        "TARGET": "demand_evidence",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      },
+      {
+        "CHOICE": "This is too much. I'm leaving.",
+        "TARGET": "escape_attempt",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      }
+    ]
+  },
+  {
+    "id": "emergency_protocol",
+    "SCENE": {
+      "LOCATION": "Laboratory - Control Room",
+      "MOOD": "Urgent",
+      "CHARACTERS": [
+        "Kurisu",
+        "Player"
+      ],
+      "BACKGROUND_IMAGE": "lab.jpg",
+      "BACKGROUND_EDIT": null
+    },
+    "SCRIPT": [
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "You're right! We need to act fast. The temporal distortion is growing exponentially!",
+        "EXPRESSION": "angry"
+      },
+      {
+        "CHARACTER": "Narrator",
+        "LINE": "Alarms begin blaring throughout the laboratory as Kurisu rushes to the main control panel.",
+        "EXPRESSION": null
+      },
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "I need you to help me recalibrate the quantum field harmonics. Follow my instructions exactly!",
+        "EXPRESSION": "neutral"
+      },
+      {
+        "CHARACTER": "Player",
+        "LINE": "I'll do whatever it takes. Just tell me what to do!",
+        "EXPRESSION": null
+      },
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "There! See that blue switch? Turn it to position 7 while I adjust the temporal flux compensator!",
+        "EXPRESSION": "neutral"
+      }
+    ],
+    "PATHS": [
+      {
+        "CHOICE": "Follow her instructions precisely",
+        "TARGET": "successful_shutdown",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      },
+      {
+        "CHOICE": "Question her instructions first",
+        "TARGET": "critical_mistake",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      },
+      {
+        "CHOICE": "Try to help but hesitate",
+        "TARGET": "partial_success",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      }
+    ]
+  },
+  {
+    "id": "time_travel_plan",
+    "SCENE": {
+      "LOCATION": "Laboratory - Planning Area",
+      "MOOD": "Hopeful",
+      "CHARACTERS": [
+        "Kurisu",
+        "Player"
+      ],
+      "BACKGROUND_IMAGE": "lab.jpg",
+      "BACKGROUND_EDIT": null
+    },
+    "SCRIPT": [
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "That's... actually brilliant! If we can travel back to before the experiment went wrong...",
+        "EXPRESSION": "happy"
+      },
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "But it's incredibly dangerous. One small change could create a paradox that destroys everything.",
+        "EXPRESSION": "sad"
+      },
+      {
+        "CHARACTER": "Player",
+        "LINE": "What's the alternative? Let reality collapse around us?",
+        "EXPRESSION": null
+      },
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "You're right. We have to try. But we need to be very careful about what we change in the past.",
+        "EXPRESSION": "neutral"
+      },
+      {
+        "CHARACTER": "Narrator",
+        "LINE": "The time machine begins to glow brighter, as if responding to your decision.",
+        "EXPRESSION": null
+      }
+    ],
+    "PATHS": [
+      {
+        "CHOICE": "Let's go back together",
+        "TARGET": "joint_time_travel",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      },
+      {
+        "CHOICE": "I should go alone - it's safer",
+        "TARGET": "solo_time_travel",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      },
+      {
+        "CHOICE": "Maybe we should reconsider this plan",
+        "TARGET": "second_thoughts",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      }
+    ]
+  },
+  {
+    "id": "successful_shutdown",
+    "SCENE": {
+      "LOCATION": "Laboratory - After Crisis",
+      "MOOD": "Relieved",
+      "CHARACTERS": [
+        "Kurisu",
+        "Player"
+      ],
+      "BACKGROUND_IMAGE": "lab.jpg",
+      "BACKGROUND_EDIT": null
+    },
+    "SCRIPT": [
+      {
+        "CHARACTER": "Narrator",
+        "LINE": "The humming noise gradually dies down, and the laboratory lights stop flickering. A sense of calm returns to the air.",
+        "EXPRESSION": null
+      },
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "We did it! The temporal field has stabilized. The timeline is safe!",
+        "EXPRESSION": "happy"
+      },
+      {
+        "CHARACTER": "Player",
+        "LINE": "I can't believe we actually pulled that off. My memory is starting to come back too.",
+        "EXPRESSION": null
+      },
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "Your trust in me saved us both. Without your help, I never could have shut down the machine in time.",
+        "EXPRESSION": "happy"
+      },
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "But this experience has taught us something important - some powers are too dangerous for humanity to wield.",
+        "EXPRESSION": "neutral"
+      },
+      {
+        "CHARACTER": "Player",
+        "LINE": "So what happens to the time machine now?",
+        "EXPRESSION": null
+      },
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "We'll dismantle it together. Some discoveries are meant to remain in the realm of theory.",
+        "EXPRESSION": "neutral"
+      }
+    ],
+    "PATHS": []
+  },
+  {
+    "id": "joint_time_travel",
+    "SCENE": {
+      "LOCATION": "Laboratory - Past Timeline",
+      "MOOD": "Exciting",
+      "CHARACTERS": [
+        "Kurisu",
+        "Player"
+      ],
+      "BACKGROUND_IMAGE": "lab.jpg",
+      "BACKGROUND_EDIT": null
+    },
+    "SCRIPT": [
+      {
+        "CHARACTER": "Narrator",
+        "LINE": "Reality blurs around you as the time machine activates. When your vision clears, you're in the same laboratory - but something feels different.",
+        "EXPRESSION": null
+      },
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "We made it! Look, there I am in the past preparing for the original experiment.",
+        "EXPRESSION": "happy"
+      },
+      {
+        "CHARACTER": "Player",
+        "LINE": "This is incredible! But how do we convince your past self without creating a paradox?",
+        "EXPRESSION": null
+      },
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "We have to be very careful. Let me approach myself and explain the situation.",
+        "EXPRESSION": "neutral"
+      },
+      {
+        "CHARACTER": "Narrator",
+        "LINE": "You watch as Kurisu carefully approaches her past self and begins explaining the situation.",
+        "EXPRESSION": null
+      },
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "She believes me! We're going to prevent the accident together. The timeline will be safe!",
+        "EXPRESSION": "happy"
+      }
+    ],
+    "PATHS": []
+  },
+  {
+    "id": "evacuation_route",
+    "SCENE": {
+      "LOCATION": "Laboratory - Emergency Exit",
+      "MOOD": "Tense",
+      "CHARACTERS": [
+        "Kurisu",
+        "Player"
+      ],
+      "BACKGROUND_IMAGE": "lab.jpg",
+      "BACKGROUND_EDIT": null
+    },
+    "SCRIPT": [
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "You might be right. If the temporal field collapses completely, we need to be far away from here.",
+        "EXPRESSION": "sad"
+      },
+      {
+        "CHARACTER": "Player",
+        "LINE": "How far is far enough when we're talking about reality itself breaking down?",
+        "EXPRESSION": null
+      },
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "I... I don't know. Maybe there's nowhere far enough. We have to try to fix this instead.",
+        "EXPRESSION": "sad"
+      },
+      {
+        "CHARACTER": "Narrator",
+        "LINE": "As you reach the exit, you see the temporal distortions spreading beyond the laboratory walls.",
+        "EXPRESSION": null
+      }
+    ],
+    "PATHS": [
+      {
+        "CHOICE": "We can't run from this. Let's go back and fix it.",
+        "TARGET": "emergency_protocol",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      },
+      {
+        "CHOICE": "Keep running and hope for the best",
+        "TARGET": "escape_attempt",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      }
+    ]
+  },
+  {
+    "id": "time_proof",
+    "SCENE": {
+      "LOCATION": "Laboratory - Data Terminal",
+      "MOOD": "Analytical",
+      "CHARACTERS": [
+        "Kurisu",
+        "Player"
+      ],
+      "BACKGROUND_IMAGE": "lab.jpg",
+      "BACKGROUND_EDIT": null
+    },
+    "SCRIPT": [
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "Look at these readings! The quantum field measurements are completely off the charts.",
+        "EXPRESSION": "neutral"
+      },
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "This level of temporal distortion is only possible if we've actually manipulated time itself.",
+        "EXPRESSION": "neutral"
+      },
+      {
+        "CHARACTER": "Player",
+        "LINE": "These numbers... they're incredible. But what does it all mean?",
+        "EXPRESSION": null
+      },
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "It means we're in serious trouble. Now do you believe we need to act quickly?",
+        "EXPRESSION": "angry"
+      }
+    ],
+    "PATHS": [
+      {
+        "CHOICE": "Yes, I believe you now. Let's fix this!",
+        "TARGET": "emergency_protocol",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      },
+      {
+        "CHOICE": "Show me the time machine itself",
+        "TARGET": "time_machine",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      }
+    ]
+  },
+  {
+    "id": "shutdown_attempt",
+    "SCENE": {
+      "LOCATION": "Laboratory - Control Panel",
+      "MOOD": "Focused",
+      "CHARACTERS": [
+        "Kurisu",
+        "Player"
+      ],
+      "BACKGROUND_IMAGE": "lab.jpg",
+      "BACKGROUND_EDIT": null
+    },
+    "SCRIPT": [
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "Shutting it down safely is our best option, but it requires precise timing and coordination.",
+        "EXPRESSION": "neutral"
+      },
+      {
+        "CHARACTER": "Player",
+        "LINE": "Tell me exactly what I need to do.",
+        "EXPRESSION": null
+      },
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "We need to gradually reduce the temporal field strength while maintaining quantum stability.",
+        "EXPRESSION": "neutral"
+      },
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "One wrong move and we could make the situation much worse.",
+        "EXPRESSION": "sad"
+      }
+    ],
+    "PATHS": [
+      {
+        "CHOICE": "Let's do this carefully and methodically",
+        "TARGET": "successful_shutdown",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      },
+      {
+        "CHOICE": "Maybe time travel is safer after all",
+        "TARGET": "time_travel_plan",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      }
+    ]
+  },
+  {
+    "id": "alternative_solution",
+    "SCENE": {
+      "LOCATION": "Laboratory - Research Station",
+      "MOOD": "Contemplative",
+      "CHARACTERS": [
+        "Kurisu",
+        "Player"
+      ],
+      "BACKGROUND_IMAGE": "lab.jpg",
+      "BACKGROUND_EDIT": null
+    },
+    "SCRIPT": [
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "There might be another way... What if we could stabilize the timeline without shutting down the machine?",
+        "EXPRESSION": "neutral"
+      },
+      {
+        "CHARACTER": "Player",
+        "LINE": "How would that work?",
+        "EXPRESSION": null
+      },
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "We could try to create a temporal anchor - something that locks our timeline in place.",
+        "EXPRESSION": "happy"
+      },
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "It's theoretical, but it might be safer than the other options.",
+        "EXPRESSION": "neutral"
+      }
+    ],
+    "PATHS": [
+      {
+        "CHOICE": "Let's try the temporal anchor idea",
+        "TARGET": "successful_shutdown",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      },
+      {
+        "CHOICE": "That sounds too risky. Let's shut it down normally.",
+        "TARGET": "shutdown_attempt",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      }
+    ]
+  },
+  {
+    "id": "partnership_formed",
+    "SCENE": {
+      "LOCATION": "Laboratory - Main Area",
+      "MOOD": "Hopeful",
+      "CHARACTERS": [
+        "Kurisu",
+        "Player"
+      ],
+      "BACKGROUND_IMAGE": "lab.jpg",
+      "BACKGROUND_EDIT": null
+    },
+    "SCRIPT": [
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "Thank you for trusting me. Together, we can fix this mess and save our timeline.",
+        "EXPRESSION": "happy"
+      },
+      {
+        "CHARACTER": "Player",
+        "LINE": "What's our first step?",
+        "EXPRESSION": null
+      },
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "We need to assess the damage and decide on our approach. Let me show you the time machine.",
+        "EXPRESSION": "neutral"
+      }
+    ],
+    "PATHS": [
+      {
+        "CHOICE": "Show me the machine",
+        "TARGET": "time_machine",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      },
+      {
+        "CHOICE": "Let's start working on a solution immediately",
+        "TARGET": "emergency_protocol",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      }
+    ]
+  },
+  {
+    "id": "demand_evidence",
+    "SCENE": {
+      "LOCATION": "Laboratory - Evidence Room",
+      "MOOD": "Tense",
+      "CHARACTERS": [
+        "Kurisu",
+        "Player"
+      ],
+      "BACKGROUND_IMAGE": "lab.jpg",
+      "BACKGROUND_EDIT": null
+    },
+    "SCRIPT": [
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "I understand your skepticism. Look at these research notes - they're in your handwriting.",
+        "EXPRESSION": "neutral"
+      },
+      {
+        "CHARACTER": "Player",
+        "LINE": "This... this does look like my writing. But I still don't remember any of this.",
+        "EXPRESSION": null
+      },
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "The temporal displacement affected your memory. But the evidence is all here.",
+        "EXPRESSION": "sad"
+      },
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "We don't have much time to convince you. Will you trust the evidence?",
+        "EXPRESSION": "neutral"
+      }
+    ],
+    "PATHS": [
+      {
+        "CHOICE": "The evidence is convincing. I'll help you.",
+        "TARGET": "partnership_formed",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      },
+      {
+        "CHOICE": "I need to see the actual time machine",
+        "TARGET": "time_machine",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      }
+    ]
+  },
+  {
+    "id": "escape_attempt",
+    "SCENE": {
+      "LOCATION": "Laboratory - Exit Blocked",
+      "MOOD": "Dramatic",
+      "CHARACTERS": [
+        "Kurisu",
+        "Player"
+      ],
+      "BACKGROUND_IMAGE": "lab.jpg",
+      "BACKGROUND_EDIT": null
+    },
+    "SCRIPT": [
+      {
+        "CHARACTER": "Narrator",
+        "LINE": "As you reach the exit, you find the door won't open. The temporal distortions have sealed you inside.",
+        "EXPRESSION": null
+      },
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "I'm sorry, but there's no escape. The temporal field has locked down the entire facility.",
+        "EXPRESSION": "sad"
+      },
+      {
+        "CHARACTER": "Player",
+        "LINE": "So we're trapped here until we fix this?",
+        "EXPRESSION": null
+      },
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "Yes. Our only choice is to work together and repair the timeline.",
+        "EXPRESSION": "neutral"
+      }
+    ],
+    "PATHS": [
+      {
+        "CHOICE": "Fine. Let's fix this together.",
+        "TARGET": "partnership_formed",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      },
+      {
+        "CHOICE": "Show me what we're dealing with",
+        "TARGET": "time_machine",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      }
+    ]
+  },
+  {
+    "id": "critical_mistake",
+    "SCENE": {
+      "LOCATION": "Laboratory - Crisis",
+      "MOOD": "Dramatic",
+      "CHARACTERS": [
+        "Kurisu",
+        "Player"
+      ],
+      "BACKGROUND_IMAGE": "lab.jpg",
+      "BACKGROUND_EDIT": null
+    },
+    "SCRIPT": [
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "Wait, that's not the right switch! You've made it worse!",
+        "EXPRESSION": "angry"
+      },
+      {
+        "CHARACTER": "Narrator",
+        "LINE": "The laboratory shakes violently as the temporal distortions grow stronger.",
+        "EXPRESSION": null
+      },
+      {
+        "CHARACTER": "Player",
+        "LINE": "I'm sorry! How do we fix this?",
+        "EXPRESSION": null
+      },
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "We have no choice now. We have to use the time machine to go back and prevent this mistake!",
+        "EXPRESSION": "angry"
+      }
+    ],
+    "PATHS": [
+      {
+        "CHOICE": "Use the time machine to fix our mistake",
+        "TARGET": "joint_time_travel",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      }
+    ]
+  },
+  {
+    "id": "partial_success",
+    "SCENE": {
+      "LOCATION": "Laboratory - Partial Recovery",
+      "MOOD": "Relieved",
+      "CHARACTERS": [
+        "Kurisu",
+        "Player"
+      ],
+      "BACKGROUND_IMAGE": "lab.jpg",
+      "BACKGROUND_EDIT": null
+    },
+    "SCRIPT": [
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "Good! The field is stabilizing, but it's not completely fixed yet.",
+        "EXPRESSION": "neutral"
+      },
+      {
+        "CHARACTER": "Player",
+        "LINE": "What do we need to do to finish the job?",
+        "EXPRESSION": null
+      },
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "One more careful adjustment should do it. Are you ready?",
+        "EXPRESSION": "neutral"
+      }
+    ],
+    "PATHS": [
+      {
+        "CHOICE": "Let's finish this properly",
+        "TARGET": "successful_shutdown",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      },
+      {
+        "CHOICE": "Maybe we should try the time travel option instead",
+        "TARGET": "joint_time_travel",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      }
+    ]
+  },
+  {
+    "id": "solo_time_travel",
+    "SCENE": {
+      "LOCATION": "Laboratory - Time Portal",
+      "MOOD": "Dramatic",
+      "CHARACTERS": [
+        "Kurisu",
+        "Player"
+      ],
+      "BACKGROUND_IMAGE": "lab.jpg",
+      "BACKGROUND_EDIT": null
+    },
+    "SCRIPT": [
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "I can't let you go alone. This is my responsibility too.",
+        "EXPRESSION": "sad"
+      },
+      {
+        "CHARACTER": "Player",
+        "LINE": "But if something goes wrong, at least one of us should survive to try again.",
+        "EXPRESSION": null
+      },
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "You're right, but I'm the one who understands the machine better. Let me go instead.",
+        "EXPRESSION": "neutral"
+      },
+      {
+        "CHARACTER": "Player",
+        "LINE": "No, we should face this together.",
+        "EXPRESSION": null
+      }
+    ],
+    "PATHS": [
+      {
+        "CHOICE": "You're right. Let's go together.",
+        "TARGET": "joint_time_travel",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      },
+      {
+        "CHOICE": "Let Kurisu go alone since she knows the machine better",
+        "TARGET": "joint_time_travel",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      }
+    ]
+  },
+  {
+    "id": "second_thoughts",
+    "SCENE": {
+      "LOCATION": "Laboratory - Hesitation",
+      "MOOD": "Contemplative",
+      "CHARACTERS": [
+        "Kurisu",
+        "Player"
+      ],
+      "BACKGROUND_IMAGE": "lab.jpg",
+      "BACKGROUND_EDIT": null
+    },
+    "SCRIPT": [
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "You're having doubts about time travel? I understand - it is incredibly risky.",
+        "EXPRESSION": "neutral"
+      },
+      {
+        "CHARACTER": "Player",
+        "LINE": "What if we make things worse? What if we create a paradox?",
+        "EXPRESSION": null
+      },
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "Those are valid concerns. Maybe we should try the shutdown procedure first.",
+        "EXPRESSION": "sad"
+      },
+      {
+        "CHARACTER": "Kurisu",
+        "LINE": "But we need to decide quickly - the temporal distortion is growing stronger.",
+        "EXPRESSION": "neutral"
+      }
+    ],
+    "PATHS": [
+      {
+        "CHOICE": "Let's try the safe shutdown method",
+        "TARGET": "shutdown_attempt",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      },
+      {
+        "CHOICE": "No, time travel is our best shot",
+        "TARGET": "joint_time_travel",
+        "STATE_CHANGE": null,
+        "CONDITION": null
+      }
+    ]
+  }
+]
