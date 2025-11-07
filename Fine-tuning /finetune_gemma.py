@@ -33,7 +33,7 @@ def safe_list_repo_templates(*args, **kwargs):
 
 hub_utils.list_repo_templates = safe_list_repo_templates
 
-print("✓ Applied patches to prevent 404 errors")
+print("Applied patches to prevent 404 errors")
 
 # ============================================
 # Now import everything else
