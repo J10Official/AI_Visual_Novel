@@ -1,0 +1,24 @@
+{
+  "base_model": "google/gemma-2-2b-it",
+  "lora_config": {
+    "r": 16,
+    "lora_alpha": 32,
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ],
+    "lora_dropout": 0.05,
+    "bias": "none",
+    "task_type": "CAUSAL_LM"
+  },
+  "quantization_config": {
+    "load_in_4bit": true,
+    "bnb_4bit_quant_type": "nf4",
+    "bnb_4bit_compute_dtype": "bfloat16",
+    "bnb_4bit_use_double_quant": true
+  },
+  "training_notes": "Fixed version with proper EOS tokens and label masking for screenplay format",
+  "format": "Screenplay with SCENE, NARRATION, DIALOGUE, and PATHS"
+}
