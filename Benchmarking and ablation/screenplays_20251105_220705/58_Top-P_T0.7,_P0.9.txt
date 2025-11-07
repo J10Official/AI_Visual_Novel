@@ -1,0 +1,13 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical Pond
+MOOD: mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Daytime, a large, quiet pond with reeds, a mystical atmosphere
+
+[NARRATION] The woodcutter walks towards the pond, his face serious. He walks very still and silent. He stares at the water for a long moment, then:
+Woodcutter (Observant): Is that your boy?
+[NARRATION] The boy is already in the water. He is swimming like a fish, laughing. The old man smiles. He watches his son swim, then turns and walks away. He keeps walking, but his steps are slower now. He is no longer focused on the water. He is looking ahead, walking as if he is lost.
+[NARRATION] The pond is very big. The water is quiet. The reeds are tall and thick, growing right up to the edge of the water.
+[NARRATION] The man walks for a long time, then suddenly stops. He looks back at the pond. The boy is still swimming. The man sighs. He turns and walks back to the house.

@@ -1,0 +1,31 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical Pond
+MOOD: Mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Morning, water lilies on the shore, fog rolling in
+
+[NARRATION] The water lilies are in full bloom. Fog is rolling in.
+Woodcutter (Surprised): I ... I didn’t...
+[NARRATION] The boy stops, breathless.
+[NARRATION] THE WOODCUTTER turns, but something prevents him from looking.
+[NARRATION] THE POND SPIRIT floats toward THE WOODCUTTER, a long-limbed woman with the face of a bird. She seems almost weightless, and her head is as beautiful as the best lilies in the pond.
+[NARRATION] She floats over to the boy and smiles gently. Then she turns to THE WOODCUTTER, not smiling.
+Pond Spirit (Ostracized): Is a woman. Is a woman separated from her kind. Is a bird.
+Woodcutter (Confused): Woman?
+Pond Spirit (Disbelieving): Woman! What else could she be?
+Woodcutter: What do you mean?
+Pond Spirit (Demanding): What do you mean? Woman!
+Pond Spirit (Re-affirmed): She’s a woman of the earth, a woman of the air, she’s a woman of water. Is water.
+Pond Spirit (Relieved): And she is freed. Finally, freed.
+Pond Spirit (Hopeful): She is free to be with you.
+[NARRATION] THE WOODCUTTER stops. He looks at her, then at himself, then at the BOY.
+Pond Spirit (Inquisitive): Are you with her? Is she with you?
+Woodcutter (Hesitant): Me? God, no. Me?
+Pond Spirit (Angry): He is with her!
+Sandpiper (Accusing): No! He’s with us. He’s one of us. He’s a light bearer. He’s a keeper of the fire. He carries the coal. He’s the keeper.
+Woodcutter (Scared): I-I am no keeper of any fire. I never was. Just a man with a knife.
+[NARRATION] He tries to run. He does not run far.
+Pond Spirit (Stern): No! He is a keeper!
+Sandpiper (

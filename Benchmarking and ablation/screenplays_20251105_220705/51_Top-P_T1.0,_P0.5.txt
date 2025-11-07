@@ -1,0 +1,33 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical pond
+MOOD: mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Daytime, a small pond, surrounded by trees
+
+[NARRATION] The woodcutter reaches the pond. It is small, and surrounded by trees. He steps to the edge of the water.
+[NARRATION] As he looks out over the pond, he sees something strange. It is a small, translucent creature, no bigger than a duckling, floating on the surface of the water.
+[NARRATION] The woodcutter reaches out to the creature, but it slips through his fingers.
+[NARRATION] The creature floats closer to the shore, and then stops. It looks at the woodcutter with large, curious eyes.
+[NARRATION] The woodcutter stares back.
+[NARRATION] The creature begins to swim towards the shore, and then stops again.
+[NARRATION] The woodcutter watches as the creature swims to him, then stops, its head cocked to the side.
+[NARRATION] The creature makes a sound like a small whistle.
+[NARRATION] The woodcutter looks at the creature, confused.
+[NARRATION] The creature makes another sound, closer to a meow.
+[NARRATION] The woodcutter looks around.
+[NARRATION] The creature makes a sound, like a cat chirping.
+[NARRATION] The woodcutter looks back at the creature.
+[NARRATION] The creature makes a sound, like a cat chirping.
+[NARRATION] The woodcutter looks back at the creature.
+[NARRATION] The creature makes a sound, like a cat chirping.
+[NARRATION] The woodcutter looks back at the creature.
+[NARRATION] The creature makes a sound, like a cat chirping.
+[NARRATION] The woodcutter looks back at the creature.
+[NARRATION] The creature makes a sound, like a cat chirping.
+[NARRATION] The woodcutter looks back at the creature.
+[NARRATION] The creature makes a sound, like a cat chirping.
+[NARRATION] The woodcutter looks back at the creature.
+[NARRATION] The creature makes a sound, like a cat chirping.
+[NARRATION] The woodcutter looks back at the creature.

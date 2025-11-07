@@ -1,0 +1,31 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical pond
+MOOD: mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Nighttime, a large pond, surrounded by trees
+
+[NARRATION] He walks toward the pond.
+[NARRATION] We see the pond is full of the most beautiful flowers. They are all glowing in the moonlight.
+[NARRATION] The woodcutter stops by the bank of the pond and looks in.
+[NARRATION] Suddenly, a hand reaches out of the water.
+[NARRATION] The hand is long and skinny. It is covered in scales.
+[NARRATION] The woodcutter steps closer.
+[NARRATION - Terrified] He can now see that a man is sitting in the middle of the pond and that his head, is covered by a beautiful crown of flowers, and that his body is covered in the same beautiful flowers.
+[NARRATION] The man reaches out with one hand and grabs a lily pad from the pond.
+[NARRATION - Terrified] The man takes a deep breath and starts to eat.
+[NARRATION] The man is smiling. His teeth are long and sharp.
+[NARRATION] The man puts down the lily pad and reaches out with the other hand.
+[NARRATION - Terrified] The man picks up the lily and takes a bite out of its stalk.
+[NARRATION - Terrified] The man takes a deep breath.
+[NARRATION] As he does, the lily begins to glow brighter.
+[NARRATION] The man smiles.
+[NARRATION] He picks up another lily and takes a bite.
+[NARRATION] As he does, the lily starts to glow brighter.
+[NARRATION - Terrified] The man smiles wider.
+[NARRATION - Terrified] He picks up another lily and takes a bite.
+[NARRATION - Terrified] As he does, the lily turns white and begins to float away.
+[NARRATION] The man smiles.
+[NARRATION - Terrified] He has never seen anything like this before.
+[NARRATION - Terrified] He is about to speak when the man’s hand grabs his own and the man pulls him under the water.

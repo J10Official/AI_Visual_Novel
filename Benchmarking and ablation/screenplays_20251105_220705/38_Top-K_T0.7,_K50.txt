@@ -1,0 +1,16 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical pond
+MOOD: mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Late afternoon, pond covered in lilies, woodcutter searching, pond spirit appearing
+
+[NARRATION] The woodcutter, long and lean with sun-weathered skin and a beard that reaches to his chest, carefully places a large net full of lilies into the water. He walks to the edge of the pond, his eyes fixed on the water. The lilies sit perfectly in a circle on the bottom.
+[NARRATION] He pauses and begins to bend over the lilies, peering under the water. He reaches toward a lily, trying to grab it, but it slips through his fingers.
+[NARRATION] A small figure, no bigger than a toad, comes to the surface in front of the woodcutter.
+[NARRATION] The woodcutter jumps back, astonished.
+[NARRATION] The small figure stares at him, then slowly floats away.
+
+CHOICES:
+- Observe the pond spirit → pond_spirit_appearance

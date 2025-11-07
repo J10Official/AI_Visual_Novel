@@ -1,0 +1,25 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical pond
+MOOD: mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Nighttime, pond with a mystical glow
+
+[NARRATION] The woodcutter walks to the pond. He looks at it, then at the tree, then back at the pond.
+[NARRATION] The pond is glowing, almost like a fire.
+[NARRATION] The woodcutter walks to the edge of the pond and looks at his reflection.
+[NARRATION] He doesn’t see himself.
+[NARRATION] He looks at his hands. They are not his.
+[NARRATION] He looks at his feet. They are not his.
+[NARRATION] He looks at his face. It is not his.
+[NARRATION] The woodcutter is confused. He is scared.
+[NARRATION] He turns to leave, but the pond glows brighter.
+[NARRATION] The pond begins to bubble and swirl.
+[NARRATION] The pond begins to split open in the middle.
+[NARRATION] The pond begins to suck the woodcutter in.
+[NARRATION] The woodcutter screams.
+[NARRATION] The pond swallows him whole.
+
+CHOICES:
+- Continue → end

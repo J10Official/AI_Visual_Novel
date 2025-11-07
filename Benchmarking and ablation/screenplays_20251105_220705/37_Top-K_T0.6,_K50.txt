@@ -1,0 +1,24 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical Pond
+MOOD: Mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Daytime, shallow pond with lily pads, dense forest
+
+[NARRATION] The man walks to the shallow water, dipping his hand into the pond to feel the water. He fishes out a lily pad and holds it up to the light. The light does not reveal the lotus.
+[NARRATION] He turns to walk away, when suddenly he feels a strange thing brush his hand. He looks down. The lily pad has gone.
+[NARRATION] A translucent GREEN MASK floats in the water.
+[NARRATION] He reaches down to the water, grabs the mask and holds it up to the light. The light reveals, indeed, a lotus.
+[NARRATION] The man is amazed. He dips his hand back into the water and gently brushes the lotus.
+[NARRATION] The lotus floats up into his hand, then back down into the water.
+[NARRATION] The man begins to laugh.
+[NARRATION] He turns to leave, but the mask has vanished.
+[NARRATION] The man looks down and sees a small, green, almost slimy, hand holding it.
+[NARRATION] The man looks up, startled. The mask has floated up to the surface of the pond, just above the man’s head.
+[NARRATION] The mask floats closer, and then it suddenly drops down, revealing a face.
+[NARRATION] The face is that of a demon, with a wide mouth and long white teeth. The eyes are red and bulging.
+[NARRATION] The man is petrified.
+[NARRATION] The demon face smiles and winks at the man.
+[NARRATION] The man lets out a scream, then runs.
+[NARRATION] The demon face laughs and laughs.

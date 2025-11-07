@@ -1,0 +1,15 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical pond
+MOOD: mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Daytime, the edge of the pond, a man with a saw
+
+[NARRATION] He approaches the edge of the pond, the edge of the forest. He stops. He looks at the water, then at his saw.
+[NARRATION] There, on the shore of the pond, is the head of a man. He is sitting, as if he had been there for some time, but is also sitting upright. He wears a long black robe and sits with his arms crossed. The man’s head is not quite on his shoulders; his head seems to be slightly higher, and his torso seems to be wider at the top.
+[NARRATION] The man looks up at the woodcutter.
+[NARRATION] The woodcutter takes a big breath and starts sawing. He starts to work on the man’s torso.
+
+CHOICES:
+- Continue working on the man → man_body

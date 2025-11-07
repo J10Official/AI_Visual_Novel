@@ -1,0 +1,9 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical Pond
+MOOD: mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Woodcutter stopping by a small pond, looking at it
+
+[NARRATION] He stops for a moment by a small pond. He looks at it. The pond has a peculiar appearance.

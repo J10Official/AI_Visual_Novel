@@ -1,0 +1,19 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical Pond
+MOOD: Mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Waterside, mist
+
+[NARRATION] The woodcutter walks to the edge of the small water. It looks inviting, though it seems strange he’s not swimming.
+[NARRATION] As he steps into the mist, he passes under the bridge. It’s covered with wild flowers, and in the fog, the thing on the pillar seems real. But it’s not.
+[NARRATION] He goes to look at the water and sees what appears to be a small, furry animal floating on top. At first, he bends down and kicks at it, but it floats away. It’s a very strange bird.
+[NARRATION] He looks at his own feet, wondering if it’s been playing tricks on him again. He has to shake his head to get rid of the feeling. A small, white-grey butterfly flits towards him. He opens his arms to catch it, and it slides through his fingers into the water. The thing doesn’t even want to be touched. Its wings are beautiful.
+[NARRATION] He reaches into the water, grabs HOLD of the duck-like creature, and pulls it from beneath the water. It floats away in his hand with the butterfly on its back.
+[NARRATION] A small, white bird with beautiful, wide wings floats to him on top of a leaf. A bead of sweat drips from his forehead as he looks at the bird. He brings the creature to his chest. The butterfly flutters away.
+[NARRATION] This has been unusual, but the bird doesn’t seem malicious. The woodcutter tries to figure out what to do with it.
+[NARRATION] He looks at his axe, then bends down again. The duck tucks against his chest.
+[NARRATION - Suspicious/Scared] He closes his eyes and takes a step forward. The wings of the duck begin to flutter.
+[NARRATION - Questioning] The woodcutter stops. Now he can see the thing for what it is. The big bill, the hooked beak, and the duckling resting on its back at the bottom of the beak -- it is a duck-bill CRANE!!!
+[NARRATION - Terrified] He opens his eyes again

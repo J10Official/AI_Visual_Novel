@@ -1,0 +1,14 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical Pond
+MOOD: Mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Deep in the woods, a calm, dark pond
+
+[NARRATION] The woodcutter walks along to a small, quiet swamp in the woods. There is no road and he has to walk through dense trees. He pauses by a small, dark pond in the middle of the swamp.
+[NARRATION] The woodcutter looks down. He catches a glimpse of something in the water.
+[NARRATION] He dips his hand into the water. There is something in it, a long, slippery thing. He tries to grab it, but slips. He pulls his hand out of the water and looks at it.
+
+CHOICES:
+- Observe the pond water → pond_surface

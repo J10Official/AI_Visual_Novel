@@ -1,0 +1,9 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical Pond
+MOOD: Mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Dawn, man working a canoe
+
+[NARRATION] He is in his mid 50’s, with a strong face that seems to have a life of its own. A man of the elements, he’s wearing a worn flannel shirt, work pants and a worn out straw hat. He’s working a large wooden canoe by hand, carving out the interior, when suddenly a large, white, bird like creature, with huge eyes, and a head that seems to be made of water, floats up from behind him.

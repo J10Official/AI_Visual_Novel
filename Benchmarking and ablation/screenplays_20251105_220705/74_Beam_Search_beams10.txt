@@ -1,0 +1,20 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical pond
+MOOD: mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Daytime, a large pond with a small island in the middle
+
+[NARRATION] The woodcutter stops at the edge of a large pond. In the middle of the pond is a small island.
+[NARRATION] He walks to the edge of the pond and looks into the water.
+[NARRATION] Suddenly, a face appears in the water.
+[NARRATION] The woodcutter stares.
+[NARRATION] The face smiles.
+[NARRATION] The face disappears.
+[NARRATION] The face reappears.
+[NARRATION] The face smiles.
+[NARRATION] The face disappears.
+[NARRATION] The face reappears.
+[NARRATION] The face smiles.
+[NARRATION] The face disappears.

@@ -1,0 +1,19 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical Pond
+MOOD: Mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: The pond in the woods, surrounded by willow trees
+
+[NARRATION] We see the pond, the willow trees, the man and the child.
+[NARRATION] As the man walks by the pond, we see for the first time the thing in the water. A bird, or a turtle, or some other strange animal, but not one that can be easily identified.
+[NARRATION] The man walks closer to the pond and looks down at the strange creature. It is gone.
+[NARRATION] The man bends down to the edge of the water, and stares for a moment. Then:
+[NARRATION] Suddenly, a face appears out of the water! It is that of the pond spirit!
+[NARRATION] The man is momentarily startled. Then he smiles.
+[NARRATION] The spirit waves, holding a branch, which is floating in the water. It looks almost like a cane.
+[NARRATION] The man smiles again, this time a little bit more warmly. He waves back, then slowly starts to walk away.
+
+CHOICES:
+- Continue → tree_path

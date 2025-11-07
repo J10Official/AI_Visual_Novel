@@ -1,0 +1,19 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical pond
+MOOD: mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Daytime, large pond, mist rising
+
+[NARRATION] The man walks to the edge of the pond. The mist rises from the water.
+[NARRATION] The fog is very dense, obscuring the view. The man looks out.
+[NARRATION] Suddenly, a face appears in the fog.
+[NARRATION] The man’s eyes widen in shock.
+[NARRATION] The face in the fog comes closer.
+[NARRATION] The man takes a step back.
+[NARRATION] The face in the fog is now a few feet away. It is that of a man, but with a long beard and a wild look in his eyes.
+[NARRATION] The man stares in horror. The face in the fog smiles.
+
+CHOICES:
+- Continue → end

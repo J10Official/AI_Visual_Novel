@@ -1,0 +1,18 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical Pond
+MOOD: Mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Daytime, a large, mystical pond.
+
+[NARRATION] The woodcutter, exhausted but pleased, carries out his work of cutting down a tree. He is surrounded by a small clearing. Around him is a large mystical pond with reeds and other small vegetation growing along its sides. The water is clear and cold.
+
+[NARRATION] As he reaches the pond, he pauses to look around. His eyes slowly catch the reflection of his sun-bleached worn hat in the water. He looks to the reflection and it does not seem right. It is an image of a head of hair, not his own. He looks around, but sees nothing. He moves closer to the water to have a better look.
+
+[NARRATION] As he does so, the reflection begins to dissolve, and from the depths of the pond, a figure emerges. It is a man, but an otherworldly man, a man of the air and water, a spirit of the pond. He is dressed in the same clothes as the woodcutter, but they are somehow made of the water, and they shimmer in the light, or seem to be woven from light itself. The old man is afraid of the being.
+
+[NARRATION] The spirit stands and stares at the woodcutter. As does the man. Neither speaks.
+[NARRATION] The other man, the old one, raises his axe. He turns to the spirit, not wanting to provoke him, but he looks like a man defending his family from an attacker.
+[NARRATION] The spirit is motionless. In fact, he seems to be watching the man’s every move, seemingly waiting for an attack. The man doesn’t want to waste his time, so he starts to move away, but the spirit moves after him. The man walks for a while, quickly, away from the pond. The spirit moves after him. The man walks for another while, then stops and turns around to look at the pond. The man sees that the spirit is still there.
+[NARRATION] The man just stares at the pond for a while. He looks at his own reflection in the water, and sees that he is still a man of the earth. He is not of the air, and he is

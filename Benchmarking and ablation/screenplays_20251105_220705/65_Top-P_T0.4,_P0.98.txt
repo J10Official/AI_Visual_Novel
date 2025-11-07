@@ -1,0 +1,14 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical Pond
+MOOD: Mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Daytime, a small, clear pond in a forest, a man fishing
+
+[NARRATION] The man sits on a log by the water. He casts his line and waits. The water is small and clear.
+[NARRATION] Suddenly, a small, white, ethereal creature leaps from the water and lands on the log. It is a spirit, a fey creature, a water nymph. It is beautiful and delicate.
+[NARRATION] The man is startled. He looks at the creature, then at his fishing rod, then back at the creature. He doesn’t seem to know what to do.
+[NARRATION] The creature looks at him, then flies away.
+[NARRATION] The man watches it go.
+[NARRATION] He casts his line again.

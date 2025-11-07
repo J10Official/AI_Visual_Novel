@@ -1,0 +1,43 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical pond
+MOOD: mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Nighttime, a large pond with a small island in the middle
+
+[NARRATION] The woodcutter stops at the edge of a large pond. He looks at the small island in the middle of the water.
+[NARRATION] He begins to walk toward the island.
+[NARRATION] He reaches the island and looks around. There is nothing there.
+[NARRATION] Suddenly, a voice comes from behind him.
+[NARRATION] The woodcutter turns and sees a man in a white robe standing behind him.
+[NARRATION] The man smiles.
+[NARRATION] The woodcutter is scared. He tries to run away.
+[NARRATION] The man steps in front of him.
+[NARRATION] The man points to the pond.
+[NARRATION] The man points to the sky.
+[NARRATION] The man points to the island.
+[NARRATION] The man points to the earth.
+[NARRATION] The man points to the water.
+[NARRATION] The man points to himself.
+[NARRATION] The man points to the sky.
+[NARRATION] The man points to the island.
+[NARRATION] The man points to the earth.
+[NARRATION] The man points to the water.
+[NARRATION] The man points to himself.
+[NARRATION] The man points to the sky.
+[NARRATION] The man points to the island.
+[NARRATION] The man points to the earth.
+[NARRATION] The man points to the water.
+[NARRATION] The man points to himself.
+[NARRATION] The man points to the sky.
+[NARRATION] The man points to the island.
+[NARRATION] The man points to the earth.
+[NARRATION] The man points to the water.
+[NARRATION] The man points to himself.
+[NARRATION] The man points to the sky.
+[NARRATION] The man points to the island.
+[NARRATION] The man points to the earth.
+[NARRATION] The man points to the water.
+[NARRATION] The man points to himself.
+[NARRATION] The man

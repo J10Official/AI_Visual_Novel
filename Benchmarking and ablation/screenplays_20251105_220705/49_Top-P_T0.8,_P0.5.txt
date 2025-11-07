@@ -1,0 +1,32 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical pond
+MOOD: mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Daytime, a small, quiet pond with reeds
+
+[NARRATION] The woodcutter walks to the edge of the pond. He looks into the water.
+[NARRATION] The pond is small and quiet. There are reeds growing around the edge. The woodcutter looks deeper into the water.
+[NARRATION] Suddenly, the reeds move. The woodcutter looks again.
+[NARRATION] The reeds move again. The woodcutter leans closer to the water.
+[NARRATION] The reeds move again. The woodcutter leans closer to the water.
+[NARRATION] The reeds move again. The woodcutter leans closer to the water.
+[NARRATION] The reeds move again. The woodcutter leans closer to the water.
+[NARRATION] The reeds move again. The woodcutter leans closer to the water.
+[NARRATION] The reeds move again. The woodcutter leans closer to the water.
+[NARRATION] The reeds move again. The woodcutter leans closer to the water.
+[NARRATION] The reeds move again. The woodcutter leans closer to the water.
+[NARRATION] The reeds move again. The woodcutter leans closer to the water.
+[NARRATION] The reeds move again. The woodcutter leans closer to the water.
+[NARRATION] The reeds move again. The woodcutter leans closer to the water.
+[NARRATION] The reeds move again. The woodcutter leans closer to the water.
+[NARRATION] The reeds move again. The woodcutter leans closer to the water.
+[NARRATION] The reeds move again. The woodcutter leans closer to the water.
+[NARRATION] The reeds move again. The woodcutter leans closer to the water.
+[NARRATION] The reeds move again. The woodcutter leans closer to the water.
+[NARRATION] The reeds move again. The woodcutter leans closer to the water.
+[NARRATION] The reeds move again. The woodcutter leans closer to the water.
+[NARRATION] The reeds move again. The woodcutter leans closer to the water.
+[NARRATION] The reeds move again. The woodcutter leans closer to the water.
+[NARRATION

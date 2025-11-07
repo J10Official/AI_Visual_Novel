@@ -1,0 +1,15 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical pond
+MOOD: mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Woodcutter approaches pond, looking for the rare mushrooms
+
+[NARRATION] WE FOLLOW THE WOODCUTTER as he walks down the path to an immense, still pond. He looks around, trying to find the rare SHERRYMOSS, mushrooms he needs. He continues into the swamp.
+[NARRATION] Suddenly, as he walks down to the water... a glowing LIGHT begins over his head.
+[NARRATION] We follow his eyes as they slowly travel to the water: the LIGHT is emanating from the POND!
+[NARRATION] Hesitantly, as if unsure what he has found, the WOODCUTTER stops and stands mesmerized... A SPIRIT sits calmly on top of the pond... but there is something that makes it different... A little bit off.
+[NARRATION] The WOODCUTTER looks... waits for something to happen... Nothing happens. It is almost as if he had witnessed a ghost in plain sight.
+[NARRATION] His eyes travel to the side of the pond. His hand instinctively moves to his axe just in case.
+[NARRATION] It is in this exact moment that the SPIRIT... MOVES. Glowing light envelops the POND.

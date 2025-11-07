@@ -1,0 +1,11 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical Pond
+MOOD: Mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Daytime, pond with clear water, logs on the shore
+
+[NARRATION] The man goes to the edge of the pond. The water is clear, and there are logs lying on the shore.
+Woodcutter (Resigned): It’s the only way.
+[NARRATION] He starts to put the logs on a wheeled cart, and drags them to the shore of the pond. The logs seem to float a little, and the water seems to move to the logs, as if the pond were trying to swallow them up.

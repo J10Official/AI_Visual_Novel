@@ -1,0 +1,30 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical Pond
+MOOD: Mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Daytime, pond with a mystical light
+
+[NARRATION] The woodcutter walks to the pond. He looks at it, then looks at the sky.
+[NARRATION] Suddenly, the pond begins to light up. The flames are very small, and the light is very soft.
+[NARRATION] The woodcutter stops. The light grows stronger. The flames grow larger.
+[NARRATION] The light grows so strong that it begins to illuminate the water around the edges of the pond.
+[NARRATION] The woodcutter looks at the light, then at his axe, then at the pond.
+[NARRATION] The light grows brighter. It grows so bright that it begins to illuminate the sky above the pond.
+[NARRATION] The woodcutter doesn’t make a sound. He just looks at the light.
+[NARRATION] The light grows so bright that it begins to illuminate the forest around the pond.
+[NARRATION] The light grows so bright that it begins to illuminate the moon.
+[NARRATION] The woodcutter doesn’t make a sound. He just looks at the light.
+[NARRATION] The light begins to glow brighter and brighter, until it begins to glow like the sun.
+[NARRATION] The woodcutter doesn’t make a sound. He just looks at the light.
+[NARRATION] The light grows so bright that it begins to illuminate the stars.
+[NARRATION] The woodcutter doesn’t make a sound. He just looks at the light.
+[NARRATION] The light grows so bright that it begins to illuminate the whole night sky.
+[NARRATION] The light grows so bright that it begins to illuminate the moon.
+[NARRATION] The light grows so bright that it begins to illuminate the stars.
+[NARRATION] The light grows so bright that it begins to illuminate the night sky.
+[NARRATION] The light grows so bright that it begins to illuminate the moon.
+[NARRATION] The light grows so bright that it begins to illuminate the stars.
+[NARRATION] The light grows so bright that it begins to illuminate the night sky.
+[NARRATION] The light grows so bright that it begins

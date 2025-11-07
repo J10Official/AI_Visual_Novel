@@ -1,0 +1,41 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical pond
+MOOD: mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Daytime, a small, shallow pond with reeds and lily pads
+
+[NARRATION] The woodcutter walks to the edge of the pond and looks into it. He sees a small, shallow pond with reeds and lily pads.
+[NARRATION] He reaches into his pocket and pulls out a small bottle of rum. He pours a small amount of rum into his hands and sprinkles it over the water.
+[NARRATION] The rum seems to disappear into the water.
+[NARRATION] The woodcutter takes a swig of rum. He looks into the water again.
+[NARRATION] Suddenly, THE POND SPIRIT appears! He is a tall, skinny man with a beard and a crown of reeds on his head. He wears a loincloth and carries a club.
+[NARRATION] The woodcutter is shocked. He drops his bottle of rum.
+[NARRATION] The Pond Spirit smiles.
+[NARRATION] The woodcutter is speechless.
+[NARRATION] The Pond Spirit waves his club in the air.
+[NARRATION] The woodcutter nods.
+[NARRATION] The Pond Spirit smiles.
+[NARRATION] The woodcutter nods.
+[NARRATION] The Pond Spirit waves his club again.
+[NARRATION] The woodcutter nods.
+[NARRATION] The Pond Spirit smiles.
+[NARRATION] The woodcutter nods.
+[NARRATION] The Pond Spirit waves his club again.
+[NARRATION] The woodcutter nods.
+[NARRATION] The Pond Spirit smiles.
+[NARRATION] The woodcutter nods.
+[NARRATION] The Pond Spirit waves his club again.
+[NARRATION] The woodcutter nods.
+[NARRATION] The Pond Spirit smiles.
+[NARRATION] The woodcutter nods.
+[NARRATION] The Pond Spirit waves his club again.
+[NARRATION] The woodcutter nods.
+[NARRATION] The Pond Spirit smiles.
+[NARRATION] The woodcutter nods.
+[NARRATION] The Pond Spirit waves his club again.
+[NARRATION] The woodcutter nods.
+[NARRATION] The Pond Spirit smiles.
+[NARRATION] The woodcutter nods.
+[NARRATION]

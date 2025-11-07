@@ -1,0 +1,18 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical pond
+MOOD: mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Daytime, a small pond with a mystical quality
+
+[NARRATION] The woodcutter walks to the edge of the pond and looks into it.
+[NARRATION] He sees the same thing he saw before: a small, white, furry creature floating on the water.
+[NARRATION] He walks to the edge of the pond and stares at it.
+[NARRATION] The creature floats closer to the shore.
+[NARRATION] The woodcutter reaches out to grab it, but it slips through his fingers.
+[NARRATION] The creature floats away, disappearing into the reeds.
+[NARRATION] The woodcutter watches it go.
+
+CHOICES:
+- Continue → end

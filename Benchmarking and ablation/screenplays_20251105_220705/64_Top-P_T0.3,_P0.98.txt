@@ -1,0 +1,40 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical pond
+MOOD: mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Daytime, a large pond with a small island in the middle
+
+[NARRATION] The woodcutter walks to the edge of the pond. He looks out at the small island in the middle.
+[NARRATION] The island is covered with reeds and cattails. The water around it is still.
+[NARRATION] The woodcutter takes a deep breath and leaps into the water. He swims to the island.
+[NARRATION] As he gets closer to the island, he sees something strange.
+[NARRATION] The island is covered with a layer of something white. It looks like snow.
+[NARRATION] The woodcutter reaches the island and looks down.
+[NARRATION] He sees that the white layer is actually feathers.
+[NARRATION] The woodcutter looks around. There are no birds on the island.
+[NARRATION] He looks down at his feet and sees that he is wearing a pair of shoes.
+[NARRATION] He takes off his shoes and looks down at his feet.
+[NARRATION] There are no shoes.
+[NARRATION] He looks down at his feet again.
+[NARRATION] There are no feet.
+[NARRATION] He looks down at his feet again.
+[NARRATION] There are no feet.
+[NARRATION] He looks down at his feet again.
+[NARRATION] There are no feet.
+[NARRATION] He looks down at his feet again.
+[NARRATION] There are no feet.
+[NARRATION] He looks down at his feet again.
+[NARRATION] There are no feet.
+[NARRATION] He looks down at his feet again.
+[NARRATION] There are no feet.
+[NARRATION] He looks down at his feet again.
+[NARRATION] There are no feet.
+[NARRATION] He looks down at his feet again.
+[NARRATION] There are no feet.
+[NARRATION] He looks down at his feet again.
+[NARRATION] There are no feet.
+[NARRATION] He looks down at his feet again.
+[NARRATION] There are no feet.
+[NARRATION] He looks down at

@@ -1,0 +1,33 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical pond
+MOOD: mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Daytime, a small, muddy pond
+
+[NARRATION] The woodcutter walks to the edge of the pond and looks into it.
+[NARRATION] He sees the same thing: a small, muddy pond.
+[NARRATION] He walks to the other side of the pond and looks into it.
+[NARRATION] He sees the same thing: a small, muddy pond.
+[NARRATION] He walks back to the first side of the pond and looks into it again.
+[NARRATION] He sees the same thing: a small, muddy pond.
+[NARRATION] He walks to the other side of the pond and looks into it.
+[NARRATION] He sees the same thing: a small, muddy pond.
+[NARRATION] He walks back to the first side of the pond and looks into it again.
+[NARRATION] He sees the same thing: a small, muddy pond.
+[NARRATION] He walks to the other side of the pond and looks into it.
+[NARRATION] He sees the same thing: a small, muddy pond.
+[NARRATION] He walks back to the first side of the pond and looks into it again.
+[NARRATION] He sees the same thing: a small, muddy pond.
+[NARRATION] He walks to the other side of the pond and looks into it.
+[NARRATION] He sees the same thing: a small, muddy pond.
+[NARRATION] He walks back to the first side of the pond and looks into it again.
+[NARRATION] He sees the same thing: a small, muddy pond.
+[NARRATION] He walks to the other side of the pond and looks into it.
+[NARRATION] He sees the same thing: a small, muddy pond.
+[NARRATION] He walks back to the first side of the pond and looks into it again.
+[NARRATION] He sees the same thing: a small, muddy pond.
+[NARRATION] He walks to the other side of the pond and looks into it.
+[NARRATION] He sees the same thing: a small, muddy pond.
+[NARRATION] He walks back to the first

@@ -1,0 +1,51 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical pond
+MOOD: mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Daytime, a small pond with a mystical quality
+
+[NARRATION] The woodcutter walks to the edge of the pond. He looks at the water.
+[NARRATION] Suddenly, the water begins to move. The woodcutter looks closer.
+[NARRATION] The water moves again.
+[NARRATION] The woodcutter looks again.
+[NARRATION] The water moves again.
+[NARRATION] The woodcutter looks again.
+[NARRATION] The water moves again.
+[NARRATION] The water moves again.
+[NARRATION] The water moves again.
+[NARRATION] The water moves again.
+[NARRATION] The water moves again.
+[NARRATION] The water moves again.
+[NARRATION] The water moves again.
+[NARRATION] The water moves again.
+[NARRATION] The water moves again.
+[NARRATION] The water moves again.
+[NARRATION] The water moves again.
+[NARRATION] The water moves again.
+[NARRATION] The water moves again.
+[NARRATION] The water moves again.
+[NARRATION] The water moves again.
+[NARRATION] The water moves again.
+[NARRATION] The water moves again.
+[NARRATION] The water moves again.
+[NARRATION] The water moves again.
+[NARRATION] The water moves again.
+[NARRATION] The water moves again.
+[NARRATION] The water moves again.
+[NARRATION] The water moves again.
+[NARRATION] The water moves again.
+[NARRATION] The water moves again.
+[NARRATION] The water moves again.
+[NARRATION] The water moves again.
+[NARRATION] The water moves again.
+[NARRATION] The water moves again.
+[NARRATION] The water moves again.
+[NARRATION] The water moves again.
+[NARRATION] The water moves again.
+[NARRATION] The water moves again.
+[NARRATION] The water moves again.
+[NARRATION] The water moves again.
+[NARRATION] The water moves again.
+[NARRATION] The water moves again

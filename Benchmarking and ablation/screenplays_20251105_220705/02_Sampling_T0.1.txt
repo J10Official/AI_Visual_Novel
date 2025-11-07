@@ -1,0 +1,34 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical pond
+MOOD: mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Nighttime, a man walks to the edge of a pond, a small, mystical island in the middle
+
+[NARRATION] The man walks to the edge of the pond. He looks out at the small, mystical island in the middle of the water.
+[NARRATION] He walks to the island and looks around.
+[NARRATION] He sees a small, wooden shack on the island.
+[NARRATION] He walks to the shack and knocks.
+[NARRATION] A voice answers, “Who’s there?”
+[NARRATION] The man says, “I’m the woodcutter. I’m here to trade.”
+[NARRATION] The voice says, “Come in.”
+[NARRATION] The man walks to the shack and knocks again.
+[NARRATION] The voice says, “Who’s there?”
+[NARRATION] The man says, “I’m the woodcutter. I’m here to trade.”
+[NARRATION] The voice says, “Come in.”
+[NARRATION] The man walks to the shack and knocks again.
+[NARRATION] The voice says, “Who’s there?”
+[NARRATION] The man says, “I’m the woodcutter. I’m here to trade.”
+[NARRATION] The voice says, “Come in.”
+[NARRATION] The man walks to the shack and knocks again.
+[NARRATION] The voice says, “Who’s there?”
+[NARRATION] The man says, “I’m the woodcutter. I’m here to trade.”
+[NARRATION] The voice says, “Come in.”
+[NARRATION] The man walks to the shack and knocks again.
+[NARRATION] The voice says, “Who’s there?”
+[NARRATION] The man says, “I’m the woodcutter. I’m here to trade.”
+[NARRATION] The voice says, “Come in.”
+[NARRATION] The man walks to the shack and knocks again.
+[NARRATION] The voice says, “Who’s there?”
+[NARRATION] The man says, “I’m the woodcutter.

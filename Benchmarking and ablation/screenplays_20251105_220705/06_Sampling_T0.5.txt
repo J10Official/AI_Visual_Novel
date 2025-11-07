@@ -1,0 +1,41 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical pond
+MOOD: mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Daytime, a large pond with reeds
+
+[NARRATION] The man walks toward the pond. He stops at the edge of the water. The pond is deep and full of reeds.
+[NARRATION] He looks toward the reeds and then looks up at the sky.
+[NARRATION] Suddenly, the reeds begin to sway and move. A spirit appears. This is the swamp spirit. He is tall and slender, with long hair and beard and wearing a tattered cloak.
+[NARRATION] The man is startled. He looks at his hands. He is sweating.
+[NARRATION] The spirit smiles. He holds out his hands.
+[NARRATION] The man looks back at the sky. He doesn’t know what to do.
+[NARRATION] The spirit smiles again. He holds out his hands again.
+[NARRATION] The man takes out his axe. He holds it up to the spirit.
+[NARRATION] The spirit smiles. He raises his hands.
+[NARRATION] The man raises his axe.
+[NARRATION] The spirit raises his hands.
+[NARRATION] The man raises his axe.
+[NARRATION] The spirit raises his hands.
+[NARRATION] The man raises his axe.
+[NARRATION] The spirit raises his hands.
+[NARRATION] The man raises his axe.
+[NARRATION] The spirit raises his hands.
+[NARRATION] The man raises his axe.
+[NARRATION] The spirit raises his hands.
+[NARRATION] The man raises his axe.
+[NARRATION] The spirit raises his hands.
+[NARRATION] The man raises his axe.
+[NARRATION] The spirit raises his hands.
+[NARRATION] The man raises his axe.
+[NARRATION] The spirit raises his hands.
+[NARRATION] The man raises his axe.
+[NARRATION] The spirit raises his hands.
+[NARRATION] The man raises his axe.
+[NARRATION] The spirit raises his hands.
+[NARRATION] The man raises his axe.
+[NARRATION] The spirit raises his hands.
+[NARRATION] The man raises his axe.
+[NARR

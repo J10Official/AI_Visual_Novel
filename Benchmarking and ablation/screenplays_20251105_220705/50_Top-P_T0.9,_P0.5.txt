@@ -1,0 +1,42 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical pond
+MOOD: mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Nighttime, pond, fireflies
+
+[NARRATION] The woodcutter stops at the edge of the pond. He looks around for a moment, then lights a cigarette. He takes a drag and looks at the water.
+[NARRATION] Suddenly, a small, bright light appears in the middle of the pond.
+[NARRATION] The woodcutter squints. He can’t quite make out what it is.
+[NARRATION] Then, the light moves closer to the shore.
+[NARRATION] The woodcutter watches, curious.
+[NARRATION] As the light gets closer, the woodcutter sees that it is a small, glowing, round object.
+[NARRATION] He walks to the edge of the pond and picks up the object.
+[NARRATION] The object is a small, white, egg-shaped shell. It is glowing softly.
+[NARRATION] The woodcutter holds it up to the light.
+[NARRATION] Suddenly, the shell opens and a small, white, furry creature crawls out.
+[NARRATION] The creature looks at the woodcutter for a moment, then scurries away.
+[NARRATION] The woodcutter is surprised. He doesn’t know what he’s seen.
+[NARRATION] He looks back at the pond.
+[NARRATION] The pond is still.
+[NARRATION] The water is still.
+[NARRATION] The fireflies are still.
+[NARRATION] The night is still.
+[NARRATION] The woodcutter is still.
+[NARRATION] He is still.
+[NARRATION] He is still.
+[NARRATION] He is still.
+[NARRATION] He is still.
+[NARRATION] He is still.
+[NARRATION] He is still.
+[NARRATION] He is still.
+[NARRATION] He is still.
+[NARRATION] He is still.
+[NARRATION] He is still.
+[NARRATION] He is still.
+[NARRATION] He is still.
+[NARRATION] He is still.
+[NARRATION] He is still.
+[NARRATION] He is still.
+[

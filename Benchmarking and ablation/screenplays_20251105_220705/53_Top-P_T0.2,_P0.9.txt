@@ -1,0 +1,46 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical pond
+MOOD: mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Daytime, a man by a pond, a spirit emerges
+
+[NARRATION] The man by the pond looks up. The spirit has emerged from the water.
+[NARRATION] The man stares.
+[NARRATION] The spirit smiles.
+[NARRATION] The man is speechless.
+[NARRATION] The spirit raises his hand.
+[NARRATION] The man raises his hand.
+[NARRATION] The spirit nods.
+[NARRATION] The man nods.
+[NARRATION] The man raises his hand again.
+[NARRATION] The spirit raises his hand again.
+[NARRATION] The man raises his hand again.
+[NARRATION] The spirit raises his hand again.
+[NARRATION] The man raises his hand again.
+[NARRATION] The spirit raises his hand again.
+[NARRATION] The man raises his hand again.
+[NARRATION] The spirit raises his hand again.
+[NARRATION] The man raises his hand again.
+[NARRATION] The spirit raises his hand again.
+[NARRATION] The man raises his hand again.
+[NARRATION] The spirit raises his hand again.
+[NARRATION] The man raises his hand again.
+[NARRATION] The spirit raises his hand again.
+[NARRATION] The man raises his hand again.
+[NARRATION] The spirit raises his hand again.
+[NARRATION] The man raises his hand again.
+[NARRATION] The spirit raises his hand again.
+[NARRATION] The man raises his hand again.
+[NARRATION] The spirit raises his hand again.
+[NARRATION] The man raises his hand again.
+[NARRATION] The spirit raises his hand again.
+[NARRATION] The man raises his hand again.
+[NARRATION] The spirit raises his hand again.
+[NARRATION] The man raises his hand again.
+[NARRATION] The spirit raises his hand again.
+[NARRATION] The man raises his hand again.
+[NARRATION] The spirit raises his hand again.
+[NARRATION] The man raises his hand again.
+[NARRATION] The spirit raises his hand again.

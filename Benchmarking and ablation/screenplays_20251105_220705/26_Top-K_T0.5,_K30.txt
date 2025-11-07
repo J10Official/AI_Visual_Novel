@@ -1,0 +1,32 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical pond
+MOOD: mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Daytime, pond with a man sitting on a log
+
+[NARRATION] The man sits on a log and looks at the water, his eyes following the ripples.
+[NARRATION] Suddenly, a hand reaches up from the water and grabs the man’s leg.
+[NARRATION] The man jerks his leg back and looks down.
+[NARRATION] There is no one there.
+[NARRATION] He looks back to the water, then back to the log.
+[NARRATION] Nothing.
+[NARRATION] The man gets to his feet and walks across the pond, leaving his axe lying on the log.
+[NARRATION] He reaches the other side of the pond and stops, looking back towards the log.
+[NARRATION] The log is empty.
+[NARRATION] He walks back across the pond, taking a different path this time.
+[NARRATION] He reaches the log and sees the axe lying there.
+[NARRATION] He picks it up and starts back across the pond.
+[NARRATION] He arrives at the other side and sees the man sitting there, his eyes fixed on the water. The man looks up.
+[NARRATION] The man smiles.
+[NARRATION] The old man smiles back, his eyes still fixed on the water. He takes a deep breath and begins to walk.
+[NARRATION] The man watches him go, then turns and begins to walk back to the other side of the pond.
+[NARRATION] He reaches the log and sees his axe lying there.
+[NARRATION] He picks it up and starts back across the pond.
+[NARRATION] He arrives at the other side and sees the man sitting there, his eyes fixed on the water. The man looks up.
+[NARRATION] The man smiles.
+[NARRATION] The old man smiles back, his eyes still fixed on the water. He takes a deep breath and begins to walk.
+[NARRATION] The man watches him go, then turns and begins to walk back to the other side of the pond.
+[NARRATION] He reaches the log and sees his axe lying there.
+[NARRATION] He picks it up and starts

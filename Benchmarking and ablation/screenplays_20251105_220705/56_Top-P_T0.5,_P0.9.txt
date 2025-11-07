@@ -1,0 +1,39 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical pond
+MOOD: mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Evening, a small, clear pond with reeds and lilies
+
+[NARRATION] The woodcutter walks to the edge of the small, clear pond. He dips his bucket into the water and draws out a small, white, dead fish. He looks around, but sees no one. He walks back to the clearing and sets the bucket down.
+[NARRATION] Suddenly, the pond begins to bubble and gurgle. The reeds and lilies sway in the wind.
+[NARRATION] The pond is silent.
+[NARRATION] The fish is gone.
+[NARRATION] The woodcutter looks down into the pond, but sees nothing.
+[NARRATION] The pond is silent.
+[NARRATION] The woodcutter looks down into the pond, but sees nothing.
+[NARRATION] The pond is silent.
+[NARRATION] The fish is gone.
+[NARRATION] The woodcutter looks down into the pond, but sees nothing.
+[NARRATION] The pond is silent.
+[NARRATION] The fish is gone.
+[NARRATION] The woodcutter looks down into the pond, but sees nothing.
+[NARRATION] The pond is silent.
+[NARRATION] The fish is gone.
+[NARRATION] The woodcutter looks down into the pond, but sees nothing.
+[NARRATION] The pond is silent.
+[NARRATION] The fish is gone.
+[NARRATION] The woodcutter looks down into the pond, but sees nothing.
+[NARRATION] The pond is silent.
+[NARRATION] The fish is gone.
+[NARRATION] The woodcutter looks down into the pond, but sees nothing.
+[NARRATION] The pond is silent.
+[NARRATION] The fish is gone.
+[NARRATION] The woodcutter looks down into the pond, but sees nothing.
+[NARRATION] The pond is silent.
+[NARRATION] The fish is gone.
+[NARRATION] The woodcutter looks down into the pond, but sees nothing.
+[NARRATION] The pond is silent.
+[NARRATION] The fish is gone.
+[NARRATION] The woodcutter looks down into the pond, but sees

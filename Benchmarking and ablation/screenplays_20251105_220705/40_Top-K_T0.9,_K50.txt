@@ -1,0 +1,12 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystic pond
+MOOD: mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Pond water glows mysteriously
+
+[NARRATION] as the woodcutter dips his axe in to wash it ... A strange light flashes in the water of the pond.
+[NARRATION] The woodcutter dips his axe again into the pond.
+[NARRATION] The light flashes again, higher and brighter.
+[NARRATION] The light disappears. The woodcutter smiles for the first time in his life. He’s happy.

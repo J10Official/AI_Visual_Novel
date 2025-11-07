@@ -1,0 +1,13 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical pond
+MOOD: mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Late afternoon, sunlight glistening on the pond's surface, old figure sitting amidst the willows
+
+[NARRATION] Late afternoon. Sun glowing.
+Woodcutter (Exhausted): Ahhhh ... Ahhh ... that do me good, my head. That do me good, man. That do me good. So good.
+
+CHOICES:
+- Continue digging → dig_discovery

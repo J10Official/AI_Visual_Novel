@@ -1,0 +1,41 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical pond
+MOOD: mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Daytime, a man by a pond, a spirit emerges
+
+[NARRATION] The man by the pond is Woodcutter. He is a big man, with a beard and a cap. He is chopping wood. He looks up at the sky.
+[NARRATION] Suddenly, the sky above the pond begins to glow.
+[NARRATION] The glow grows brighter and brighter.
+[NARRATION] Then, a shape emerges from the sky and lands on the water in front of the man.
+[NARRATION] The man stares at the shape.
+[NARRATION] The shape is a man, about the same age as the man, but with a long white beard and a white robe. He has a crown on his head. He is the Pond Spirit.
+[NARRATION] The man is afraid. He wants to run.
+[NARRATION] But he can’t. He is frozen in place.
+[NARRATION] The Pond Spirit smiles at him.
+[NARRATION] The man is terrified.
+[NARRATION] The Pond Spirit raises his hand.
+[NARRATION] The man raises his hand.
+[NARRATION] The Pond Spirit smiles.
+[NARRATION] The man smiles.
+[NARRATION] The Pond Spirit raises his hand again.
+[NARRATION] The man raises his hand again.
+[NARRATION] The Pond Spirit smiles.
+[NARRATION] The man smiles.
+[NARRATION] The Pond Spirit raises his hand again.
+[NARRATION] The man raises his hand again.
+[NARRATION] The Pond Spirit smiles.
+[NARRATION] The man smiles.
+[NARRATION] The Pond Spirit raises his hand again.
+[NARRATION] The man raises his hand again.
+[NARRATION] The Pond Spirit smiles.
+[NARRATION] The man smiles.
+[NARRATION] The Pond Spirit raises his hand again.
+[NARRATION] The man raises his hand again.
+[NARRATION] The Pond Spirit smiles.
+[NARRATION] The man smiles.
+[NARRATION] The Pond Spirit raises his hand again.
+[NARRATION] The man raises his hand again.
+[NARRATION] The

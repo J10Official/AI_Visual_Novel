@@ -1,0 +1,44 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical pond
+MOOD: mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Daytime, a man walks to the pond, a small wooden boat is waiting
+
+[NARRATION] The man walks to the pond. He sees a small wooden boat sitting on the water. He walks to it and climbs in.
+[NARRATION] He pushes off from the shore and rows to the middle of the pond.
+[NARRATION] He stops and gets out of the boat. He looks around. There is no one there.
+[NARRATION] He walks to the edge of the water and looks down.
+[NARRATION] He sees the water is clear and deep.
+[NARRATION] He looks down and sees a small, white, fish-like creature swimming down to him.
+[NARRATION] He reaches down and tries to grab it.
+[NARRATION] The creature swims away.
+[NARRATION] The man reaches down again.
+[NARRATION] The creature swims away.
+[NARRATION] The man reaches down again.
+[NARRATION] The creature swims away.
+[NARRATION] The man reaches down again.
+[NARRATION] The creature swims away.
+[NARRATION] The man reaches down again.
+[NARRATION] The creature swims away.
+[NARRATION] The man reaches down again.
+[NARRATION] The creature swims away.
+[NARRATION] The man reaches down again.
+[NARRATION] The creature swims away.
+[NARRATION] The man reaches down again.
+[NARRATION] The creature swims away.
+[NARRATION] The man reaches down again.
+[NARRATION] The creature swims away.
+[NARRATION] The man reaches down again.
+[NARRATION] The creature swims away.
+[NARRATION] The man reaches down again.
+[NARRATION] The creature swims away.
+[NARRATION] The man reaches down again.
+[NARRATION] The creature swims away.
+[NARRATION] The man reaches down again.
+[NARRATION] The creature swims away.
+[NARRATION] The man reaches down again.
+[NARRATION] The creature swims away.
+[NARRATION] The man reaches down again.
+[NARRATION] The creature swims

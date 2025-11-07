@@ -1,0 +1,35 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical pond
+MOOD: mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Daytime, a man walks to the edge of a pond, a small, white bird sits on his shoulder
+
+[NARRATION] The man walks to the edge of the pond. He looks at the water. A small, white bird sits on his shoulder.
+[NARRATION] The man looks at the bird. It looks at him.
+[NARRATION] The man takes a deep breath and jumps into the pond. He swims to the middle.
+[NARRATION] The bird flies away.
+[NARRATION] The man swims to the bottom of the pond. He looks around. There is nothing there.
+[NARRATION] He swims up again.
+[NARRATION] The man swims to the bottom again. He looks around. There is nothing there.
+[NARRATION] He swims up again.
+[NARRATION] The man swims to the bottom again. He looks around. There is nothing there.
+[NARRATION] He swims up again.
+[NARRATION] The man swims to the bottom again. He looks around. There is nothing there.
+[NARRATION] He swims up again.
+[NARRATION] The man swims to the bottom again. He looks around. There is nothing there.
+[NARRATION] He swims up again.
+[NARRATION] The man swims to the bottom again. He looks around. There is nothing there.
+[NARRATION] He swims up again.
+[NARRATION] The man swims to the bottom again. He looks around. There is nothing there.
+[NARRATION] He swims up again.
+[NARRATION] The man swims to the bottom again. He looks around. There is nothing there.
+[NARRATION] He swims up again.
+[NARRATION] The man swims to the bottom again. He looks around. There is nothing there.
+[NARRATION] He swims up again.
+[NARRATION] The man swims to the bottom again. He looks around. There is nothing there.
+[NARRATION] He swims up again.
+[NARRATION] The man swims to the bottom again. He looks around. There is nothing there.
+[NARRATION] He swims up again.
+[NARRATION]

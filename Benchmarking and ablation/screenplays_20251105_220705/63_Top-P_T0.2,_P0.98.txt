@@ -1,0 +1,42 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical Pond
+MOOD: Mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Daytime, a man by a pond, a small boat
+
+[NARRATION] The man by the pond is still. He looks at the water.
+[NARRATION] Suddenly, a small boat appears on the water. It floats toward him, driven by an unseen force.
+[NARRATION] The man watches as the boat gets closer.
+[NARRATION] As it reaches him, the boat stops. It sits there, motionless.
+[NARRATION] The man stands up and walks toward the boat.
+[NARRATION] As he gets closer, he sees that the boat is made of water.
+[NARRATION] The man reaches out and touches the side of the boat. It is cold and smooth.
+[NARRATION] The man looks around. He sees nothing.
+[NARRATION] He looks back at the boat.
+[NARRATION] The boat begins to move again, this time away from the man.
+[NARRATION] The man watches as the boat floats away.
+[NARRATION] The man turns and walks back to the edge of the pond.
+[NARRATION] He looks at the water.
+[NARRATION] He sees something moving beneath the surface.
+[NARRATION] He leans down and looks closer.
+[NARRATION] It is the pond spirit.
+[NARRATION] The man stares at the spirit.
+[NARRATION] The spirit stares back.
+[NARRATION] The man is frozen in place.
+[NARRATION] The spirit slowly raises its hand.
+[NARRATION] The man raises his hand in return.
+[NARRATION] The two men stare at each other for a long moment.
+[NARRATION] Then, the man smiles.
+[NARRATION] The spirit smiles back.
+[NARRATION] The two men begin to dance.
+[NARRATION] They dance for a long time.
+[NARRATION] The man and the spirit dance.
+[NARRATION] The man dances.
+[NARRATION] The spirit dances.
+[NARRATION] The man dances.
+[NARRATION] The spirit dances.
+[NARRATION] They dance.
+[NARRATION] They dance.
+[NARRATION

@@ -1,0 +1,26 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical pond
+MOOD: mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Daytime, a small pond with a tree on it
+
+[NARRATION] The man walks to the pond and looks at it. It is small, and is not very clear.
+[NARRATION] He walks to the tree and looks at it.
+[NARRATION] He looks at the pond again.
+[NARRATION] The pond is still.
+[NARRATION] Suddenly, a hand appears in the middle of the pond, then another, then a third, and they begin to work together to move a log from the pond to the bank.
+[NARRATION] The man stares.
+[NARRATION] The log is moved to the bank, and the hand disappears.
+[NARRATION] The man looks at the pond again.
+[NARRATION] Nothing.
+[NARRATION] The man moves to the bank of the pond and picks up the log.
+[NARRATION] He stares at the log, then at the pond.
+[NARRATION] Nothing.
+[NARRATION] He walks back to the tree, picks up the log and walks away.
+[NARRATION] He walks for a long time.
+[NARRATION] He stops at the edge of a forest.
+[NARRATION] He looks back at the pond.
+[NARRATION] Nothing.
+[NARRATION] The man walks away.

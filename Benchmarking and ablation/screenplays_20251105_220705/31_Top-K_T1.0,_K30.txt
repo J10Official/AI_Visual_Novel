@@ -1,0 +1,14 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical pond
+MOOD: mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Daytime, pond filled with luminescent waterweed
+
+[NARRATION] The woodcutter is just coming out of the cabin when his eyes fall on the pond again. Something strange catches them. He walks to the edge.
+[NARRATION - Curious] The small pond of water is filled with a lot of bioluminescent water-weeds - the kind found by the swamp. The water is crystal clear. The pond is strangely still.
+[NARRATION] He bends down and brushes some of the long stalks... The water s**s**s...
+[NARRATION] To his surprise, the leaves of an underwater lily plant move.
+[NARRATION] He stares into the water.
+[NARRATION - Disbelieving] Then to his shock: A GIANT GHOUL-LIKE GREEN BEAST, as tall as his small house, emerges!

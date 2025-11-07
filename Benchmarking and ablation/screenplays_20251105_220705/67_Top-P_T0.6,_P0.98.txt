@@ -1,0 +1,12 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical Pond
+MOOD: Mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Daytime, pond with a small island
+
+[NARRATION] The woodcutter walks down to the pond and stops at the small island. He looks at it for a moment, then, without a word, starts to dig. He digs with a small shovel, and soon gets deep enough to see into the muddy bottom of the pond.
+[NARRATION] A moment later, he sees something in the mud, and starts to dig again.
+[NARRATION] The mud is thick and muddy, and the shovel scrapes against it. The woodcutter continues digging, and soon he sees the outline of a large, wooden chest.
+[NARRATION] He digs around the chest and soon, the whole thing is out of the mud. The chest is worn and weathered, but it is in good shape.

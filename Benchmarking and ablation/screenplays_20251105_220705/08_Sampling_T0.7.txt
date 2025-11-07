@@ -1,0 +1,30 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystic Pond
+MOOD: Mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Dawn, mist, water
+
+[NARRATION] WE FOLLOW A WOODCUTTER, 60, through the mist toward the pond. He wears a heavy wool cap. He walks with a cane.
+[NARRATION] As he gets closer, we hear the sound of WATER...
+[NARRATION] Suddenly, right in front of him, the figure of a SMALL MAN (80) on an old wooden canoe, holding a fishing pole. He’s been waiting there for him.
+[NARRATION] The man smiles, showing his missing front teeth.
+[NARRATION] The woodcutter freezes for a moment. Then he walks up to the canoe and sits down.
+[NARRATION] The man raises his arm.
+[NARRATION] He pulls a razor-sharp BILLHOOK (antique) out of his hip belt.
+[NARRATION] The man in the canoe raises his arm.
+[NARRATION] The razor billhook is raised.
+[NARRATION] The man in the canoe raises his arm.
+[NARRATION] The razor billhook is raised, and slowly, it plunges into the water...
+[NARRATION] The man in the canoe raises his arm, and with the billhook, he begins to draw lines in the water...
+[NARRATION] He stops and looks at the cutter.
+[NARRATION] The woodcutter nods in approval.
+[NARRATION] The man smiles and looks at his work.
+[NARRATION] After a moment, THE MAN IN THE PONTOON begins to draw lines around THE WOODCUTTER, and another line out to the shore.
+[NARRATION] The man raises his arm.
+[NARRATION] The razor billhook is raised, and it begins to cut deeper into the water...
+[NARRATION] The man in the canoe raises his arm.
+[NARRATION] The razor billhook is raised, and it cuts through the water, and the man begins to draw lines all around the pond, right up to the shore.
+[NARRATION] THE MAN IN THE PONTOON begins to draw lines on the water, and then suddenly, he looks up to the sky.
+[NARRATION] THE MAN IN THE PONTO

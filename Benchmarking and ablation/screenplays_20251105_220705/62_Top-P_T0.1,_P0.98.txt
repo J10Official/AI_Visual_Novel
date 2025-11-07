@@ -1,0 +1,41 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical pond
+MOOD: mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Daytime, a man is fishing in a pond, a small, white creature appears
+
+[NARRATION] The man is fishing in a pond. He casts his line and reels it in. He catches a small, white creature.
+[NARRATION] The creature is a trout.
+[NARRATION] The man catches it and throws it back into the water.
+[NARRATION] The man catches another.
+[NARRATION] Another.
+[NARRATION] Another.
+[NARRATION] The man catches them all.
+[NARRATION] He throws them all back into the water.
+[NARRATION] The man catches a fourth.
+[NARRATION] The man catches it and throws it back into the water.
+[NARRATION] The man catches a fifth.
+[NARRATION] The man catches it and throws it back into the water.
+[NARRATION] The man catches a sixth.
+[NARRATION] The man catches it and throws it back into the water.
+[NARRATION] The man catches a seventh.
+[NARRATION] The man catches it and throws it back into the water.
+[NARRATION] The man catches an eighth.
+[NARRATION] The man catches it and throws it back into the water.
+[NARRATION] The man catches a ninth.
+[NARRATION] The man catches it and throws it back into the water.
+[NARRATION] The man catches a tenth.
+[NARRATION] The man catches it and throws it back into the water.
+[NARRATION] The man catches a eleventh.
+[NARRATION] The man catches it and throws it back into the water.
+[NARRATION] The man catches a twelfth.
+[NARRATION] The man catches it and throws it back into the water.
+[NARRATION] The man catches a thirteenth.
+[NARRATION] The man catches it and throws it back into the water.
+[NARRATION] The man catches a fourteenth.
+[NARRATION] The man catches it and throws it back into the water.
+[NARRATION] The man catches a fifteenth.
+[NARRATION] The man catches it and throws it back into the water.
+[

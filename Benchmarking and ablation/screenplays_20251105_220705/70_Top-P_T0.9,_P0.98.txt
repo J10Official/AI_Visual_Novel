@@ -1,0 +1,17 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical Pond
+MOOD: Mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Dusk. Large pond with reeds and a rock in the middle.
+
+[NARRATION] A WOODCUTTER, in work clothes, trudges back to the pond and sinks the axe into the earth with a resounding *CLANG*! The axe cuts into the earth, but instead of a typical hollow ring, something in the earth throws back the axe. With more force, he sinks the axe again, but it bounces back again.
+Woodcutter (Exasperated): Dammit, ... it ain’t no rock ...
+[NARRATION] Then he looks up to the sky and notices a cloudy night.
+[NARRATION] WE FOLLOW the MAN’S GAZE as he walks toward the pond when suddenly the WOODCUTTER looks up at something we hadn’t before: The reflection of the moon in the water is not that of the moon, but that of an ELONGATED, GHOUL-LIKE FIGURE!
+[NARRATION] CLOSE ON the reflecting figure as it bobs along with the ripples.
+[NARRATION] WE TRACK WITH the man as he puts the axe back in his pack.
+
+CHOICES:
+- Return to cabin → cabin_interior_evening

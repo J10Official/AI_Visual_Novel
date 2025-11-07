@@ -1,0 +1,50 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical Pond
+MOOD: Mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Evening, a single log bridge crosses the pond
+
+[NARRATION] The woodcutter walks along the single log bridge that crosses the pond.
+[NARRATION] He reaches the other side and looks back at the pond, the log bridge disappearing into the darkness.
+[NARRATION] Suddenly, the man sees something moving in the water behind him.
+[NARRATION] He turns back. There is nothing there.
+[NARRATION] He turns back again.
+[NARRATION] There is nothing there.
+[NARRATION] He turns back again.
+[NARRATION] There is nothing there.
+[NARRATION] He turns back again.
+[NARRATION] There is nothing there.
+[NARRATION] He turns back again.
+[NARRATION] There is nothing there.
+[NARRATION] He turns back again.
+[NARRATION] There is nothing there.
+[NARRATION] He turns back again.
+[NARRATION] There is nothing there.
+[NARRATION] He turns back again.
+[NARRATION] There is nothing there.
+[NARRATION] He turns back again.
+[NARRATION] There is nothing there.
+[NARRATION] He turns back again.
+[NARRATION] There is nothing there.
+[NARRATION] He turns back again.
+[NARRATION] There is nothing there.
+[NARRATION] He turns back again.
+[NARRATION] There is nothing there.
+[NARRATION] He turns back again.
+[NARRATION] There is nothing there.
+[NARRATION] He turns back again.
+[NARRATION] There is nothing there.
+[NARRATION] He turns back again.
+[NARRATION] There is nothing there.
+[NARRATION] He turns back again.
+[NARRATION] There is nothing there.
+[NARRATION] He turns back again.
+[NARRATION] There is nothing there.
+[NARRATION] He turns back again.
+[NARRATION] There is nothing there.
+[NARRATION] He turns back again.
+[NARRATION] There is nothing there.
+[NARRATION] He turns back again.
+[NARRATION] There is

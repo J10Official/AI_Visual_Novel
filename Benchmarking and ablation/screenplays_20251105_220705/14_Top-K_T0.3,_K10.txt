@@ -1,0 +1,34 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical Pond
+MOOD: Mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Daytime, a small pond with a mystical quality
+
+[NARRATION] The man walks to the edge of the pond and looks into it. He sees a small, white, bird-like creature floating on the water.
+[NARRATION] The bird swims closer to the shore, and the man reaches out to it. As he does, the bird suddenly flies away.
+[NARRATION] The man looks back to the pond. The bird is gone.
+[NARRATION] The man walks to the edge of the pond again. He looks into the water. The bird is gone.
+[NARRATION] The man walks to the edge of the pond again. He looks into the water. The bird is gone.
+[NARRATION] The man looks around. He sees nothing.
+[NARRATION] The man looks back into the water. The bird is gone.
+[NARRATION] The man walks to the edge of the pond again. He looks into the water. The bird is gone.
+[NARRATION] The man looks around. He sees nothing.
+[NARRATION] The man looks back into the water. The bird is gone.
+[NARRATION] Suddenly, the water begins to ripple.
+[NARRATION] The man looks back into the water. The bird is gone.
+[NARRATION] The water ripples again.
+[NARRATION] The man looks back into the water. The bird is gone.
+[NARRATION] The water ripples again.
+[NARRATION] The man looks back into the water. The bird is gone.
+[NARRATION] The water ripples again.
+[NARRATION] The man looks back into the water. The bird is gone.
+[NARRATION] The water ripples again.
+[NARRATION] The man looks back into the water. The bird is gone.
+[NARRATION] The water ripples again.
+[NARRATION] The man looks back into the water. The bird is gone.
+[NARRATION] The water ripples again.
+[NARRATION] The man looks back into the water. The bird is gone.
+[NARRATION] The water ripples again.
+[NARRATION] The man looks back into the water. The

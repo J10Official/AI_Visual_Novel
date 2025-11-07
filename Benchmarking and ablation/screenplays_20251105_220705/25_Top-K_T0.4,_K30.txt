@@ -1,0 +1,40 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical pond
+MOOD: mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Nighttime, pond, moonlit, fog
+
+[NARRATION] The fog is thick and heavy over the pond. The woodcutter walks to the edge of the water.
+[NARRATION] The fog is so thick that we cannot see the pond.
+[NARRATION] The woodcutter looks down into the water and sees something moving in the fog.
+[NARRATION] He leans down and tries to see better.
+[NARRATION] The fog is so thick that he cannot see.
+[NARRATION] He leans down again, this time closer to the water.
+[NARRATION] He sees something moving in the fog.
+[NARRATION] He leans down again and sees a small, white, glowing figure in the water.
+[NARRATION] It is the pond spirit.
+[NARRATION] The woodcutter is mesmerized by the sight.
+[NARRATION] He leans down and reaches out to the figure.
+[NARRATION] The figure moves away from his hand.
+[NARRATION] The woodcutter reaches down again.
+[NARRATION] The figure moves away again.
+[NARRATION] The woodcutter reaches down again.
+[NARRATION] The figure moves away again.
+[NARRATION] The woodcutter reaches down again.
+[NARRATION] The figure moves away again.
+[NARRATION] The woodcutter reaches down again.
+[NARRATION] The figure moves away again.
+[NARRATION] The woodcutter reaches down again.
+[NARRATION] The figure moves away again.
+[NARRATION] The woodcutter reaches down again.
+[NARRATION] The figure moves away again.
+[NARRATION] The woodcutter reaches down again.
+[NARRATION] The figure moves away again.
+[NARRATION] The woodcutter reaches down again.
+[NARRATION] The figure moves away again.
+[NARRATION] The woodcutter reaches down again.
+[NARRATION] The figure moves away again.
+[NARRATION] The woodcutter reaches down again.
+[NARRATION] The figure moves away again.

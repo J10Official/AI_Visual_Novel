@@ -1,0 +1,28 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical pond
+MOOD: mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Daytime, a small pond with a mystical quality
+
+[NARRATION] The woodcutter walks to the edge of the pond. He looks at the water.
+[NARRATION] Suddenly, a small, white, bird-like creature floats to the surface of the water. It is the same bird that the woodcutter saw earlier.
+[NARRATION] The woodcutter stares at the bird for a moment, then reaches into his pocket and pulls out a small, wooden whistle. He blows into it.
+[NARRATION] The bird flies to the top of a small, moss-covered island in the middle of the pond.
+[NARRATION] The woodcutter blows again. The bird flies to the top of the island.
+[NARRATION] The woodcutter blows again. The bird flies to the top of the island.
+[NARRATION] The woodcutter blows again. The bird flies to the top of the island.
+[NARRATION] The bird looks at the woodcutter, then flies to the top of the island.
+[NARRATION] The woodcutter blows again. The bird flies to the top of the island.
+[NARRATION] The bird looks at the woodcutter, then flies to the top of the island.
+[NARRATION] The bird looks at the woodcutter, then flies to the top of the island.
+[NARRATION] The bird looks at the woodcutter, then flies to the top of the island.
+[NARRATION] The bird looks at the woodcutter, then flies to the top of the island.
+[NARRATION] The bird looks at the woodcutter, then flies to the top of the island.
+[NARRATION] The bird looks at the woodcutter, then flies to the top of the island.
+[NARRATION] The bird looks at the woodcutter, then flies to the top of the island.
+[NARRATION] The bird looks at the woodcutter, then flies to the top of the island.
+[NARRATION] The bird looks at the woodcutter, then flies to the top of the island.
+[NARRATION] The bird looks at the woodcutter, then flies to the top of the island.
+[NARRATION] The bird

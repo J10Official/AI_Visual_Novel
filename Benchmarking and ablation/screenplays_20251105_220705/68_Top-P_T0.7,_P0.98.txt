@@ -1,0 +1,25 @@
+user
+Create a scene at a mystical pond with mood: mysterious. Characters: Woodcutter, Pond Spirit
+model
+SCENE: Mystical pond
+MOOD: mysterious
+CHARACTERS: Woodcutter, Pond Spirit
+SETTING: Evening, pond surface with ripples, the man is looking at it
+
+[NARRATION] The man goes to the edge of the pond. He looks at the water. The ripples run in straight lines through the water.
+[NARRATION] He looks again at the ripples.
+[NARRATION] The man watches the ripples.
+[NARRATION] The ripples stop.
+[NARRATION] The man is startled. He looks again. No ripples.
+[NARRATION] The man looks at the water again, and sees a shape in the middle of the pond, a reflection of the nearby trees. The man watches as the shape moves closer to the edge of the pond.
+[NARRATION] The man starts to walk toward the pond, the shape following him.
+[NARRATION] The man turns and looks at the shape. The shape is gone.
+[NARRATION] The man continues to walk toward the pond.
+[NARRATION] The man looks again at the water. The shape is there.
+[NARRATION] The man watches as the shape moves toward the edge of the pond.
+[NARRATION] The man watches as the shape moves into the water and disappears.
+[NARRATION] The man is startled by the disappearance.
+[NARRATION] The man watches the pond again. The ripples have started again.
+
+CHOICES:
+- Continue → log_house
