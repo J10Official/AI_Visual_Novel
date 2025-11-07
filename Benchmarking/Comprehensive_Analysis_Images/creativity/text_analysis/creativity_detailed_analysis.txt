@@ -1,0 +1,100 @@
+# Creativity Tournament Analysis
+Total configurations analyzed: 74
+
+## Top 10 Performers
+1. base_top_k_0.7_k30.txt - ELO: 1646, Win Rate: 100.0%, Buchholz: 15190
+2. base_top_k_0.9_k50.txt - ELO: 1597, Win Rate: 80.0%, Buchholz: 15386
+3. base_sampling_0.5.txt - ELO: 1596, Win Rate: 80.0%, Buchholz: 15413
+4. base_beam_5.txt - ELO: 1593, Win Rate: 80.0%, Buchholz: 15560
+5. base_top_p_0.7_p0.98.txt - ELO: 1584, Win Rate: 80.0%, Buchholz: 15118
+6. base_top_p_0.7_p0.9.txt - ELO: 1565, Win Rate: 70.0%, Buchholz: 15095
+7. base_sampling_0.6.txt - ELO: 1564, Win Rate: 70.0%, Buchholz: 15386
+8. base_beam_3.txt - ELO: 1564, Win Rate: 70.0%, Buchholz: 15349
+9. base_sampling_1.0.txt - ELO: 1564, Win Rate: 70.0%, Buchholz: 15317
+10. base_greedy_default.txt - ELO: 1564, Win Rate: 70.0%, Buchholz: 15285
+
+## Strategy Performance Analysis
+### Beam Strategy
+- Configurations: 3
+- Average ELO: 1541.7
+- ELO Range: 1468 - 1593
+- Best Configuration: base_beam_5.txt (ELO: 1593)
+- Beam Width Analysis:
+  - Width=3: Avg ELO 1564.0
+  - Width=5: Avg ELO 1593.0
+  - Width=10: Avg ELO 1468.0
+
+### Greedy Strategy
+- Configurations: 1
+- Average ELO: 1564.0
+- ELO Range: 1564 - 1564
+- Best Configuration: base_greedy_default.txt (ELO: 1564)
+
+### Sampling Strategy
+- Configurations: 10
+- Average ELO: 1522.4
+- ELO Range: 1436 - 1596
+- Best Configuration: base_sampling_0.5.txt (ELO: 1596)
+- Temperature Analysis:
+  - T=0.1: Avg ELO 1500.0
+  - T=0.2: Avg ELO 1532.0
+  - T=0.3: Avg ELO 1436.0
+  - T=0.4: Avg ELO 1468.0
+  - T=0.5: Avg ELO 1596.0
+  - T=0.6: Avg ELO 1564.0
+  - T=0.7: Avg ELO 1532.0
+  - T=0.8: Avg ELO 1532.0
+  - T=0.9: Avg ELO 1500.0
+  - T=1.0: Avg ELO 1564.0
+
+### Top-K Strategy
+- Configurations: 30
+- Average ELO: 1499.5
+- ELO Range: 1403 - 1646
+- Best Configuration: base_top_k_0.7_k30.txt (ELO: 1646)
+- Temperature Analysis:
+  - T=0.1: Avg ELO 1489.3
+  - T=0.2: Avg ELO 1457.3
+  - T=0.3: Avg ELO 1500.0
+  - T=0.4: Avg ELO 1500.0
+  - T=0.5: Avg ELO 1521.3
+  - T=0.6: Avg ELO 1532.0
+  - T=0.7: Avg ELO 1506.0
+  - T=0.8: Avg ELO 1489.3
+  - T=0.9: Avg ELO 1543.0
+  - T=1.0: Avg ELO 1457.0
+- K Parameter Analysis:
+  - K=10: Avg ELO 1490.3
+  - K=30: Avg ELO 1514.6
+  - K=50: Avg ELO 1493.7
+
+### Top-P Strategy
+- Configurations: 30
+- Average ELO: 1486.7
+- ELO Range: 1353 - 1584
+- Best Configuration: base_top_p_0.7_p0.98.txt (ELO: 1584)
+- Temperature Analysis:
+  - T=0.1: Avg ELO 1510.7
+  - T=0.2: Avg ELO 1478.7
+  - T=0.3: Avg ELO 1468.7
+  - T=0.4: Avg ELO 1500.3
+  - T=0.5: Avg ELO 1488.3
+  - T=0.6: Avg ELO 1510.7
+  - T=0.7: Avg ELO 1500.7
+  - T=0.8: Avg ELO 1461.0
+  - T=0.9: Avg ELO 1468.7
+  - T=1.0: Avg ELO 1479.3
+- P Parameter Analysis:
+  - P=0.5: Avg ELO 1466.6
+  - P=0.9: Avg ELO 1508.4
+  - P=0.98: Avg ELO 1485.1
+
+## Key Insights
+1. Best Overall Configuration: base_top_k_0.7_k30.txt with ELO 1646
+2. Strategy Ranking by Average ELO:
+   1. Greedy: 1564.0
+   2. Beam: 1541.7
+   3. Sampling: 1522.4
+   4. Top-K: 1499.5
+   5. Top-P: 1486.7
+3. Best Temperature for Sampling: 0.5 (Avg ELO: 1596.0)
