@@ -56,11 +56,11 @@ Story Outline → Fine-tuned LLM → Structured JSON Script → Browser Visual N
 Each module is **self-contained** with its own README.
 
 ```
-├── dataset_creation/       # Screenplay scraping, annotation pipeline, validation tool
-├── finetuning/             # QLoRA fine-tuning on Gemma 2-2B-IT (Kaggle T4/A100)
-├── ablation_text_generation/   # Text generation across 74 decoding configurations
-├── benchmarking/           # ELO/Swiss/Knockout tournament system + visualizations
-└── visual_novel_engine/    # ⬅️ START HERE — browser-based playable engine
+├── Dataset creation/       # Screenplay scraping, annotation pipeline, validation tool
+├── Fine-tuning/             # QLoRA fine-tuning on Gemma 2-2B-IT (Kaggle T4/A100)
+├── Ablation text generation/   # Text generation across 74 decoding configurations
+├── Benchmarking/           # ELO/Swiss/Knockout tournament system + visualizations
+└── Visual NOvel Engine/    # ⬅️ START HERE — browser-based playable engine
 ```
 
 > **To run the final product**, go to the `visual_novel_engine/` directory and follow its README.
