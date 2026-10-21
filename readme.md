@@ -53,17 +53,30 @@ Story Outline → Fine-tuned LLM → Structured JSON Script → Browser Visual N
 
 ## Repository Structure
 
-Each module is **self-contained** with its own README.
+Start with the [playable engine](Visual%20Novel%20Engine/README.md), then explore the data, training, and evaluation components.
 
-```
-├── Dataset creation/       # Screenplay scraping, annotation pipeline, validation tool
-├── Fine-tuning/             # QLoRA fine-tuning on Gemma 2-2B-IT (Kaggle T4/A100)
-├── Ablation text generation/   # Text generation across 74 decoding configurations
-├── Benchmarking/           # ELO/Swiss/Knockout tournament system + visualizations
-└── Visual NOvel Engine/    # ⬅️ START HERE — browser-based playable engine
+| Directory | Purpose |
+|---|---|
+| [Visual Novel Engine/](Visual%20Novel%20Engine/) | React application, story parser, and playable sample content |
+| [Dataset creation/](Dataset%20creation/) | Screenplay preparation, annotation, and validation |
+| [Fine-tuning /](Fine-tuning%20/) | Fine-tuning material and saved adapter artifacts; the directory name includes a trailing space |
+| [Ablation text generation/](Ablation%20text%20generation/) | Generation experiments across decoding configurations |
+| [Benchmarking/](Benchmarking/) | Ranking analysis, visualizations, and its own [setup guide](Benchmarking/README.md) |
+| [Benchmarking and ablation/](Benchmarking%20and%20ablation/) | Additional benchmarking and ablation material |
+| [redundant/](redundant/) | Historical material retained for provenance |
+
+### Try the browser engine
+
+From the repository root, use the existing engine directory:
+
+```bash
+cd "Visual Novel Engine"
+npm install
+node test_parser_simple.js
+npm start
 ```
 
-> **To run the final product**, go to the `visual_novel_engine/` directory and follow its README.
+The parser uses the included `public/story_script.md` to generate the engine's JSON input. Open the URL printed by the development server; see the [engine README](Visual%20Novel%20Engine/README.md) for the story format and workflow. Model training is a separate part of the project.
 
 ---
 
